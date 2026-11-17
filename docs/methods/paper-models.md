@@ -27,9 +27,13 @@
 - `family_image_integrity`
 - `family_plagiarism_authorship`
 - 探索性 `family_data_integrity`
+- 探索性 `family_research_ethics_compliance`
+- 探索性 `family_materials_methods_integrity`
 - 参照 `family_error_control`
 
 每个原因族单独运行，允许同篇论文进入多个族。
+主族和数据分析族使用窄定义；宽定义只作敏感性分析。
+`plagiarism_authorship` 另分别报告文本复用和作者身份子族。
 
 ## 控制变量
 

@@ -40,8 +40,16 @@ ASCII 暂存环境中执行。非 ASCII 路径默认跳过自动激活并给出�
 - manifest：`data/outputs/baseline/manifest.json`
 - 原因字典：`data/reference/mappings/reason_dictionary_v1.csv`
 
-脚本生成的原因映射候选位于
-`data/interim/mappings/reason_dictionary_candidate.csv`，不会覆盖参考目录中的冻结字典。
+脚本读取 `data/reference/mappings/reason_label_registry_v2.csv`、
+`reason_domain_map_v2.csv`、`reason_context_map_v2.csv` 和
+`analysis_family_domains_v2.csv`。任一原始标签未登记时，脚本立即停止。
+
+原因映射只读诊断：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/audit_reason_mapping.R -IncludeOutputs
+```
 
 ## API 缓存
 

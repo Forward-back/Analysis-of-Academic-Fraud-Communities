@@ -1,0 +1,113 @@
+reason_label,evidence_status,mapping_status,rationale,mapping_version
+Author Unresponsive,insufficient_information,reviewed,Author did not respond to editorial requests,2.0-frozen
+Bias Issues or Lack of Balance,concern_allegation,reviewed,Bias or imbalance is a methodological and interpretive concern,2.0-frozen
+Breach of Policy by Author,substantive_finding,reviewed,Policy breach is nonspecific and cannot be assigned to a verification domain,2.0-frozen
+Cites Retracted Work,error_unreliable,reviewed,Citing a retracted work is treated as a citation-quality issue,2.0-frozen
+Civil Proceedings,not_applicable,reviewed,Legal proceeding is context rather than an integrity cause,2.0-frozen
+Complaints about Author,concern_allegation,reviewed,Complaint is nonspecific and remains an unspecified integrity concern,2.0-frozen
+Complaints about Company/Institution,concern_allegation,reviewed,Complaint is nonspecific and remains an unspecified integrity concern,2.0-frozen
+Complaints about Third Party,concern_allegation,reviewed,Complaint is nonspecific and remains an unspecified integrity concern,2.0-frozen
+Compromised Peer Review,substantive_finding,reviewed,Peer review process was compromised,2.0-frozen
+Computer-Aided Content or Computer-Generated Content,substantive_finding,reviewed,Generated content is treated as a publication-process integrity finding,2.0-frozen
+Concerns/Issues about Animal Welfare,concern_allegation,reviewed,Animal welfare concern invokes research-ethics review,2.0-frozen
+Concerns/Issues about Article,concern_allegation,reviewed,Article-level concern is too general for a verification domain,2.0-frozen
+Concerns/Issues about Authorship/Affiliation,concern_allegation,reviewed,Authorship or affiliation concern invokes identity verification,2.0-frozen
+Concerns/Issues about Data,concern_allegation,reviewed,Data concern invokes data and result verification,2.0-frozen
+Concerns/Issues about Human Subject Welfare,concern_allegation,reviewed,Human welfare concern invokes research-ethics review,2.0-frozen
+Concerns/Issues about Image,concern_allegation,reviewed,Image concern invokes image verification,2.0-frozen
+Concerns/Issues about Methods,concern_allegation,reviewed,Method concern invokes methods and materials review,2.0-frozen
+Concerns/Issues about Peer Review,concern_allegation,reviewed,Peer review concern invokes publication-process review,2.0-frozen
+Concerns/Issues about Referencing/Attributions,concern_allegation,reviewed,Referencing or attribution concern invokes textual and attribution review,2.0-frozen
+Concerns/Issues about Results and/or Conclusions,concern_allegation,reviewed,Result concern invokes data and result verification,2.0-frozen
+Concerns/Issues about Third Party Involvement,concern_allegation,reviewed,Third-party concern is nonspecific and remains an unspecified integrity concern,2.0-frozen
+Conflict of Interest,substantive_finding,reviewed,Undisclosed or unmanaged conflict invokes research-ethics review,2.0-frozen
+Contamination of Cell Lines/Tissues,substantive_finding,reviewed,Material contamination invokes materials and methods review,2.0-frozen
+Contamination of Materials,substantive_finding,reviewed,Material contamination invokes materials and methods review,2.0-frozen
+Copyright Claims,not_applicable,reviewed,Copyright claim is legal context rather than an integrity cause,2.0-frozen
+Criminal Proceedings,not_applicable,reviewed,Legal proceeding is context rather than an integrity cause,2.0-frozen
+Date of Article and/or Notice Unknown,insufficient_information,reviewed,Unknown date is a metadata limitation and not a research-integrity cause,2.0-frozen
+Doing the Right Thing,not_applicable,reviewed,Label has no stable integrity meaning without notice text,2.0-frozen
+Duplication of Content through Error by Journal/Publisher,error_unreliable,reviewed,Duplication is attributed to publisher error rather than author conduct,2.0-frozen
+Duplication of Data,substantive_finding,reviewed,Data duplication invokes data and result verification,2.0-frozen
+Duplication of Text,substantive_finding,reviewed,Text duplication invokes textual reuse review,2.0-frozen
+Duplication of/in Article,substantive_finding,reviewed,Article duplication invokes textual reuse review,2.0-frozen
+Duplication of/in Image,substantive_finding,reviewed,Image duplication invokes image verification,2.0-frozen
+EOC Lifted,not_applicable,reviewed,Administrative update after an expression of concern,2.0-frozen
+Error by Journal/Publisher,error_unreliable,reviewed,Publisher error invokes publication-process quality review,2.0-frozen
+Error by Third Party,error_unreliable,reviewed,Third-party error is a nonspecific quality issue,2.0-frozen
+Error in Analyses,error_unreliable,reviewed,Analysis error invokes data and result verification,2.0-frozen
+Error in Cell Lines/Tissues,error_unreliable,reviewed,Cell-line error invokes materials and methods review,2.0-frozen
+Error in Data,error_unreliable,reviewed,Data error invokes data and result verification,2.0-frozen
+Error in Image,error_unreliable,reviewed,Image error invokes image verification,2.0-frozen
+Error in Materials,error_unreliable,reviewed,Material error invokes materials and methods review,2.0-frozen
+Error in Methods,error_unreliable,reviewed,Method error invokes methods review,2.0-frozen
+Error in Results and/or Conclusions,error_unreliable,reviewed,Result error invokes data and result verification,2.0-frozen
+Error in Text,error_unreliable,reviewed,Text error invokes textual quality review,2.0-frozen
+Ethical Violations by Author,substantive_finding,reviewed,Ethical violation invokes research-ethics review,2.0-frozen
+Ethical Violations by Company/Institution/Third Party,substantive_finding,reviewed,Ethical violation invokes research-ethics review,2.0-frozen
+Euphemisms for Duplication,substantive_finding,reviewed,Euphemism indicates duplication and invokes textual reuse review,2.0-frozen
+Euphemisms for Misconduct,substantive_finding,reviewed,Euphemism indicates misconduct but gives no verification domain,2.0-frozen
+Euphemisms for Plagiarism,substantive_finding,reviewed,Euphemism indicates plagiarism and invokes textual reuse review,2.0-frozen
+False/Forged Affiliation,substantive_finding,reviewed,Affiliation finding invokes authorship and affiliation verification,2.0-frozen
+False/Forged Authorship,substantive_finding,reviewed,Authorship finding invokes authorship verification,2.0-frozen
+Falsification/Fabrication of Data,substantive_finding,reviewed,Data fabrication invokes data and result verification,2.0-frozen
+Falsification/Fabrication of Image,substantive_finding,reviewed,Image fabrication invokes image verification,2.0-frozen
+Falsification/Fabrication of Results,substantive_finding,reviewed,Result fabrication invokes data and result verification,2.0-frozen
+Hoax Paper,substantive_finding,reviewed,Deliberately deceptive paper is treated as a publication-process finding,2.0-frozen
+Informed/Patient Consent - None/Withdrawn,substantive_finding,reviewed,Consent problem invokes research-ethics review,2.0-frozen
+Investigation by Company/Institution,not_applicable,reviewed,Investigation actor is context and not a cause domain,2.0-frozen
+Investigation by Journal/Publisher,not_applicable,reviewed,Investigation actor is context and not a cause domain,2.0-frozen
+Investigation by ORI,not_applicable,reviewed,Investigation actor is context and not a cause domain,2.0-frozen
+Investigation by Third Party,not_applicable,reviewed,Investigation actor is context and not a cause domain,2.0-frozen
+Lack of Approval from Author,substantive_finding,reviewed,Missing author approval invokes authorship and authorization review,2.0-frozen
+Lack of Approval from Company/Institution,substantive_finding,reviewed,Missing institutional approval invokes compliance review,2.0-frozen
+Lack of Approval from Third Party,substantive_finding,reviewed,Missing third-party approval invokes compliance review,2.0-frozen
+Lack of IRB/IACUC Approval and/or Compliance,substantive_finding,reviewed,Ethics approval problem invokes research-ethics review,2.0-frozen
+Legal Reasons and/or Threats,not_applicable,reviewed,Legal reason is context rather than an integrity cause,2.0-frozen
+Manipulation of Data,substantive_finding,reviewed,Data manipulation invokes data and result verification,2.0-frozen
+Manipulation of Images,substantive_finding,reviewed,Image manipulation invokes image verification,2.0-frozen
+Manipulation of Results,substantive_finding,reviewed,Result manipulation invokes data and result verification,2.0-frozen
+Miscommunication with/by Author,not_applicable,reviewed,Communication failure is context rather than an integrity cause,2.0-frozen
+Miscommunication with/by Company/Institution,not_applicable,reviewed,Communication failure is context rather than an integrity cause,2.0-frozen
+Miscommunication with/by Journal/Publisher,not_applicable,reviewed,Communication failure is context rather than an integrity cause,2.0-frozen
+Miscommunication with/by Third Party,not_applicable,reviewed,Communication failure is context rather than an integrity cause,2.0-frozen
+Misconduct - Official Investigation(s) and/or Finding(s),substantive_finding,reviewed,Official misconduct finding is nonspecific and cannot be assigned to one verification domain,2.0-frozen
+Misconduct by Author,substantive_finding,reviewed,Author misconduct is nonspecific and cannot be assigned to one verification domain,2.0-frozen
+Misconduct by Company/Institution,substantive_finding,reviewed,Institutional misconduct is nonspecific and cannot be assigned to one verification domain,2.0-frozen
+Misconduct by Third Party,substantive_finding,reviewed,Third-party misconduct is nonspecific and cannot be assigned to one verification domain,2.0-frozen
+No Further Action,not_applicable,reviewed,Administrative status indicating no further action,2.0-frozen
+Nonpayment of Fees and/or Refusal to Pay,not_applicable,reviewed,Commercial dispute is administrative context,2.0-frozen
+Not Presented at Conference,not_applicable,reviewed,Conference status is administrative context,2.0-frozen
+Notice - Lack of,insufficient_information,reviewed,Notice lacks sufficient information to identify a cause,2.0-frozen
+Notice - Limited or No Information,insufficient_information,reviewed,Notice has limited or no explanatory information,2.0-frozen
+Notice - Unable to Access via current resources,insufficient_information,reviewed,Notice could not be retrieved from available resources,2.0-frozen
+Objections by Author(s),not_applicable,reviewed,Objection is context and does not identify an integrity domain,2.0-frozen
+Objections by Company/Institution,not_applicable,reviewed,Objection is context and does not identify an integrity domain,2.0-frozen
+Objections by Third Party,not_applicable,reviewed,Objection is context and does not identify an integrity domain,2.0-frozen
+Original Data and/or Images not Provided and/or not Available,insufficient_information,reviewed,Missing source materials limit verification and are treated as a broad data availability issue,2.0-frozen
+Paper Mill,substantive_finding,reviewed,Paper mill finding invokes publication-process review,2.0-frozen
+Plagiarism of Data,substantive_finding,reviewed,Plagiarized data invoke textual reuse and data verification,2.0-frozen
+Plagiarism of Image,substantive_finding,reviewed,Plagiarized image invokes textual reuse and image verification,2.0-frozen
+Plagiarism of Text,substantive_finding,reviewed,Plagiarized text invokes textual reuse review,2.0-frozen
+Plagiarism of/in Article,substantive_finding,reviewed,Article plagiarism invokes textual reuse review,2.0-frozen
+Publishing Ban,not_applicable,reviewed,Publishing ban is legal or administrative context,2.0-frozen
+Removed,not_applicable,reviewed,Removal is administrative status rather than a cause,2.0-frozen
+Results Not Reproducible,error_unreliable,reviewed,Non-reproducibility invokes data and result verification,2.0-frozen
+Retract and Replace,not_applicable,reviewed,Replacement is administrative status rather than a cause,2.0-frozen
+Rogue Editor,substantive_finding,reviewed,Editor misconduct invokes publication-process review,2.0-frozen
+Sabotage of Materials/Methods,substantive_finding,reviewed,Sabotage invokes materials and methods review,2.0-frozen
+Salami Slicing,substantive_finding,reviewed,Redundant publication invokes textual reuse review,2.0-frozen
+Taken from Dissertation/Thesis,substantive_finding,reviewed,Unattributed reuse invokes textual reuse review,2.0-frozen
+Taken via Peer Review,substantive_finding,reviewed,Content taken through peer review invokes publication-process review,2.0-frozen
+Taken via Translation,substantive_finding,reviewed,Unattributed translated reuse invokes textual reuse review,2.0-frozen
+Temporary Removal,not_applicable,reviewed,Temporary removal is administrative status,2.0-frozen
+Transfer of Copyright and/or Ownership,not_applicable,reviewed,Ownership transfer is legal context,2.0-frozen
+Unreliable Data,error_unreliable,reviewed,Unreliable data invoke data and result verification,2.0-frozen
+Unreliable Image,error_unreliable,reviewed,Unreliable image invokes image verification,2.0-frozen
+Unreliable Results and/or Conclusions,error_unreliable,reviewed,Unreliable result invokes data and result verification,2.0-frozen
+Updated to Correction,not_applicable,reviewed,Administrative update to correction status,2.0-frozen
+Updated to Expression of Concern,not_applicable,reviewed,Administrative update to expression-of-concern status,2.0-frozen
+Updated to Retraction,not_applicable,reviewed,Administrative update to retraction status,2.0-frozen
+Upgrade/Update of Prior Notice(s),not_applicable,reviewed,Administrative update to a prior notice,2.0-frozen
+Withdrawn as Out of Date,not_applicable,reviewed,Withdrawal is administrative status,2.0-frozen
+Withdrawn to Publish in Different Journal,not_applicable,reviewed,Withdrawal is administrative status,2.0-frozen

@@ -8,5 +8,6 @@
 - [匹配设计](matching-design.md)
 - [质量审计](quality-audit.md)
 - [原因映射版本复核](reason-mapping-review.md)
+- [原因映射 v2 ADR](../decisions/0003-reason-taxonomy-v2.md)
 
 数据域文档与 `config/` 参数、`R/` 脚本共同构成正式口径。旧数据说明只保留在归档。

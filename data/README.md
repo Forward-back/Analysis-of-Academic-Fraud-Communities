@@ -19,7 +19,7 @@
 
 - 原始数据：`raw/retractions.csv`
 - 字段字典：`reference/mappings/rwdb_field_dictionary_v1.csv`
-- 原因映射：`reference/mappings/reason_dictionary_v1.csv`
+- 原因映射：`reference/mappings/reason_label_registry_v2.csv` 及同目录长表
 - OpenAlex 压测缓存：`cache/openalex/pressure-tests/`
 - 基线 EDA：`outputs/baseline/`
 

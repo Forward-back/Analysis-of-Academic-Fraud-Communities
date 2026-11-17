@@ -1,0 +1,110 @@
+"reason_label","evidence_status","issue_domains","context_tags","mapping_status","records"
+"Author Unresponsive","insufficient_information",,"communication","reviewed",3295
+"Bias Issues or Lack of Balance","concern_allegation","data_results_integrity",,"reviewed",86
+"Breach of Policy by Author","substantive_finding","unspecified_integrity",,"reviewed",356
+"Cites Retracted Work","error_unreliable","textual_reuse",,"reviewed",160
+"Civil Proceedings","not_applicable",,"legal","reviewed",23
+"Complaints about Author","concern_allegation","unspecified_integrity","external_complaint","reviewed",93
+"Complaints about Company/Institution","concern_allegation","unspecified_integrity","external_complaint","reviewed",5
+"Complaints about Third Party","concern_allegation","unspecified_integrity","external_complaint;third_party","reviewed",9
+"Compromised Peer Review","substantive_finding","publication_peer_review",,"reviewed",10882
+"Computer-Aided Content or Computer-Generated Content","substantive_finding","publication_peer_review",,"reviewed",9274
+"Concerns/Issues about Animal Welfare","concern_allegation","research_ethics_compliance",,"reviewed",45
+"Concerns/Issues about Article","concern_allegation","unspecified_integrity",,"reviewed",1669
+"Concerns/Issues about Authorship/Affiliation","concern_allegation","authorship_affiliation",,"reviewed",2693
+"Concerns/Issues about Data","concern_allegation","data_results_integrity",,"reviewed",13875
+"Concerns/Issues about Human Subject Welfare","concern_allegation","research_ethics_compliance",,"reviewed",570
+"Concerns/Issues about Image","concern_allegation","image_integrity",,"reviewed",2927
+"Concerns/Issues about Methods","concern_allegation","materials_methods_integrity",,"reviewed",133
+"Concerns/Issues about Peer Review","concern_allegation","publication_peer_review",,"reviewed",11308
+"Concerns/Issues about Referencing/Attributions","concern_allegation","textual_reuse",,"reviewed",14419
+"Concerns/Issues about Results and/or Conclusions","concern_allegation","data_results_integrity",,"reviewed",9018
+"Concerns/Issues about Third Party Involvement","concern_allegation","unspecified_integrity",,"reviewed",1776
+"Conflict of Interest","substantive_finding","research_ethics_compliance",,"reviewed",742
+"Contamination of Cell Lines/Tissues","substantive_finding","materials_methods_integrity",,"reviewed",126
+"Contamination of Materials","substantive_finding","materials_methods_integrity",,"reviewed",51
+"Copyright Claims","not_applicable",,"legal","reviewed",535
+"Criminal Proceedings","not_applicable",,"legal","reviewed",48
+"Date of Article and/or Notice Unknown","insufficient_information",,"metadata_limitation","reviewed",3128
+"Doing the Right Thing","not_applicable",,"unclear","reviewed",119
+"Duplication of Content through Error by Journal/Publisher","error_unreliable","textual_reuse",,"reviewed",771
+"Duplication of Data","substantive_finding","data_results_integrity",,"reviewed",902
+"Duplication of Text","substantive_finding","textual_reuse",,"reviewed",404
+"Duplication of/in Article","substantive_finding","textual_reuse",,"reviewed",3189
+"Duplication of/in Image","substantive_finding","image_integrity",,"reviewed",5033
+"Error by Journal/Publisher","error_unreliable","publication_peer_review",,"reviewed",1101
+"Error by Third Party","error_unreliable","unspecified_integrity","third_party","reviewed",39
+"Error in Analyses","error_unreliable","data_results_integrity",,"reviewed",1233
+"Error in Cell Lines/Tissues","error_unreliable","materials_methods_integrity",,"reviewed",80
+"Error in Data","error_unreliable","data_results_integrity",,"reviewed",1530
+"Error in Image","error_unreliable","image_integrity",,"reviewed",849
+"Error in Materials","error_unreliable","materials_methods_integrity",,"reviewed",149
+"Error in Methods","error_unreliable","materials_methods_integrity",,"reviewed",1086
+"Error in Results and/or Conclusions","error_unreliable","data_results_integrity",,"reviewed",1249
+"Error in Text","error_unreliable","textual_reuse",,"reviewed",697
+"Ethical Violations by Author","substantive_finding","research_ethics_compliance",,"reviewed",504
+"Ethical Violations by Company/Institution/Third Party","substantive_finding","research_ethics_compliance","third_party","reviewed",29
+"Euphemisms for Duplication","substantive_finding","textual_reuse",,"reviewed",1950
+"Euphemisms for Misconduct","substantive_finding","unspecified_integrity",,"reviewed",6
+"Euphemisms for Plagiarism","substantive_finding","textual_reuse",,"reviewed",3571
+"False/Forged Affiliation","substantive_finding","authorship_affiliation",,"reviewed",158
+"False/Forged Authorship","substantive_finding","authorship_affiliation",,"reviewed",755
+"Falsification/Fabrication of Data","substantive_finding","data_results_integrity",,"reviewed",1251
+"Falsification/Fabrication of Image","substantive_finding","image_integrity",,"reviewed",461
+"Falsification/Fabrication of Results","substantive_finding","data_results_integrity",,"reviewed",87
+"Hoax Paper","substantive_finding","publication_peer_review",,"reviewed",13
+"Informed/Patient Consent - None/Withdrawn","substantive_finding","research_ethics_compliance",,"reviewed",1588
+"Investigation by Company/Institution","not_applicable",,"investigation","reviewed",2725
+"Investigation by Journal/Publisher","not_applicable",,"investigation","reviewed",27425
+"Investigation by ORI","not_applicable",,"investigation","reviewed",175
+"Investigation by Third Party","not_applicable",,"investigation;third_party","reviewed",17397
+"Lack of Approval from Author","substantive_finding","authorship_affiliation",,"reviewed",476
+"Lack of Approval from Company/Institution","substantive_finding","research_ethics_compliance","institutional_authorization","reviewed",265
+"Lack of Approval from Third Party","substantive_finding","research_ethics_compliance","institutional_authorization;third_party","reviewed",381
+"Lack of IRB/IACUC Approval and/or Compliance","substantive_finding","research_ethics_compliance",,"reviewed",2472
+"Legal Reasons and/or Threats","not_applicable",,"legal","reviewed",94
+"Manipulation of Data","substantive_finding","data_results_integrity",,"reviewed",19
+"Manipulation of Images","substantive_finding","image_integrity",,"reviewed",1254
+"Manipulation of Results","substantive_finding","data_results_integrity",,"reviewed",30
+"Miscommunication with/by Author","not_applicable",,"communication","reviewed",77
+"Miscommunication with/by Company/Institution","not_applicable",,"communication","reviewed",10
+"Miscommunication with/by Journal/Publisher","not_applicable",,"communication","reviewed",15
+"Miscommunication with/by Third Party","not_applicable",,"communication;third_party","reviewed",11
+"Misconduct - Official Investigation(s) and/or Finding(s)","substantive_finding","unspecified_integrity",,"reviewed",1188
+"Misconduct by Author","substantive_finding","unspecified_integrity",,"reviewed",1380
+"Misconduct by Company/Institution","substantive_finding","unspecified_integrity",,"reviewed",4
+"Misconduct by Third Party","substantive_finding","unspecified_integrity","third_party","reviewed",39
+"No Further Action","not_applicable",,"administrative_status","reviewed",6
+"Nonpayment of Fees and/or Refusal to Pay","not_applicable",,"administrative_status","reviewed",11
+"Not Presented at Conference","not_applicable",,"administrative_status","reviewed",37
+"Notice - Lack of","insufficient_information",,"metadata_limitation","reviewed",273
+"Notice - Limited or No Information","insufficient_information",,"metadata_limitation","reviewed",2570
+"Notice - Unable to Access via current resources","insufficient_information",,"data_availability","reviewed",72
+"Objections by Author(s)","not_applicable",,"objection","reviewed",3178
+"Objections by Company/Institution","not_applicable",,"objection","reviewed",24
+"Objections by Third Party","not_applicable",,"objection;third_party","reviewed",682
+"Original Data and/or Images not Provided and/or not Available","insufficient_information","data_results_integrity","data_availability","reviewed",2308
+"Paper Mill","substantive_finding","publication_peer_review",,"reviewed",11710
+"Plagiarism of Data","substantive_finding","data_results_integrity;textual_reuse",,"reviewed",589
+"Plagiarism of Image","substantive_finding","image_integrity;textual_reuse",,"reviewed",792
+"Plagiarism of Text","substantive_finding","textual_reuse",,"reviewed",1924
+"Plagiarism of/in Article","substantive_finding","textual_reuse",,"reviewed",2588
+"Publishing Ban","not_applicable",,"legal","reviewed",69
+"Removed","not_applicable",,"administrative_status","reviewed",2456
+"Results Not Reproducible","error_unreliable","data_results_integrity",,"reviewed",669
+"Retract and Replace","not_applicable",,"administrative_status","reviewed",820
+"Rogue Editor","substantive_finding","publication_peer_review",,"reviewed",2959
+"Salami Slicing","substantive_finding","textual_reuse",,"reviewed",28
+"Taken from Dissertation/Thesis","substantive_finding","textual_reuse",,"reviewed",351
+"Taken via Peer Review","substantive_finding","publication_peer_review",,"reviewed",19
+"Taken via Translation","substantive_finding","textual_reuse",,"reviewed",9
+"Temporary Removal","not_applicable",,"administrative_status","reviewed",66
+"Transfer of Copyright and/or Ownership","not_applicable",,"legal","reviewed",13
+"Unreliable Data","error_unreliable","data_results_integrity",,"reviewed",2143
+"Unreliable Image","error_unreliable","image_integrity",,"reviewed",233
+"Unreliable Results and/or Conclusions","error_unreliable","data_results_integrity",,"reviewed",20832
+"Updated to Correction","not_applicable",,"administrative_status","reviewed",6
+"Updated to Retraction","not_applicable",,"administrative_status","reviewed",22
+"Upgrade/Update of Prior Notice(s)","not_applicable",,"administrative_status","reviewed",2366
+"Withdrawn as Out of Date","not_applicable",,"administrative_status","reviewed",249
+"Withdrawn to Publish in Different Journal","not_applicable",,"administrative_status","reviewed",444

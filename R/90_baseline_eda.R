@@ -28,12 +28,10 @@ raw_file <- file.path("data", "raw", "retractions.csv")
 output_dir <- file.path("data", "outputs", "baseline")
 table_dir <- file.path(output_dir, "tables")
 figure_dir <- file.path(output_dir, "figures")
-candidate_mapping_dir <- file.path("data", "interim", "mappings")
 
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(table_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(figure_dir, recursive = TRUE, showWarnings = FALSE)
-dir.create(candidate_mapping_dir, recursive = TRUE, showWarnings = FALSE)
 
 to_project_relative <- function(paths) {
   project_root <- normalizePath(getwd(), winslash = "/", mustWork = TRUE)
@@ -113,93 +111,205 @@ raw$retraction_year_outside_1900_2026 <- !is.na(raw$retraction_year) &
 
 all_label_counts <- unlist(raw$reason_labels, use.names = FALSE)
 
-data_families <- c(
-  "Falsification/Fabrication of Data",
-  "Manipulation of Data",
-  "Duplication of Data",
-  "Falsification/Fabrication of Results",
-  "Manipulation of Results"
+mapping_dir <- file.path("data", "reference", "mappings")
+registry_file <- file.path(mapping_dir, "reason_label_registry_v2.csv")
+domain_map_file <- file.path(mapping_dir, "reason_domain_map_v2.csv")
+context_map_file <- file.path(mapping_dir, "reason_context_map_v2.csv")
+analysis_family_file <- file.path(mapping_dir, "analysis_family_domains_v2.csv")
+required_mapping_files <- c(
+  registry_file,
+  domain_map_file,
+  context_map_file,
+  analysis_family_file
 )
-image_families <- c(
-  "Falsification/Fabrication of Image",
-  "Manipulation of Images",
-  "Duplication of/in Image"
-)
-process_families <- c(
-  "Paper Mill",
-  "Compromised Peer Review",
-  "Concerns/Issues about Peer Review",
-  "Rogue Editor",
-  "Taken via Peer Review",
-  "Computer-Aided Content or Computer-Generated Content"
-)
-plagiarism_families <- c(
-  "Plagiarism of Data",
-  "Plagiarism of Image",
-  "Plagiarism of Text",
-  "Plagiarism of/in Article",
-  "Euphemisms for Plagiarism",
-  "Duplication of/in Article",
-  "Duplication of Text",
-  "Euphemisms for Duplication",
-  "Concerns/Issues about Authorship/Affiliation"
-)
-control_labels <- c(
-  "Error in Data",
-  "Error in Image",
-  "Error in Results and/or Conclusions",
-  "Results Not Reproducible",
-  "Unreliable Data",
-  "Unreliable Image",
-  "Unreliable Results and/or Conclusions",
-  "Concerns/Issues about Data",
-  "Concerns/Issues about Image",
-  "Concerns/Issues about Results and/or Conclusions",
-  "Notice - Limited or No Information",
-  "Date of Article and/or Notice Unknown"
-)
-
-family_lookup <- bind_rows(
-  tibble(label = data_families, reason_family = "data_integrity"),
-  tibble(label = image_families, reason_family = "image_integrity"),
-  tibble(label = process_families, reason_family = "publication_process"),
-  tibble(label = plagiarism_families, reason_family = "plagiarism_authorship"),
-  tibble(label = control_labels, reason_family = "error_control")
-) %>%
-  distinct(label, reason_family)
-
-all_reason_labels <- sort(unique(all_label_counts))
-reason_dictionary <- tibble(reason_label = all_reason_labels) %>%
-  left_join(family_lookup, by = c("reason_label" = "label"), relationship = "many-to-many") %>%
-  mutate(
-    reason_family = replace_na(reason_family, "unclassified"),
-    mapping_version = "1.0-candidate",
-    reviewer_note = if_else(
-      reason_family == "unclassified",
-      "Not mapped in the project's initial strict dictionary.",
-      ""
-    )
-  )
-
-write_csv(
-  reason_dictionary,
-  file.path(candidate_mapping_dir, "reason_dictionary_candidate.csv")
-)
-
-flag_family <- function(labels, dictionary_labels) {
-  vapply(labels, function(z) any(z %in% dictionary_labels), logical(1))
+missing_mapping_files <- required_mapping_files[!file.exists(required_mapping_files)]
+if (length(missing_mapping_files) > 0) {
+  stop("Missing reason mapping files: ", paste(missing_mapping_files, collapse = ", "))
 }
 
-raw$family_data <- flag_family(raw$reason_labels, data_families)
-raw$family_image <- flag_family(raw$reason_labels, image_families)
-raw$family_process <- flag_family(raw$reason_labels, process_families)
-raw$family_plagiarism <- flag_family(raw$reason_labels, plagiarism_families)
-raw$family_control_candidate <- flag_family(raw$reason_labels, control_labels)
-raw$family_control <- raw$family_control_candidate &
-  !(raw$family_data | raw$family_image | raw$family_process | raw$family_plagiarism)
+reason_registry <- data.table::fread(
+  registry_file,
+  colClasses = "character",
+  encoding = "UTF-8",
+  data.table = FALSE
+)
+reason_domains <- data.table::fread(
+  domain_map_file,
+  colClasses = "character",
+  encoding = "UTF-8",
+  data.table = FALSE
+)
+reason_contexts <- data.table::fread(
+  context_map_file,
+  colClasses = "character",
+  encoding = "UTF-8",
+  data.table = FALSE
+)
+analysis_families <- data.table::fread(
+  analysis_family_file,
+  colClasses = "character",
+  encoding = "UTF-8",
+  data.table = FALSE
+)
+
+allowed_evidence_statuses <- c(
+  "substantive_finding",
+  "concern_allegation",
+  "error_unreliable",
+  "insufficient_information",
+  "not_applicable"
+)
+allowed_domains <- c(
+  "publication_peer_review",
+  "image_integrity",
+  "data_results_integrity",
+  "textual_reuse",
+  "authorship_affiliation",
+  "research_ethics_compliance",
+  "materials_methods_integrity",
+  "unspecified_integrity"
+)
+if (anyDuplicated(reason_registry$reason_label) > 0) {
+  stop("Reason registry contains duplicate labels.")
+}
+if (!all(reason_registry$evidence_status %in% allowed_evidence_statuses)) {
+  stop("Reason registry contains an unsupported evidence status.")
+}
+if (!all(reason_domains$issue_domain %in% allowed_domains)) {
+  stop("Reason domain map contains an unsupported issue domain.")
+}
+
+all_reason_labels <- sort(unique(all_label_counts))
+unknown_reason_labels <- setdiff(all_reason_labels, reason_registry$reason_label)
+if (length(unknown_reason_labels) > 0) {
+  stop("Unmapped reason labels: ", paste(unknown_reason_labels, collapse = "; "))
+}
+
+label_domains <- split(reason_domains$issue_domain, reason_domains$reason_label)
+label_contexts <- split(reason_contexts$context_tag, reason_contexts$reason_label)
+label_evidence <- setNames(reason_registry$evidence_status, reason_registry$reason_label)
+
+raw$issue_domains <- lapply(raw$reason_labels, function(labels) {
+  unique(unlist(label_domains[labels], use.names = FALSE))
+})
+raw$reason_contexts <- lapply(raw$reason_labels, function(labels) {
+  unique(unlist(label_contexts[labels], use.names = FALSE))
+})
+raw$reason_evidence <- lapply(raw$reason_labels, function(labels) {
+  unique(unname(label_evidence[labels]))
+})
+
+flag_labels <- function(labels, candidates) {
+  vapply(labels, function(values) any(values %in% candidates), logical(1))
+}
+
+flag_domain <- function(labels, domain, statuses = NULL) {
+  domain_labels <- reason_domains$reason_label[
+    reason_domains$issue_domain == domain
+  ]
+  if (!is.null(statuses)) {
+    domain_labels <- domain_labels[
+      label_evidence[domain_labels] %in% statuses
+    ]
+  }
+  flag_labels(labels, domain_labels)
+}
+
+family_domain_list <- split(
+  analysis_families$issue_domain,
+  analysis_families$analysis_family
+)
+family_labels <- lapply(family_domain_list, function(domains) {
+  unique(reason_domains$reason_label[
+    reason_domains$issue_domain %in% domains
+  ])
+})
+family_labels_narrow <- lapply(family_labels, function(labels) {
+  labels[label_evidence[labels] == "substantive_finding"]
+})
+
+raw$family_process <- flag_labels(raw$reason_labels, family_labels_narrow$publication_process)
+raw$family_image <- flag_labels(raw$reason_labels, family_labels_narrow$image_integrity)
+raw$family_plagiarism <- flag_labels(
+  raw$reason_labels,
+  family_labels_narrow$plagiarism_authorship
+)
+raw$family_data <- flag_labels(raw$reason_labels, family_labels_narrow$data_integrity)
+raw$family_research_ethics_narrow <- flag_labels(
+  raw$reason_labels,
+  family_labels_narrow$research_ethics_compliance
+)
+raw$family_materials_methods_narrow <- flag_labels(
+  raw$reason_labels,
+  family_labels_narrow$materials_methods_integrity
+)
+raw$family_research_ethics <- flag_domain(
+  raw$reason_labels,
+  "research_ethics_compliance"
+)
+raw$family_materials_methods <- flag_domain(
+  raw$reason_labels,
+  "materials_methods_integrity"
+)
+
+raw$family_process_broad <- flag_domain(
+  raw$reason_labels,
+  "publication_peer_review"
+)
+raw$family_image_broad <- flag_domain(raw$reason_labels, "image_integrity")
+raw$family_plagiarism_broad <- flag_labels(
+  raw$reason_labels,
+  family_labels$plagiarism_authorship
+)
+raw$family_data_broad <- flag_domain(raw$reason_labels, "data_results_integrity")
+
+raw$domain_textual_reuse <- flag_domain(raw$reason_labels, "textual_reuse")
+raw$domain_authorship_affiliation <- flag_domain(
+  raw$reason_labels,
+  "authorship_affiliation"
+)
+raw$domain_unspecified_integrity <- flag_domain(
+  raw$reason_labels,
+  "unspecified_integrity"
+)
+raw$reason_domain_any <- vapply(
+  raw$issue_domains,
+  function(domains) length(domains) > 0,
+  logical(1)
+)
+raw$reason_mapping_unmapped <- vapply(
+  raw$reason_labels,
+  function(labels) {
+    any(reason_registry$mapping_status[
+      match(labels, reason_registry$reason_label)
+    ] != "reviewed")
+  },
+  logical(1)
+)
+raw$family_control_candidate <- vapply(
+  raw$reason_evidence,
+  function(statuses) {
+    any(statuses %in% c("error_unreliable", "insufficient_information"))
+  },
+  logical(1)
+)
+
+raw$family_control <- raw$family_control_candidate & !(
+  raw$family_process |
+    raw$family_image |
+    raw$family_plagiarism |
+    raw$family_data |
+    raw$family_research_ethics_narrow |
+    raw$family_materials_methods_narrow
+)
 raw$family_unclassified <- !(
-  raw$family_data | raw$family_image | raw$family_process |
-    raw$family_plagiarism | raw$family_control
+  raw$family_process |
+    raw$family_image |
+    raw$family_plagiarism |
+    raw$family_data |
+    raw$family_research_ethics |
+    raw$family_materials_methods |
+    raw$family_control
 )
 
 retractions <- raw %>%
@@ -243,52 +353,163 @@ core_reason_counts <- core %>%
   count(reason_label, sort = TRUE, name = "records")
 write_csv(core_reason_counts, file.path(table_dir, "reason_label_counts_core.csv"))
 
+coarse_family_flags <- list(
+  publication_process = core$family_process,
+  image_integrity = core$family_image,
+  plagiarism_authorship = core$family_plagiarism,
+  data_integrity = core$family_data,
+  research_ethics_compliance = core$family_research_ethics,
+  materials_methods_integrity = core$family_materials_methods,
+  error_control = core$family_control,
+  unclassified = core$family_unclassified
+)
+
 family_summary <- tibble(
-  reason_family = c(
-    "data_integrity",
-    "image_integrity",
-    "publication_process",
-    "plagiarism_authorship",
-    "error_control",
-    "unclassified"
-  ),
-  records = c(
-    sum(core$family_data),
-    sum(core$family_image),
-    sum(core$family_process),
-    sum(core$family_plagiarism),
-    sum(core$family_control),
-    sum(core$family_unclassified)
-  )
+  reason_family = names(coarse_family_flags),
+  records = vapply(coarse_family_flags, sum, integer(1))
 ) %>%
   mutate(share_of_core = records / nrow(core))
 write_csv(family_summary, file.path(table_dir, "reason_family_counts_core.csv"))
 
-family_year <- core %>%
-  select(
-    retraction_year,
-    data_integrity = family_data,
-    image_integrity = family_image,
-    publication_process = family_process,
-    plagiarism_authorship = family_plagiarism,
-    error_control = family_control,
-    unclassified = family_unclassified
+detailed_domain_flags <- list(
+  publication_peer_review = core$family_process_broad,
+  image_integrity = core$family_image_broad,
+  data_results_integrity = core$family_data_broad,
+  textual_reuse = core$domain_textual_reuse,
+  authorship_affiliation = core$domain_authorship_affiliation,
+  research_ethics_compliance = flag_domain(
+    core$reason_labels,
+    "research_ethics_compliance"
+  ),
+  materials_methods_integrity = flag_domain(
+    core$reason_labels,
+    "materials_methods_integrity"
+  ),
+  unspecified_integrity = core$domain_unspecified_integrity
+)
+domain_summary <- tibble(
+  issue_domain = names(detailed_domain_flags),
+  records = vapply(detailed_domain_flags, sum, integer(1))
+) %>%
+  mutate(share_of_core = records / nrow(core))
+write_csv(domain_summary, file.path(table_dir, "reason_domain_counts_core.csv"))
+
+family_sensitivity <- tibble(
+  reason_family = c(
+    "publication_process",
+    "image_integrity",
+    "plagiarism_authorship",
+    "data_integrity",
+    "research_ethics_compliance",
+    "materials_methods_integrity"
+  ),
+  narrow_records = c(
+    sum(core$family_process),
+    sum(core$family_image),
+    sum(core$family_plagiarism),
+    sum(core$family_data),
+    sum(core$family_research_ethics_narrow),
+    sum(core$family_materials_methods_narrow)
+  ),
+  broad_records = c(
+    sum(core$family_process_broad),
+    sum(core$family_image_broad),
+    sum(core$family_plagiarism_broad),
+    sum(core$family_data_broad),
+    sum(core$family_research_ethics),
+    sum(core$family_materials_methods)
+  )
+) %>%
+  mutate(
+    narrow_share = narrow_records / nrow(core),
+    broad_share = broad_records / nrow(core)
+  )
+write_csv(
+  family_sensitivity,
+  file.path(table_dir, "reason_family_sensitivity_core.csv")
+)
+
+core_reason_long <- core %>%
+  select(reason_labels) %>%
+  unnest_longer(reason_labels, values_to = "reason_label") %>%
+  filter(!is.na(reason_label), reason_label != "") %>%
+  left_join(reason_registry, by = "reason_label")
+
+core_label_mapping <- core_reason_long %>%
+  left_join(
+    reason_domains %>%
+      group_by(reason_label) %>%
+      summarise(
+        issue_domains = paste(sort(unique(issue_domain)), collapse = ";"),
+        .groups = "drop"
+      ),
+    by = "reason_label"
   ) %>%
+  left_join(
+    reason_contexts %>%
+      group_by(reason_label) %>%
+      summarise(
+        context_tags = paste(sort(unique(context_tag)), collapse = ";"),
+        .groups = "drop"
+      ),
+    by = "reason_label"
+  ) %>%
+  count(
+    reason_label,
+    evidence_status,
+    issue_domains,
+    context_tags,
+    mapping_status,
+    name = "records"
+  )
+write_csv(
+  core_label_mapping,
+  file.path(table_dir, "reason_label_mapping_core.csv")
+)
+
+evidence_status_summary <- core_reason_long %>%
+  count(evidence_status, sort = TRUE, name = "label_occurrences") %>%
+  mutate(label_occurrences_per_core_record = label_occurrences / nrow(core))
+write_csv(
+  evidence_status_summary,
+  file.path(table_dir, "reason_evidence_status_counts_core.csv")
+)
+
+context_summary <- core_reason_long %>%
+  inner_join(
+    reason_contexts,
+    by = "reason_label",
+    relationship = "many-to-many"
+  ) %>%
+  count(context_tag, sort = TRUE, name = "label_occurrences") %>%
+  mutate(label_occurrences_per_core_record = label_occurrences / nrow(core))
+write_csv(
+  context_summary,
+  file.path(table_dir, "reason_context_counts_core.csv")
+)
+
+context_only_summary <- tibble(
+  unit = "core_records",
+  records = sum(
+    vapply(core$reason_contexts, length, integer(1)) > 0 &
+      !core$reason_domain_any
+  )
+)
+write_csv(
+  context_only_summary,
+  file.path(table_dir, "reason_context_only_summary_core.csv")
+)
+
+family_year <- bind_cols(
+  tibble(retraction_year = core$retraction_year),
+  as_tibble(coarse_family_flags)
+) %>%
   pivot_longer(-retraction_year, names_to = "reason_family", values_to = "flagged") %>%
   filter(flagged) %>%
   count(retraction_year, reason_family, name = "records")
 write_csv(family_year, file.path(table_dir, "reason_family_counts_by_year_core.csv"))
 
-family_matrix <- core %>%
-  transmute(
-    data_integrity = family_data,
-    image_integrity = family_image,
-    publication_process = family_process,
-    plagiarism_authorship = family_plagiarism,
-    error_control = family_control,
-    unclassified = family_unclassified
-  ) %>%
-  as.matrix()
+family_matrix <- as.matrix(as.data.frame(coarse_family_flags))
 
 cooccurrence <- crossprod(family_matrix)
 cooccurrence_df <- as.data.frame(cooccurrence) %>%
@@ -296,30 +517,13 @@ cooccurrence_df <- as.data.frame(cooccurrence) %>%
   pivot_longer(-family_1, names_to = "family_2", values_to = "records")
 write_csv(cooccurrence_df, file.path(table_dir, "reason_family_cooccurrence.csv"))
 
-reason_family_patterns <- core %>%
-  transmute(
-    pattern = pmap_chr(
-      list(
-        family_data,
-        family_image,
-        family_process,
-        family_plagiarism,
-        family_control,
-        family_unclassified
-      ),
-      function(data_flag, image_flag, process_flag, plagiarism_flag, control_flag, unclassified_flag) {
-        active <- c(
-          "data_integrity" = data_flag,
-          "image_integrity" = image_flag,
-          "publication_process" = process_flag,
-          "plagiarism_authorship" = plagiarism_flag,
-          "error_control" = control_flag,
-          "unclassified" = unclassified_flag
-        )
-        paste(names(active)[active], collapse = "+")
-      }
-    )
-  ) %>%
+reason_family_patterns <- tibble(
+  pattern = apply(
+    family_matrix,
+    1,
+    function(flags) paste(names(coarse_family_flags)[flags], collapse = "+")
+  )
+) %>%
   count(pattern, sort = TRUE, name = "records") %>%
   mutate(share_of_core = records / nrow(core))
 write_csv(reason_family_patterns, file.path(table_dir, "reason_family_patterns_core.csv"))
@@ -517,18 +721,22 @@ p3 <- core_reason_counts %>%
 ggsave(file.path(figure_dir, "03_top_reason_labels_core.png"), p3, width = 9, height = 6, dpi = 180)
 
 family_labels <- c(
-  data_integrity = "Data integrity",
+  publication_process = "Publication/peer review",
   image_integrity = "Image integrity",
-  publication_process = "Publication process",
   plagiarism_authorship = "Plagiarism/authorship",
+  data_integrity = "Data/results integrity",
+  research_ethics_compliance = "Research ethics (any)",
+  materials_methods_integrity = "Materials/methods (any)",
   error_control = "Strict error control",
   unclassified = "Unclassified"
 )
 family_colors <- c(
-  data_integrity = "#E76F51",
-  image_integrity = "#2A9D8F",
   publication_process = "#457B9D",
+  image_integrity = "#2A9D8F",
   plagiarism_authorship = "#D4AC0D",
+  data_integrity = "#E76F51",
+  research_ethics_compliance = "#8E6C8A",
+  materials_methods_integrity = "#2E8B57",
   error_control = "#7F8C8D",
   unclassified = "#9B59B6"
 )
@@ -544,8 +752,8 @@ p4 <- family_summary %>%
   geom_text(aes(label = share_label), hjust = -0.1, size = 3.2) +
   scale_x_continuous(labels = comma, expand = expansion(mult = c(0, 0.14))) +
   labs(
-    title = "Reason-family coverage in the strict v1 mapping",
-    subtitle = "Families overlap; shares do not add to 100%",
+    title = "Reason-family coverage in the reviewed v2 mapping",
+    subtitle = "Families overlap; main families use substantive findings",
     x = "Core-window records",
     y = NULL
   ) +
@@ -607,34 +815,6 @@ writeLines(
   useBytes = TRUE
 )
 
-reference_mapping_file <- file.path(
-  "data", "reference", "mappings", "reason_dictionary_v1.csv"
-)
-candidate_mapping_file <- file.path(
-  candidate_mapping_dir, "reason_dictionary_candidate.csv"
-)
-
-candidate_mapping_matches_reference <- FALSE
-if (file.exists(reference_mapping_file)) {
-  reference_mapping <- data.table::fread(
-    reference_mapping_file,
-    colClasses = "character",
-    encoding = "UTF-8",
-    data.table = FALSE
-  )
-  candidate_key <- reason_dictionary[
-    order(reason_dictionary$reason_label),
-    c("reason_label", "reason_family")
-  ]
-  reference_key <- reference_mapping[
-    order(reference_mapping$reason_label),
-    c("reason_label", "reason_family")
-  ]
-  rownames(candidate_key) <- NULL
-  rownames(reference_key) <- NULL
-  candidate_mapping_matches_reference <- identical(candidate_key, reference_key)
-}
-
 output_files <- c(
   list.files(table_dir, full.names = TRUE),
   list.files(figure_dir, full.names = TRUE)
@@ -671,16 +851,21 @@ manifest <- list(
   core_window = "2012-2025",
   core_records = nrow(core),
   unique_reason_labels = length(all_reason_labels),
-  mapping_version = "1.0-candidate",
-  reference_mapping_file = to_project_relative(reference_mapping_file),
-  reference_mapping_sha256 = if (file.exists(reference_mapping_file)) {
-    digest::digest(file = reference_mapping_file, algo = "sha256")
-  } else {
-    NA_character_
-  },
-  candidate_mapping_file = to_project_relative(candidate_mapping_file),
-  candidate_mapping_sha256 = digest::digest(file = candidate_mapping_file, algo = "sha256"),
-  candidate_mapping_matches_reference = candidate_mapping_matches_reference,
+  mapping_version = unique(reason_registry$mapping_version),
+  mapping_registry_labels = nrow(reason_registry),
+  mapping_unmapped_labels = sum(reason_registry$mapping_status != "reviewed"),
+  mapping_unmapped_core_records = sum(core$reason_mapping_unmapped),
+  domain_map_rows = nrow(reason_domains),
+  context_map_rows = nrow(reason_contexts),
+  analysis_family_rows = nrow(analysis_families),
+  reason_registry_file = to_project_relative(registry_file),
+  reason_registry_sha256 = digest::digest(file = registry_file, algo = "sha256"),
+  reason_domain_map_file = to_project_relative(domain_map_file),
+  reason_domain_map_sha256 = digest::digest(file = domain_map_file, algo = "sha256"),
+  reason_context_map_file = to_project_relative(context_map_file),
+  reason_context_map_sha256 = digest::digest(file = context_map_file, algo = "sha256"),
+  analysis_family_file = to_project_relative(analysis_family_file),
+  analysis_family_sha256 = digest::digest(file = analysis_family_file, algo = "sha256"),
   r_version = R.version.string,
   generated_at = format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z"),
   output_file_count = nrow(output_rows),

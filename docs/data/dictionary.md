@@ -32,16 +32,46 @@
 | `median_geo_distance_km` | numeric | 机构间中位球面距离 |
 | `max_geo_distance_km` | numeric | 最大机构距离 |
 
-## 原因族代码
+## 原因映射 v2
 
-| 代码 | 中文名 | 分析角色 |
+原因标签不再直接映射到单一 `reason_family`，而使用三个正交字段：
+
+| 字段 | 定义 |
+|---|---|
+| `evidence_status` | 实质发现、疑虑、错误/不可靠、信息不足或非适用背景 |
+| `issue_domains` | 一个或多个待核查问题领域，可多值 |
+| `context_tags` | 调查、法律、行政、沟通等非原因背景 |
+
+完整定义见 [原因映射 v2 ADR](../decisions/0003-reason-taxonomy-v2.md)。
+
+### 问题领域
+
+| 代码 | 中文名 | 核查能力 |
 |---|---|---|
-| `publication_process` | 出版流程操纵 | 主推断 |
-| `image_integrity` | 图像完整性 | 主推断 |
-| `plagiarism_authorship` | 剽窃/署名 | 主推断 |
-| `data_integrity` | 数据完整性 | 探索 |
-| `error_control` | 错误/信息不足 | 参照 |
-| `unclassified` | 未归类 | 覆盖说明 |
+| `publication_peer_review` | 出版与同行评审 | 编辑流程、同行评审和论文工厂 |
+| `image_integrity` | 图像完整性 | 图像取证与重复检测 |
+| `data_results_integrity` | 数据与结果完整性 | 数据、分析、结果和重复性核查 |
+| `textual_reuse` | 文本复用与归属 | 文本相似度、引用和归属核查 |
+| `authorship_affiliation` | 作者身份与单位归属 | 作者身份、署名和单位核验 |
+| `research_ethics_compliance` | 研究伦理与合规 | IRB/IACUC、知情同意、动物/人体福利和利益冲突 |
+| `materials_methods_integrity` | 材料与方法完整性 | 材料、细胞系、方法和实验条件 |
+| `unspecified_integrity` | 未具体化诚信问题 | 无法归入单一核查领域的总体不端或投诉 |
+
+### 分析族
+
+| 代码 | 组成领域 | 分析角色 |
+|---|---|---|
+| `publication_process` | `publication_peer_review` | 主推断 |
+| `image_integrity` | `image_integrity` | 主推断 |
+| `plagiarism_authorship` | `textual_reuse` + `authorship_affiliation` | 主推断复合族 |
+| `data_integrity` | `data_results_integrity` | 探索 |
+| `research_ethics_compliance` | `research_ethics_compliance` | 探索 |
+| `materials_methods_integrity` | `materials_methods_integrity` | 探索 |
+| `error_control` | 无窄定义实质族且有错误/信息不足标签 | 派生参照 |
+| `unclassified` | 未进入上述分析族或参照组 | 覆盖说明 |
+
+主族默认使用 `substantive_finding` 标签。宽定义敏感性分析加入疑虑和错误标签。
+`plagiarism_authorship` 是主推断复合族，文本复用和署名分别作为次级分析。
 
 ## 网络变量
 

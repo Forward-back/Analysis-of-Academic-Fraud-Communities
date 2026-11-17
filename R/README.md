@@ -29,6 +29,7 @@
 
 - `data/external/` 只读第三方来源。
 - `data/reference/` 只读人工冻结映射。
-- 自动脚本把候选映射写入 `data/interim/mappings/`。
+- 原因分析读取 v2 注册表、领域长表、上下文长表和分析族预设。
+- 原始标签若未出现在注册表中，管道立即停止，不静默归入 `unclassified`。
 - 阶段结果写入 `data/outputs/{audits,baseline,final,app}/`。
 - 大型中间对象写入 `data/interim/` 或 `data/processed/`，不提交 Git。

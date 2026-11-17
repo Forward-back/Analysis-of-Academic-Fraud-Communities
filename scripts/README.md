@@ -12,6 +12,7 @@
 | `run_integration_tests.R` | 执行需要本地原始数据的集成测试 |
 | `run_unit_tests.ps1` | Windows 单元测试入口，使用 ASCII 暂存目录 |
 | `run_integration_tests.ps1` | Windows 集成测试入口，使用 ASCII 暂存目录 |
+| `audit_reason_mapping.R` | 只读检查 112 标签覆盖、领域重叠和分析族计数 |
 | `build_deliverables.R` | 从冻结输出构建应用数据和报告图 |
 | `build_deliverables.ps1` | Windows PowerShell 交付物构建入口 |
 

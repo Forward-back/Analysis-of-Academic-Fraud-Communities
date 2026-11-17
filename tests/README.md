@@ -6,6 +6,8 @@
 - `test-integration-*.R`：需要本地 `data/raw/retractions.csv`，验证原始哈希和核心计数；
   缺少原始数据时自动跳过。
 
+v2 原因映射额外验证 112 标签完整覆盖、多领域关系、上下文取值、分析族来源和零未映射。
+
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts/run_unit_tests.ps1
 powershell -ExecutionPolicy Bypass -File scripts/run_integration_tests.ps1

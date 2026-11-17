@@ -1,3 +1,19 @@
+reason_mapping:
+  version: "2.0-frozen"
+  registry: "data/reference/mappings/reason_label_registry_v2.csv"
+  domain_map: "data/reference/mappings/reason_domain_map_v2.csv"
+  context_map: "data/reference/mappings/reason_context_map_v2.csv"
+  analysis_family_map: "data/reference/mappings/analysis_family_domains_v2.csv"
+  narrow_evidence_statuses:
+    - substantive_finding
+  broad_evidence_statuses:
+    - substantive_finding
+    - concern_allegation
+    - error_unreliable
+  reference_evidence_statuses:
+    - error_unreliable
+    - insufficient_information
+
 reason_families:
   primary:
     - publication_process
@@ -5,8 +21,12 @@ reason_families:
     - plagiarism_authorship
   exploratory:
     - data_integrity
+    - research_ethics_compliance
+    - materials_methods_integrity
   reference:
     - error_control
+  coverage:
+    - unclassified
 
 institution_tiers:
   pre_2017: "985_211"

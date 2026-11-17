@@ -1,0 +1,8 @@
+analysis_family,issue_domain,analysis_role,mapping_version
+publication_process,publication_peer_review,primary,2.0-frozen
+image_integrity,image_integrity,primary,2.0-frozen
+plagiarism_authorship,textual_reuse,primary,2.0-frozen
+plagiarism_authorship,authorship_affiliation,primary,2.0-frozen
+data_integrity,data_results_integrity,exploratory,2.0-frozen
+research_ethics_compliance,research_ethics_compliance,exploratory,2.0-frozen
+materials_methods_integrity,materials_methods_integrity,exploratory,2.0-frozen

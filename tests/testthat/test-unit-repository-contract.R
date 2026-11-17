@@ -14,6 +14,10 @@ test_that("required repository contract files exist", {
     "config/analysis.yml",
     "data/reference/mappings/rwdb_field_dictionary_v1.csv",
     "data/reference/mappings/reason_dictionary_v1.csv",
+    "data/reference/mappings/reason_label_registry_v2.csv",
+    "data/reference/mappings/reason_domain_map_v2.csv",
+    "data/reference/mappings/reason_context_map_v2.csv",
+    "data/reference/mappings/analysis_family_domains_v2.csv",
     "data/reference/mappings/provenance.json",
     "data/outputs/audits/manifest.json",
     "data/outputs/baseline/README.md",
@@ -31,11 +35,11 @@ test_that("required repository contract files exist", {
   expect_true(all(file.exists(file.path(project_root, required))))
 })
 
-test_that("reference mappings are frozen and internally consistent", {
+test_that("reason registry v2 is complete and internally consistent", {
   project_root <- project_root_for_contract()
   mapping_file <- file.path(
     project_root,
-    "data/reference/mappings/reason_dictionary_v1.csv"
+    "data/reference/mappings/reason_label_registry_v2.csv"
   )
   mapping <- utils::read.csv(
     mapping_file,
@@ -43,18 +47,70 @@ test_that("reference mappings are frozen and internally consistent", {
     check.names = FALSE
   )
 
-  allowed_families <- c(
-    "publication_process",
-    "image_integrity",
-    "plagiarism_authorship",
-    "data_integrity",
-    "error_control",
-    "unclassified"
+  allowed_statuses <- c(
+    "substantive_finding",
+    "concern_allegation",
+    "error_unreliable",
+    "insufficient_information",
+    "not_applicable"
   )
 
+  expect_equal(nrow(mapping), 112L)
   expect_equal(anyDuplicated(mapping$reason_label), 0L)
-  expect_true(all(unique(mapping$reason_family) %in% allowed_families))
-  expect_setequal(unique(mapping$mapping_version), "1.0-frozen")
+  expect_true(all(mapping$evidence_status %in% allowed_statuses))
+  expect_setequal(unique(mapping$mapping_status), "reviewed")
+  expect_setequal(unique(mapping$mapping_version), "2.0-frozen")
+})
+
+test_that("reason domain and context maps are valid many-to-many relations", {
+  project_root <- project_root_for_contract()
+  registry <- utils::read.csv(
+    file.path(project_root, "data/reference/mappings/reason_label_registry_v2.csv"),
+    stringsAsFactors = FALSE
+  )
+  domains <- utils::read.csv(
+    file.path(project_root, "data/reference/mappings/reason_domain_map_v2.csv"),
+    stringsAsFactors = FALSE
+  )
+  contexts <- utils::read.csv(
+    file.path(project_root, "data/reference/mappings/reason_context_map_v2.csv"),
+    stringsAsFactors = FALSE
+  )
+  families <- utils::read.csv(
+    file.path(project_root, "data/reference/mappings/analysis_family_domains_v2.csv"),
+    stringsAsFactors = FALSE
+  )
+  allowed_domains <- c(
+    "publication_peer_review",
+    "image_integrity",
+    "data_results_integrity",
+    "textual_reuse",
+    "authorship_affiliation",
+    "research_ethics_compliance",
+    "materials_methods_integrity",
+    "unspecified_integrity"
+  )
+  allowed_contexts <- c(
+    "investigation",
+    "legal",
+    "administrative_status",
+    "communication",
+    "third_party",
+    "external_complaint",
+    "objection",
+    "data_availability",
+    "institutional_authorization",
+    "metadata_limitation",
+    "unclear"
+  )
+
+  expect_true(all(domains$reason_label %in% registry$reason_label))
+  expect_true(all(domains$issue_domain %in% allowed_domains))
+  expect_true(all(contexts$reason_label %in% registry$reason_label))
+  expect_true(all(contexts$context_tag %in% allowed_contexts))
+  expect_true(all(families$issue_domain %in% domains$issue_domain))
+  expect_gt(sum(domains$reason_label == "Plagiarism of Image"), 1L)
+  expect_equal(anyDuplicated(domains[c("reason_label", "issue_domain")]), 0L)
 })
 
 test_that("reference provenance hashes match frozen files", {
@@ -107,6 +163,10 @@ test_that("baseline manifest uses project-relative paths", {
   manifest <- jsonlite::read_json(manifest_file, simplifyVector = FALSE)
 
   expect_equal(manifest$contract_version, "1.0")
+  expect_equal(manifest$mapping_version, "2.0-frozen")
+  expect_equal(manifest$mapping_registry_labels, 112)
+  expect_equal(manifest$mapping_unmapped_labels, 0)
+  expect_equal(manifest$mapping_unmapped_core_records, 0)
   expect_equal(manifest$source_path_type, "project-relative")
   expect_equal(manifest$source_file, "data/raw/retractions.csv")
   expect_false(grepl("^([A-Za-z]:|/)", manifest$source_file))

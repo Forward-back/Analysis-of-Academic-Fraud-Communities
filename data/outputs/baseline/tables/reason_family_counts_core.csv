@@ -1,7 +1,9 @@
 "reason_family","records","share_of_core"
-"data_integrity",2168,0.0411869751890269
-"image_integrity",5910,0.11227630229112
-"publication_process",24099,0.457825145332269
-"plagiarism_authorship",12266,0.233025570880353
-"error_control",9069,0.172289980622364
-"unclassified",4619,0.0877502944640754
+"publication_process",20915,0.397336524943957
+"image_integrity",6475,0.123009992780881
+"plagiarism_authorship",10895,0.206979748470687
+"data_integrity",2662,0.0505718302367111
+"research_ethics_compliance",4427,0.0841027394657852
+"materials_methods_integrity",1540,0.0292564307154527
+"error_control",11667,0.221645959192978
+"unclassified",3304,0.062768342262244

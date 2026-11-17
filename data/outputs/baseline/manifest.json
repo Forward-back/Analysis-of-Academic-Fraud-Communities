@@ -12,15 +12,24 @@
   "core_window": "2012-2025",
   "core_records": 52638,
   "unique_reason_labels": 112,
-  "mapping_version": "1.0-candidate",
-  "reference_mapping_file": "data/reference/mappings/reason_dictionary_v1.csv",
-  "reference_mapping_sha256": "241a0a2f1401eeecb6d7795be12b3313f92adbe84924f5b9f2b4dc7bd388c910",
-  "candidate_mapping_file": "data/interim/mappings/reason_dictionary_candidate.csv",
-  "candidate_mapping_sha256": "c8dfe2d283f392e1f1042402fb5e0d9ca50321f6b128f7b5e81d29a195ff5e58",
-  "candidate_mapping_matches_reference": false,
+  "mapping_version": "2.0-frozen",
+  "mapping_registry_labels": 112,
+  "mapping_unmapped_labels": 0,
+  "mapping_unmapped_core_records": 0,
+  "domain_map_rows": 78,
+  "context_map_rows": 50,
+  "analysis_family_rows": 7,
+  "reason_registry_file": "data/reference/mappings/reason_label_registry_v2.csv",
+  "reason_registry_sha256": "e106566b7f3c6169c30dbfa036d89885e58e53bec4110f41758b559a60e65370",
+  "reason_domain_map_file": "data/reference/mappings/reason_domain_map_v2.csv",
+  "reason_domain_map_sha256": "e45bd61d4b2a1889953598888ebc9b1a061ded7560f2a05b7dc66d5540f20f4b",
+  "reason_context_map_file": "data/reference/mappings/reason_context_map_v2.csv",
+  "reason_context_map_sha256": "4b5b476875e6e6c3c5724df0f31cae20b0a167421091f862e1483c361789ef30",
+  "analysis_family_file": "data/reference/mappings/analysis_family_domains_v2.csv",
+  "analysis_family_sha256": "75c4abaa88fc41714dcc9e3170e19214f49d97b83fdbec79b12524ac9aca8cb5",
   "r_version": "R version 4.6.1 (2026-06-24 ucrt)",
-  "generated_at": "2026-11-17 20:32:02 CST",
-  "output_file_count": 24,
+  "generated_at": "2026-11-17 21:28:41 CST",
+  "output_file_count": 30,
   "outputs": [
     {
       "path": "data/outputs/baseline/tables/article_type_counts_core.csv",
@@ -35,7 +44,7 @@
     {
       "path": "data/outputs/baseline/tables/data_quality_summary.csv",
       "bytes": 918,
-      "sha256": "4151ae121ded789b4c776fc06c54c4098522b41882ed99cdd05bf7b3225dab04"
+      "sha256": "3bc6f4c8e76dbfe3f200b682c0ac39b96a1e962d30755e854c5620920dbf70f9"
     },
     {
       "path": "data/outputs/baseline/tables/doi_coverage_by_year.csv",
@@ -45,12 +54,12 @@
     {
       "path": "data/outputs/baseline/tables/eda_console_summary.txt",
       "bytes": 193,
-      "sha256": "541aced3b031a1296cbc7f287c30bb23e15da103787dd520b973018b1982680c"
+      "sha256": "9a8740b642bfe50c85f3a27d4f8aa37ed2907d41824ad997cd93551bdb9edd1c"
     },
     {
       "path": "data/outputs/baseline/tables/missing_values.csv",
-      "bytes": 1009,
-      "sha256": "d431485eab34890141a1309184160cef243fefa7f0d2086ead4e00ec9d303b06"
+      "bytes": 1414,
+      "sha256": "ff22534c7d0284a57aa3142036b82cf00d7e22e1d420398e0e427c6fad7c63c8"
     },
     {
       "path": "data/outputs/baseline/tables/publisher_counts_core.csv",
@@ -63,24 +72,49 @@
       "sha256": "87e5034d0e8ba6e84821f78bdb0a064e7fbe11cc1344c76999e53447ae0e4c19"
     },
     {
+      "path": "data/outputs/baseline/tables/reason_context_counts_core.csv",
+      "bytes": 535,
+      "sha256": "a6e8dabbc944306d945f3bda415cb86a8cf88d4855a5464fd4cf3a81641a8d28"
+    },
+    {
+      "path": "data/outputs/baseline/tables/reason_context_only_summary_core.csv",
+      "bytes": 39,
+      "sha256": "ac0564783c2f326347610bb786e9e2aa0c3e516218f360de58aaffbe1ddb3945"
+    },
+    {
+      "path": "data/outputs/baseline/tables/reason_domain_counts_core.csv",
+      "bytes": 433,
+      "sha256": "6c83526045310d84b60d901ed5d1b669aa4542d36b04041f8121a76ef591f2e5"
+    },
+    {
+      "path": "data/outputs/baseline/tables/reason_evidence_status_counts_core.csv",
+      "bytes": 301,
+      "sha256": "db53fa411a6b42e5e40a873d2fe7eba0077acb2b1b0fa6ed9189d6a795d03679"
+    },
+    {
       "path": "data/outputs/baseline/tables/reason_family_cooccurrence.csv",
-      "bytes": 1535,
-      "sha256": "a81ed3eee407a966f51db97a4cc7b1e34e685cd0c7c258a114d6d01a9e4d6d0c"
+      "bytes": 3056,
+      "sha256": "fcf5c26da1073aab3f764678ca4901126f98dec65da5551ad75c7d6b0609bb7f"
     },
     {
       "path": "data/outputs/baseline/tables/reason_family_counts_by_year_core.csv",
-      "bytes": 2455,
-      "sha256": "4ddb3ecadf5a934ce3d78deb4ca5016c547b5d37d403e42c2f3009b06d2adc00"
+      "bytes": 3553,
+      "sha256": "76e3fa509cfd922ca7a86d20a78746a40b96aa60093217fd15c476327b366d90"
     },
     {
       "path": "data/outputs/baseline/tables/reason_family_counts_core.csv",
-      "bytes": 302,
-      "sha256": "96af3fdfcd5d7ee8174ffd506f93c15249e126ca96282e2f5cd5ef7a60c5bb2b"
+      "bytes": 412,
+      "sha256": "6e6f5dc193fef2b7744502f5612bb51c20b87beacd94c399f86f5dd86205db2b"
     },
     {
       "path": "data/outputs/baseline/tables/reason_family_patterns_core.csv",
-      "bytes": 1102,
-      "sha256": "dfe7f68634aef01dd8299dd7719195b41963e1c3d951236e0d899f1e8cba6515"
+      "bytes": 4648,
+      "sha256": "a12344d721065c36607ce1cc78849cc7b9338d7a2990271e428472306153bcb6"
+    },
+    {
+      "path": "data/outputs/baseline/tables/reason_family_sensitivity_core.csv",
+      "bytes": 511,
+      "sha256": "12e1aa0abd79c25de74aa505915a54e0979059213a056e50b6170b46aa0a81c2"
     },
     {
       "path": "data/outputs/baseline/tables/reason_label_counts_all.csv",
@@ -93,9 +127,14 @@
       "sha256": "34fd59aad13ba0e99184f6d96dd400ef8bdab5b3ac474cd058e470e6d6ed96f9"
     },
     {
+      "path": "data/outputs/baseline/tables/reason_label_mapping_core.csv",
+      "bytes": 10157,
+      "sha256": "ad2207c48945664fa2ecf2414fac3b94f0c1a166dab34997d8ac3d17cc7ba60f"
+    },
+    {
       "path": "data/outputs/baseline/tables/reason_labels_within_unclassified_core.csv",
-      "bytes": 2571,
-      "sha256": "dd3106b4752383874eab10eaff0de9f8c5cfa1f015e7af78780f2bcda5f7c18a"
+      "bytes": 1676,
+      "sha256": "a3c52f7a42239faa49b606f1304057b2b79f3f4b245cbe135cf5d8e3dc17b3e3"
     },
     {
       "path": "data/outputs/baseline/tables/retraction_delay_summary_core.csv",
@@ -129,8 +168,8 @@
     },
     {
       "path": "data/outputs/baseline/figures/04_reason_family_coverage_core.png",
-      "bytes": 48855,
-      "sha256": "f37d5e34af82a27e6a9171a480452e945f8bbfa059cdae762bbeb6598860d20a"
+      "bytes": 62730,
+      "sha256": "064cd8a8d7dacaf9084ddb862c0a72aadc4a16580d0dafa23a9e4a02bdd3acd9"
     },
     {
       "path": "data/outputs/baseline/figures/05_author_count_distribution_core.png",
@@ -139,8 +178,8 @@
     },
     {
       "path": "data/outputs/baseline/figures/06_reason_family_trends_core.png",
-      "bytes": 85167,
-      "sha256": "0cd127188060414ac27d7f514218b05b646389bfefe8e762b0a1091a9aef6f6b"
+      "bytes": 104354,
+      "sha256": "94718fe39611523cf1ce1203c4a92c655c94d2d1af97b2d094521cadf503373d"
     }
   ]
 }

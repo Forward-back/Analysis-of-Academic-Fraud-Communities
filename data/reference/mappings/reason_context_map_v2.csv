@@ -1,0 +1,51 @@
+reason_label,context_tag,mapping_version
+Author Unresponsive,communication,2.0-frozen
+Civil Proceedings,legal,2.0-frozen
+Complaints about Author,external_complaint,2.0-frozen
+Complaints about Company/Institution,external_complaint,2.0-frozen
+Complaints about Third Party,external_complaint,2.0-frozen
+Complaints about Third Party,third_party,2.0-frozen
+Copyright Claims,legal,2.0-frozen
+Criminal Proceedings,legal,2.0-frozen
+Date of Article and/or Notice Unknown,metadata_limitation,2.0-frozen
+Doing the Right Thing,unclear,2.0-frozen
+EOC Lifted,administrative_status,2.0-frozen
+Error by Third Party,third_party,2.0-frozen
+Ethical Violations by Company/Institution/Third Party,third_party,2.0-frozen
+Investigation by Company/Institution,investigation,2.0-frozen
+Investigation by Journal/Publisher,investigation,2.0-frozen
+Investigation by ORI,investigation,2.0-frozen
+Investigation by Third Party,investigation,2.0-frozen
+Investigation by Third Party,third_party,2.0-frozen
+Lack of Approval from Company/Institution,institutional_authorization,2.0-frozen
+Lack of Approval from Third Party,institutional_authorization,2.0-frozen
+Lack of Approval from Third Party,third_party,2.0-frozen
+Legal Reasons and/or Threats,legal,2.0-frozen
+Miscommunication with/by Author,communication,2.0-frozen
+Miscommunication with/by Company/Institution,communication,2.0-frozen
+Miscommunication with/by Journal/Publisher,communication,2.0-frozen
+Miscommunication with/by Third Party,communication,2.0-frozen
+Miscommunication with/by Third Party,third_party,2.0-frozen
+Misconduct by Third Party,third_party,2.0-frozen
+No Further Action,administrative_status,2.0-frozen
+Nonpayment of Fees and/or Refusal to Pay,administrative_status,2.0-frozen
+Not Presented at Conference,administrative_status,2.0-frozen
+Notice - Lack of,metadata_limitation,2.0-frozen
+Notice - Limited or No Information,metadata_limitation,2.0-frozen
+Notice - Unable to Access via current resources,data_availability,2.0-frozen
+Objections by Author(s),objection,2.0-frozen
+Objections by Company/Institution,objection,2.0-frozen
+Objections by Third Party,objection,2.0-frozen
+Objections by Third Party,third_party,2.0-frozen
+Original Data and/or Images not Provided and/or not Available,data_availability,2.0-frozen
+Publishing Ban,legal,2.0-frozen
+Removed,administrative_status,2.0-frozen
+Retract and Replace,administrative_status,2.0-frozen
+Temporary Removal,administrative_status,2.0-frozen
+Transfer of Copyright and/or Ownership,legal,2.0-frozen
+Updated to Correction,administrative_status,2.0-frozen
+Updated to Expression of Concern,administrative_status,2.0-frozen
+Updated to Retraction,administrative_status,2.0-frozen
+Upgrade/Update of Prior Notice(s),administrative_status,2.0-frozen
+Withdrawn as Out of Date,administrative_status,2.0-frozen
+Withdrawn to Publish in Different Journal,administrative_status,2.0-frozen

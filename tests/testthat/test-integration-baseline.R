@@ -46,7 +46,7 @@ test_that("baseline quality output preserves core counts", {
   expect_equal(unname(values[["core_retraction_records_2012_2025"]]), "52638")
 })
 
-test_that("candidate mapping is generated outside reference data", {
+test_that("frozen reason registry covers all labels in raw data", {
   project_root <- project_root_for_baseline()
   raw_file <- raw_file_for_baseline(project_root)
   testthat::skip_if_not(
@@ -54,22 +54,30 @@ test_that("candidate mapping is generated outside reference data", {
     "Raw Retraction Watch data is not available in this checkout."
   )
 
-  candidate_file <- file.path(
-    project_root,
-    "data/interim/mappings/reason_dictionary_candidate.csv"
+  raw <- data.table::fread(
+    raw_file,
+    colClasses = "character",
+    check.names = FALSE,
+    encoding = "UTF-8",
+    data.table = FALSE
   )
-  reference_file <- file.path(
-    project_root,
-    "data/reference/mappings/reason_dictionary_v1.csv"
+  reason_labels <- unlist(
+    strsplit(raw$Reason, ";", fixed = TRUE),
+    use.names = FALSE
   )
-  expect_true(file.exists(candidate_file))
-  expect_true(file.exists(reference_file))
+  reason_labels <- trimws(reason_labels)
+  reason_labels <- unique(reason_labels[reason_labels != ""])
 
-  candidate <- utils::read.csv(candidate_file, stringsAsFactors = FALSE)
-  expect_equal(nrow(candidate), 112L)
-  expect_equal(anyDuplicated(candidate$reason_label), 0L)
+  registry_file <- file.path(
+    project_root,
+    "data/reference/mappings/reason_label_registry_v2.csv"
+  )
+  registry <- utils::read.csv(registry_file, stringsAsFactors = FALSE)
+
+  expect_equal(length(reason_labels), 112L)
+  expect_setequal(reason_labels, registry$reason_label)
   expect_equal(
-    digest::digest(file = reference_file, algo = "sha256"),
-    "241a0a2f1401eeecb6d7795be12b3313f92adbe84924f5b9f2b4dc7bd388c910"
+    digest::digest(file = registry_file, algo = "sha256"),
+    "e106566b7f3c6169c30dbfa036d89885e58e53bec4110f41758b559a60e65370"
   )
 })

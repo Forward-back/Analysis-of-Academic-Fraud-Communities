@@ -1,0 +1,79 @@
+reason_label,issue_domain,mapping_version
+Bias Issues or Lack of Balance,data_results_integrity,2.0-frozen
+Cites Retracted Work,textual_reuse,2.0-frozen
+Compromised Peer Review,publication_peer_review,2.0-frozen
+Computer-Aided Content or Computer-Generated Content,publication_peer_review,2.0-frozen
+Concerns/Issues about Animal Welfare,research_ethics_compliance,2.0-frozen
+Concerns/Issues about Authorship/Affiliation,authorship_affiliation,2.0-frozen
+Concerns/Issues about Data,data_results_integrity,2.0-frozen
+Concerns/Issues about Human Subject Welfare,research_ethics_compliance,2.0-frozen
+Concerns/Issues about Image,image_integrity,2.0-frozen
+Concerns/Issues about Methods,materials_methods_integrity,2.0-frozen
+Concerns/Issues about Peer Review,publication_peer_review,2.0-frozen
+Concerns/Issues about Referencing/Attributions,textual_reuse,2.0-frozen
+Concerns/Issues about Results and/or Conclusions,data_results_integrity,2.0-frozen
+Concerns/Issues about Third Party Involvement,unspecified_integrity,2.0-frozen
+Conflict of Interest,research_ethics_compliance,2.0-frozen
+Contamination of Cell Lines/Tissues,materials_methods_integrity,2.0-frozen
+Contamination of Materials,materials_methods_integrity,2.0-frozen
+Duplication of Content through Error by Journal/Publisher,textual_reuse,2.0-frozen
+Duplication of Data,data_results_integrity,2.0-frozen
+Duplication of Text,textual_reuse,2.0-frozen
+Duplication of/in Article,textual_reuse,2.0-frozen
+Duplication of/in Image,image_integrity,2.0-frozen
+Error by Journal/Publisher,publication_peer_review,2.0-frozen
+Error by Third Party,unspecified_integrity,2.0-frozen
+Error in Analyses,data_results_integrity,2.0-frozen
+Error in Cell Lines/Tissues,materials_methods_integrity,2.0-frozen
+Error in Data,data_results_integrity,2.0-frozen
+Error in Image,image_integrity,2.0-frozen
+Error in Materials,materials_methods_integrity,2.0-frozen
+Error in Methods,materials_methods_integrity,2.0-frozen
+Error in Results and/or Conclusions,data_results_integrity,2.0-frozen
+Error in Text,textual_reuse,2.0-frozen
+Ethical Violations by Author,research_ethics_compliance,2.0-frozen
+Ethical Violations by Company/Institution/Third Party,research_ethics_compliance,2.0-frozen
+Euphemisms for Duplication,textual_reuse,2.0-frozen
+Euphemisms for Misconduct,unspecified_integrity,2.0-frozen
+Euphemisms for Plagiarism,textual_reuse,2.0-frozen
+False/Forged Affiliation,authorship_affiliation,2.0-frozen
+False/Forged Authorship,authorship_affiliation,2.0-frozen
+Falsification/Fabrication of Data,data_results_integrity,2.0-frozen
+Falsification/Fabrication of Image,image_integrity,2.0-frozen
+Falsification/Fabrication of Results,data_results_integrity,2.0-frozen
+Hoax Paper,publication_peer_review,2.0-frozen
+Informed/Patient Consent - None/Withdrawn,research_ethics_compliance,2.0-frozen
+Lack of Approval from Author,authorship_affiliation,2.0-frozen
+Lack of Approval from Company/Institution,research_ethics_compliance,2.0-frozen
+Lack of Approval from Third Party,research_ethics_compliance,2.0-frozen
+Lack of IRB/IACUC Approval and/or Compliance,research_ethics_compliance,2.0-frozen
+Manipulation of Data,data_results_integrity,2.0-frozen
+Manipulation of Images,image_integrity,2.0-frozen
+Manipulation of Results,data_results_integrity,2.0-frozen
+Misconduct - Official Investigation(s) and/or Finding(s),unspecified_integrity,2.0-frozen
+Misconduct by Author,unspecified_integrity,2.0-frozen
+Misconduct by Company/Institution,unspecified_integrity,2.0-frozen
+Misconduct by Third Party,unspecified_integrity,2.0-frozen
+Original Data and/or Images not Provided and/or not Available,data_results_integrity,2.0-frozen
+Paper Mill,publication_peer_review,2.0-frozen
+Plagiarism of Data,data_results_integrity,2.0-frozen
+Plagiarism of Data,textual_reuse,2.0-frozen
+Plagiarism of Image,image_integrity,2.0-frozen
+Plagiarism of Image,textual_reuse,2.0-frozen
+Plagiarism of Text,textual_reuse,2.0-frozen
+Plagiarism of/in Article,textual_reuse,2.0-frozen
+Results Not Reproducible,data_results_integrity,2.0-frozen
+Rogue Editor,publication_peer_review,2.0-frozen
+Sabotage of Materials/Methods,materials_methods_integrity,2.0-frozen
+Salami Slicing,textual_reuse,2.0-frozen
+Taken from Dissertation/Thesis,textual_reuse,2.0-frozen
+Taken via Peer Review,publication_peer_review,2.0-frozen
+Taken via Translation,textual_reuse,2.0-frozen
+Unreliable Data,data_results_integrity,2.0-frozen
+Unreliable Image,image_integrity,2.0-frozen
+Unreliable Results and/or Conclusions,data_results_integrity,2.0-frozen
+Breach of Policy by Author,unspecified_integrity,2.0-frozen
+Complaints about Author,unspecified_integrity,2.0-frozen
+Complaints about Company/Institution,unspecified_integrity,2.0-frozen
+Complaints about Third Party,unspecified_integrity,2.0-frozen
+Concerns/Issues about Article,unspecified_integrity,2.0-frozen

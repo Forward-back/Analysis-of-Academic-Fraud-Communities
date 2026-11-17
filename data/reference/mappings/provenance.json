@@ -1,9 +1,41 @@
 {
-  "contract_version": "1.0",
+  "contract_version": "2.0",
   "status": "frozen",
   "frozen_on": "2026-11-17",
   "owner": "project",
   "files": [
+    {
+      "path": "data/reference/mappings/reason_label_registry_v2.csv",
+      "version": "2.0-frozen",
+      "source": "Retraction Watch Reason labels plus project review",
+      "source_snapshot": "data/raw/retractions.csv",
+      "source_observation_date": "2026-11-04",
+      "sha256": "e106566b7f3c6169c30dbfa036d89885e58e53bec4110f41758b559a60e65370"
+    },
+    {
+      "path": "data/reference/mappings/reason_domain_map_v2.csv",
+      "version": "2.0-frozen",
+      "source": "Project taxonomy review of Retraction Watch Reason labels",
+      "source_snapshot": "data/reference/mappings/reason_label_registry_v2.csv",
+      "source_observation_date": "2026-11-17",
+      "sha256": "e45bd61d4b2a1889953598888ebc9b1a061ded7560f2a05b7dc66d5540f20f4b"
+    },
+    {
+      "path": "data/reference/mappings/reason_context_map_v2.csv",
+      "version": "2.0-frozen",
+      "source": "Project context review of Retraction Watch Reason labels",
+      "source_snapshot": "data/reference/mappings/reason_label_registry_v2.csv",
+      "source_observation_date": "2026-11-17",
+      "sha256": "4b5b476875e6e6c3c5724df0f31cae20b0a167421091f862e1483c361789ef30"
+    },
+    {
+      "path": "data/reference/mappings/analysis_family_domains_v2.csv",
+      "version": "2.0-frozen",
+      "source": "Pre-specified analysis-family mapping",
+      "source_snapshot": "data/reference/mappings/reason_domain_map_v2.csv",
+      "source_observation_date": "2026-11-17",
+      "sha256": "75c4abaa88fc41714dcc9e3170e19214f49d97b83fdbec79b12524ac9aca8cb5"
+    },
     {
       "path": "data/reference/mappings/reason_dictionary_v1.csv",
       "version": "1.0-frozen",
