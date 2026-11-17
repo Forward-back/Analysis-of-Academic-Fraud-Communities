@@ -1,0 +1,37 @@
+# Local secrets
+.env
+.Renviron
+
+# Raw and API data
+data/raw/*
+!data/raw/README.md
+data/cache/*
+!data/cache/README.md
+data/interim/*
+!data/interim/README.md
+data/processed/*
+!data/processed/README.md
+
+# Generated outputs
+data/outputs/audits/*
+data/outputs/tables/*
+data/outputs/figures/*
+data/outputs/shiny/*
+!data/outputs/README.md
+!data/outputs/audits/README.md
+!data/outputs/tables/README.md
+!data/outputs/figures/README.md
+!data/outputs/shiny/README.md
+
+# Reports and application caches
+reports/figures/final/*
+app/.cache/
+*.html
+*.pdf
+
+# R and editor state
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+Thumbs.db

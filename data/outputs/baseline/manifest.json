@@ -1,0 +1,16 @@
+{
+  "source_file": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\retraction-resource-network-stage-20261117195958-350568d5\\data\\raw\\retractions.csv",
+  "source_bytes": 67942450,
+  "source_sha256": "eefbe08a9ecfa75308951fb7b03d265e9ccd8431eca32d9727b7ddc8c4b70faa",
+  "downloaded_or_observed_on": "2026-11-04",
+  "source_version_verified": false,
+  "source_version_note": "Prior project documentation reports 73,519 records; the current file has 73,597. The available metadata cannot establish why the counts differ.",
+  "total_records": 73597,
+  "retraction_records": 68155,
+  "core_window": "2012-2025",
+  "core_records": 52638,
+  "unique_reason_labels": 112,
+  "mapping_version": "1.0-draft",
+  "r_version": "R version 4.6.1 (2026-06-24 ucrt)",
+  "generated_at": "2026-11-17 20:00:43 CST"
+}

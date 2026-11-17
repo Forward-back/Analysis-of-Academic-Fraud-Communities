@@ -1,0 +1,11 @@
+"metric","value"
+"min",1
+"p25",2
+"median",4
+"mean",4.31709031498157
+"p75",6
+"p90",8
+"p95",10
+"p99",15
+"max",88
+"missing_or_zero",0

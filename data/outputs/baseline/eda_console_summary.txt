@@ -1,0 +1,7 @@
+Records: 73597
+Retractions: 68155
+Core retractions (2012-2025): 52638
+Unique reason labels: 112
+Core valid DOI records: 49453
+Core valid DOI share: 93.95%
+Core unclassified share: 8.78%

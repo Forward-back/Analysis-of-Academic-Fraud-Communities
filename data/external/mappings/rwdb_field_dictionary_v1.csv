@@ -1,0 +1,21 @@
+field,data_type,unit,definition_zh,analysis_role,notes_zh
+Record ID,integer,record,数据库通知记录编号,唯一记录审计键,同一论文可能有多条通知记录
+Title,text,NA,撤稿、关注声明或更正通知对应的题名,题名核验,不能作为论文唯一键
+Subject,list of text,NA,Retraction Watch 学科分类,学科描述与分层,列表字段以分号分隔
+Institution,list of text,NA,通知中记录的作者机构自由文本,机构信息核验,未经标准化，不能直接作为机构 ID
+Journal,text,NA,期刊名称,期刊与出版社分层,存在更名和名称变体
+Publisher,text,NA,出版社名称,出版社分层与模型控制,存在集团与子品牌混用
+Country,list of text,NA,机构或作者关联国家,国家覆盖描述,列表字段，不能直接视为第一作者国家
+Author,list of text,NA,作者姓名列表,原始合作信息核验,没有稳定作者 ID，不能直接用于主网络
+URLS,text,NA,通知或说明页面链接,样例核验,存在缺失和多链接
+ArticleType,list of text,NA,文章内容类型,研究类型控制,列表字段并带有尾随分号
+RetractionDate,date,day,撤稿或通知日期,主时间索引,原始格式为月/日/年 时:分
+RetractionDOI,text,NA,撤稿通知自身 DOI,通知层核验,不等于原始论文 DOI
+RetractionPubMedID,text,NA,撤稿通知 PubMed 编号,外部记录核验,部分记录为 0 或缺失
+OriginalPaperDate,date,day,原始论文发表日期,撤稿时滞计算,存在历史日期与缺失
+OriginalPaperDOI,text,NA,原始论文 DOI,连接 OpenAlex 的主键,可能缺失或标记为 Unavailable
+OriginalPaperPubMedID,text,NA,原始论文 PubMed 编号,辅助连接与核验,部分记录为 0 或缺失
+RetractionNature,text,NA,更新通知性质,主事件池筛选,主分析保留 Retraction
+Reason,list of text,NA,通知中记录的问题标签,原因族构造,多标签且不构成正式不端认定
+Paywalled,text,NA,通知是否受付费墙限制,通知可及性分析,Yes/No 等离散值
+Notes,text,NA,补充说明,人工抽查,非结构化文本

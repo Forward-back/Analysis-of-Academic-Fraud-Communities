@@ -1,0 +1,25 @@
+project:
+  name: "中国大陆撤稿原因与合作资源位势网络"
+  timezone: "Asia/Shanghai"
+  random_seed: 20261117
+
+paths:
+  raw: "data/raw/retractions.csv"
+  cache: "data/cache"
+  external: "data/external"
+  interim: "data/interim"
+  processed: "data/processed"
+  outputs: "data/outputs"
+
+sample:
+  retraction_year_start: 2012
+  retraction_year_end: 2025
+  mainland_country_code: "CN"
+  control_ratio_max: 2
+  community_count: 25
+  papers_per_community_max: 20
+
+api:
+  openalex_key_env: "OPENALEX_API_KEY"
+  openalex_batch_size: 100
+  openalex_sample_batch_size: 25

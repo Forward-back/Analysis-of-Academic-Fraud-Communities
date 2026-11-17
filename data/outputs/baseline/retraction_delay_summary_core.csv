@@ -1,0 +1,7 @@
+"metric","records","share_of_available"
+"available",52638,1
+"negative",1,1.89976822827615e-05
+"zero_to_one",15530,0.295034005851286
+"one_to_three",22338,0.424370226832326
+"three_to_five",6882,0.130742049469965
+"five_plus",7887,0.14983472016414

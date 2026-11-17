@@ -1,0 +1,52 @@
+reason_families:
+  primary:
+    - publication_process
+    - image_integrity
+    - plagiarism_authorship
+  exploratory:
+    - data_integrity
+  reference:
+    - error_control
+
+institution_tiers:
+  pre_2017: "985_211"
+  from_2017: "double_first_class"
+
+geography:
+  categories:
+    - single_city
+    - same_province_multi_city
+    - domestic_cross_province
+    - international
+  separate_regions:
+    - Hong Kong
+    - Macao
+    - Taiwan
+
+matching:
+  anchor_variables:
+    - publication_year
+    - source_id
+    - work_type
+  topic_fallback_order:
+    - primary_topic
+    - subfield
+    - field
+    - domain
+  final_fallback:
+    - publication_year
+    - field
+    - publisher
+
+quality_gates:
+  doi_match_warning: 0.75
+  doi_match_exploratory_low: 0.60
+  institution_complete_warning: 0.70
+  funding_coverage_warning: 0.50
+  exploratory_reason_family_min_doi: 1000
+
+communities:
+  primary_signal: "cross_paper_repeat_coauthorship_excess"
+  min_papers: 5
+  min_year_span: 2
+  fixed_count: 25

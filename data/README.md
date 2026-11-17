@@ -1,0 +1,26 @@
+# 数据目录
+
+本目录按数据生命周期分层。原始数据只读，缓存与派生数据可重建。
+
+| 路径 | 生态位 | 格式 |
+|---|---|---|
+| `raw/` | 冻结原始数据 | CSV |
+| `cache/` | OpenAlex、Crossref 原始响应和请求日志 | JSON |
+| `external/` | 机构层级、行政区、别名与来源快照 | CSV、JSON、HTML |
+| `interim/` | 清洗中间表 | RDS |
+| `processed/` | 分析面板、作者长表、匹配组与网络 | RDS |
+| `outputs/` | 审计、表、图、模型摘要和 Shiny 预计算数据 | CSV、JSON、RDS、PNG |
+
+## 当前数据
+
+- 原始数据：`raw/retractions.csv`
+- 字段字典：`external/mappings/rwdb_field_dictionary_v1.csv`
+- 原因映射：`external/mappings/reason_dictionary_v1.csv`
+- OpenAlex 压测缓存：`cache/openalex/pressure-tests/`
+- 基线 EDA：`outputs/baseline/`
+
+当前仅具备 Retraction Watch 基础 EDA 和 OpenAlex 压测结果，尚未生成全量 OpenAlex 作者、机构、匹配与非撤稿对照数据。
+
+## 发布边界
+
+原始 Retraction Watch 文件的许可条款仍需确认，不直接重新发布 CSV。公开版本优先发布脚本、聚合结果、变量字典和派生指标。
