@@ -24,3 +24,11 @@
 ```
 
 共享函数放在 `lib/`。脚本不得在输出中写入 API key、邮箱或未脱敏缓存路径。
+
+输出遵循 [仓库文件与制品契约](../docs/decisions/0002-repository-file-contract.md)：
+
+- `data/external/` 只读第三方来源。
+- `data/reference/` 只读人工冻结映射。
+- 自动脚本把候选映射写入 `data/interim/mappings/`。
+- 阶段结果写入 `data/outputs/{audits,baseline,final,app}/`。
+- 大型中间对象写入 `data/interim/` 或 `data/processed/`，不提交 Git。

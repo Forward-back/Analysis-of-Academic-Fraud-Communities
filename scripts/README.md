@@ -8,5 +8,11 @@
 | `run_in_ascii_stage.ps1` | 在 ASCII 临时目录运行 R 并同步输出 |
 | `run_tests.R` | 执行 `testthat` 项目回归测试 |
 | `run_tests.ps1` | Windows PowerShell 测试入口 |
+| `run_unit_tests.R` | 只执行不需要原始数据的仓库契约测试 |
+| `run_integration_tests.R` | 执行需要本地原始数据的集成测试 |
+| `run_unit_tests.ps1` | Windows 单元测试入口，使用 ASCII 暂存目录 |
+| `run_integration_tests.ps1` | Windows 集成测试入口，使用 ASCII 暂存目录 |
+| `build_deliverables.R` | 从冻结输出构建应用数据和报告图 |
+| `build_deliverables.ps1` | Windows PowerShell 交付物构建入口 |
 
 所有命令从项目根目录执行。正式管道完成后增加 `run_all.ps1`。

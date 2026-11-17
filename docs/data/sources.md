@@ -59,6 +59,12 @@ OpenAlex `is_retracted` 只用于覆盖审计，不能替代 Retraction Watch �
 - 所有公开名单需要保存原始快照、来源 URL、获取日期、哈希和清洗版本。
 - 机构别名优先连接 ROR 和 OpenAlex ID，不以中文名称直接建边。
 
+第三方网页、名单和 API 快照放入 `data/external/`。项目根据这些来源人工整理的
+字段、原因和机构映射放入 `data/reference/`。自动脚本只能生成候选映射到
+`data/interim/`，不得覆盖已冻结的参考映射。
+
+当前冻结映射见 [映射说明](../../data/reference/mappings/README.md)。
+
 ## 外部事件资料
 
 2023 专项优先使用：

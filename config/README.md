@@ -10,3 +10,6 @@
 OpenAlex key 使用根目录 `.env` 或环境变量 `OPENALEX_API_KEY`，`.env.example` 仅提供字段模板。
 
 参数修改后应记录在 [进度日志](../docs/progress/log.md)。影响研究设计或匹配口径的修改应新增 ADR。
+
+`paths` 中的路径均相对项目根目录。`external` 只存放第三方来源和快照；
+项目自建、经过人工确认的字段与原因映射使用 `reference`。

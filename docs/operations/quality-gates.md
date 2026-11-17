@@ -36,3 +36,13 @@
 - Markdown 链接有效。
 - Shiny 空状态、筛选和下载可用。
 - 个人、机构或出版社责任表述通过伦理检查。
+
+## 仓库契约
+
+- `data/external/` 不出现项目脚本生成的映射。
+- `data/reference/` 的修改通过新版本完成，不覆盖旧版本。
+- `data/outputs/` 使用阶段优先结构，阶段内部使用 `tables/`、`figures/` 和 `models/`。
+- manifest 不含绝对路径、用户名、临时目录、邮箱或 API key。
+- 大型 RDS、原始 CSV 和 API 缓存不进入 Git。
+- 应用和报告发布前运行 `scripts/build_deliverables.R`。
+- PR 使用统一模板，并报告研究口径、目录边界和构建方式是否发生变化。

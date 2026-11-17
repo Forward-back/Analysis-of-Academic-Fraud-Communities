@@ -1,5 +1,7 @@
 {
-  "source_file": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\retraction-resource-network-stage-20261117195958-350568d5\\data\\raw\\retractions.csv",
+  "contract_version": "1.0",
+  "source_file": "data/raw/retractions.csv",
+  "source_path_type": "project-relative",
   "source_bytes": 67942450,
   "source_sha256": "eefbe08a9ecfa75308951fb7b03d265e9ccd8431eca32d9727b7ddc8c4b70faa",
   "downloaded_or_observed_on": "2026-11-04",
@@ -10,7 +12,135 @@
   "core_window": "2012-2025",
   "core_records": 52638,
   "unique_reason_labels": 112,
-  "mapping_version": "1.0-draft",
+  "mapping_version": "1.0-candidate",
+  "reference_mapping_file": "data/reference/mappings/reason_dictionary_v1.csv",
+  "reference_mapping_sha256": "241a0a2f1401eeecb6d7795be12b3313f92adbe84924f5b9f2b4dc7bd388c910",
+  "candidate_mapping_file": "data/interim/mappings/reason_dictionary_candidate.csv",
+  "candidate_mapping_sha256": "c8dfe2d283f392e1f1042402fb5e0d9ca50321f6b128f7b5e81d29a195ff5e58",
+  "candidate_mapping_matches_reference": false,
   "r_version": "R version 4.6.1 (2026-06-24 ucrt)",
-  "generated_at": "2026-11-17 20:00:43 CST"
+  "generated_at": "2026-11-17 20:32:02 CST",
+  "output_file_count": 24,
+  "outputs": [
+    {
+      "path": "data/outputs/baseline/tables/article_type_counts_core.csv",
+      "bytes": 3159,
+      "sha256": "2d6b047566b434e435addb8017c4a12b9765842fb5e9eac9237b45b99157fbee"
+    },
+    {
+      "path": "data/outputs/baseline/tables/author_count_summary_core.csv",
+      "bytes": 142,
+      "sha256": "055607082e6a427abdeb8a8008db30f7c6714a4b88485a7f5e13a7ad7f39b0eb"
+    },
+    {
+      "path": "data/outputs/baseline/tables/data_quality_summary.csv",
+      "bytes": 918,
+      "sha256": "4151ae121ded789b4c776fc06c54c4098522b41882ed99cdd05bf7b3225dab04"
+    },
+    {
+      "path": "data/outputs/baseline/tables/doi_coverage_by_year.csv",
+      "bytes": 686,
+      "sha256": "a657b11c344f9216e7283fdf1015b0745c784a679c67387e82dca9a9de94f63d"
+    },
+    {
+      "path": "data/outputs/baseline/tables/eda_console_summary.txt",
+      "bytes": 193,
+      "sha256": "541aced3b031a1296cbc7f287c30bb23e15da103787dd520b973018b1982680c"
+    },
+    {
+      "path": "data/outputs/baseline/tables/missing_values.csv",
+      "bytes": 1009,
+      "sha256": "d431485eab34890141a1309184160cef243fefa7f0d2086ead4e00ec9d303b06"
+    },
+    {
+      "path": "data/outputs/baseline/tables/publisher_counts_core.csv",
+      "bytes": 136065,
+      "sha256": "a873ba78b52b46c237b96e57b4f69f72aba10d400810d7743ff2443a1e91f9e1"
+    },
+    {
+      "path": "data/outputs/baseline/tables/publisher_year_counts_core.csv",
+      "bytes": 245182,
+      "sha256": "87e5034d0e8ba6e84821f78bdb0a064e7fbe11cc1344c76999e53447ae0e4c19"
+    },
+    {
+      "path": "data/outputs/baseline/tables/reason_family_cooccurrence.csv",
+      "bytes": 1535,
+      "sha256": "a81ed3eee407a966f51db97a4cc7b1e34e685cd0c7c258a114d6d01a9e4d6d0c"
+    },
+    {
+      "path": "data/outputs/baseline/tables/reason_family_counts_by_year_core.csv",
+      "bytes": 2455,
+      "sha256": "4ddb3ecadf5a934ce3d78deb4ca5016c547b5d37d403e42c2f3009b06d2adc00"
+    },
+    {
+      "path": "data/outputs/baseline/tables/reason_family_counts_core.csv",
+      "bytes": 302,
+      "sha256": "96af3fdfcd5d7ee8174ffd506f93c15249e126ca96282e2f5cd5ef7a60c5bb2b"
+    },
+    {
+      "path": "data/outputs/baseline/tables/reason_family_patterns_core.csv",
+      "bytes": 1102,
+      "sha256": "dfe7f68634aef01dd8299dd7719195b41963e1c3d951236e0d899f1e8cba6515"
+    },
+    {
+      "path": "data/outputs/baseline/tables/reason_label_counts_all.csv",
+      "bytes": 4051,
+      "sha256": "abc9ce009ff97dd2bcf0b413e635c6bcefeceb35d43d02dc28ac9b1f4ec7a7bb"
+    },
+    {
+      "path": "data/outputs/baseline/tables/reason_label_counts_core.csv",
+      "bytes": 3940,
+      "sha256": "34fd59aad13ba0e99184f6d96dd400ef8bdab5b3ac474cd058e470e6d6ed96f9"
+    },
+    {
+      "path": "data/outputs/baseline/tables/reason_labels_within_unclassified_core.csv",
+      "bytes": 2571,
+      "sha256": "dd3106b4752383874eab10eaff0de9f8c5cfa1f015e7af78780f2bcda5f7c18a"
+    },
+    {
+      "path": "data/outputs/baseline/tables/retraction_delay_summary_core.csv",
+      "bytes": 251,
+      "sha256": "4e95f4024603f5b319b1c63509e2a0a60b70facd2370c4b22017b3ed61717b49"
+    },
+    {
+      "path": "data/outputs/baseline/tables/subject_counts_core.csv",
+      "bytes": 128,
+      "sha256": "38cd89a768bb0046f4c3b0db5943b291b829af7e6babbf00dfff555fb2fedbc5"
+    },
+    {
+      "path": "data/outputs/baseline/tables/year_nature_counts.csv",
+      "bytes": 2825,
+      "sha256": "66a747b97e7112d7a2c9be2cf88451f909453c8ae9cfe94695d2e5fcc921b743"
+    },
+    {
+      "path": "data/outputs/baseline/figures/01_records_by_year_nature.png",
+      "bytes": 77179,
+      "sha256": "2fe6811ffcefdda4ac75c41a7028a5aee5ab15e0d422f759c88332ec082146b7"
+    },
+    {
+      "path": "data/outputs/baseline/figures/02_doi_coverage_by_year.png",
+      "bytes": 56901,
+      "sha256": "61b661714b182b582a1db18876d21b31a6a278df25fd2ed1ff1e790abcba900b"
+    },
+    {
+      "path": "data/outputs/baseline/figures/03_top_reason_labels_core.png",
+      "bytes": 106267,
+      "sha256": "73f44267692d2d34d596cfedaa7216dfff6d186cd9ba6bcf10a1cb018d31389d"
+    },
+    {
+      "path": "data/outputs/baseline/figures/04_reason_family_coverage_core.png",
+      "bytes": 48855,
+      "sha256": "f37d5e34af82a27e6a9171a480452e945f8bbfa059cdae762bbeb6598860d20a"
+    },
+    {
+      "path": "data/outputs/baseline/figures/05_author_count_distribution_core.png",
+      "bytes": 34013,
+      "sha256": "b8823f648874ff54f70967d52d89439cdb6a99b71bfd5c902833b8d5f6e12470"
+    },
+    {
+      "path": "data/outputs/baseline/figures/06_reason_family_trends_core.png",
+      "bytes": 85167,
+      "sha256": "0cd127188060414ac27d7f514218b05b646389bfefe8e762b0a1091a9aef6f6b"
+    }
+  ]
 }

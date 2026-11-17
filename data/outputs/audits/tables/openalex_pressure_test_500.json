@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-11-17T18:35:30",
+  "sample_requested": 500,
+  "unique_core_china_dois": 26526,
+  "batches_requested": 5.0,
+  "batches_succeeded": 5,
+  "errors": [],
+  "returned_works": 500,
+  "matched_doi_count": 500,
+  "match_rate": 1,
+  "authorships": 2124,
+  "authorship_institution_coverage": 0.884180790960452,
+  "authorship_country_coverage": 0.884180790960452,
+  "authorship_raw_affiliation_coverage": 0.9708097928436912,
+  "works_with_source": 494,
+  "works_with_topic": 499,
+  "works_with_type": 500,
+  "works_with_funders": 162,
+  "works_with_awards": 125,
+  "works_with_retracted_flag": 500,
+  "retracted_true": 500,
+  "publication_year_min": 2006.0,
+  "publication_year_max": 2025.0,
+  "batch_audit": [
+    {
+      "batch": 1,
+      "requested": 100,
+      "returned": 100,
+      "meta_count": 100
+    },
+    {
+      "batch": 2,
+      "requested": 100,
+      "returned": 100,
+      "meta_count": 100
+    },
+    {
+      "batch": 3,
+      "requested": 100,
+      "returned": 100,
+      "meta_count": 100
+    },
+    {
+      "batch": 4,
+      "requested": 100,
+      "returned": 100,
+      "meta_count": 100
+    },
+    {
+      "batch": 5,
+      "requested": 100,
+      "returned": 100,
+      "meta_count": 100
+    }
+  ]
+}

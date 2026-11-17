@@ -12,22 +12,33 @@ data/interim/*
 data/processed/*
 !data/processed/README.md
 
-# Generated outputs
-data/outputs/audits/*
-data/outputs/tables/*
-data/outputs/figures/*
-data/outputs/shiny/*
+# Generated large artifacts
+data/outputs/**/*.rds
+data/outputs/**/*.RData
+data/outputs/**/*.rda
+data/outputs/**/tmp/
 !data/outputs/README.md
 !data/outputs/audits/README.md
-!data/outputs/tables/README.md
-!data/outputs/figures/README.md
-!data/outputs/shiny/README.md
+!data/outputs/audits/tables/README.md
+!data/outputs/audits/figures/README.md
+!data/outputs/baseline/README.md
+!data/outputs/baseline/tables/README.md
+!data/outputs/baseline/figures/README.md
+!data/outputs/final/README.md
+!data/outputs/final/tables/README.md
+!data/outputs/final/figures/README.md
+!data/outputs/final/models/README.md
+!data/outputs/app/README.md
+!data/outputs/app/tables/README.md
 
 # Reports and application caches
-reports/figures/final/*
 app/.cache/
+app/data/*
+!app/data/README.md
+reports/assets/figures/manifest.json
 *.html
 *.pdf
+!reports/**/*.pdf
 
 # R and editor state
 .Rhistory

@@ -13,7 +13,7 @@ $stageRoot = Join-Path $env:TEMP $stageName
 
 New-Item -ItemType Directory -Path $stageRoot -Force | Out-Null
 
-foreach ($relative in @("R", "scripts", "config", "tests")) {
+foreach ($relative in @("R", "scripts", "config", "tests", "app", "reports")) {
   $source = Join-Path $projectRoot $relative
   $destination = Join-Path $stageRoot $relative
   New-Item -ItemType Directory -Path $destination -Force | Out-Null
@@ -25,22 +25,32 @@ $docsDestination = Join-Path $stageRoot "docs"
 New-Item -ItemType Directory -Path $docsDestination -Force | Out-Null
 Copy-Item -Path (Join-Path $docsSource "*") -Destination $docsDestination -Recurse -Force
 
-foreach ($file in @("README.md", "CONTEXT.md")) {
+foreach ($file in @("README.md", "CONTEXT.md", "CONTRIBUTING.md", ".gitattributes")) {
   Copy-Item -LiteralPath (Join-Path $projectRoot $file) -Destination (Join-Path $stageRoot $file) -Force
 }
 
-foreach ($relative in @("data\raw", "data\external")) {
+$githubSource = Join-Path $projectRoot ".github"
+if (Test-Path -LiteralPath $githubSource) {
+  Copy-Item -LiteralPath $githubSource -Destination (Join-Path $stageRoot ".github") -Recurse -Force
+}
+
+foreach ($relative in @("data\raw", "data\external", "data\reference")) {
   $source = Join-Path $projectRoot $relative
   $destination = Join-Path $stageRoot $relative
   New-Item -ItemType Directory -Path $destination -Force | Out-Null
   Copy-Item -Path (Join-Path $source "*") -Destination $destination -Recurse -Force
 }
 
-if ($IncludeOutputs -and (Test-Path -LiteralPath (Join-Path $projectRoot "data\outputs"))) {
-  $source = Join-Path $projectRoot "data\outputs"
-  $destination = Join-Path $stageRoot "data\outputs"
-  New-Item -ItemType Directory -Path $destination -Force | Out-Null
-  Copy-Item -Path (Join-Path $source "*") -Destination $destination -Recurse -Force
+if ($IncludeOutputs) {
+  foreach ($relative in @("data\outputs", "data\interim", "data\processed")) {
+    $source = Join-Path $projectRoot $relative
+    if (-not (Test-Path -LiteralPath $source)) {
+      continue
+    }
+    $destination = Join-Path $stageRoot $relative
+    New-Item -ItemType Directory -Path $destination -Force | Out-Null
+    Copy-Item -Path (Join-Path $source "*") -Destination $destination -Recurse -Force
+  }
 }
 
 Push-Location $stageRoot
@@ -53,7 +63,14 @@ try {
   Pop-Location
 }
 
-foreach ($relative in @("data\cache", "data\interim", "data\processed", "data\outputs")) {
+foreach ($relative in @(
+  "data\cache",
+  "data\interim",
+  "data\processed",
+  "data\outputs",
+  "app\data",
+  "reports\assets"
+)) {
   $source = Join-Path $stageRoot $relative
   if (-not (Test-Path -LiteralPath $source)) {
     continue

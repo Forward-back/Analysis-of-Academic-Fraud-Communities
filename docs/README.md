@@ -14,6 +14,7 @@
 | 数据怎样清洗 | [清洗规则](data/cleaning-rules.md) |
 | 非撤稿对照怎样匹配 | [匹配设计](data/matching-design.md) |
 | 当前数据质量如何 | [质量审计](data/quality-audit.md) |
+| 原因映射版本有何差异 | [映射复核](data/reason-mapping-review.md) |
 | 整体分析路径 | [分析计划](methods/analysis-plan.md) |
 | 论文层模型 | [论文模型](methods/paper-models.md) |
 | 网络和社群方法 | [网络方法](methods/network-methods.md) |
@@ -23,7 +24,9 @@
 | 项目跑到哪里了 | [当前进度](progress/current-status.md) |
 | 每个里程碑何时完成 | [里程碑](progress/milestones.md) |
 | 如何复现 | [复现说明](operations/reproduction.md) |
-| 报告、Shiny 和汇报包含什么 | [报告提纲](deliverables/report-outline.md) |
+| 报告、Shiny 和汇报包含什么 | [交付规格](specs/README.md) |
+| 文件、制品和发布边界 | [仓库契约](decisions/0002-repository-file-contract.md) |
+| 如何提交 PR | [贡献与 PR 规范](../CONTRIBUTING.md) |
 | 哪些设计已经冻结 | [关键决策](decisions/README.md) |
 
 ## 文档分工
@@ -33,7 +36,7 @@
 - `methods/` 回答证据怎样生成。
 - `analysis/` 记录已经得到或尚待得到的发现。
 - `operations/` 记录计划、复现、风险和 AI 使用。
-- `deliverables/` 约定报告、应用和汇报结构。
+- `specs/` 约定报告、应用和汇报应满足的结构。
 - `progress/` 记录里程碑、当前状态和日期日志。
 - `decisions/` 保存不易回退的设计选择。
 - `archive/legacy/` 保存已被替代的原始文档。

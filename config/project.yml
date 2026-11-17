@@ -7,6 +7,7 @@ paths:
   raw: "data/raw/retractions.csv"
   cache: "data/cache"
   external: "data/external"
+  reference: "data/reference"
   interim: "data/interim"
   processed: "data/processed"
   outputs: "data/outputs"

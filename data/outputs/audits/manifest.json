@@ -1,0 +1,16 @@
+{
+  "contract_version": "1.0",
+  "artifact": "audits",
+  "generated_at": "2026-11-17",
+  "source_path_type": "project-relative",
+  "files": [
+    {
+      "path": "data/outputs/audits/tables/openalex_pressure_test_500.json",
+      "sha256": "23de4da07b61e81b1b13f7a73faf8ef61f139e0e2735d9b9ca5b54d2f3bba624"
+    },
+    {
+      "path": "data/outputs/audits/tables/openalex_control_pressure_test_25.json",
+      "sha256": "725ba6f7628153688907e23c8b71eeb726e95b2f921c4f237d178c2dddb4da33"
+    }
+  ]
+}

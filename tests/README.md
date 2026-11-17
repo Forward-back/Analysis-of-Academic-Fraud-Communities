@@ -1,13 +1,16 @@
 # 测试目录
 
-测试重点不是覆盖率，而是防止核心口径回归：
+测试分为两层：
 
-- DOI 规范化和去重。
-- 美国日期解析。
-- 原因族多标签映射。
-- 中国大陆确认与机构完整子集。
-- 匹配比例、固定种子和层内去重。
-- 关键计数与输出文件完整性。
-- Shiny 预计算数据字段契约。
+- `test-unit-*.R`：不需要原始数据，验证目录契约、冻结映射、哈希、manifest 和链接。
+- `test-integration-*.R`：需要本地 `data/raw/retractions.csv`，验证原始哈希和核心计数；
+  缺少原始数据时自动跳过。
 
-使用 `testthat`。测试从项目根目录运行。
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run_unit_tests.ps1
+powershell -ExecutionPolicy Bypass -File scripts/run_integration_tests.ps1
+powershell -ExecutionPolicy Bypass -File scripts/run_tests.ps1
+```
+
+后续测试重点包括 DOI 规范化、日期解析、原因族多标签映射、中国大陆确认、
+机构完整子集、匹配比例、固定种子、层内去重和应用数据字段契约。

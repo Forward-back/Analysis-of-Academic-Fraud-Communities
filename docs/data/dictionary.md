@@ -62,4 +62,5 @@
 - manifest、缓存元数据和日志：JSON。
 - 图表：PNG。
 
-详细原始字段见 `data/external/mappings/rwdb_field_dictionary_v1.csv`。
+详细原始字段见 `data/reference/mappings/rwdb_field_dictionary_v1.csv`。
+该字段字典属于项目参考数据；第三方来源快照位于 `data/external/snapshots/`。

@@ -82,20 +82,25 @@
 .
 ├─ README.md
 ├─ CONTEXT.md
-├─ renv.lock       # 当前依赖版本
+├─ CONTRIBUTING.md
+├─ .github/         # PR 模板与 GitHub 协作配置
+├─ .Rprofile        # 自动激活 renv
+├─ renv/            # renv 引导与设置
+├─ renv.lock        # 当前依赖版本
 ├─ config/          # 项目参数、分析口径和环境模板
 ├─ data/
 │  ├─ raw/          # 不可修改原始数据
 │  ├─ cache/        # API 原始响应
-│  ├─ external/     # 机构层级与行政区映射
+│  ├─ external/     # 第三方来源与快照
+│  ├─ reference/    # 项目自建并冻结的映射
 │  ├─ interim/      # 清洗中间表
 │  ├─ processed/    # 分析面板与网络对象
-│  └─ outputs/      # 审计、表、图与 Shiny 预计算数据
+│  └─ outputs/      # audits、baseline、final 与 app 阶段制品
 ├─ R/               # 编号化分析管道
 ├─ scripts/         # 环境检查与运行入口
-├─ docs/            # 研究、数据、方法、分析、运营与交付文档
+├─ docs/            # 研究、数据、方法、运营与交付规格
 ├─ app/             # Shiny 应用
-├─ reports/         # Markdown 报告、图表和演示提纲
+├─ reports/         # 最终报告、汇报和构建素材
 └─ tests/           # 数据口径与关键数字回归测试
 ```
 
@@ -110,6 +115,9 @@ powershell -ExecutionPolicy Bypass -File scripts/run_initial_eda.ps1
 
 # 运行结构测试
 powershell -ExecutionPolicy Bypass -File scripts/run_tests.ps1
+
+# 构建应用数据和报告素材
+powershell -ExecutionPolicy Bypass -File scripts/build_deliverables.ps1
 ```
 
 项目位于 ASCII 路径时，可用 `Rscript -e "renv::restore()"` 恢复锁文件环境。当前项目位于中文路径，R 正式执行使用 ASCII 暂存运行器；详见 [复现说明](docs/operations/reproduction.md)。
@@ -132,6 +140,8 @@ $env:OPENALEX_API_KEY = "..."
 - [里程碑](docs/progress/milestones.md)
 - [复现说明](docs/operations/reproduction.md)
 - [关键决策](docs/decisions/README.md)
+- [仓库文件与制品契约](docs/decisions/0002-repository-file-contract.md)
+- [贡献与 PR 规范](CONTRIBUTING.md)
 
 ## 解释边界
 

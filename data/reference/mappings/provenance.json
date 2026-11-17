@@ -1,0 +1,24 @@
+{
+  "contract_version": "1.0",
+  "status": "frozen",
+  "frozen_on": "2026-11-17",
+  "owner": "project",
+  "files": [
+    {
+      "path": "data/reference/mappings/reason_dictionary_v1.csv",
+      "version": "1.0-frozen",
+      "source": "Retraction Watch Reason labels plus project review",
+      "source_snapshot": "data/raw/retractions.csv",
+      "source_observation_date": "2026-11-04",
+      "sha256": "241a0a2f1401eeecb6d7795be12b3313f92adbe84924f5b9f2b4dc7bd388c910"
+    },
+    {
+      "path": "data/reference/mappings/rwdb_field_dictionary_v1.csv",
+      "version": "1.0-frozen",
+      "source": "Retraction Watch field inventory plus project review",
+      "source_snapshot": "data/raw/retractions.csv",
+      "source_observation_date": "2026-11-04",
+      "sha256": "bb9eb7d5ded353d969adad2af2b7c1ff6b339c9c64022bf98bdf58276ce06da3"
+    }
+  ]
+}

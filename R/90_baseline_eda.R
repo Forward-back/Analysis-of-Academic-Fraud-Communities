@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 
 # Initial audit and exploratory analysis for the Retraction Watch database.
-# Run from the project root. Outputs are written below data/outputs/baseline.
+# Run from the project root. Frozen outputs are written below data/outputs/baseline.
 
 options(stringsAsFactors = FALSE)
 suppressWarnings(Sys.setlocale("LC_ALL", "Chinese"))
@@ -26,12 +26,30 @@ write_csv <- function(x, file) {
 
 raw_file <- file.path("data", "raw", "retractions.csv")
 output_dir <- file.path("data", "outputs", "baseline")
+table_dir <- file.path(output_dir, "tables")
 figure_dir <- file.path(output_dir, "figures")
-processed_dir <- file.path("data", "external", "mappings")
+candidate_mapping_dir <- file.path("data", "interim", "mappings")
 
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
+dir.create(table_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(figure_dir, recursive = TRUE, showWarnings = FALSE)
-dir.create(processed_dir, recursive = TRUE, showWarnings = FALSE)
+dir.create(candidate_mapping_dir, recursive = TRUE, showWarnings = FALSE)
+
+to_project_relative <- function(paths) {
+  project_root <- normalizePath(getwd(), winslash = "/", mustWork = TRUE)
+  prefix <- paste0(project_root, "/")
+  vapply(
+    paths,
+    function(path) {
+      normalized <- normalizePath(path, winslash = "/", mustWork = FALSE)
+      if (!startsWith(tolower(normalized), tolower(prefix))) {
+        stop("Path is outside project root: ", normalized)
+      }
+      substring(normalized, nchar(prefix) + 1L)
+    },
+    character(1)
+  )
+}
 
 if (!file.exists(raw_file)) {
   stop("Raw file not found: ", raw_file)
@@ -155,7 +173,7 @@ reason_dictionary <- tibble(reason_label = all_reason_labels) %>%
   left_join(family_lookup, by = c("reason_label" = "label"), relationship = "many-to-many") %>%
   mutate(
     reason_family = replace_na(reason_family, "unclassified"),
-    mapping_version = "1.0-draft",
+    mapping_version = "1.0-candidate",
     reviewer_note = if_else(
       reason_family == "unclassified",
       "Not mapped in the project's initial strict dictionary.",
@@ -163,7 +181,10 @@ reason_dictionary <- tibble(reason_label = all_reason_labels) %>%
     )
   )
 
-write_csv(reason_dictionary, file.path(processed_dir, "reason_dictionary_v1.csv"))
+write_csv(
+  reason_dictionary,
+  file.path(candidate_mapping_dir, "reason_dictionary_candidate.csv")
+)
 
 flag_family <- function(labels, dictionary_labels) {
   vapply(labels, function(z) any(z %in% dictionary_labels), logical(1))
@@ -197,7 +218,7 @@ year_nature <- raw %>%
     RetractionNature,
     fill = list(records = 0)
   )
-write_csv(year_nature, file.path(output_dir, "year_nature_counts.csv"))
+write_csv(year_nature, file.path(table_dir, "year_nature_counts.csv"))
 
 doi_by_year <- retractions %>%
   filter(!is.na(retraction_year), retraction_year >= 2012) %>%
@@ -209,18 +230,18 @@ doi_by_year <- retractions %>%
     unique_valid_dois = n_distinct(doi_canonical, na.rm = TRUE),
     .groups = "drop"
   )
-write_csv(doi_by_year, file.path(output_dir, "doi_coverage_by_year.csv"))
+write_csv(doi_by_year, file.path(table_dir, "doi_coverage_by_year.csv"))
 
 reason_counts_all <- tibble(reason_label = all_label_counts) %>%
   count(reason_label, sort = TRUE, name = "records")
-write_csv(reason_counts_all, file.path(output_dir, "reason_label_counts_all.csv"))
+write_csv(reason_counts_all, file.path(table_dir, "reason_label_counts_all.csv"))
 
 core_reason_counts <- core %>%
   select(reason_labels) %>%
   unnest_longer(reason_labels, values_to = "reason_label") %>%
   filter(!is.na(reason_label), reason_label != "") %>%
   count(reason_label, sort = TRUE, name = "records")
-write_csv(core_reason_counts, file.path(output_dir, "reason_label_counts_core.csv"))
+write_csv(core_reason_counts, file.path(table_dir, "reason_label_counts_core.csv"))
 
 family_summary <- tibble(
   reason_family = c(
@@ -241,7 +262,7 @@ family_summary <- tibble(
   )
 ) %>%
   mutate(share_of_core = records / nrow(core))
-write_csv(family_summary, file.path(output_dir, "reason_family_counts_core.csv"))
+write_csv(family_summary, file.path(table_dir, "reason_family_counts_core.csv"))
 
 family_year <- core %>%
   select(
@@ -256,7 +277,7 @@ family_year <- core %>%
   pivot_longer(-retraction_year, names_to = "reason_family", values_to = "flagged") %>%
   filter(flagged) %>%
   count(retraction_year, reason_family, name = "records")
-write_csv(family_year, file.path(output_dir, "reason_family_counts_by_year_core.csv"))
+write_csv(family_year, file.path(table_dir, "reason_family_counts_by_year_core.csv"))
 
 family_matrix <- core %>%
   transmute(
@@ -273,7 +294,7 @@ cooccurrence <- crossprod(family_matrix)
 cooccurrence_df <- as.data.frame(cooccurrence) %>%
   tibble::rownames_to_column("family_1") %>%
   pivot_longer(-family_1, names_to = "family_2", values_to = "records")
-write_csv(cooccurrence_df, file.path(output_dir, "reason_family_cooccurrence.csv"))
+write_csv(cooccurrence_df, file.path(table_dir, "reason_family_cooccurrence.csv"))
 
 reason_family_patterns <- core %>%
   transmute(
@@ -301,7 +322,7 @@ reason_family_patterns <- core %>%
   ) %>%
   count(pattern, sort = TRUE, name = "records") %>%
   mutate(share_of_core = records / nrow(core))
-write_csv(reason_family_patterns, file.path(output_dir, "reason_family_patterns_core.csv"))
+write_csv(reason_family_patterns, file.path(table_dir, "reason_family_patterns_core.csv"))
 
 unclassified_reason_counts <- core %>%
   filter(family_unclassified) %>%
@@ -311,27 +332,27 @@ unclassified_reason_counts <- core %>%
   count(reason_label, sort = TRUE, name = "records")
 write_csv(
   unclassified_reason_counts,
-  file.path(output_dir, "reason_labels_within_unclassified_core.csv")
+  file.path(table_dir, "reason_labels_within_unclassified_core.csv")
 )
 
 article_type_counts <- core %>%
   count(ArticleType, sort = TRUE, name = "records")
-write_csv(article_type_counts, file.path(output_dir, "article_type_counts_core.csv"))
+write_csv(article_type_counts, file.path(table_dir, "article_type_counts_core.csv"))
 
 subject_counts <- core %>%
   count(subject_primary, sort = TRUE, name = "records") %>%
   filter(!is.na(subject_primary))
-write_csv(subject_counts, file.path(output_dir, "subject_counts_core.csv"))
+write_csv(subject_counts, file.path(table_dir, "subject_counts_core.csv"))
 
 publisher_counts <- core %>%
   count(Publisher, sort = TRUE, name = "records") %>%
   filter(!is.na(Publisher), Publisher != "")
-write_csv(publisher_counts, file.path(output_dir, "publisher_counts_core.csv"))
+write_csv(publisher_counts, file.path(table_dir, "publisher_counts_core.csv"))
 
 publisher_year_counts <- core %>%
   filter(!is.na(Publisher), Publisher != "") %>%
   count(retraction_year, Publisher, name = "records", sort = TRUE)
-write_csv(publisher_year_counts, file.path(output_dir, "publisher_year_counts_core.csv"))
+write_csv(publisher_year_counts, file.path(table_dir, "publisher_year_counts_core.csv"))
 
 author_summary <- tibble(
   metric = c("min", "p25", "median", "mean", "p75", "p90", "p95", "p99", "max", "missing_or_zero"),
@@ -348,7 +369,7 @@ author_summary <- tibble(
     sum(core$author_count == 0)
   )
 )
-write_csv(author_summary, file.path(output_dir, "author_count_summary_core.csv"))
+write_csv(author_summary, file.path(table_dir, "author_count_summary_core.csv"))
 
 delay_years <- as.numeric(core$retraction_date - core$original_paper_date) / 365.25
 delay_summary <- tibble(
@@ -363,7 +384,7 @@ delay_summary <- tibble(
   )
 ) %>%
   mutate(share_of_available = records / sum(records[metric == "available"]))
-write_csv(delay_summary, file.path(output_dir, "retraction_delay_summary_core.csv"))
+write_csv(delay_summary, file.path(table_dir, "retraction_delay_summary_core.csv"))
 
 atomic_raw_fields <- names(raw)[vapply(raw, is.atomic, logical(1))]
 missing_summary <- tibble(
@@ -371,7 +392,7 @@ missing_summary <- tibble(
   missing_records = vapply(raw[atomic_raw_fields], function(z) sum(is.na(z) | z == ""), integer(1)),
   missing_share = missing_records / nrow(raw)
 )
-write_csv(missing_summary, file.path(output_dir, "missing_values.csv"))
+write_csv(missing_summary, file.path(table_dir, "missing_values.csv"))
 
 duplicate_dois <- core_valid_doi %>%
   count(doi_canonical, name = "retraction_records") %>%
@@ -431,33 +452,7 @@ quality_summary <- tibble(
     sprintf("%.6f", mean(core$family_unclassified))
   )
 )
-write_csv(quality_summary, file.path(output_dir, "data_quality_summary.csv"))
-
-manifest <- list(
-  source_file = normalizePath(raw_file, mustWork = TRUE),
-  source_bytes = source_size,
-  source_sha256 = source_hash,
-  downloaded_or_observed_on = "2026-11-04",
-  source_version_verified = FALSE,
-  source_version_note = paste(
-    "Prior project documentation reports 73,519 records; the current file has 73,597.",
-    "The available metadata cannot establish why the counts differ."
-  ),
-  total_records = nrow(raw),
-  retraction_records = sum(raw$RetractionNature == "Retraction"),
-  core_window = "2012-2025",
-  core_records = nrow(core),
-  unique_reason_labels = length(all_reason_labels),
-  mapping_version = "1.0-draft",
-  r_version = R.version.string,
-  generated_at = format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z")
-)
-jsonlite::write_json(
-  manifest,
-  file.path(output_dir, "manifest.json"),
-  auto_unbox = TRUE,
-  pretty = TRUE
-)
+write_csv(quality_summary, file.path(table_dir, "data_quality_summary.csv"))
 
 line_colors <- c(
   "Retraction" = "#C0392B",
@@ -608,8 +603,94 @@ writeLines(
     paste0("Core valid DOI share: ", percent(nrow(core_valid_doi) / nrow(core), accuracy = 0.01)),
     paste0("Core unclassified share: ", percent(mean(core$family_unclassified), accuracy = 0.01))
   ),
-  file.path(output_dir, "eda_console_summary.txt"),
+  file.path(table_dir, "eda_console_summary.txt"),
   useBytes = TRUE
+)
+
+reference_mapping_file <- file.path(
+  "data", "reference", "mappings", "reason_dictionary_v1.csv"
+)
+candidate_mapping_file <- file.path(
+  candidate_mapping_dir, "reason_dictionary_candidate.csv"
+)
+
+candidate_mapping_matches_reference <- FALSE
+if (file.exists(reference_mapping_file)) {
+  reference_mapping <- data.table::fread(
+    reference_mapping_file,
+    colClasses = "character",
+    encoding = "UTF-8",
+    data.table = FALSE
+  )
+  candidate_key <- reason_dictionary[
+    order(reason_dictionary$reason_label),
+    c("reason_label", "reason_family")
+  ]
+  reference_key <- reference_mapping[
+    order(reference_mapping$reason_label),
+    c("reason_label", "reason_family")
+  ]
+  rownames(candidate_key) <- NULL
+  rownames(reference_key) <- NULL
+  candidate_mapping_matches_reference <- identical(candidate_key, reference_key)
+}
+
+output_files <- c(
+  list.files(table_dir, full.names = TRUE),
+  list.files(figure_dir, full.names = TRUE)
+)
+output_files <- output_files[basename(output_files) != "README.md"]
+output_rows <- data.frame(
+  path = to_project_relative(output_files),
+  bytes = file.info(output_files)$size,
+  sha256 = vapply(output_files, digest::digest, character(1), file = TRUE, algo = "sha256"),
+  stringsAsFactors = FALSE
+)
+output_manifest_rows <- lapply(seq_len(nrow(output_rows)), function(index) {
+  list(
+    path = output_rows$path[[index]],
+    bytes = output_rows$bytes[[index]],
+    sha256 = output_rows$sha256[[index]]
+  )
+})
+
+manifest <- list(
+  contract_version = "1.0",
+  source_file = to_project_relative(raw_file),
+  source_path_type = "project-relative",
+  source_bytes = source_size,
+  source_sha256 = source_hash,
+  downloaded_or_observed_on = "2026-11-04",
+  source_version_verified = FALSE,
+  source_version_note = paste(
+    "Prior project documentation reports 73,519 records; the current file has 73,597.",
+    "The available metadata cannot establish why the counts differ."
+  ),
+  total_records = nrow(raw),
+  retraction_records = sum(raw$RetractionNature == "Retraction"),
+  core_window = "2012-2025",
+  core_records = nrow(core),
+  unique_reason_labels = length(all_reason_labels),
+  mapping_version = "1.0-candidate",
+  reference_mapping_file = to_project_relative(reference_mapping_file),
+  reference_mapping_sha256 = if (file.exists(reference_mapping_file)) {
+    digest::digest(file = reference_mapping_file, algo = "sha256")
+  } else {
+    NA_character_
+  },
+  candidate_mapping_file = to_project_relative(candidate_mapping_file),
+  candidate_mapping_sha256 = digest::digest(file = candidate_mapping_file, algo = "sha256"),
+  candidate_mapping_matches_reference = candidate_mapping_matches_reference,
+  r_version = R.version.string,
+  generated_at = format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z"),
+  output_file_count = nrow(output_rows),
+  outputs = output_manifest_rows
+)
+jsonlite::write_json(
+  manifest,
+  file.path(output_dir, "manifest.json"),
+  auto_unbox = TRUE,
+  pretty = TRUE
 )
 
 message("Initial EDA completed.")
