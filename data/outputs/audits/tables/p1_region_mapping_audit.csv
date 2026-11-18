@@ -1,0 +1,40 @@
+"region_label","institutions","region_code","effective_country_code","mapped"
+"Anhui",107,"CN-AH","CN",TRUE
+"Beijing",404,"CN-BJ","CN",TRUE
+"Chongqing",92,"CN-CQ","CN",TRUE
+"Fujian",90,"CN-FJ","CN",TRUE
+"Gansu",42,"CN-GS","CN",TRUE
+"Guangdong",269,"CN-GD","CN",TRUE
+"Guangxi",68,"CN-GX","CN",TRUE
+"Guizhou",40,"CN-GZ","CN",TRUE
+"Hainan",32,"CN-HI","CN",TRUE
+"Hebei",119,"CN-HE","CN",TRUE
+"Heilongjiang",59,"CN-HL","CN",TRUE
+"Henan",154,"CN-HA","CN",TRUE
+"Hong Kong",19,"HK-HK","HK",TRUE
+"Hubei",163,"CN-HB","CN",TRUE
+"Hunan",111,"CN-HN","CN",TRUE
+"Inner Mongolia",44,"CN-NM","CN",TRUE
+"Jiangsu",259,"CN-JS","CN",TRUE
+"Jiangxi",87,"CN-JX","CN",TRUE
+"Jilin",80,"CN-JL","CN",TRUE
+"Kaohsiung",6,"TW-TW","TW",TRUE
+"Liaoning",118,"CN-LN","CN",TRUE
+"Macau",8,"MO-MO","MO",TRUE
+"Ningxia",11,"CN-NX","CN",TRUE
+"Qinghai",10,"CN-QH","CN",TRUE
+"Sha Tin",1,"HK-HK","HK",TRUE
+"Shaanxi",119,"CN-SN","CN",TRUE
+"Shandong",198,"CN-SD","CN",TRUE
+"Shanghai",179,"CN-SH","CN",TRUE
+"Shanxi",59,"CN-SX","CN",TRUE
+"Sichuan",142,"CN-SC","CN",TRUE
+"Southern District",1,"HK-HK","HK",TRUE
+"Tai Po",1,"HK-HK","HK",TRUE
+"Taiwan",45,"TW-TW","TW",TRUE
+"Tianjin",74,"CN-TJ","CN",TRUE
+"Tibet",4,"CN-XZ","CN",TRUE
+"Tuen Mun",1,"HK-HK","HK",TRUE
+"Xinjiang",37,"CN-XJ","CN",TRUE
+"Yunnan",64,"CN-YN","CN",TRUE
+"Zhejiang",184,"CN-ZJ","CN",TRUE

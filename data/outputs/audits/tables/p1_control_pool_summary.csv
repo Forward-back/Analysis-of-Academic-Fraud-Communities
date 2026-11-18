@@ -1,0 +1,7 @@
+"metric","value"
+"candidate_works",192463
+"control_layers",4358
+"layers_with_zero_candidates",281
+"layers_with_one_or_more",4077
+"median_candidates_per_layer",50
+"cases_in_zero_pool_layers",474

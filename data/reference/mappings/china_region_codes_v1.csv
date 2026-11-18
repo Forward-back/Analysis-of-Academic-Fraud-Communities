@@ -1,0 +1,36 @@
+region_label,region_code,region_name_zh,region_type,country_code
+Beijing,CN-BJ,北京,province_level_municipality,CN
+Tianjin,CN-TJ,天津,province_level_municipality,CN
+Hebei,CN-HE,河北,province,CN
+Shanxi,CN-SX,山西,province,CN
+Inner Mongolia,CN-NM,内蒙古,autonomous_region,CN
+Liaoning,CN-LN,辽宁,province,CN
+Jilin,CN-JL,吉林,province,CN
+Heilongjiang,CN-HL,黑龙江,province,CN
+Shanghai,CN-SH,上海,province_level_municipality,CN
+Jiangsu,CN-JS,江苏,province,CN
+Zhejiang,CN-ZJ,浙江,province,CN
+Anhui,CN-AH,安徽,province,CN
+Fujian,CN-FJ,福建,province,CN
+Jiangxi,CN-JX,江西,province,CN
+Shandong,CN-SD,山东,province,CN
+Henan,CN-HA,河南,province,CN
+Hubei,CN-HB,湖北,province,CN
+Hunan,CN-HN,湖南,province,CN
+Guangdong,CN-GD,广东,province,CN
+Guangxi,CN-GX,广西,autonomous_region,CN
+Hainan,CN-HI,海南,province,CN
+Chongqing,CN-CQ,重庆,province_level_municipality,CN
+Sichuan,CN-SC,四川,province,CN
+Guizhou,CN-GZ,贵州,province,CN
+Yunnan,CN-YN,云南,province,CN
+Tibet,CN-XZ,西藏,autonomous_region,CN
+Shaanxi,CN-SN,陕西,province,CN
+Gansu,CN-GS,甘肃,province,CN
+Qinghai,CN-QH,青海,province,CN
+Ningxia,CN-NX,宁夏,autonomous_region,CN
+Xinjiang,CN-XJ,新疆,autonomous_region,CN
+Hong Kong,HK-HK,香港,special_administrative_region,HK
+Macau,MO-MO,澳门,special_administrative_region,MO
+Macao,MO-MO,澳门,special_administrative_region,MO
+Taiwan,TW-TW,台湾,separate_region,TW

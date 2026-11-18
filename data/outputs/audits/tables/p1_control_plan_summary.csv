@@ -1,0 +1,8 @@
+"metric","value"
+"case_papers",24974
+"control_eligible_cases",24660
+"cases_without_stratum",314
+"control_layers",4358
+"sample_batches",4587
+"target_candidate_pool_works",274596
+"layers_with_multiple_batches",87

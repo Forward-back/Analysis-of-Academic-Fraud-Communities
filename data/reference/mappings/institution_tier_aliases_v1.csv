@@ -1,0 +1,15 @@
+list_university_name,source_chinese_name,openalex_institution_id,openalex_institution_name,match_method,rationale,status
+China University of Petroleum (Beijing),中国石油大学（北京）,https://openalex.org/I204553293,"China University of Petroleum, Beijing",manual_alias,Comma and parenthetical spelling differ in OpenAlex,reviewed
+China University of Petroleum (Huadong),中国石油大学（华东）,https://openalex.org/I4210162190,"China University of Petroleum, East China",manual_alias,Historical regional name Huadong is East China,reviewed
+Peking Union Medical College,北京协和医学院,https://openalex.org/I200296433,Chinese Academy of Medical Sciences & Peking Union Medical College,manual_alias,OpenAlex uses the co-institutional legal name,reviewed
+Nanjing Aeronautics and Astronautics University,,https://openalex.org/I9842412,Nanjing University of Aeronautics and Astronautics,manual_alias,English word order differs,reviewed
+Fourth Military Medical University,,https://openalex.org/I9916479,Air Force Medical University,manual_alias,Current official institution name replaces historical Fourth Military Medical University name,reviewed
+Hangzhou University,,https://openalex.org/I76130692,Zhejiang University,manual_alias,Hangzhou University merged into Zhejiang University before the main sample window,reviewed
+东华大学,东华大学,https://openalex.org/I181326427,Donghua University,manual_alias,Chinese Wiki page had no English langlink in batch query,reviewed
+Naval Medical University,海军军医大学,https://openalex.org/I177933477,Second Military Medical University,manual_alias,Former and current official names refer to the same institution,reviewed
+Shanghai University of Chinese Medicine,上海中医药大学,https://openalex.org/I4210098460,Shanghai University of Traditional Chinese Medicine,manual_alias,Traditional Chinese Medicine is the full English official name,reviewed
+China Foreign Affairs University,,, ,not_in_sample,No matching institution occurrence in the current 5 720-institution sample,reviewed
+中国矿业大学（北京）,中国矿业大学（北京）,https://openalex.org/I4399598474,China University of Mining and Technology - Beijing,manual_alias,Chinese parenthetical and OpenAlex dash spelling differ,reviewed
+People's Public Security University of China,,https://openalex.org/I37448385,China People's Public Security University,manual_alias,Chinese legal English name differs from OpenAlex label,reviewed
+China Conservatory of Music,,, ,not_in_sample,No matching institution occurrence in the current 5 720-institution sample,reviewed
+Central Academy of Drama,,, ,not_in_sample,No matching institution occurrence in the current 5 720-institution sample,reviewed

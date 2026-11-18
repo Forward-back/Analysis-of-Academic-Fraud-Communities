@@ -1,0 +1,11 @@
+"metric","value"
+"mainland_exact_works",24978
+"title_jaccard_available",24978
+"title_jaccard_below_0_5",37
+"title_jaccard_below_0_3",10
+"title_containment_below_0_2",4
+"title_containment_below_0_5",8
+"title_containment_below_0_7",50
+"title_jaccard_median",0.95
+"title_jaccard_minimum",0.037037037037037
+"title_containment_median",1

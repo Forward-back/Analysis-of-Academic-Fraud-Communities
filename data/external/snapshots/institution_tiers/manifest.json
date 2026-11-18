@@ -1,0 +1,67 @@
+{
+  "contract_version": "1.0",
+  "source_path_type": "project-relative",
+  "fetched_at": "2026-11-18 19:38:50 CST",
+  "sources": [
+    {
+      "source_name": "project_985",
+      "source_type": "wikipedia_api_wikitext",
+      "url": "https://en.wikipedia.org/w/api.php?action=parse&page=Project_985&prop=wikitext&format=json&formatversion=2",
+      "path": "data/external/snapshots/institution_tiers/project_985_2026-11-18.wikitext",
+      "status": 200,
+      "ok": true,
+      "sha256": "c3f017a87f6242cb543c1ad2430dbfde0718236a2459a30392845d1a3e5b72f9",
+      "bytes": 13085
+    },
+    {
+      "source_name": "project_211",
+      "source_type": "wikipedia_api_wikitext",
+      "url": "https://en.wikipedia.org/w/api.php?action=parse&page=Project_211&prop=wikitext&format=json&formatversion=2",
+      "path": "data/external/snapshots/institution_tiers/project_211_2026-11-18.wikitext",
+      "status": 200,
+      "ok": true,
+      "sha256": "f6295816ac427ef4cc46fe39bd3e1742e6b47825ecf1b2857eb723add726088f",
+      "bytes": 17255
+    },
+    {
+      "source_name": "double_first_class",
+      "source_type": "wikipedia_api_wikitext",
+      "url": "https://en.wikipedia.org/w/api.php?action=parse&page=Double_First-Class_Construction&prop=wikitext&format=json&formatversion=2",
+      "path": "data/external/snapshots/institution_tiers/double_first_class_2026-11-18.wikitext",
+      "status": 200,
+      "ok": true,
+      "sha256": "b66495b92cd7e4e4dffdefee5549aa9cc76611497ca6cecc86cb92a92e838788",
+      "bytes": 24995
+    },
+    {
+      "source_name": "moe_double_first_class_2017",
+      "source_type": "official_moe",
+      "url": "https://www.moe.gov.cn/srcsite/A22/moe_843/201709/t20170921_314942.html",
+      "path": "data/external/snapshots/institution_tiers/moe_double_first_class_2017_2026-11-18_moe_double_first_class_2017.html",
+      "status": 200,
+      "ok": true,
+      "sha256": "13485c9db091d4cc4ae703ba5a025e17d9f37515e7cbe952835710b7022d7700",
+      "bytes": 16257
+    },
+    {
+      "source_name": "moe_double_first_class_2022",
+      "source_type": "official_moe",
+      "url": "https://www.moe.gov.cn/srcsite/A22/s7065/202202/t20220211_598710.html",
+      "path": "data/external/snapshots/institution_tiers/moe_double_first_class_2022_2026-11-18_moe_double_first_class_2022.html",
+      "status": 200,
+      "ok": true,
+      "sha256": "d29d43f7c627437a0b87ab644666b46d3158e005b28b42d3f2e5a6bd4c4731c8",
+      "bytes": 17827
+    },
+    {
+      "source_name": "moe_double_first_class_2022_pdf",
+      "source_type": "official_moe",
+      "url": "https://www.moe.gov.cn/srcsite/A22/s7065/202202/W020220214318455516037.pdf",
+      "path": "data/external/snapshots/institution_tiers/moe_double_first_class_2022_pdf_2026-11-18_moe_double_first_class_2022_list.pdf",
+      "status": 200,
+      "ok": true,
+      "sha256": "305f73ed08c091984a75e3c29289c166fbaf6778b87fb9802afa176104c1f7ac",
+      "bytes": 143886
+    }
+  ]
+}

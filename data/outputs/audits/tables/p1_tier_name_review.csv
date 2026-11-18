@@ -1,0 +1,29 @@
+"tier_name","university_name","aliases","source_chinese_name","openalex_institution_id","openalex_institution_name","match_method","match_score"
+"211","China University of Petroleum (Beijing)","China University of Petroleum (Beijing)",,"https://openalex.org/I204553293","China University of Petroleum, Beijing","manual_alias",0
+"211","Peking Union Medical College","Peking Union Medical College",,"https://openalex.org/I200296433","Chinese Academy of Medical Sciences & Peking Union Medical College","manual_alias",0
+"211","Nanjing Aeronautics and Astronautics University","Nanjing Aeronautics and Astronautics University",,"https://openalex.org/I9842412","Nanjing University of Aeronautics and Astronautics","manual_alias",0
+"211","Fourth Military Medical University","Fourth Military Medical University",,"https://openalex.org/I9916479","Air Force Medical University","manual_alias",0
+"211","China University of Petroleum (Huadong)","China University of Petroleum (Huadong)",,"https://openalex.org/I4210162190","China University of Petroleum, East China","manual_alias",0
+"211","Hangzhou University","Hangzhou University",,"https://openalex.org/I76130692","Zhejiang University","manual_alias",0
+"double_first_class_2017","Peking Union Medical College","Peking Union Medical College","北京协和医学院","https://openalex.org/I200296433","Chinese Academy of Medical Sciences & Peking Union Medical College","manual_alias",0
+"double_first_class_2017","东华大学","东华大学","东华大学","https://openalex.org/I181326427","Donghua University","manual_alias",
+"double_first_class_2017","Naval Medical University","Naval Medical University","海军军医大学","https://openalex.org/I177933477","Second Military Medical University","manual_alias",0
+"double_first_class_2017","Shanghai University of Chinese Medicine","Shanghai University of Chinese Medicine","上海中医药大学","https://openalex.org/I4210098460","Shanghai University of Traditional Chinese Medicine","manual_alias",0
+"double_first_class_2017","China Foreign Affairs University","China Foreign Affairs University","外交学院",,,"not_in_sample",0
+"double_first_class_2017","中国矿业大学（北京）","中国矿业大学（北京）","中国矿业大学（北京）","https://openalex.org/I4399598474","China University of Mining and Technology - Beijing","manual_alias",
+"double_first_class_2017","People's Public Security University of China","People's Public Security University of China","中国人民公安大学","https://openalex.org/I37448385","China People's Public Security University","manual_alias",0
+"double_first_class_2017","China University of Petroleum (Beijing)","China University of Petroleum (Beijing)","中国石油大学（北京）","https://openalex.org/I204553293","China University of Petroleum, Beijing","manual_alias",0
+"double_first_class_2017","China University of Petroleum (Huadong)","China University of Petroleum (Huadong)","中国石油大学（华东）","https://openalex.org/I4210162190","China University of Petroleum, East China","manual_alias",0
+"double_first_class_2017","China Conservatory of Music","China Conservatory of Music","中国音乐学院",,,"not_in_sample",0
+"double_first_class_2017","Central Academy of Drama","Central Academy of Drama","中央戏剧学院",,,"not_in_sample",0
+"double_first_class_2022","Peking Union Medical College","Peking Union Medical College","北京协和医学院","https://openalex.org/I200296433","Chinese Academy of Medical Sciences & Peking Union Medical College","manual_alias",0
+"double_first_class_2022","东华大学","东华大学","东华大学","https://openalex.org/I181326427","Donghua University","manual_alias",
+"double_first_class_2022","Naval Medical University","Naval Medical University","海军军医大学","https://openalex.org/I177933477","Second Military Medical University","manual_alias",0
+"double_first_class_2022","Shanghai University of Chinese Medicine","Shanghai University of Chinese Medicine","上海中医药大学","https://openalex.org/I4210098460","Shanghai University of Traditional Chinese Medicine","manual_alias",0
+"double_first_class_2022","China Foreign Affairs University","China Foreign Affairs University","外交学院",,,"not_in_sample",0
+"double_first_class_2022","中国矿业大学（北京）","中国矿业大学（北京）","中国矿业大学（北京）","https://openalex.org/I4399598474","China University of Mining and Technology - Beijing","manual_alias",
+"double_first_class_2022","People's Public Security University of China","People's Public Security University of China","中国人民公安大学","https://openalex.org/I37448385","China People's Public Security University","manual_alias",0
+"double_first_class_2022","China University of Petroleum (Beijing)","China University of Petroleum (Beijing)","中国石油大学（北京）","https://openalex.org/I204553293","China University of Petroleum, Beijing","manual_alias",0
+"double_first_class_2022","China University of Petroleum (Huadong)","China University of Petroleum (Huadong)","中国石油大学（华东）","https://openalex.org/I4210162190","China University of Petroleum, East China","manual_alias",0
+"double_first_class_2022","China Conservatory of Music","China Conservatory of Music","中国音乐学院",,,"not_in_sample",0
+"double_first_class_2022","Central Academy of Drama","Central Academy of Drama","中央戏剧学院",,,"not_in_sample",0

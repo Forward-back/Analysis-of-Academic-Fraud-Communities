@@ -1,0 +1,230 @@
+{{Short description|Former Chinese higher education development scheme, 1998-2016}}
+{{Use American English|date = January 2019}}{{Use mdy dates|date=January 2019}}{{Infobox organization
+| name              = Project 985
+| formation         = {{start date and age|df=y|1998|5|4}}
+| native_name       = 985工程
+| predecessor       = [[National Key Universities]]
+| successor         = [[Double First-Class Construction]]
+| founding_location = 
+| defunct           = {{end date and age|2016}}
+| image             = China Universities Map.png
+| image_size        = 300px
+| caption           = Map showing major universities in mainland China. Project-985 universities are marked in blue.
+| region_served     = [[China]]
+| num_members       = 39 public universities nationwide
+}}
+
+{{History of the People's Republic of China}}
+
+'''Project 985''' ({{lang-zh|s=985工程}}) was a higher education development and sponsorship scheme of the [[government of China]] for creating world-class higher education institutions, initiated in May 1998. There were [[Project 985#List of Project-985 universities|39 universities selected]] to be part of this program, which are mostly considered top-tier institutions in mainland China.<ref name=":3">{{Cite web |title="985工程"学校名单 - 中华人民共和国教育部政府门户网站 |url=http://www.moe.gov.cn/srcsite/A22/s7065/200612/t20061206_128833.html |access-date=2023-10-16 |website=www.moe.gov.cn |archive-date=February 5, 2023 |archive-url=https://web.archive.org/web/20230205064929/http://www.moe.gov.cn/srcsite/A22/s7065/200612/t20061206_128833.html |url-status=live }}</ref><ref>{{Cite web |title="985"、"211"和"双一流"有什么区别？ —中国教育在线 |url=https://gaokao.eol.cn/zhiyuan/zhinan/202304/t20230406_2369560.shtml |access-date=2023-10-16 |website=gaokao.eol.cn |archive-date=October 16, 2023 |archive-url=https://web.archive.org/web/20231016185923/https://gaokao.eol.cn/zhiyuan/zhinan/202304/t20230406_2369560.shtml |url-status=live }}</ref><ref>{{Cite web |title=科学网—公众迷恋大学"帽子"本质是期待高质量教育 |url=https://news.sciencenet.cn/sbhtmlnews/2020/2/353540.shtm |access-date=2023-10-16 |website=news.sciencenet.cn |archive-date=October 16, 2023 |archive-url=https://web.archive.org/web/20231016190350/https://news.sciencenet.cn/sbhtmlnews/2020/2/353540.shtm |url-status=live }}</ref><ref name=":0">{{Cite web |title=我国"985 工程"的运行机制与投入成效分析：基于国际比较与实证研究的视角 |url=https://iee.gse.pku.edu.cn/__local/3/11/46/B6A58779F18F2B2E1479C188B63_F847DE3F_B05AD.pdf?e=.pdf |access-date=2023-10-16 |website=北京大学教育经济研究所 |archive-date=October 16, 2023 |archive-url=https://web.archive.org/web/20231016190424/https://iee.gse.pku.edu.cn/__local/3/11/46/B6A58779F18F2B2E1479C188B63_F847DE3F_B05AD.pdf?e=.pdf |url-status=live }}</ref>
+
+[[Project 211]] and Project 985 were both initiated by CCP general secretary [[Jiang Zemin]] in 1990s as part of the "[[revitalize the country through science and education]]" strategy. They were nullified in 2016 and replaced by the [[Double First-Class Construction]] in 2017, under the [[General secretaryship of Xi Jinping|Xi Jinping administration]].<ref name=":4">{{Cite web |title=教育部国务院学位委员会国家语委关于宣布失效一批规范性文件的通知 - 中华人民共和国教育部政府门户网站 |url=http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201606/t20160622_269365.html |url-status=live |archive-url=https://web.archive.org/web/20190307053940/http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201606/t20160622_269365.html |archive-date=March 7, 2019 |access-date=2022-09-03 |website=www.moe.gov.cn}}</ref><ref>{{Cite web |title="985""211"工程将废除 教育部:年内启动"双一流"_新闻频道_中华网 |url=https://news.china.com/domestic/945/20160629/22954722.html |url-status=live |archive-url=https://web.archive.org/web/20221219072758/https://news.china.com/domestic/945/20160629/22954722.html |archive-date=December 19, 2022 |access-date=2022-09-03 |website=news.china.com}}</ref>
+
+== History ==
+On May 4, 1998, Jiang Zemin stated at the 100th anniversary of [[Peking University]] that, "in order to achieve modernization, our country must have several first-class universities with world-leading levels."<ref>{{Cite web |title=江泽民：在庆祝北京大学建校一百周年大会上的讲话_改革大数据服务平台 |url=http://www.reformdata.org/1998/0504/4551.shtml |access-date=2023-10-30 |website=ReformData.org}}</ref>
+
+In January 1999, the [[State Council of the People's Republic of China|State Council of China]] issued the "Education Revitalization Action Plan for the 21st Century" drafted by the [[Ministry of Education (China)|Ministry of Education]], deciding to focus on supporting several higher education institutions to create world-class universities and high-level universities. This plan was later referred as the "985 Project", named after Jiang Zemin's speech at the 100th anniversary of Peking University (in May 1998).<ref>{{Cite web |last=Ministry of Education of the People's Republic of China |title="211工程"与"985工程" - 中华人民共和国教育部政府门户网站 |url=http://www.moe.gov.cn/jyb_xwfb/xw_zt/moe_357/jyzt_2015nztzl/2015_zt15/15zt15_mtbd/201511/t20151106_217950.html |access-date=2023-10-30 |website=Ministry of Education of the People's Republic of China}}</ref><ref>{{Cite web |last=State Council of the People's Republic of China |title=国务院批转教育部2003—2007年教育振兴行动计划的通知 Notice of the State Council on approving and forwarding the Ministry of Education's 2003-2007 Education Revitalization Action Plan |url=https://www.gov.cn/gongbao/content/2004/content_62725.htm |access-date=2023-10-30 |website=Central People's Government of the People's Republic of China}}</ref><ref>{{Cite web |title="985"、"211"和"双一流"有什么区别？ —中国教育在线 |url=https://gaokao.eol.cn/zhiyuan/zhinan/202304/t20230406_2369560.shtml |access-date=2023-10-30 |website=gaokao.eol.cn}}</ref><ref name=":0" />
+
+The name derives from the date of the announcement, May 1998, or 98/5 according to the Chinese [[calendar date#Date format|date format]].<ref name="intro">{{cite web |title=Project 211 and 985 |url=http://www.chinaeducenter.com/en/cedu/ceduproject211.php |url-status=live |archive-url=https://web.archive.org/web/20150710191711/http://www.chinaeducenter.com/en/cedu/ceduproject211.php |archive-date=July 10, 2015 |access-date=2010-08-28 |work=China Education Center Ltd.}}</ref> The project involves both national and local governments allocating large amounts of funding to certain universities in order to build new research centers, improve facilities, hold international conferences, attract world-renowned faculty and visiting scholars, and help Chinese faculty attend conferences abroad.<ref name="fundingUse">{{cite web |title=International Rankings and Chinese Higher Education Reform |url=http://www.wes.org/ewenr/06oct/practical.htm |url-status=live |archive-url=https://web.archive.org/web/20100627173134/http://www.wes.org/eWENR/06oct/practical.htm |archive-date=June 27, 2010 |access-date=2010-08-28 |work=World Education News and Reviews |date=October 2006 }}</ref>
+
+On June 7, 2016, the Ministry of Education under CCP general secretary [[Xi Jinping]] nullified the two projects by invalidating the fundamental documents "Measures for the Implementation and Management of Project 211 Construction" and "Opinions on the Continued Implementation of Project 985 Construction Projects." However, in China, the names 985 and 211 are still commonly used to refer to top universities within mainland China.<ref>{{Cite web |title=教育部国务院学位委员会国家语委关于宣布失效一批规范性文件的通知 - 中华人民共和国教育部政府门户网站 |url=http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201606/t20160622_269365.html |access-date=2023-10-30 |website=www.moe.gov.cn}}</ref><ref>{{Cite web |title=涉及985和211工程，教育部宣布失效一批规范性文件-东北农业大学 |url=https://wwwold.neau.edu.cn/info/1305/22711.htm |access-date=2023-10-30 |website=wwwold.neau.edu.cn}}</ref><ref>{{Cite web |title=教育部宣布211、985工程多份文件失效！（附全国211、985工程大学清单）_生物探索 |url=https://www.biodiscover.com/industry/176828.html |access-date=2023-10-30 |website=www.biodiscover.com}}</ref>
+
+==List of Project-985 universities==
+{{See also|List of universities in China}}There were 39 public universities selected by the Chinese central government.<ref name=":3" /> 
+{| class="wikitable"
+!Province/Municipality
+!City
+!University 
+!Year Founded
+|-
+! colspan="4" align="center" style="background:#EFEEEC" |'''[[North China|Northern China]]''' (10)
+|-
+| rowspan="8" |[[Beijing]] (8)
+| rowspan="8" |Beijing (8)
+|[[Peking University]]
+|1898
+|-
+|[[Tsinghua University]]
+|1911
+|-
+|[[Renmin University of China]] 
+|1937
+|-
+|[[Beijing Normal University]] 
+|1902
+|-
+|[[Beihang University]]
+|1952
+|-
+|[[Beijing Institute of Technology]] 
+|1940
+|-
+|[[China Agricultural University]]
+|1905
+|-
+|[[Minzu University of China]] 
+|1941
+|-
+| rowspan="2" |[[Tianjin]] (2)
+| rowspan="2" |Tianjin (2)
+|[[Nankai University]] 
+|1919
+|-
+|[[Tianjin University]] 
+|1895
+|-
+! colspan="4" align="center" style="background:#EFEEEC" |'''[[Northeast China|Northeastern China]]'''  (4)
+|-
+| rowspan="2" |[[Liaoning]] (2)
+|[[Dalian]]
+|[[Dalian University of Technology]] 
+|1949
+|-
+|[[Shenyang]]
+|[[Northeastern University (China)|Northeastern University]] 
+|1923
+|-
+| rowspan="1" |[[Heilongjiang]]
+|[[Harbin]]
+|[[Harbin Institute of Technology]]
+|1920
+|-
+|[[Jilin]]
+|[[Changchun]]
+|[[Jilin University]] 
+|1946
+|-
+! colspan="4" align="center" style="background:#EFEEEC" |'''[[East China|Eastern China]]''' (11)
+|-
+| rowspan="4" |[[Shanghai]] (4)
+| rowspan="4" |Shanghai (4)
+|[[Fudan University]]
+|1905
+|-
+|[[Shanghai Jiao Tong University]]
+|1896
+|-
+|[[Tongji University]]
+|1907
+|-
+|[[East China Normal University]]
+|1951
+|-
+| rowspan="2" |[[Jiangsu]] (2)
+| rowspan="2" |[[Nanjing]] (2)
+|[[Nanjing University]]
+|1902
+|-
+|[[Southeast University]] 
+|1902
+|-
+| rowspan="2" |[[Shandong]] (2)
+|[[Jinan]]
+|[[Shandong University]] 
+|1901
+|-
+|[[Qingdao]]
+|[[Ocean University of China]] 
+|1924
+|-
+| rowspan="1" |[[Anhui]]
+|[[Hefei]]
+|[[University of Science and Technology of China]]
+|1958
+|-
+| rowspan="1" |[[Zhejiang]]
+|[[Hangzhou]]
+|[[Zhejiang University]]
+|1897
+|-
+| rowspan="1" |[[Fujian]]
+|[[Xiamen]]
+|[[Xiamen University]]
+|1921
+|-
+! colspan="4" align="center" style="background:#EFEEEC" |'''[[South China|Southern China]]''' (2)
+|-
+| rowspan="2" |[[Guangdong]] (2)
+| rowspan="2" |[[Guangzhou]] (2)
+|[[Sun Yat-sen University]] 
+|1924
+|-
+|[[South China University of Technology]] 
+|1952
+|-
+! colspan="4" |'''[[Southwestern China]]''' (3)
+|-
+| rowspan="2" |[[Sichuan]] (2)
+| rowspan="2" |[[Chengdu]] (2)
+|[[Sichuan University]]
+|1896
+|-
+|[[University of Electronic Science and Technology of China]]
+|1956
+|-
+| rowspan="1" |[[Chongqing]]
+|[[Chongqing]]
+|[[Chongqing University]]
+|1929
+|-
+| colspan="4" align="center" style="background:#EFEEEC" |'''[[Central China]] (5)'''
+|-
+| rowspan="3" |[[Hunan]] (3)
+| rowspan="3" |[[Changsha]] (3)
+|[[Hunan University]] 
+|1926
+|-
+|[[Central South University]] 
+|2000
+|-
+|[[National University of Defense Technology]] 
+|1953
+|-
+| rowspan="2" |[[Hubei]] (2)
+| rowspan="2" |[[Wuhan]] (2)
+|[[Wuhan University]]
+|1893
+|-
+|[[Huazhong University of Science and Technology]]
+|1953
+|-
+| colspan="4" align="center" style="background:#EFEEEC" |'''[[Northwestern China]]''' (4)
+|-
+| rowspan="3" |[[Shaanxi]] (3)
+| rowspan="2" |[[Xi'an]] (2)
+|[[Northwestern Polytechnical University]] 
+|1938
+|-
+|[[Xi'an Jiaotong University]]
+|1896
+|-
+|[[Xianyang]]
+|[[Northwest A&F University]] 
+|1934
+|-
+| rowspan="1" |[[Gansu]]
+|[[Lanzhou]]
+|[[Lanzhou University]] 
+|1909
+|}
+
+==See also==
+{{portal|China}}
+*[[Double First-Class Construction]], a scheme for improving 147 of China's universities
+*[[C9 League]], a formal group of 9 elite universities in China
+* [[Project 211]], a terminated program for developing more than 100 comprehensive universities in China
+* [[Excellence League]], an alliance of leading Chinese universities with strong backgrounds in engineering
+* [[National Key Universities]] (China)
+* [[Gaokao migration]], internal migration in China built around this the gaokao exam 
+
+==References==
+{{Reflist|2}}
+
+{{Project 985}}
+{{Education of the People's Republic of China}}
+
+[[Category:Project 985| ]]
+[[Category:Educational projects|985]]
+[[Category:Higher education in China]]
+[[Category:Universities and colleges in China]]
+[[Category:College and university associations and consortia in Asia]]

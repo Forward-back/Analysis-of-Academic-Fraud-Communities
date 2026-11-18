@@ -1,0 +1,10 @@
+"metric","value","share"
+"unique_institutions",5720,1
+"with_ror",5720,1
+"with_country_code",5720,1
+"with_city",5720,1
+"with_region",5692,0.995104895104895
+"with_geo_country",5720,1
+"with_coordinates",5720,1
+"with_lineage",5720,1
+"with_associated_institutions",2554,0.446503496503497

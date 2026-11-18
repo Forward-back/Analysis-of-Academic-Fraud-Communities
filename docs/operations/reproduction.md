@@ -55,8 +55,58 @@ powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
 
 - OpenAlex 500 DOI 压测：`data/cache/openalex/pressure-tests/works-500/`
 - 对照抽样压测：`data/cache/openalex/pressure-tests/controls-25/`
+- P0 正式抓取：`data/cache/openalex/p0/works-batches/`
+- P0 批次元数据：`data/cache/openalex/p0/works-batches/metadata/`
 
 正式抓取遵循相同模式，缓存原始 JSON，并记录请求清单、失败和重试日志。
+
+## P0 重建顺序
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run_p0_panel.ps1
+powershell -ExecutionPolicy Bypass -File scripts/run_openalex_fetch.ps1 -DryRun
+$env:OPENALEX_API_KEY = "..."
+powershell -ExecutionPolicy Bypass -File scripts/run_openalex_fetch.ps1
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_p0_openalex_parse.R -IncludeOutputs -IncludeCache
+```
+
+P0 缓存元数据不保存 API key。失败批次保留 HTTP 状态和截断错误信息，
+下一次运行默认跳过有效缓存，`-Refresh` 强制重取。
+
+当前 P0 全量抓取已冻结：266 批，候选 DOI 26,526，单一精确匹配 26,497。
+重新执行时脚本会比较缓存元数据中的 DOI 集合；短样本批次不会冒充全量批次。
+
+## P1 机构与对照
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run_openalex_institutions.ps1
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_openalex_institution_parse.R -IncludeOutputs -IncludeCache
+powershell -ExecutionPolicy Bypass -File scripts/run_institution_tier_sources.ps1
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_institution_tier_candidates.R -IncludeOutputs
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_institution_tier_registry.R -IncludeOutputs
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_institution_enrichment.R -IncludeOutputs
+
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_control_plan.R -IncludeOutputs
+powershell -ExecutionPolicy Bypass -File scripts/run_control_pool_fetch.ps1
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_control_pool_parse.R -IncludeOutputs -IncludeCache
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_control_match.R -IncludeOutputs
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_control_fallback.R -IncludeOutputs
+powershell -ExecutionPolicy Bypass -File scripts/run_selected_control_fetch.ps1
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_selected_control_parse.R -IncludeOutputs -IncludeCache
+```
+
+`run_control_pool_fetch.ps1` 的请求同时设置 `sample` 和 `per_page`；
+只设置 `sample` 会被 OpenAlex 按默认 25 条截断。
 
 ## 数据冻结
 

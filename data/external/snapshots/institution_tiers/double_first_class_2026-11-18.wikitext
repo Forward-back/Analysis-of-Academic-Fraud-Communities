@@ -1,0 +1,263 @@
+{{Short description|Ongoing Chinese higher education development scheme}}
+{{See also|Project 211|Project 985}}
+{{Use American English|date=January 2019}}
+{{Use mdy dates|date=January 2019}}
+{{Infobox organization
+| name             = Double First-Class Construction
+| formation        = {{start date and age|2015}}
+| native_name      = 双一流建设
+| native_name_lang = zh-Hans
+| image            = Double first class universities.png
+| caption          = Map of the universities and colleges selected for the Double First-Class Construction
+| predecessor      = [[Project 211]] and [[Project 985]]
+| region_served    = [[China]]
+| num_members      = 147 public universities nationwide
+| image_size       = 300px
+}}
+
+The '''World First-Class Universities and First-Class Academic Disciplines Construction''' ({{lang-zh|c=世界一流大学和一流学科建设|labels=no}}), together known as '''Double First-Class Initiative''' ({{lang-zh|c=双一流建设|labels=no}}),<ref>{{Cite journal |last1=Liu |first1=Shengbo |last2=Luo |first2=Xiaoting |last3=Liu |first3=Miaomiao |date=2023 |title=Was Chinese Double-First Class Construction Policy Influential? Analysis Using Propensity Score Matching |journal=Sustainability |volume=15 |issue=8 |pages=6378 |doi=10.3390/su15086378 |issn=2071-1050 |doi-access=free}}</ref><ref>{{Cite web |title=The Double First-Class Construction Alliance established |url=https://english.pku.edu.cn/news_events/news/focus/7644.html |access-date=2024-01-13 |website=english.pku.edu.cn}}</ref><ref>{{Cite web |title=第二轮'双一流'建设高校及建设学科名单 The second round of double first-class construction universities and construction disciplines list |url=http://www.moe.gov.cn/srcsite/A22/s7065/202202/W020220214318455516037.pdf |access-date=2024-01-13 |website=Ministry of Education of the People's Republic of China |archive-date=February 14, 2022 |archive-url=https://web.archive.org/web/20220214040700/http://www.moe.gov.cn/srcsite/A22/s7065/202202/W020220214318455516037.pdf |url-status=live }}</ref><ref>{{Cite web |title=深入推进新一轮'双一流'建设 Deeply promote a new round of double first-class construction |url=http://www.xinhuanet.com/comments/20220222/5dcddb0562d14b79afc61a624c14f15c/c.html |access-date=2024-01-14 |website=Xinhua News Agency}}</ref> is a higher education development and sponsorship scheme of the Chinese central government, initiated in 2015.<ref name=":0" /><ref>{{Cite web |script-title=zh:教育部 财政部 国家发展改革委关于公布世界一流大学和一流学科建设高校及建设学科名单的通知 - 中华人民共和国教育部政府门户网站 |url=http://www.moe.gov.cn/srcsite/A22/moe_843/201709/t20170921_314942.html |access-date=2024-01-06 |website=www.moe.gov.cn |archive-date=March 27, 2019 |archive-url=https://web.archive.org/web/20190327090945/http://www.moe.gov.cn/srcsite/A22/moe_843/201709/t20170921_314942.html |url-status=live }}</ref> The universities included in the Double First Class Initiative are recognized as "'''Double First-Class Universities'''".<ref name=":5">{{Cite web |title=China to further promote the Double First-Class Initiative - Ministry of Education of the People's Republic of China |url=http://en.moe.gov.cn/news/press_releases/202203/t20220301_603547.html |access-date=2025-12-06 |website=en.moe.gov.cn}}</ref> There are 147 universities and colleges selected to be part of the program.<ref name="Australian Department of Education">{{Cite web |title=Implementation measures released for China's new world-class university policy |url=https://internationaleducation.gov.au/News/Latest-News/Pages/Implementation-measures-released-for-China%E2%80%99s-new-world-class-university-policy.aspx |url-status=live |archive-url=https://web.archive.org/web/20200317200144/https://internationaleducation.gov.au/News/Latest-News/Pages/Implementation-measures-released-for-China%E2%80%99s-new-world-class-university-policy.aspx |archive-date=March 17, 2020 |access-date=September 26, 2017}}</ref><ref name=":1">{{Cite web |script-title=zh:全国高等学校名单 - 中华人民共和国教育部政府门户网站 |url=http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202110/t20211025_574874.html |url-status=live |archive-url=https://web.archive.org/web/20220110164613/http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202110/t20211025_574874.html |archive-date=January 10, 2022 |access-date=2021-12-26 |website=www.moe.gov.cn}}</ref>
+
+The program was announced under the [[general secretaryship of Xi Jinping|Xi Jinping administration]] in 2015 to replace the original higher education development programs [[Project 211]] and [[Project 985]].<ref>{{Cite web |script-title=zh:985、211已成为历史 统筹为“双一流”建设高校 |url=https://www.lucheng.gov.cn/art/2019/12/9/art_1531267_40908182.html |archive-url=https://archive.today/20241102151223/https://www.lucheng.gov.cn/art/2019/12/9/art_1531267_40908182.html |archive-date=2024-11-02 |access-date=2024-11-02 |script-website=zh:浙江省温州市鹿城区人民政府}}</ref>
+
+== History ==
+In October 2015, the State Council of China published the "Overall Plan for Promoting the Construction of World First-Class Universities and First-Class Disciplines" (Double First-Class Initiative), which made new arrangements for the development of higher education in China, replacing previous higher education projects.<ref name=":0">{{Cite web|script-title=zh:国务院关于印发统筹推进世界一流大学和一流学科建设总体方案的通知_政府信息公开专栏|url=http://www.gov.cn/zhengce/content/2015-11/05/content_10269.htm|access-date=2021-12-24|website=www.gov.cn|archive-date=April 6, 2019|archive-url=https://web.archive.org/web/20190406125346/http://www.gov.cn/zhengce/content/2015-11/05/content_10269.htm|url-status=live}}</ref><ref>{{Citation |last1=Li |first1=Jian |chapter=The Policy Analysis of Creating World-Class Universities in China |date=2021 |chapter-url=https://doi.org/10.1007/978-981-16-6726-8_1 |title=Creating World-Class Universities in China : Ideas, Policies, and Efforts |pages=1–33 |editor-last=Li |editor-first=Jian |place=Singapore |publisher=Springer |doi=10.1007/978-981-16-6726-8_1 |isbn=978-981-16-6725-1 |last2=Xue |first2=Eryong |series=Exploring Education Policy in a Globalized World: Concepts, Contexts, and Practices |s2cid=240467383 |editor2-last=Xue |editor2-first=Eryong |archive-date=April 17, 2022 |archive-url=https://web.archive.org/web/20220417045146/https://link.springer.com/chapter/10.1007/978-981-16-6726-8_1 |url-status=live |chapter-url-access=subscription }}</ref>
+
+In June 2016, the [[Ministry of Education (China)|Ministry of Education of China]] announced that the Project 211 and Project 985 had been abolished and replaced by the Double First-Class Construction Initiative.<ref>{{Cite web |script-title=zh:教育部 国务院学位委员会 国家语委关于 宣布失效一批规范性文件的通知 - 中华人民共和国教育部政府门户网站 |url=http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201606/t20160622_269365.html |access-date=2022-12-19 |website=www.moe.gov.cn |archive-date=March 7, 2019 |archive-url=https://web.archive.org/web/20190307053940/http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201606/t20160622_269365.html |url-status=live }}</ref><ref>{{Cite web |script-title=zh:"985""211"工程将废除 教育部:年内启动"双一流"_新闻频道_中华网 |url=https://news.china.com/domestic/945/20160629/22954722.html |access-date=2022-12-19 |website=news.china.com |archive-date=December 19, 2022 |archive-url=https://web.archive.org/web/20221219072758/https://news.china.com/domestic/945/20160629/22954722.html |url-status=live }}</ref>
+
+The purpose of the program is to "enhance the comprehensive strength and international competitiveness of China's higher education." The phase-specific objectives include that "an increasing number of Chinese universities and their disciplines join the ranks of world-class institutions, and a number of universities enter the forefront of global excellence, with a group of disciplines reaching the forefront of world-class standings by 2030," and "developing the Double First-Class Construction Universities into world-class higher education institutions through building and strengthening their faculties and departments by the mid-21st century."<ref name=":0" /><ref name="people.cn">{{cite news |date=September 21, 2017 |title=China to develop 42 world-class universities |url=http://en.people.cn/n3/2017/0921/c90000-9272101.html |url-status=live |archive-url=https://web.archive.org/web/20200812203050/http://en.people.cn/n3/2017/0921/c90000-9272101.html |archive-date=August 12, 2020 |access-date=September 26, 2017 |work=People's Daily}}</ref><ref name="Australian Department of Education" />
+
+In September 2017, the full list of the universities and their disciplines of the Double First-Class Construction was jointly published by the Ministry of Education of China, the [[Ministry of Finance of the People's Republic of China|Ministry of Finance of China]] and the [[National Development and Reform Commission|National Development and Reform Commission of China]]. According to the list, 140 universities had been approved as 'Double First-Class Universities' by the State Council of China. The Double First-Class Construction policy sought to drive the overall development of universities by building and strengthening their faculties and departments, and ultimately develop the Double First-Class Construction Universities into world-class universities by 2050.<ref name=":0" /><ref name="China Daily">{{Cite web |title=双一流大学 (shuāngyīliú dàxué): Double top university plan |url=https://www.chinadaily.com.cn/opinion/2017-09/25/content_32446664.htm |url-status=live |archive-url=https://web.archive.org/web/20170925043627/http://www.chinadaily.com.cn/opinion/2017-09/25/content_32446664.htm |archive-date=September 25, 2017 |access-date=September 26, 2017}}</ref><ref name="Chinese Department of Education">{{Cite web|url=http://www.moe.gov.cn/srcsite/A22/moe_843/201709/t20170921_314942.html|script-title=zh:教育部 财政部 国家发展改革委 关于公布世界一流大学和一流学科建设高校及建设 学科名单的通知 |trans-title=Notice from the Ministry of Education and other national governmental departments announcing the list of double first class universities and disciplines |language=zh-Hans|access-date=September 26, 2017|archive-date=March 27, 2019|archive-url=https://web.archive.org/web/20190327090945/http://www.moe.gov.cn/srcsite/A22/moe_843/201709/t20170921_314942.html|url-status=live}}</ref>
+
+In February 2022, "Some Suggestions on Further Promoting the Construction of World First-Class Universities and First-Class Disciplines" were jointly published by the Ministry of Education, the Ministry of Finance, and the National Development and Reform Commission.<ref>{{Cite web|script-title=zh:教育部 财政部 国家发展改革委关于深入推进世界一流大学和一流学科建设的若干意见 - 中华人民共和国教育部政府门户网站|url=http://www.moe.gov.cn/srcsite/A22/s7065/202202/t20220211_598706.html|access-date=2022-02-14|website=www.moe.gov.cn|archive-date=February 14, 2022|archive-url=https://web.archive.org/web/20220214114029/http://www.moe.gov.cn/srcsite/A22/s7065/202202/t20220211_598706.html|url-status=live}}</ref> In addition, with the approval of the State Council of China, the updated Phase 2 list of "Double First-Class Construction Universities" was released. Under the Phase 2 List of the Double First-Class Construction, the previous university classifications were abolished, and a total number of 147 universities were included in the plan (accounted for 4.88% of 3,012 Chinese higher education institutions), after 7 additional universities were added to the list.<ref name=":4" /><ref>{{Cite web|title='World-class' universities list expanded - People's Daily Online|url=http://en.people.cn/n3/2022/0215/c90000-9957790.html|access-date=2022-02-19|website=en.people.cn|archive-date=February 15, 2022|archive-url=https://web.archive.org/web/20220215013544/http://en.people.cn/n3/2022/0215/c90000-9957790.html|url-status=live}}</ref><ref name=":3">{{Cite web|script-title=zh:教育部 财政部 国家发展改革委关于公布第二轮"双一流"建设高校及建设学科名单的通知 - 中华人民共和国教育部政府门户网站|url=http://www.moe.gov.cn/srcsite/A22/s7065/202202/t20220211_598710.html|access-date=2022-02-14|website=www.moe.gov.cn|archive-date=March 12, 2022|archive-url=https://web.archive.org/web/20220312033448/http://www.moe.gov.cn/srcsite/A22/s7065/202202/t20220211_598710.html|url-status=live}}</ref>
+
+== List of Double First-Class Universities ==
+{{See also|List of universities in China}}
+
+The Phase 1 list of 140 Double First-Class Universities was jointly issued by Chinese Ministry of Education, Ministry of Finance, and National Development and Reform Commission without any ranking within the lists (by "school code") in 2017.<ref name="Chinese Department of Education" /> In February 2022, the Ministry of Education of China announced that the classifications had been invalidated,<ref name=":4">{{Cite web|last=财经头条|script-title=zh:教育部: 双一流高校不再区分A类B类, 避免划分"三六九等"|url=https://cj.sina.com.cn/articles/view/1644114654/http%3A%2F%2Fcj.sina.com.cn%2Farticles%2Fview%2F1644114654%2F61ff32de02001g0yp|access-date=2022-02-14|website=cj.sina.com.cn|archive-date=February 14, 2022|archive-url=https://web.archive.org/web/20220214235107/https://cj.sina.com.cn/articles/view/1644114654/http://cj.sina.com.cn/articles/view/1644114654/61ff32de02001g0yp|url-status=dead}}</ref> and the universities included in the Double First-Class Construction should be referred to as Double First-Class Universities.<ref name=":5" /><ref>{{Cite web|script-title=zh:教育部: 逐步淡化一流大学建设高校和一流学科建设高校的身份色彩|url=http://news.cyol.com/gb/articles/2022-02/08/content_9BlBEHaGq.html|access-date=2022-02-08|website=news.cyol.com|archive-date=February 8, 2022|archive-url=https://web.archive.org/web/20220208132038/http://news.cyol.com/gb/articles/2022-02/08/content_9BlBEHaGq.html|url-status=live}}</ref><ref name=":2">{{Cite web |script-title=zh:教育部2022年工作要点 - 中华人民共和国教育部政府门户网站 |url=http://www.moe.gov.cn/jyb_sjzl/moe_164/202202/t20220208_597666.html |url-status=live |archive-url=https://web.archive.org/web/20220208135551/http://www.moe.gov.cn/jyb_sjzl/moe_164/202202/t20220208_597666.html |archive-date=February 8, 2022 |access-date=2022-02-08 |website=www.moe.gov.cn}}</ref> According to the updated Phase 2 list of the Double First-Class Universities (without any ranking within the list), a total of 147 universities have been approved and recognized as Double First-Class Universities.<ref name=":3" />
+
+* [[Beijing]] (34)
+** [[Beijing Foreign Studies University]]
+** [[Beijing Forestry University]]
+** [[Beijing Institute of Technology]]
+** [[Beijing Jiaotong University]]
+** [[Beijing Normal University]]
+** [[Beihang University]]
+** [[Beijing University of Chemical Technology]]
+** [[Beijing University of Chinese Medicine]]
+** [[Beijing University of Posts and Telecommunications]]
+** [[Beijing University of Technology]]
+** [[Capital Normal University]]
+** [[Central Academy of Drama]]
+** [[Central Academy of Fine Arts]]
+** [[Central Conservatory of Music]]
+** [[Central University of Finance and Economics]]
+** [[China Agricultural University]]
+** [[China Conservatory of Music]]
+** [[China Foreign Affairs University]]
+** [[China University of Geosciences (Beijing)]]
+** [[China University of Petroleum (Beijing)]]
+** [[China University of Mining and Technology (Beijing)]]
+** [[China University of Political Science and Law]]
+** [[Communication University of China]]
+** [[Minzu University of China]]
+** [[North China Electric Power University]]
+** [[Peking Union Medical College]]
+** [[Peking University]]
+** [[People's Public Security University of China]]
+** [[Renmin University of China]]
+** [[Tsinghua University]]
+** [[University of the Chinese Academy of Sciences]]
+** [[University of International Business and Economics]]
+** [[University of Science and Technology Beijing]]
+* [[Jiangsu]] (16)
+** [[Nanjing]] (13)
+*** [[China Pharmaceutical University]]
+*** [[Hohai University]]
+*** [[Nanjing University of Aeronautics and Astronautics]]
+*** [[Nanjing Agricultural University]]
+*** [[Nanjing Forestry University]]
+*** [[Nanjing Medical University]]{{efn|name=phase-2|Newly added universities in the Phase 2 list of Double First-Class Construction.}}
+*** [[Nanjing Normal University]]
+*** [[Nanjing University]]
+*** [[Nanjing University of Chinese Medicine]]
+*** [[Nanjing University of Information Science and Technology]]
+*** [[Nanjing University of Posts and Telecommunications]]
+*** [[Nanjing University of Science and Technology]]
+*** [[Southeast University]]
+** [[Suzhou]]
+*** [[Soochow University (Suzhou)|Soochow University]]
+** [[Wuxi]]
+*** [[Jiangnan University]]
+** [[Xuzhou]]
+*** [[China University of Mining and Technology]]
+* [[Shanghai]] (15)
+** [[Donghua University]]
+** [[East China Normal University]]
+** [[East China University of Science and Technology]]
+** [[Fudan University]]
+** [[Second Military Medical University]]
+** [[Shanghai Conservatory of Music]]
+** [[Shanghai International Studies University]]
+** [[Shanghai Jiao Tong University]]
+** [[Shanghai Ocean University]]
+** [[ShanghaiTech University]]{{efn|name=phase-2}}
+** [[Shanghai University]]
+** [[Shanghai University of Finance and Economics]]
+** [[Shanghai University of Sport]]
+** [[Shanghai University of Traditional Chinese Medicine]]
+** [[Tongji University]]
+* [[Guangdong]] (8)
+** [[Guangzhou]] (7)
+*** [[Guangzhou Medical University]]{{efn|name=phase-2}}
+*** [[Guangzhou University of Chinese Medicine]]
+*** [[Jinan University]]
+*** [[South China Agricultural University]]{{efn|name=phase-2}}
+*** [[South China Normal University]]
+*** [[South China University of Technology]]
+*** [[Sun Yat-sen University]]
+** [[Shenzhen]]
+*** [[Southern University of Science and Technology]]{{efn|name=phase-2}}
+* [[Shaanxi]] (8)
+** [[Xi'an]] (7)
+*** [[Chang'an University]]
+*** [[Fourth Military Medical University]]
+*** [[Xi’an Jiaotong University]]
+*** [[Xidian University]]
+*** [[Shaanxi Normal University]]
+*** [[Northwest University (China)|Northwest University]]
+*** [[Northwestern Polytechnical University]]
+** [[Xianyang]]
+*** [[Northwest A&F University]]
+* [[Sichuan]] (8)
+** [[Chengdu]] (7)
+*** [[Chengdu University of Technology]]
+*** [[Chengdu University of Traditional Chinese Medicine]]
+*** [[Sichuan University]]
+*** [[Southwest Jiaotong University]]
+*** [[Southwest Petroleum University]]
+*** [[Southwestern University of Finance and Economics]]
+*** [[University of Electronic Science and Technology of China]]
+** [[Ya'an]]
+*** [[Sichuan Agricultural University]]
+*  [[Wuhan]], [[Hubei]] (7)
+** [[China University of Geosciences (Wuhan)]]
+** [[Wuhan University]]
+** [[Huazhong University of Science and Technology]]
+** [[Wuhan University of Technology]]
+** [[Huazhong Agricultural University]]
+** [[Central China Normal University]]
+** [[Zhongnan University of Economics and Law]]
+* [[Tianjin]] (6)
+** [[Hebei University of Technology]]
+** [[Nankai University]]
+** [[Tianjin Medical University]]
+** [[Tiangong University]]
+** [[Tianjin University]]
+** [[Tianjin University of Traditional Chinese Medicine]]
+* [[Hunan]] (5)
+** [[Changsha]] (4)
+*** [[Central South University]]
+*** [[Hunan Normal University]]
+*** [[Hunan University]]
+*** [[National University of Defense Technology]]
+** [[Xiangtan]]
+*** [[Xiangtan University]]{{efn|name=phase-2}}
+* [[Harbin]], [[Heilongjiang]] (4)
+** [[Harbin Engineering University]]
+** [[Harbin Institute of Technology]]
+** [[Northeast Agricultural University]]
+** [[Northeast Forestry University]]
+* [[Liaoning]] (4)
+** [[Shenyang]] (2)
+*** [[Liaoning University]]
+*** [[Northeastern University (China)|Northeastern University]]
+** [[Dalian]] (2)
+*** [[Dalian Maritime University]]
+*** [[Dalian University of Technology]]
+* [[Hefei]], [[Anhui]] (3)
+** [[Anhui University]]
+** [[Hefei University of Technology]]
+** [[University of Science and Technology of China]]
+* [[Jilin]] (3)
+** [[Changchun]] (2)
+*** [[Jilin University]]
+*** [[Northeast Normal University]]
+** [[Yanji]]
+*** [[Yanbian University]]
+* [[Shandong]] (3)
+** [[Qingdao]] (2)
+*** [[Ocean University of China]]
+*** [[China University of Petroleum (Huadong)]]
+** [[Jinan]]
+*** [[Shandong University]]
+* [[Zhejiang]] (3)
+** [[Hangzhou]] (2)
+*** [[China Academy of Art]]
+*** [[Zhejiang University]]
+** [[Ningbo]]
+*** [[Ningbo University]]
+* [[Chongqing]] (2)
+** [[Chongqing University]]
+** [[Southwest University]]
+* [[Fujian]] (2)
+** [[Xiamen]]
+*** [[Xiamen University]]
+** [[Fuzhou]]
+*** [[Fuzhou University]]
+* [[Henan]] (2)
+** [[Kaifeng]]
+*** [[Henan University]]
+** [[Zhengzhou]]
+*** [[Zhengzhou University]]
+* [[Taiyuan]], [[Shanxi]] (2)
+** [[Shanxi University]]{{efn|name=phase-2}}
+** [[Taiyuan University of Technology]]
+* [[Xinjiang]] (2)
+** [[Shihezi]]
+*** [[Shihezi University]]
+** [[Ürümqi]]
+*** [[Xinjiang University]]
+* [[Guiyang]], [[Guizhou]]
+** [[Guizhou University]]
+* [[Lanzhou]], [[Gansu]]
+** [[Lanzhou University]]
+* [[Haikou]], [[Hainan]]
+** [[Hainan University]]
+* [[Nanchang]], [[Jiangxi]]
+** [[Nanchang University]]
+* [[Xining]], [[Qinghai]]
+** [[Qinghai University]]
+* [[Kunming]], [[Yunnan]]
+** [[Yunnan University]]
+* [[Nanning]], [[Guangxi]]
+** [[Guangxi University]]
+* [[Hohhot]], [[Inner Mongolia]]
+** [[Inner Mongolia University]]
+* [[Yinchuan]], [[Ningxia]]
+** [[Ningxia University]]
+* [[Lhasa]], [[Tibet]]
+** [[Tibet University]]
+
+== Re-assessment ==
+According to the 'Phase 2 List of the Double First-Class Initiative' jointly published by the Ministry of Education, the Ministry of Finance, and the National Development and Reform Commission in February 2022, 15 universities received warnings on their Double First-Class status revocation (including [[Anhui University]], [[Beijing University of Chinese Medicine]], [[Central China Normal University]], [[Guangxi University]], [[Inner Mongolia University]], [[Liaoning University]], [[Ningbo University]], [[Ningxia University]], [[Northeast Normal University]], [[Shanghai University of Finance and Economics]], [[Tibet University]], [[Army Medical University|Third Military Medical University]], [[Xinjiang University]], [[Yanbian University]], and [[Zhongnan University of Economics and Law]]). These 15 universities were required to rectify and improve their research qualities and development, and if the universities failed to pass the final assessment in 2024, they would lose their Double First-Class Construction statuses.<ref>{{Cite web |script-title=zh:教育部 财政部 国家发展改革委 关于公布第二轮"双一流"建设高校及 建设学科名单的通知 - 中华人民共和国教育部政府门户网站 |url=http://www.moe.gov.cn/srcsite/A22/s7065/202202/t20220211_598710.html |access-date=2023-01-26 |website=www.moe.gov.cn |archive-date=March 12, 2022 |archive-url=https://web.archive.org/web/20220312033448/http://www.moe.gov.cn/srcsite/A22/s7065/202202/t20220211_598710.html |url-status=live }}</ref><ref>{{Cite web |script-title=zh:16个首轮"双一流"建设学科被公开警示或撤销, 如何看待-光明日报-光明网 |url=https://epaper.gmw.cn/gmrb/html/2022-02/15/nw.D110000gmrb_20220215_3-04.htm |access-date=2023-01-26 |website=epaper.gmw.cn |archive-date=January 26, 2023 |archive-url=https://web.archive.org/web/20230126151753/https://epaper.gmw.cn/gmrb/html/2022-02/15/nw.D110000gmrb_20220215_3-04.htm |url-status=live }}</ref>
+
+==See also==
+{{portal|China}}
+* [[List of universities in China]]
+* [[National Key Universities]] (China)
+* [[State Key Laboratories]], a group of key laboratories sponsored and supervised by the central government of China
+* [[Project 985]], an abolished project of developing 39 leading [[Research university|research universities]] in China
+* [[Project 211]], an abolished program for developing China's comprehensive universities
+* [[Excellence League]], an alliance of leading Chinese universities with strong backgrounds in engineering
+
+== References ==
+{{Reflist}}
+{{Notelist}}
+
+{{Clear}}
+{{Education in China}}
+
+[[Category:2017 establishments in China]]
+[[Category:Higher education in China]]
+[[Category:Educational projects]]
+[[Category:College and university associations and consortia in Asia]]

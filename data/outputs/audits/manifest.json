@@ -1,16 +1,280 @@
 {
   "contract_version": "1.0",
   "artifact": "audits",
-  "generated_at": "2026-11-17",
+  "generated_at": "2026-11-18",
   "source_path_type": "project-relative",
   "files": [
+    {
+      "path": "data/outputs/audits/tables/openalex_control_pressure_test_25.json",
+      "sha256": "725ba6f7628153688907e23c8b71eeb726e95b2f921c4f237d178c2dddb4da33"
+    },
     {
       "path": "data/outputs/audits/tables/openalex_pressure_test_500.json",
       "sha256": "23de4da07b61e81b1b13f7a73faf8ef61f139e0e2735d9b9ca5b54d2f3bba624"
     },
     {
-      "path": "data/outputs/audits/tables/openalex_control_pressure_test_25.json",
-      "sha256": "725ba6f7628153688907e23c8b71eeb726e95b2f921c4f237d178c2dddb4da33"
+      "path": "data/outputs/audits/tables/p0_china_candidate_article_type_audit.csv",
+      "sha256": "b53f8877cbae1ffda77d9be95630eca9302907e06397281a2754fcca7ddd5e0b"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_china_candidate_by_retraction_year.csv",
+      "sha256": "9fd1fe3e82b0c741fbd092435f6e2473170edce2de9f08c3e3e825a64b34d99a"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_china_candidate_family_audit.csv",
+      "sha256": "505075c4f2b7dd5db689c0d8e8548475a981495c99fe107381dfd63b0e59cbf8"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_china_candidate_family_by_year.csv",
+      "sha256": "5a2e24b2dd1968071d646fcd1e26f2126325882be8af5e91e0b4fb2162fd0b05"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_china_candidate_publisher_audit.csv",
+      "sha256": "46069c7af8b35ee5d309aa539d739a599f6a921c39998acf730e1f98a1827bcd"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_china_candidate_reason_pattern_audit.csv",
+      "sha256": "3b3271efa7c56b7470604be7dc8ed1eb9f8e5fa6febc049bd5fd79b73979c018"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_country_label_audit.csv",
+      "sha256": "badd8a6db8de39b0a4ce92141328bfdfddf3bb55a5cf023e1771a024f2c85744"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_doi_collision_audit.csv",
+      "sha256": "257878bbf9353380e97a2bea65b9e0c98c1f20f2b79477506c307a44bcf8608e"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_doi_fold_summary.csv",
+      "sha256": "99e812556d91161def0e43554334d7c294e35325ac690b3a660bcaa01a7f601d"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_duplicate_doi_audit.csv",
+      "sha256": "5ea3c3f2a6f1ce12188bce5c4293a484c3581a13081f22f693295076f944bc8e"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_hmt_country_label_audit.csv",
+      "sha256": "c4bba1267a37bd69bf248fde2f8e3978b3d866eb005b77ce8b84990eecbbe6b2"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_ingest_field_audit.csv",
+      "sha256": "e1cee2c07564558a3c32a04d34e5375a53ff18a2990f3116aea2f2740a386de9"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_ingest_summary.csv",
+      "sha256": "2212c9a8f3521374d20cebfd9a28011006e0e2e2c2e6ce3d90f26fa52384e958"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_openalex_batch_plan.csv",
+      "sha256": "407e55ec1ecf7b5c0fe9a84fdac5aead39481ef30a45e04feddfb0f978cdfd96"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_openalex_coverage_by_reason_family.csv",
+      "sha256": "d3be8ec6573178d25ddb7e6b0aaa661c46e4222d22aec8f652f50edaa6b2570a"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_openalex_coverage_by_retraction_year.csv",
+      "sha256": "9e0c86c747c324e6c848949522ce13807d8884bdad3e18f0993210f543b75158"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_openalex_doi_less_works.csv",
+      "sha256": "e40b48db74ee44b10e39a7902bf9b90ba289c05702c6cc52e63b1855e6637155"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_openalex_failures.csv",
+      "sha256": "4b0e548691ac028b1de382d6144a7f86c4dbd32d1acdfd6a98735e382c062b1c"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_openalex_fetch_batches.csv",
+      "sha256": "0546c62ca2705a5e7277abf9db201b728130475a137a68b7a3513ae3dc024d90"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_openalex_fetch_summary.csv",
+      "sha256": "16fbc692ccdbc2ba9c172eb7d176f91fb563187c232f423e3544436fed88fa70"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_openalex_match_summary.csv",
+      "sha256": "61703c869d3c6a9a449dd7e804e1893cef2a312be4ffca481d1ccbaa0a90d5fc"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_openalex_plan_summary.csv",
+      "sha256": "2452650a3e84e73fa9307f5ae29c97e833ae91d953ff829332b51aa6a7711122"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_openalex_sample_flow.csv",
+      "sha256": "d800b7daecf33fbaca65064096ddc05f106387f21febff649b2541af8976d8e1"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_openalex_title_review.csv",
+      "sha256": "6316400fc3732a93c9567b121de81cb2687fbb1680d5394f81c5882ee9b32e09"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_openalex_title_review_summary.csv",
+      "sha256": "a4c4736f5ef444a7fa0d8781a7da12bcf63ceb9f6b28f7a0d0af234ac8e62354"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_openalex_unmatched_returned_works.csv",
+      "sha256": "0e3d13ef8ac9f5ca066a9be02773da4b8bb19c770d0d02f2de5a7c60af693b82"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_reason_family_audit.csv",
+      "sha256": "2c8690e462440074bac03f22a83d29460f1a9576ad73309a82a7b1392992378c"
+    },
+    {
+      "path": "data/outputs/audits/tables/p0_sample_flow.csv",
+      "sha256": "b3ba493ae0d38803b0295a876f91179cc421a563bc2e9d31a9d14fae429e78f2"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_cn_institution_missing_geo.csv",
+      "sha256": "8e4803163e95f8fa36ed9be3d351cb0b6358d04af8cdfc721f5dec718bbad59c"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_cn_institution_region_counts.csv",
+      "sha256": "6ae98585a72672dda0f5c45e6b3cb1625d54514549c9a719d205be10ef437dd1"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_control_candidate_validation.csv",
+      "sha256": "2378eceef4f26bc6c52e2c721d577e03714fa4028b36a08665189c9d3c657719"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_control_cases_unmatched.csv",
+      "sha256": "6d492394068fec79df31429636faed5f6a13cea3eea36ecb749438d9669aa72d"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_control_cases_without_stratum.csv",
+      "sha256": "184f0051d9fa268d31416867c23fccd242927355ab270f268cdf91f141bf9d35"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_control_fallback_summary.csv",
+      "sha256": "ea6d2d7b4b701983e44946b95760abff96d4a9988a1edcede75a98719ca35c32"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_control_fetch_batches.csv",
+      "sha256": "f425d67992eced6417fd88f5471c0505faafd5e42d6fe47754f4537add74f959"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_control_fetch_plan_summary.csv",
+      "sha256": "13eaa94d5dcdbbff2d8e34d062462f30e94b99c88d4928ecb7c0cd771be23f6f"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_control_fetch_summary.csv",
+      "sha256": "ae2d48148ebe884e1dc54fcaee2219145a9bd8cda0c125e5aa804e4a2bf3b0a9"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_control_layer_plan.csv",
+      "sha256": "9dfce8f1bb4a919dc5b773d2b825b1f2bc7f165907093c6d7e87b86e337e9952"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_control_match_by_layer.csv",
+      "sha256": "d2c9113f77de0386b5cc9aaf402359b5c821ebdc53823f12115a23b557dbf1f9"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_control_match_level.csv",
+      "sha256": "87758c565a834254db73bb706ceaa3b6355ee2649b666946b3260cfb3d76b7b2"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_control_match_ratio.csv",
+      "sha256": "8ae5a457a7e58a828a6c8a93c997d17dee7a63491c992c2c5a0b9febb37674fb"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_control_match_summary.csv",
+      "sha256": "e3b53b63358b601b57206a79dcfdfb6059f3bbcf44e97c19ae6a28a8499a220d"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_control_plan_summary.csv",
+      "sha256": "dee22cb032be843f8ea3229ea4f4a5cdacb28d70e6522198f56ce79016e509f8"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_control_pool_by_layer.csv",
+      "sha256": "c899432588ef00c18c4629db4668f47ed4823cee4d711a78a1e47c39f28c4276"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_control_pool_summary.csv",
+      "sha256": "2d2da31d56845f2cfce275a75947f36148e426bf06fba845954874b9e09d8848"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_control_sample_plan.csv",
+      "sha256": "5114efae477c003a54ab94bc4d9e08062c39bc7857df34f9c9efe733afda1b5f"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_cross_tier_by_rule.csv",
+      "sha256": "0dab91af4675a9b054e65552877b57963afc3655dcac89f43e3613e5eb174dcf"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_geo_level_by_retraction_year.csv",
+      "sha256": "f8867d3d5af70599000fb51d8d25435aeba23640d78b2a0f6b454b646ec85d9b"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_institution_batch_plan.csv",
+      "sha256": "697b8c929f019a1cbb9aead44d47313c57ff03beaf35f53ae40f4568310667cf"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_institution_country_counts.csv",
+      "sha256": "0a5c8b306eddf2ba06812ecb3d7acb2016276f39d6619948b05019a77ef66d9c"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_institution_fetch_batches.csv",
+      "sha256": "5dd1d078e8d7a94b926538ebf3efcf64c7560f6ae6db8ba3a99137640a14296f"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_institution_fetch_summary.csv",
+      "sha256": "b6864056df6e2be8a0345b98be0aa0bcb03fb8745d35a8f0dd4b4dd0dc523eb4"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_institution_metadata_coverage.csv",
+      "sha256": "b4a4d2ad4b4557820a31444d506b8af9b18be152044a1181811efb09fe4e56ed"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_institution_plan_summary.csv",
+      "sha256": "dea0a0daa0959d62a28dc48016ca364977b865940249e2681c4219c8aebba150"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_institution_tier_not_in_sample.csv",
+      "sha256": "531a5f2aad00c52c1d8a240bbbfaacdaac68f9b73e9149d1b777ec999c85087c"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_institution_tier_registry_summary.csv",
+      "sha256": "fd61a1ff7f203b3f7112b0290abb9e40f2246c7352f058d264d10a85c32bb6d4"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_region_mapping_audit.csv",
+      "sha256": "30c03b154292486e735648fc9a82d7fce61a8acfc72397597475cb10e2af9144"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_selected_control_batches.csv",
+      "sha256": "698fd3be01a685edc0ad3747c40e162ba41ab9653541db2dddcf7ea7eeb842e6"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_selected_control_fetch_plan.csv",
+      "sha256": "536de624f81fcfc9edbcb06635d5ee56b15db985547121679a5075947d294e74"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_selected_control_fetch_summary.csv",
+      "sha256": "371b88a543df67dccc7de8a05b1a8b8c8cf58f72cb2e8211f3add67addec9f42"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_selected_control_parse_audit.csv",
+      "sha256": "047fce653b6ddece70e38aedda25829081294223b9b87a77504d03fea260a66e"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_tier_list_count_audit.csv",
+      "sha256": "cf98f10b5a5a7118b11a1aa2215c643097192e7c0d9e45dee9283cc443ca38da"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_tier_name_match_audit.csv",
+      "sha256": "d77162b142908976f45a7b2717e87522ab7a3612000af56a0e431fca1014e386"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_tier_name_review.csv",
+      "sha256": "db5e5f61f294ccf9a5352c65a926d56a0568c9bd2b8acdbff9648b548ea663d0"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_tier_source_manifest.csv",
+      "sha256": "4d50ba0d7303a2f4ff8b3f2196a099651669d1240e958e41379d55eab9e4217c"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1_year_tier_link_audit.csv",
+      "sha256": "422b5d8d9b1816c778d4a04da11ba6298e5a0ff22adaee09f90b0be1251252e6"
     }
   ]
 }

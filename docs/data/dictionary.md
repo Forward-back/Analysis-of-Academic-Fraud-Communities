@@ -16,6 +16,8 @@
 | 变量 | 类型 | 定义 |
 |---|---|---|
 | `doi_canonical` | character | 规范化原论文 DOI |
+| `paper_key` | character | DOI + 规范化题名生成的稳定论文面板键 |
+| `doi_status` | character | `linkable` 或 `ambiguous_doi` |
 | `rwdb_record_ids` | list | 对应通知记录 |
 | `retraction_year_first` | integer | 合并后最早撤稿年份 |
 | `reason_labels` | list | 原始多标签原因 |
@@ -31,6 +33,18 @@
 | `geo_level` | factor | single_city、same_province_multi_city、domestic_cross_province、international |
 | `median_geo_distance_km` | numeric | 机构间中位球面距离 |
 | `max_geo_distance_km` | numeric | 最大机构距离 |
+
+### 机构层级与地区派生字段
+
+| 字段 | 定义 |
+|---|---|
+| `tier_rule` | 原论文发表年份对应的名单版本 |
+| `national_key_institution` | 大陆机构是否属于当年国家重点层级 |
+| `legacy_985_211_institution` | 固定 985/211 敏感性口径 |
+| `region_code` | 中国大陆省级或港澳台地区代码 |
+| `effective_country_code` | 按机构地区修正后的国家或地区代码 |
+| `institution_hmt_present` | 论文是否含港澳台机构 |
+| `institution_foreign_present` | 论文是否含大陆和港澳台之外的机构 |
 
 ## 原因映射 v2
 

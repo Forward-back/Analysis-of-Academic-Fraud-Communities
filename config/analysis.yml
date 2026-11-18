@@ -29,8 +29,19 @@ reason_families:
     - unclassified
 
 institution_tiers:
-  pre_2017: "985_211"
-  from_2017: "double_first_class"
+  rules:
+    - start_year: 2012
+      end_year: 2016
+      primary_list: "985_211"
+      sensitivity_list: "985_211"
+    - start_year: 2017
+      end_year: 2021
+      primary_list: "double_first_class_2017"
+      sensitivity_list: "985_211"
+    - start_year: 2022
+      end_year: 2025
+      primary_list: "double_first_class_2022"
+      sensitivity_list: "985_211"
 
 geography:
   categories:

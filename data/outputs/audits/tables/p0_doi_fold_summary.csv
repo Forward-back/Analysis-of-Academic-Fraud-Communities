@@ -1,0 +1,14 @@
+"metric","value"
+"core_valid_doi_records",49453
+"unique_valid_dois",49294
+"descriptive_papers",49444
+"linkable_papers",49291
+"linkable_records",49300
+"ambiguous_doi_groups",3
+"ambiguous_doi_records",153
+"ambiguous_title_papers",153
+"duplicate_doi_groups",12
+"same_title_duplicate_groups",9
+"same_title_extra_records_collapsed",9
+"records_excluded_from_linkable_panel",153
+"missing_title_records",0

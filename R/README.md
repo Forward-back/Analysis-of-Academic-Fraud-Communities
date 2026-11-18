@@ -1,6 +1,8 @@
 # R 分析管道
 
-脚本从项目根目录运行，按编号执行。当前已完成 `90_baseline_eda.R`；其余编号文件在对应阶段创建。
+脚本从项目根目录运行，按编号执行。当前已完成 P0 的全部管道、
+P1 的机构层级与对照匹配阶段，以及 `90_baseline_eda.R`。
+其余编号文件在对应阶段创建。
 
 ```text
 00_setup.R             环境、路径与依赖
@@ -10,6 +12,8 @@
 04_screen_china.R      中国大陆候选池
 05_fetch_openalex.R    OpenAlex 抓取与缓存
 06_build_authorships.R 作者、机构、国家长表
+06a-06f                P1 机构抓取、层级、地区和论文富化
+07a-07g                P1 对照分层、候选池、匹配和对照解析
 07_match_controls.R    非撤稿对照匹配
 08_enrich_institutions.R 机构层级、省市与距离
 09_build_networks.R    作者网络与社群
@@ -21,6 +25,48 @@
 15_exports.R           报告与 Shiny 输出
 16_run_all.R           全流程入口
 90_baseline_eda.R      已完成的基础 EDA
+```
+
+## P0 运行入口
+
+```powershell
+# 从原始 CSV 重建 DOI 面板和中国大陆候选池
+powershell -ExecutionPolicy Bypass -File scripts/run_p0_panel.ps1
+
+# 只检查 OpenAlex 请求计划
+powershell -ExecutionPolicy Bypass -File scripts/run_openalex_fetch.ps1 -DryRun
+
+# 设置 OPENALEX_API_KEY 后全量抓取
+powershell -ExecutionPolicy Bypass -File scripts/run_openalex_fetch.ps1
+
+# 抓取完成后解析作品、作者和机构长表
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_p0_openalex_parse.R -IncludeOutputs -IncludeCache
+```
+
+`run_openalex_fetch.ps1` 支持 `-Limit N`、`-DryRun` 和 `-Refresh`。
+正式全量抓取默认每批 100 个 DOI。
+
+## P1 运行入口
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run_institution_tier_sources.ps1
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_institution_tier_candidates.R -IncludeOutputs
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_institution_tier_registry.R -IncludeOutputs
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_institution_enrichment.R -IncludeOutputs
+
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_control_plan.R -IncludeOutputs
+powershell -ExecutionPolicy Bypass -File scripts/run_control_pool_fetch.ps1
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_control_pool_parse.R -IncludeOutputs -IncludeCache
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_control_match.R -IncludeOutputs
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_control_fallback.R -IncludeOutputs
 ```
 
 共享函数放在 `lib/`。脚本不得在输出中写入 API key、邮箱或未脱敏缓存路径。

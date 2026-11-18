@@ -1,0 +1,10 @@
+"tier_name","match_method","universities"
+"211","exact",110
+"985","exact",39
+"double_first_class_2017","exact",129
+"double_first_class_2022","exact",136
+"211","manual_alias",6
+"double_first_class_2017","manual_alias",8
+"double_first_class_2022","manual_alias",8
+"double_first_class_2017","not_in_sample",3
+"double_first_class_2022","not_in_sample",3

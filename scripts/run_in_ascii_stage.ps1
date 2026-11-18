@@ -2,7 +2,9 @@ param(
   [Parameter(Mandatory = $true)]
   [string]$RScript,
   [switch]$KeepStage,
-  [switch]$IncludeOutputs
+  [switch]$IncludeOutputs,
+  [switch]$IncludeCache,
+  [string[]]$RScriptArguments = @()
 )
 
 $ErrorActionPreference = "Stop"
@@ -41,6 +43,15 @@ foreach ($relative in @("data\raw", "data\external", "data\reference")) {
   Copy-Item -Path (Join-Path $source "*") -Destination $destination -Recurse -Force
 }
 
+if ($IncludeCache) {
+  $cacheSource = Join-Path $projectRoot "data\cache"
+  if (Test-Path -LiteralPath $cacheSource) {
+    $cacheDestination = Join-Path $stageRoot "data\cache"
+    New-Item -ItemType Directory -Path $cacheDestination -Force | Out-Null
+    Copy-Item -Path (Join-Path $cacheSource "*") -Destination $cacheDestination -Recurse -Force
+  }
+}
+
 if ($IncludeOutputs) {
   foreach ($relative in @("data\outputs", "data\interim", "data\processed")) {
     $source = Join-Path $projectRoot $relative
@@ -55,7 +66,7 @@ if ($IncludeOutputs) {
 
 Push-Location $stageRoot
 try {
-  & Rscript --encoding=UTF-8 $RScript
+  & Rscript --encoding=UTF-8 $RScript @RScriptArguments
   if ($LASTEXITCODE -ne 0) {
     throw "R script failed with exit code $LASTEXITCODE. Stage retained at $stageRoot"
   }
@@ -65,6 +76,8 @@ try {
 
 foreach ($relative in @(
   "data\cache",
+  "data\external",
+  "data\reference",
   "data\interim",
   "data\processed",
   "data\outputs",
