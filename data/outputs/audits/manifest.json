@@ -25,6 +25,22 @@
       "sha256": "e90f13bb6149f22f7901a62bff6ae0556681ec3de53313591751c25d78318f61"
     },
     {
+      "path": "data/outputs/audits/tables/event_2023_crossref_coverage.csv",
+      "sha256": "052ee9bde10cea25a3e12825c1918a27447d15bb6776a03f3344e601b6360fc1"
+    },
+    {
+      "path": "data/outputs/audits/tables/event_2023_journal_annual_denominators.csv",
+      "sha256": "9fcbec091e6eee348e48e332046c47699cd01adda273551f2c5e777fcdea8cbc"
+    },
+    {
+      "path": "data/outputs/audits/tables/event_2023_journal_identifiers.csv",
+      "sha256": "a36546fcc89e810041725e46f35afdfa55f19a78841ed3df03a3b25ac3b687d1"
+    },
+    {
+      "path": "data/outputs/audits/tables/event_2023_journal_original_year_rates.csv",
+      "sha256": "eaf98f148702f99794415e0968d0bed66845d2a05769f96b98854effb2cf8070"
+    },
+    {
       "path": "data/outputs/audits/tables/event_2023_journal_top.csv",
       "sha256": "8a0d793f2995ae951a0b88d6d8092ce93a848316782d2bc1cd18339685b4aedf"
     },
@@ -91,6 +107,14 @@
     {
       "path": "data/outputs/audits/tables/network_baseline_summary.csv",
       "sha256": "53e46aef3883e7e4aee000387c691e4839bc69c2e894c387dd7c3df49400fd3e"
+    },
+    {
+      "path": "data/outputs/audits/tables/network_degree_null_iterations.csv",
+      "sha256": "ef76180a9fc299d1c5f862bf7e245ef54e7c101a203c7ada737e5039cb5cf8bf"
+    },
+    {
+      "path": "data/outputs/audits/tables/network_degree_null_summary.csv",
+      "sha256": "bbdede97cec3ed00b868c40c29e853c5822d12d3256275baf05937cccd9e541b"
     },
     {
       "path": "data/outputs/audits/tables/network_family_summary.csv",

@@ -1,0 +1,15 @@
+"metric","value"
+"permutations",200
+"seed",20261117
+"edge_occurrences",118528
+"authors",42715
+"observed_repeat_edges",4587
+"null_repeat_mean",32.515
+"null_repeat_sd",5.87472013660371
+"null_repeat_q025",21.925
+"null_repeat_q975",43.05
+"repeat_excess",4554.485
+"repeat_z",775.268420298407
+"repeat_p_one_sided",0.00497512437810945
+"mean_self_loops",5.745
+"max_self_loops",13

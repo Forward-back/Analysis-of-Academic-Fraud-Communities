@@ -137,6 +137,21 @@ test_that("network baseline and 2023 local decomposition are frozen", {
     ] < 0.01
   ))
 
+  degree_file <- file.path(
+    project_root,
+    "data/outputs/audits/tables/network_degree_null_summary.csv"
+  )
+  degree_summary <- utils::read.csv(
+    degree_file,
+    stringsAsFactors = FALSE,
+    check.names = FALSE
+  )
+  degree_values <- setNames(degree_summary$value, degree_summary$metric)
+  expect_equal(as.integer(degree_values[["permutations"]]), 200L)
+  expect_equal(as.integer(degree_values[["observed_repeat_edges"]]), 4587L)
+  expect_lt(degree_values[["repeat_p_one_sided"]], 0.01)
+  expect_gt(degree_values[["repeat_excess"]], 0)
+
   cluster_file <- file.path(
     project_root,
     "data/outputs/audits/tables/audit_cluster_candidates.csv"
@@ -190,4 +205,39 @@ test_that("network baseline and 2023 local decomposition are frozen", {
     check.names = FALSE
   )
   expect_equal(publishers$papers[publishers$publisher == "Hindawi"], 8036L)
+
+  crossref_coverage_file <- file.path(
+    project_root,
+    "data/outputs/audits/tables/event_2023_crossref_coverage.csv"
+  )
+  crossref_coverage <- utils::read.csv(
+    crossref_coverage_file,
+    stringsAsFactors = FALSE,
+    check.names = FALSE
+  )
+  crossref_values <- setNames(
+    crossref_coverage$value,
+    crossref_coverage$metric
+  )
+  expect_equal(as.integer(crossref_values[["journals_with_issn"]]), 20L)
+  expect_equal(as.integer(crossref_values[["successful_year_counts"]]), 160L)
+  expect_equal(
+    as.integer(crossref_values[["event_2023_papers_covered"]]),
+    7397L
+  )
+
+  rates_file <- file.path(
+    project_root,
+    "data/outputs/audits/tables/event_2023_journal_original_year_rates.csv"
+  )
+  rates <- utils::read.csv(
+    rates_file,
+    stringsAsFactors = FALSE,
+    check.names = FALSE
+  )
+  expect_equal(nrow(rates), 160L)
+  expect_equal(sum(rates$event_papers[rates$year == 2021L]), 1575L)
+  expect_equal(sum(rates$denominator[rates$year == 2021L]), 15459)
+  expect_equal(sum(rates$event_papers[rates$year == 2022L]), 5555L)
+  expect_equal(sum(rates$denominator[rates$year == 2022L]), 25790)
 })

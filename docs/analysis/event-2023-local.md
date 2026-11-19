@@ -43,6 +43,13 @@
 
 原因族多标签，比例不能相加。
 
+## Crossref 分母
+
+前 20 高频期刊的 2018–2025 年度记录量已补齐，20 个 ISSN、160 个期刊年度请求
+全部成功。2021 和 2022 原论文队列分别覆盖 1,575 和 5,555 篇事件论文。
+
+原论文年份匹配分母见 [2023 期刊年度分母](event-2023-crossref.md)。
+
 ## 输出
 
 - `data/outputs/audits/tables/event_2023_summary.csv`
@@ -52,7 +59,10 @@
 - `data/outputs/audits/tables/event_2023_original_year.csv`
 - `data/outputs/audits/tables/event_2023_reason_family.csv`
 - `data/outputs/audits/tables/event_2023_same_day_batches.csv`
+- `data/outputs/audits/tables/event_2023_journal_annual_denominators.csv`
+- `data/outputs/audits/tables/event_2023_journal_original_year_rates.csv`
 
 ## 解释边界
 
-本地构成支持“出版社集中治理与批量撤稿”的事件解释。Crossref 期刊年度分母和外部治理资料尚未加入，不能据此计算不端发生率或作因果解释。
+本地构成和原论文年份分母支持“出版社集中治理与批量撤稿”的事件解释。外部治理资料
+尚未完成，不能据此计算不端发生率或作因果解释。

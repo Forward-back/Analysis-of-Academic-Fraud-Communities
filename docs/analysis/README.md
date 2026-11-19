@@ -9,6 +9,7 @@
 - [网络团队构成零模型](network-null.md)
 - [固定 25 个待核查审计簇](audit-clusters.md)
 - [2023 本地事件拆解](event-2023-local.md)
+- [2023 期刊年度分母](event-2023-crossref.md)
 - [主分析发现](main-findings.md)
 - [稳健性计划](robustness.md)
 - [限制](limitations.md)
