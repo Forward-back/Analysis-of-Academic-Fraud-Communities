@@ -23,6 +23,7 @@
 | 当前有哪些数据发现 | [基线 EDA](analysis/baseline-eda.md) |
 | 匹配是否平衡、对照缺什么 | [匹配平衡与对照机构缺口](analysis/matching-balance.md) |
 | 网络与重复合作基线 | [作者网络基线](analysis/network-baseline.md) |
+| 重复合作是否超过团队构成基线 | [网络零模型](analysis/network-null.md) |
 | 2023 峰值怎样构成 | [2023 本地事件拆解](analysis/event-2023-local.md) |
 | 项目跑到哪里了 | [当前进度](progress/current-status.md) |
 | 后续挖掘和分析按什么顺序做 | [后续挖掘与分析 To Do](operations/analysis-todo.md) |

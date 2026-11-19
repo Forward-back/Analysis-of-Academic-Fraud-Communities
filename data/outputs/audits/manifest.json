@@ -73,6 +73,18 @@
       "sha256": "354c3b541118494c5a357d27f2cfdd4719e9583d64f527af1ca6fdc7323e510e"
     },
     {
+      "path": "data/outputs/audits/tables/network_null_family_summary.csv",
+      "sha256": "2b3871a13555eddeb4fd8a451af80cf48ac81ab39f98cfb747f86145e4781c3f"
+    },
+    {
+      "path": "data/outputs/audits/tables/network_null_iterations.csv",
+      "sha256": "7251834002d9655533d930f1b4e8d823c3ea0be7ba038db68d8970419fb33ed9"
+    },
+    {
+      "path": "data/outputs/audits/tables/network_null_summary.csv",
+      "sha256": "50644f3d5cc2768cf1407ef1b311a574bf67735a740386291ae4b551b9eb9ddd"
+    },
+    {
       "path": "data/outputs/audits/tables/network_repeat_edge_distribution.csv",
       "sha256": "57e643f3aa8a874b00011e20872bd9ea6bc1f2671d06a6b823287919f93b585b"
     },

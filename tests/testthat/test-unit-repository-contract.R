@@ -56,13 +56,16 @@ test_that("required repository contract files exist", {
     "R/07g_parse_selected_controls.R",
     "R/08_match_balance_audit.R",
     "R/09_build_networks.R",
+    "R/12_network_analysis.R",
     "R/13_event_2023.R",
     "R/90_baseline_eda.R",
     "scripts/run_match_balance_audit.R",
     "scripts/run_network_baseline.R",
+    "scripts/run_network_null_model.R",
     "scripts/run_event_2023.R",
     "docs/data/quality-audit.md",
     "docs/operations/analysis-todo.md",
+    "docs/analysis/network-null.md",
     "docs/progress/current-status.md"
   )
 

@@ -103,6 +103,40 @@ test_that("network baseline and 2023 local decomposition are frozen", {
   expect_equal(unname(network_values[["unique_edges"]]), 111783L)
   expect_equal(unname(network_values[["repeat_edges"]]), 4587L)
 
+  null_file <- file.path(
+    project_root,
+    "data/outputs/audits/tables/network_null_summary.csv"
+  )
+  null_summary <- utils::read.csv(
+    null_file,
+    stringsAsFactors = FALSE,
+    check.names = FALSE
+  )
+  null_values <- setNames(null_summary$value, null_summary$metric)
+  expect_equal(as.integer(null_values[["permutations"]]), 1000L)
+  expect_equal(as.integer(null_values[["observed_repeat_edges"]]), 4587L)
+  expect_lt(null_values[["repeat_p_one_sided"]], 0.01)
+  expect_gt(null_values[["repeat_z"]], 1)
+
+  null_family_file <- file.path(
+    project_root,
+    "data/outputs/audits/tables/network_null_family_summary.csv"
+  )
+  null_family <- utils::read.csv(
+    null_family_file,
+    stringsAsFactors = FALSE,
+    check.names = FALSE
+  )
+  expect_true(all(
+    null_family$p_one_sided[
+      null_family$analysis_family %in% c(
+        "family_publication_process",
+        "family_image_integrity",
+        "family_plagiarism_authorship"
+      )
+    ] < 0.01
+  ))
+
   event_file <- file.path(
     project_root,
     "data/outputs/audits/tables/event_2023_summary.csv"
