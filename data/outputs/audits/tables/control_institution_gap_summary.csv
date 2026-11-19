@@ -1,0 +1,9 @@
+"metric","value"
+"control_works",44287
+"control_works_with_institution_link",39022
+"control_works_without_institution_link",5265
+"unique_control_institutions",8196
+"enriched_institution_metadata",4429
+"missing_institution_metadata",3767
+"control_works_with_missing_metadata",4684
+"affected_matched_cases",4267

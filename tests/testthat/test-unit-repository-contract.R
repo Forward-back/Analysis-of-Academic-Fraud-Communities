@@ -32,6 +32,8 @@ test_that("required repository contract files exist", {
     "docs/decisions/0008-control-matching-and-fallback.md",
     "docs/specs/README.md",
     "scripts/build_deliverables.R",
+    "R/lib/file_hash.R",
+    "R/lib/identity_keys.R",
     "R/00_setup.R",
     "R/01_ingest_rwdb.R",
     "R/02_build_doi_panel.R",
@@ -52,8 +54,15 @@ test_that("required repository contract files exist", {
     "R/07e_fill_control_fallback.R",
     "R/07f_fetch_selected_controls.R",
     "R/07g_parse_selected_controls.R",
+    "R/08_match_balance_audit.R",
+    "R/09_build_networks.R",
+    "R/13_event_2023.R",
     "R/90_baseline_eda.R",
+    "scripts/run_match_balance_audit.R",
+    "scripts/run_network_baseline.R",
+    "scripts/run_event_2023.R",
     "docs/data/quality-audit.md",
+    "docs/operations/analysis-todo.md",
     "docs/progress/current-status.md"
   )
 
@@ -140,6 +149,7 @@ test_that("reason domain and context maps are valid many-to-many relations", {
 
 test_that("reference provenance hashes match frozen files", {
   project_root <- project_root_for_contract()
+  source(file.path(project_root, "R/lib/file_hash.R"), encoding = "UTF-8")
   provenance_file <- file.path(
     project_root,
     "data/reference/mappings/provenance.json"
@@ -150,10 +160,29 @@ test_that("reference provenance hashes match frozen files", {
     path <- file.path(project_root, item$path)
     expect_true(file.exists(path))
     expect_equal(
-      digest::digest(file = path, algo = "sha256"),
+      sha256_canonical_file(path),
       item$sha256
     )
   }
+})
+
+test_that("canonical text hashes ignore checkout line endings", {
+  project_root <- project_root_for_contract()
+  source(file.path(project_root, "R/lib/file_hash.R"), encoding = "UTF-8")
+  lf_file <- tempfile(fileext = ".csv")
+  crlf_file <- tempfile(fileext = ".csv")
+
+  writeBin(charToRaw("a,b\n1,2\n"), lf_file)
+  writeBin(charToRaw("a,b\r\n1,2\r\n"), crlf_file)
+
+  expect_equal(
+    sha256_canonical_file(lf_file),
+    sha256_canonical_file(crlf_file)
+  )
+  expect_false(identical(
+    digest::digest(file = lf_file, algo = "sha256"),
+    digest::digest(file = crlf_file, algo = "sha256")
+  ))
 })
 
 test_that("outputs use phase-first structure", {
@@ -203,6 +232,7 @@ test_that("baseline manifest uses project-relative paths", {
 
 test_that("audit manifest hashes match frozen audit files", {
   project_root <- project_root_for_contract()
+  source(file.path(project_root, "R/lib/file_hash.R"), encoding = "UTF-8")
   manifest_file <- file.path(project_root, "data/outputs/audits/manifest.json")
   manifest <- jsonlite::read_json(manifest_file, simplifyVector = FALSE)
 
@@ -213,7 +243,7 @@ test_that("audit manifest hashes match frozen audit files", {
     path <- file.path(project_root, item$path)
     expect_true(file.exists(path))
     expect_equal(
-      digest::digest(file = path, algo = "sha256"),
+      sha256_canonical_file(path),
       item$sha256
     )
   }

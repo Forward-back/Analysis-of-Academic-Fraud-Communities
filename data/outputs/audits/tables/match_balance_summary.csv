@@ -1,0 +1,17 @@
+"metric","value"
+"control_links",44287
+"matched_cases",22198
+"year_match_rate",1
+"type_match_rate",1
+"type_mismatch_links",0
+"source_match_rate",0.91390249960485
+"publisher_match_rate",0.99828128180194
+"field_match_rate",0.810048549170148
+"any_topic_match_rate",0.901298408038839
+"mean_case_team_size",4.4466547745388
+"mean_control_team_size",5.4512610924199
+"team_size_smd",-0.306992447272884
+"case_key_mismatch",0
+"control_all_authors_have_id_rate",0.668187052633956
+"control_all_authors_have_institution_rate",0.881116354686477
+"control_all_authors_have_country_rate",0.881116354686477

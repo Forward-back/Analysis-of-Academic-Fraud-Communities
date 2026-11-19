@@ -1,6 +1,6 @@
 # 复现说明
 
-> 状态：仓库契约已建立，正式分析管道待实现
+> 状态：仓库契约、P0 管道和 P1 主对照管道已建立，M6 对照片本富化进行中
 
 ## 环境
 
@@ -103,6 +103,9 @@ powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
 powershell -ExecutionPolicy Bypass -File scripts/run_selected_control_fetch.ps1
 powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
   -RScript scripts/run_selected_control_parse.R -IncludeOutputs -IncludeCache
+# 完整字段解析后再次校验年份与类型，排除抓取后漂移的对照
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_control_fallback.R -IncludeOutputs
 ```
 
 `run_control_pool_fetch.ps1` 的请求同时设置 `sample` 和 `per_page`；
@@ -113,6 +116,8 @@ powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
 - 原始 CSV 只读。
 - 下载日期和观察日期分开记录。
 - 文件哈希写入 manifest。
+- CSV、JSON、Markdown 等文本文件先将 CRLF 和单独 CR 规范为 LF 再计算哈希；
+  原始 CSV、二进制文件和 API 响应保留逐字节哈希。
 - 派生数据可删除重建。
 - `external/` 与 `reference/` 的来源边界不可混用。
 - manifest 只记录项目相对路径。

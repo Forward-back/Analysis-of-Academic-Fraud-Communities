@@ -12,5 +12,6 @@ ADR 记录难以回退、需要解释原因且存在真实取舍的设计选择�
 | [0006](0006-title-linkage-exclusions.md) | 精确 DOI 中的标题冲突排除 | 已接受 |
 | [0007](0007-institution-tier-year-versions.md) | 机构层级的发表年份版本 | 已接受 |
 | [0008](0008-control-matching-and-fallback.md) | 非撤稿对照匹配与退化规则 | 已接受 |
+| [0009](0009-text-hash-normalization.md) | 文本内容哈希统一按 LF 计算 | 已接受 |
 
 新增 ADR 时使用连续编号。小型实现选择记录在代码说明或进度日志，不滥用 ADR。

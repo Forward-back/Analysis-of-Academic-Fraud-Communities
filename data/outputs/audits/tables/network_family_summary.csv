@@ -1,0 +1,10 @@
+"analysis_family","papers_with_edges","nodes_with_edges","unique_edges","repeat_edges","repeat_edge_share","multi_year_repeat_edges"
+"all_network",11157,42715,111783,4587,0.0410348621883471,2123
+"family_publication_process",6191,21540,44801,1357,0.0302895024664628,429
+"family_image_integrity",1541,8402,30242,1786,0.0590569406785265,944
+"family_plagiarism_authorship",1467,6857,19794,728,0.0367788218652117,456
+"family_data_integrity",432,2226,7102,279,0.0392847085328077,167
+"family_research_ethics_compliance",1125,4843,12249,146,0.0119193403543146,49
+"family_materials_methods_integrity",297,1610,4663,14,0.00300235899635428,5
+"family_error_control",2057,8938,23195,362,0.0156068118128907,90
+"family_unclassified",468,2009,5397,103,0.0190846766722253,65

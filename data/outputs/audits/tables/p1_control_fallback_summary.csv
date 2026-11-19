@@ -1,7 +1,9 @@
 "metric","value"
-"cases_with_two_controls",22090
-"cases_with_one_control",108
+"cases_with_two_controls",22089
+"cases_with_one_control",109
 "cases_with_zero_controls",2462
+"post_fetch_excluded_links",1
+"fallback_blocked_cases",1
 "publisher_fallback_links",3813
-"control_links",44288
-"unique_control_works",44288
+"control_links",44287
+"unique_control_works",44287

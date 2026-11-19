@@ -152,6 +152,9 @@ assert_columns <- function(data, required, label) {
   invisible(TRUE)
 }
 
+source("R/lib/file_hash.R", encoding = "UTF-8")
+source("R/lib/identity_keys.R", encoding = "UTF-8")
+
 sha256_file <- function(path) {
   digest::digest(file = path, algo = "sha256")
 }
@@ -179,7 +182,7 @@ write_audit_manifest <- function() {
     files = lapply(files, function(path) {
       list(
         path = project_relative_path(path),
-        sha256 = sha256_file(path)
+        sha256 = sha256_canonical_file(path)
       )
     })
   )

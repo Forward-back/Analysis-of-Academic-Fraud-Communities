@@ -98,6 +98,7 @@ if (
       }
       works <- candidate_block$openalex_work_id[indices]
       dois <- candidate_block$doi_canonical[indices]
+      doi_keys <- doi_environment_key(dois)
       used_work <- vapply(
         works,
         exists,
@@ -106,11 +107,11 @@ if (
         inherits = FALSE
       )
       used_doi <- vapply(
-        seq_along(dois),
+        seq_along(doi_keys),
         function(index) {
-          !is.na(dois[[index]]) &&
+          !is.na(doi_keys[[index]]) &&
             exists(
-              dois[[index]],
+              doi_keys[[index]],
               envir = candidate_doi_used,
               inherits = FALSE
             )
@@ -202,8 +203,9 @@ if (
             envir = candidate_used
           )
           if (!is.na(candidate$doi_canonical)) {
+            candidate_doi_key <- doi_environment_key(candidate$doi_canonical)
             assign(
-              candidate$doi_canonical,
+              candidate_doi_key,
               TRUE,
               envir = candidate_doi_used
             )

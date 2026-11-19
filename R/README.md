@@ -1,7 +1,8 @@
 # R 分析管道
 
 脚本从项目根目录运行，按编号执行。当前已完成 P0 的全部管道、
-P1 的机构层级与对照匹配阶段，以及 `90_baseline_eda.R`。
+P1 的机构层级与对照匹配阶段、M6 首轮平衡审计、作者网络基线和
+2023 本地事件拆解。
 其余编号文件在对应阶段创建。
 
 ```text
@@ -14,9 +15,8 @@ P1 的机构层级与对照匹配阶段，以及 `90_baseline_eda.R`。
 06_build_authorships.R 作者、机构、国家长表
 06a-06f                P1 机构抓取、层级、地区和论文富化
 07a-07g                P1 对照分层、候选池、匹配和对照解析
-07_match_controls.R    非撤稿对照匹配
-08_enrich_institutions.R 机构层级、省市与距离
-09_build_networks.R    作者网络与社群
+08_match_balance_audit.R 对照缺口、匹配平衡和团队规模审计
+09_build_networks.R    作者网络与重复合作基线
 10_descriptive.R       描述性统计
 11_paper_models.R      论文层模型
 12_network_analysis.R  零模型与社群检验
@@ -26,6 +26,9 @@ P1 的机构层级与对照匹配阶段，以及 `90_baseline_eda.R`。
 16_run_all.R           全流程入口
 90_baseline_eda.R      已完成的基础 EDA
 ```
+
+当前 `09_build_networks.R` 已生成网络边和描述性结构，尚未实现置换零模型；
+`13_event_2023.R` 已完成本地构成，尚未接入 Crossref 分母和外部证据。
 
 ## P0 运行入口
 
@@ -65,6 +68,12 @@ powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
   -RScript scripts/run_control_pool_parse.R -IncludeOutputs -IncludeCache
 powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
   -RScript scripts/run_control_match.R -IncludeOutputs
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_control_fallback.R -IncludeOutputs
+powershell -ExecutionPolicy Bypass -File scripts/run_selected_control_fetch.ps1
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_selected_control_parse.R -IncludeOutputs -IncludeCache
+# 完整字段解析后再次校验年份与类型
 powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
   -RScript scripts/run_control_fallback.R -IncludeOutputs
 ```

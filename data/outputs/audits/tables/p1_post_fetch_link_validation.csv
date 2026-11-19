@@ -1,0 +1,2 @@
+"paper_key","openalex_work_id","topic_match_level","control_rank","expected_publication_year","actual_publication_year","expected_openalex_type","actual_openalex_type","year_match","type_match","consistent"
+"paper_021320","https://openalex.org/W3175334559","subfield",2,2018,2018,"article","conference-abstract",TRUE,FALSE,FALSE

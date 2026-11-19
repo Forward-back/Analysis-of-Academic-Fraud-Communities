@@ -42,7 +42,7 @@
       "source": "Retraction Watch Reason labels plus project review",
       "source_snapshot": "data/raw/retractions.csv",
       "source_observation_date": "2026-11-04",
-      "sha256": "241a0a2f1401eeecb6d7795be12b3313f92adbe84924f5b9f2b4dc7bd388c910"
+      "sha256": "a6196080be3dc5640f0498c5fdc3f049a34cf22c94b1ebc550a4c7e8e9fc81eb"
     },
     {
       "path": "data/reference/mappings/rwdb_field_dictionary_v1.csv",
@@ -66,7 +66,7 @@
       "source": "Ministry of Education tier lists bridged to reviewed OpenAlex institution IDs",
       "source_snapshot": "data/external/snapshots/institution_tiers/manifest.json",
       "source_observation_date": "2026-11-18",
-      "sha256": "7f0270b0c633560f7d2f3ff8ac5f97204217f7521b7cff2300b320114cb8654d"
+      "sha256": "725a15a7853b0bc9249c3ed22ae5bba064909327d43ecfbc0239ebcadb7d5c81"
     },
     {
       "path": "data/reference/mappings/china_region_codes_v1.csv",

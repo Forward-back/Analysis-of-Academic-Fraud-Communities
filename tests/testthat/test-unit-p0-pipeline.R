@@ -16,6 +16,17 @@ test_that("P0 normalization helpers are deterministic", {
     normalize_title(c("A  title & more", "Second-title")),
     c("a title more", "second title")
   )
+
+  unicode_doi <- paste0(
+    "10.3969/j.issn.1672",
+    intToUtf8(0x2043),
+    "6731.2022.01.007"
+  )
+  doi_key <- doi_environment_key(unicode_doi)
+  expect_match(doi_key, "^[0-9a-f]{64}$")
+  doi_env <- new.env(parent = emptyenv())
+  assign(doi_key, TRUE, envir = doi_env)
+  expect_true(exists(doi_key, envir = doi_env, inherits = FALSE))
 })
 
 test_that("OpenAlex parser creates work and authorship audits", {

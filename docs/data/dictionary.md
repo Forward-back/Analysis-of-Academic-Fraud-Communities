@@ -23,7 +23,7 @@
 | `reason_labels` | list | 原始多标签原因 |
 | `family_*` | logical | 原因族标志 |
 | `openalex_work_id` | character | OpenAlex 作品 ID |
-| `match_status` | character | exact、not_found、invalid、failed |
+| `match_status` | character | `exact`、`multiple_exact`、`not_found`、`invalid`、`failed` |
 | `confirmed_mainland` | logical | OpenAlex 至少一个 `CN` 机构 |
 | `institution_complete` | logical | 全部作者均有机构 ID |
 | `n_authors` | integer | 去重 OpenAlex 作者 ID |

@@ -21,7 +21,11 @@
 | 2023 峰值如何拆解 | [2023 事件方法](methods/event-2023-method.md) |
 | 资助专项如何做 | [资助审计方法](methods/funding-audit-method.md) |
 | 当前有哪些数据发现 | [基线 EDA](analysis/baseline-eda.md) |
+| 匹配是否平衡、对照缺什么 | [匹配平衡与对照机构缺口](analysis/matching-balance.md) |
+| 网络与重复合作基线 | [作者网络基线](analysis/network-baseline.md) |
+| 2023 峰值怎样构成 | [2023 本地事件拆解](analysis/event-2023-local.md) |
 | 项目跑到哪里了 | [当前进度](progress/current-status.md) |
+| 后续挖掘和分析按什么顺序做 | [后续挖掘与分析 To Do](operations/analysis-todo.md) |
 | 每个里程碑何时完成 | [里程碑](progress/milestones.md) |
 | 如何复现 | [复现说明](operations/reproduction.md) |
 | 报告、Shiny 和汇报包含什么 | [交付规格](specs/README.md) |

@@ -81,3 +81,52 @@ test_that("frozen reason registry covers all labels in raw data", {
     "e106566b7f3c6169c30dbfa036d89885e58e53bec4110f41758b559a60e65370"
   )
 })
+
+test_that("network baseline and 2023 local decomposition are frozen", {
+  project_root <- project_root_for_baseline()
+  network_file <- file.path(
+    project_root,
+    "data/outputs/audits/tables/network_baseline_summary.csv"
+  )
+  network <- utils::read.csv(
+    network_file,
+    stringsAsFactors = FALSE,
+    check.names = FALSE
+  )
+  network_values <- setNames(network$value, network$metric)
+
+  expect_equal(
+    unname(network_values[["network_complete_papers"]]),
+    14827L
+  )
+  expect_equal(unname(network_values[["nodes"]]), 46074L)
+  expect_equal(unname(network_values[["unique_edges"]]), 111783L)
+  expect_equal(unname(network_values[["repeat_edges"]]), 4587L)
+
+  event_file <- file.path(
+    project_root,
+    "data/outputs/audits/tables/event_2023_summary.csv"
+  )
+  event <- utils::read.csv(
+    event_file,
+    stringsAsFactors = FALSE,
+    check.names = FALSE
+  )
+  event_values <- setNames(event$value, event$metric)
+
+  expect_equal(
+    as.integer(event_values[["accepted_mainland_2023_papers"]]),
+    10028L
+  )
+
+  publisher_file <- file.path(
+    project_root,
+    "data/outputs/audits/tables/event_2023_publisher.csv"
+  )
+  publishers <- utils::read.csv(
+    publisher_file,
+    stringsAsFactors = FALSE,
+    check.names = FALSE
+  )
+  expect_equal(publishers$papers[publishers$publisher == "Hindawi"], 8036L)
+})
