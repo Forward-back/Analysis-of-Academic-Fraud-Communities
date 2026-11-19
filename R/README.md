@@ -29,6 +29,7 @@ P1 的机构层级与对照匹配阶段、M6 首轮平衡审计、作者网络�
 
 当前 `09_build_networks.R` 已生成网络边和描述性结构；
 `12_network_analysis.R` 已完成 1,000 次团队构成置换零模型；
+`12b_select_audit_clusters.R` 已固定 25 个重复合作审计簇；
 `13_event_2023.R` 已完成本地构成，尚未接入 Crossref 分母和外部证据。
 
 ## P0 运行入口

@@ -137,6 +137,33 @@ test_that("network baseline and 2023 local decomposition are frozen", {
     ] < 0.01
   ))
 
+  cluster_file <- file.path(
+    project_root,
+    "data/outputs/audits/tables/audit_cluster_candidates.csv"
+  )
+  clusters <- utils::read.csv(
+    cluster_file,
+    stringsAsFactors = FALSE,
+    check.names = FALSE
+  )
+  expect_equal(nrow(clusters), 38L)
+  expect_equal(sum(clusters$selected %in% TRUE), 25L)
+  expect_true(all(clusters$share_2023 <= 0.5))
+  expect_true(all(clusters$excluding_2023_stability >= 0.5))
+  expect_equal(anyDuplicated(clusters$component_id), 0L)
+
+  final_cluster_file <- file.path(
+    project_root,
+    "data/outputs/audits/tables/audit_clusters_final_25.csv"
+  )
+  final_clusters <- utils::read.csv(
+    final_cluster_file,
+    stringsAsFactors = FALSE,
+    check.names = FALSE
+  )
+  expect_equal(nrow(final_clusters), 25L)
+  expect_equal(anyDuplicated(final_clusters$audit_cluster_id), 0L)
+
   event_file <- file.path(
     project_root,
     "data/outputs/audits/tables/event_2023_summary.csv"

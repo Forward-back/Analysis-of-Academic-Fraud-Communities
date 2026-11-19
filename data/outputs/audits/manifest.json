@@ -5,6 +5,14 @@
   "source_path_type": "project-relative",
   "files": [
     {
+      "path": "data/outputs/audits/tables/audit_cluster_candidates.csv",
+      "sha256": "b28e5753f92034970b3d64bb07d6078f6c080a536c3ffbe1f41caa2962cd8c83"
+    },
+    {
+      "path": "data/outputs/audits/tables/audit_clusters_final_25.csv",
+      "sha256": "7792a9829ef14e6385631faf4f3484b863236c9d95b581da52fac1c3cdf81692"
+    },
+    {
       "path": "data/outputs/audits/tables/control_institution_gap_by_family.csv",
       "sha256": "7a5594d2819169e288aaf6f1a4e7f7d3c41b7f886a5a24e4ada03aa4f905bff4"
     },
@@ -43,6 +51,22 @@
     {
       "path": "data/outputs/audits/tables/event_2023_summary.csv",
       "sha256": "fa7e8bb57486d5c362ba254636b8c6043006df28cedaed0fcf4e142459db8671"
+    },
+    {
+      "path": "data/outputs/audits/tables/leiden_community_profiles.csv",
+      "sha256": "a0089f9f7135b6fec3d907c61976e94570a8b3821279a578ab72e4f90b0fbab2"
+    },
+    {
+      "path": "data/outputs/audits/tables/leiden_resolution_summary.csv",
+      "sha256": "9b6966c0dcb08bc56f19916fad7ddc884740330f85c9ce6330e6c108826e54db"
+    },
+    {
+      "path": "data/outputs/audits/tables/leiden_stability_summary.csv",
+      "sha256": "3bcde789b7381738634719329a1c3cd3813a1f752bd55706b7b50c45bddfff1d"
+    },
+    {
+      "path": "data/outputs/audits/tables/leiden_top_communities_exploratory.csv",
+      "sha256": "09cba741ea398258394bd69bb9c208545fa137f6a8f3f4e0d45029d33390f229"
     },
     {
       "path": "data/outputs/audits/tables/match_balance_by_family.csv",
@@ -375,6 +399,10 @@
     {
       "path": "data/outputs/audits/tables/p1_year_tier_link_audit.csv",
       "sha256": "2f28c6c1b1b205fae15b1f33cd28c9a72fac1e3158aa17fe2eab0a85af8af320"
+    },
+    {
+      "path": "data/outputs/audits/tables/repeat_component_profiles.csv",
+      "sha256": "f5915000a3ae1d7cf1ee6bd598bb0424edd04fb3d520f725af51693277aa271a"
     }
   ]
 }

@@ -15,6 +15,8 @@
 | `run_match_balance_audit.R` | 对照缺口、匹配平衡和团队规模审计 |
 | `run_network_baseline.R` | 作者网络与重复合作基线 |
 | `run_network_null_model.R` | 团队构成置换零模型 |
+| `run_leiden_communities.R` | Leiden 多分辨率与稳定性敏感性 |
+| `run_audit_clusters.R` | 固定 25 个重复合作审计簇 |
 | `run_event_2023.R` | 2023 本地事件构成拆解 |
 | `audit_reason_mapping.R` | 只读检查 112 标签覆盖、领域重叠和分析族计数 |
 | `build_deliverables.R` | 从冻结输出构建应用数据和报告图 |
