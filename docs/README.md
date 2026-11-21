@@ -28,7 +28,8 @@
 | 2023 峰值怎样构成 | [2023 本地事件拆解](analysis/event-2023-local.md) |
 | 2023 期刊年度分母与相对量级 | [Crossref 分母](analysis/event-2023-crossref.md) |
 | 项目跑到哪里了 | [当前进度](progress/current-status.md) |
-| 后续挖掘和分析按什么顺序做 | [后续挖掘与分析 To Do](operations/analysis-todo.md) |
+| 后续挖掘和分析按什么顺序做 | [后续挖掘与分析优先级](operations/analysis-priority.md) |
+| 已经遇到哪些惊奇发现和边界 | [探索发现与边界日志](progress/exploration-findings.md) |
 | 每个里程碑何时完成 | [里程碑](progress/milestones.md) |
 | 如何复现 | [复现说明](operations/reproduction.md) |
 | 报告、Shiny 和汇报包含什么 | [交付规格](specs/README.md) |
