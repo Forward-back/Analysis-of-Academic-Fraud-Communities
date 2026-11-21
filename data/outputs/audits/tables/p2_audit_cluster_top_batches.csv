@@ -1,0 +1,76 @@
+"audit_cluster_id","rank","batch_key","batch_date","batch_publisher","papers","cluster_papers","share"
+"audit_cluster_01",1,"2021-06-30|Wiley","2021-06-30","Wiley",5,27,0.185185185185185
+"audit_cluster_01",2,"2021-11-02|Cellular Physiol Biochem Press","2021-11-02","Cellular Physiol Biochem Press",2,27,0.0740740740740741
+"audit_cluster_01",3,"2021-01-04|Wiley","2021-01-04","Wiley",1,27,0.037037037037037
+"audit_cluster_02",1,"2018-04-09|Elsevier","2018-04-09","Elsevier",1,6,0.166666666666667
+"audit_cluster_02",2,"2024-04-30|Cellular Physiol Biochem Press","2024-04-30","Cellular Physiol Biochem Press",1,6,0.166666666666667
+"audit_cluster_02",3,"2024-06-05|Springer - Nature Publishing Group","2024-06-05","Springer - Nature Publishing Group",1,6,0.166666666666667
+"audit_cluster_03",1,"2022-03-25|Springer - Biomed Central (BMC)","2022-03-25","Springer - Biomed Central (BMC)",1,10,0.1
+"audit_cluster_03",2,"2022-04-19|Taylor and Francis - Dove Press","2022-04-19","Taylor and Francis - Dove Press",1,10,0.1
+"audit_cluster_03",3,"2022-08-30|Springer - Biomed Central (BMC)","2022-08-30","Springer - Biomed Central (BMC)",1,10,0.1
+"audit_cluster_04",1,"2020-11-27|MDPI","2020-11-27","MDPI",1,5,0.2
+"audit_cluster_04",2,"2021-01-01|Ivyspring International Publisher","2021-01-01","Ivyspring International Publisher",1,5,0.2
+"audit_cluster_04",3,"2021-12-24|Springer - Biomed Central (BMC)","2021-12-24","Springer - Biomed Central (BMC)",1,5,0.2
+"audit_cluster_05",1,"2021-01-12|Elsevier","2021-01-12","Elsevier",1,9,0.111111111111111
+"audit_cluster_05",2,"2021-08-09|Wiley","2021-08-09","Wiley",1,9,0.111111111111111
+"audit_cluster_05",3,"2021-08-12|Wiley","2021-08-12","Wiley",1,9,0.111111111111111
+"audit_cluster_06",1,"2025-02-18|Impact Journals","2025-02-18","Impact Journals",2,9,0.222222222222222
+"audit_cluster_06",2,"2020-03-27|PLoS","2020-03-27","PLoS",1,9,0.111111111111111
+"audit_cluster_06",3,"2022-06-07|Ivyspring International Publisher","2022-06-07","Ivyspring International Publisher",1,9,0.111111111111111
+"audit_cluster_07",1,"2020-10-19|Royal Society of Chemistry (RSC)","2020-10-19","Royal Society of Chemistry (RSC)",9,15,0.6
+"audit_cluster_07",2,"2021-04-07|American Chemical Society (ACS)","2021-04-07","American Chemical Society (ACS)",2,15,0.133333333333333
+"audit_cluster_07",3,"2015-06-21|Royal Society of Chemistry (RSC)","2015-06-21","Royal Society of Chemistry (RSC)",1,15,0.0666666666666667
+"audit_cluster_08",1,"2016-06-17|Wiley","2016-06-17","Wiley",1,5,0.2
+"audit_cluster_08",2,"2016-07-29|Wiley","2016-07-29","Wiley",1,5,0.2
+"audit_cluster_08",3,"2016-08-18|Wiley","2016-08-18","Wiley",1,5,0.2
+"audit_cluster_09",1,"2023-11-22|Elsevier","2023-11-22","Elsevier",1,7,0.142857142857143
+"audit_cluster_09",2,"2024-04-11|Elsevier","2024-04-11","Elsevier",1,7,0.142857142857143
+"audit_cluster_09",3,"2024-11-01|Elsevier","2024-11-01","Elsevier",1,7,0.142857142857143
+"audit_cluster_10",1,"2021-04-29|Elsevier","2021-04-29","Elsevier",5,11,0.454545454545455
+"audit_cluster_10",2,"2020-09-25|American Society for Biochemistry and Molecular Biology (ASBMB)","2020-09-25","American Society for Biochemistry and Molecular Biology (ASBMB)",2,11,0.181818181818182
+"audit_cluster_10",3,"2021-04-29|American Society for Biochemistry and Molecular Biology (ASBMB)","2021-04-29","American Society for Biochemistry and Molecular Biology (ASBMB)",2,11,0.181818181818182
+"audit_cluster_11",1,"2024-11-07|Elsevier","2024-11-07","Elsevier",5,10,0.5
+"audit_cluster_11",2,"2024-10-02|Elsevier","2024-10-02","Elsevier",3,10,0.3
+"audit_cluster_11",3,"2024-11-18|Elsevier","2024-11-18","Elsevier",1,10,0.1
+"audit_cluster_12",1,"2022-05-23|Elsevier - Cell Press","2022-05-23","Elsevier - Cell Press",2,8,0.25
+"audit_cluster_12",2,"2015-08-17|Springer","2015-08-17","Springer",1,8,0.125
+"audit_cluster_12",3,"2022-09-29|Springer - Biomed Central (BMC)","2022-09-29","Springer - Biomed Central (BMC)",1,8,0.125
+"audit_cluster_13",1,"2021-09-09|Spandidos","2021-09-09","Spandidos",1,7,0.142857142857143
+"audit_cluster_13",2,"2021-09-20|Wiley","2021-09-20","Wiley",1,7,0.142857142857143
+"audit_cluster_13",3,"2021-11-02|Spandidos","2021-11-02","Spandidos",1,7,0.142857142857143
+"audit_cluster_14",1,"2020-06-13|Wiley","2020-06-13","Wiley",1,6,0.166666666666667
+"audit_cluster_14",2,"2020-11-06|Springer","2020-11-06","Springer",1,6,0.166666666666667
+"audit_cluster_14",3,"2021-02-14|Elsevier","2021-02-14","Elsevier",1,6,0.166666666666667
+"audit_cluster_15",1,"2025-05-07|PLoS","2025-05-07","PLoS",4,33,0.121212121212121
+"audit_cluster_15",2,"2025-05-01|Elsevier","2025-05-01","Elsevier",3,33,0.0909090909090909
+"audit_cluster_15",3,"2025-02-11|Elsevier","2025-02-11","Elsevier",2,33,0.0606060606060606
+"audit_cluster_16",1,"2023-12-31|Cellular Physiol Biochem Press","2023-12-31","Cellular Physiol Biochem Press",2,10,0.2
+"audit_cluster_16",2,"2017-09-07|BioMed Central (BMC)","2017-09-07","BioMed Central (BMC)",1,10,0.1
+"audit_cluster_16",3,"2018-01-09|Spandidos","2018-01-09","Spandidos",1,10,0.1
+"audit_cluster_17",1,"2025-01-15|IOS Press (bought by Sage November 2023)","2025-01-15","IOS Press (bought by Sage November 2023)",26,58,0.448275862068966
+"audit_cluster_17",2,"2020-04-23|Royal Society of Chemistry (RSC)","2020-04-23","Royal Society of Chemistry (RSC)",7,58,0.120689655172414
+"audit_cluster_17",3,"2025-04-17|IOS Press (bought by Sage November 2023)","2025-04-17","IOS Press (bought by Sage November 2023)",6,58,0.103448275862069
+"audit_cluster_18",1,"2021-02-15|Elsevier","2021-02-15","Elsevier",2,8,0.25
+"audit_cluster_18",2,"2020-03-01|Elsevier","2020-03-01","Elsevier",1,8,0.125
+"audit_cluster_18",3,"2020-07-17|Elsevier","2020-07-17","Elsevier",1,8,0.125
+"audit_cluster_19",1,"2022-05-31|Spandidos","2022-05-31","Spandidos",1,5,0.2
+"audit_cluster_19",2,"2022-06-06|Spandidos","2022-06-06","Spandidos",1,5,0.2
+"audit_cluster_19",3,"2022-09-07|Spandidos","2022-09-07","Spandidos",1,5,0.2
+"audit_cluster_20",1,"2020-02-12|Springer - Nature Publishing Group","2020-02-12","Springer - Nature Publishing Group",2,7,0.285714285714286
+"audit_cluster_20",2,"2014-12-04|Elsevier","2014-12-04","Elsevier",1,7,0.142857142857143
+"audit_cluster_20",3,"2019-06-01|American Society for Biochemistry and Molecular Biology (ASBMB)","2019-06-01","American Society for Biochemistry and Molecular Biology (ASBMB)",1,7,0.142857142857143
+"audit_cluster_21",1,"2022-08-03|PLoS","2022-08-03","PLoS",1,5,0.2
+"audit_cluster_21",2,"2022-08-31|PLoS","2022-08-31","PLoS",1,5,0.2
+"audit_cluster_21",3,"2024-06-10|Frontiers","2024-06-10","Frontiers",1,5,0.2
+"audit_cluster_22",1,"2021-01-15|Wiley","2021-01-15","Wiley",1,11,0.0909090909090909
+"audit_cluster_22",2,"2021-01-28|Elsevier","2021-01-28","Elsevier",1,11,0.0909090909090909
+"audit_cluster_22",3,"2021-02-01|Wiley","2021-02-01","Wiley",1,11,0.0909090909090909
+"audit_cluster_23",1,"2018-06-01|Springer","2018-06-01","Springer",3,7,0.428571428571429
+"audit_cluster_23",2,"2019-05-18|Springer","2019-05-18","Springer",2,7,0.285714285714286
+"audit_cluster_23",3,"2019-05-17|Springer","2019-05-17","Springer",1,7,0.142857142857143
+"audit_cluster_24",1,"2018-10-22|Elsevier","2018-10-22","Elsevier",3,15,0.2
+"audit_cluster_24",2,"2017-09-29|Elsevier","2017-09-29","Elsevier",2,15,0.133333333333333
+"audit_cluster_24",3,"2016-09-14|Elsevier","2016-09-14","Elsevier",1,15,0.0666666666666667
+"audit_cluster_25",1,"2023-09-08|Elsevier","2023-09-08","Elsevier",3,14,0.214285714285714
+"audit_cluster_25",2,"2020-12-14|Elsevier","2020-12-14","Elsevier",2,14,0.142857142857143
+"audit_cluster_25",3,"2023-09-14|Elsevier","2023-09-14","Elsevier",2,14,0.142857142857143

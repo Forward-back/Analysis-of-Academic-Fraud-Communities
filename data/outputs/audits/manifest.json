@@ -549,6 +549,46 @@
       "sha256": "d6dbb1a472f7f8e9aab477f56272e2d962e11ba1e8735a15f08bf203c7b39b37"
     },
     {
+      "path": "data/outputs/audits/tables/p2_audit_cluster_family_counts.csv",
+      "sha256": "54a69d5b5f053ad65fee4d84c46befd099eac52d3dcd8ca8d720f66d9c01727b"
+    },
+    {
+      "path": "data/outputs/audits/tables/p2_audit_cluster_geo_counts.csv",
+      "sha256": "cf056449d03c861321cf52752044fd5fee6aaa1e045b06786ef5e76eca3a609f"
+    },
+    {
+      "path": "data/outputs/audits/tables/p2_audit_cluster_paper_membership.csv",
+      "sha256": "1e416af93ad9e3793512c86985e825081a1a693f2b86d7ba21f0f2f7ab65ebbd"
+    },
+    {
+      "path": "data/outputs/audits/tables/p2_audit_cluster_portfolio_summary.csv",
+      "sha256": "7a02170fa83bdfa9728e73fbfe408dd7d973098ede92fa33a3bf89e3db7248d9"
+    },
+    {
+      "path": "data/outputs/audits/tables/p2_audit_cluster_profiles.csv",
+      "sha256": "6309fab7b27245371329b4c1f095be24dc84d5959cf1ce1a3184809392eb2118"
+    },
+    {
+      "path": "data/outputs/audits/tables/p2_audit_cluster_top_batches.csv",
+      "sha256": "f751ae66a5770b78820cd1b75ee8e1016a8895b5f975446b7ceddb9a46ba735c"
+    },
+    {
+      "path": "data/outputs/audits/tables/p2_audit_cluster_top_venues.csv",
+      "sha256": "0d15312fc04f7bb49b8ea7edaed3d2ed83513eaa1d514242ea3865036a86cf52"
+    },
+    {
+      "path": "data/outputs/audits/tables/p2_hypothesis_evidence.csv",
+      "sha256": "3a437dea001b545bcbd76112837ec8514a072dce12ade2bd789a36ef282fe5ee"
+    },
+    {
+      "path": "data/outputs/audits/tables/p2_network_family_edge_structure.csv",
+      "sha256": "8d78bdfd6114baf9456080ca98648289ac3607717d3da91d83dc049b62f66ffc"
+    },
+    {
+      "path": "data/outputs/audits/tables/p2_network_family_standardized_excess.csv",
+      "sha256": "2525d9228fda8fc6ef03607ff3a5622060163721e5c1b4b2f3754a663161bd48"
+    },
+    {
       "path": "data/outputs/audits/tables/repeat_component_profiles.csv",
       "sha256": "f5915000a3ae1d7cf1ee6bd598bb0424edd04fb3d520f725af51693277aa271a"
     }

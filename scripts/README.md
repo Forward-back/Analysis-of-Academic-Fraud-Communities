@@ -21,6 +21,7 @@
 | `run_network_null_model.R` | 团队构成置换零模型 |
 | `run_leiden_communities.R` | Leiden 多分辨率与稳定性敏感性 |
 | `run_audit_clusters.R` | 固定 25 个重复合作审计簇 |
+| `run_network_conditioned_profiles.R` | 原因族网络标准化超额与审计簇画像 |
 | `run_degree_preserving_null.R` | 作者度保持零模型敏感性 |
 | `run_crossref_denominators.R` | 2023 高频期刊 Crossref 年度分母 |
 | `run_event_2023.R` | 2023 本地事件构成拆解 |

@@ -1,0 +1,191 @@
+"audit_cluster_id","value_type","rank","value","papers","cluster_papers","share"
+"audit_cluster_01","publisher",1,"Wiley",12,27,0.444444444444444
+"audit_cluster_01","publisher",2,"Elsevier",4,27,0.148148148148148
+"audit_cluster_01","publisher",3,"Cellular Physiol Biochem Press",2,27,0.0740740740740741
+"audit_cluster_01","journal",1,"Journal of Cellular Biochemistry",4,27,0.148148148148148
+"audit_cluster_01","journal",2,"Journal of Cellular Physiology",4,27,0.148148148148148
+"audit_cluster_01","journal",3,"Bioscience Reports",2,27,0.0740740740740741
+"audit_cluster_01","field_id",1,"https://openalex.org/fields/27",14,27,0.518518518518518
+"audit_cluster_01","field_id",2,"https://openalex.org/fields/13",12,27,0.444444444444444
+"audit_cluster_01","field_id",3,"https://openalex.org/fields/28",1,27,0.037037037037037
+"audit_cluster_02","publisher",1,"Elsevier",2,6,0.333333333333333
+"audit_cluster_02","publisher",2,"Springer - Nature Publishing Group",2,6,0.333333333333333
+"audit_cluster_02","publisher",3,"Cellular Physiol Biochem Press",1,6,0.166666666666667
+"audit_cluster_02","journal",1,"Biomedicine & Pharmacotherapy",1,6,0.166666666666667
+"audit_cluster_02","journal",2,"Cell Death & Disease",1,6,0.166666666666667
+"audit_cluster_02","journal",3,"Cellular Physiology and Biochemistry",1,6,0.166666666666667
+"audit_cluster_02","field_id",1,"https://openalex.org/fields/27",4,6,0.666666666666667
+"audit_cluster_02","field_id",2,"https://openalex.org/fields/13",2,6,0.333333333333333
+"audit_cluster_03","publisher",1,"Springer - Biomed Central (BMC)",4,10,0.4
+"audit_cluster_03","publisher",2,"Taylor and Francis - Dove Press",2,10,0.2
+"audit_cluster_03","publisher",3,"Cellular Physiol Biochem Press",1,10,0.1
+"audit_cluster_03","journal",1,"Cancer Management and Research",2,10,0.2
+"audit_cluster_03","journal",2,"Journal of Experimental & Clinical Cancer Research: (CR)",2,10,0.2
+"audit_cluster_03","journal",3,"BMC Cancer",1,10,0.1
+"audit_cluster_03","field_id",1,"https://openalex.org/fields/27",8,10,0.8
+"audit_cluster_03","field_id",2,"https://openalex.org/fields/24",1,10,0.1
+"audit_cluster_03","field_id",3,"https://openalex.org/fields/31",1,10,0.1
+"audit_cluster_04","publisher",1,"Springer - Biomed Central (BMC)",3,5,0.6
+"audit_cluster_04","publisher",2,"Ivyspring International Publisher",1,5,0.2
+"audit_cluster_04","publisher",3,"MDPI",1,5,0.2
+"audit_cluster_04","journal",1,"BMC Cancer",1,5,0.2
+"audit_cluster_04","journal",2,"BMC Molecular and Cell Biology",1,5,0.2
+"audit_cluster_04","journal",3,"International Journal of Molecular Sciences",1,5,0.2
+"audit_cluster_04","field_id",1,"https://openalex.org/fields/27",5,5,1
+"audit_cluster_05","publisher",1,"Elsevier",5,9,0.555555555555556
+"audit_cluster_05","publisher",2,"Wiley",2,9,0.222222222222222
+"audit_cluster_05","publisher",3,"Pharmaceutical Society of Japan",1,9,0.111111111111111
+"audit_cluster_05","journal",1,"Biomedicine & Pharmacotherapy",2,9,0.222222222222222
+"audit_cluster_05","journal",2,"Biological and Pharmaceutical Bulletin",1,9,0.111111111111111
+"audit_cluster_05","journal",3,"Cell Biochemistry and Function",1,9,0.111111111111111
+"audit_cluster_05","field_id",1,"https://openalex.org/fields/27",6,9,0.666666666666667
+"audit_cluster_05","field_id",2,"https://openalex.org/fields/30",2,9,0.222222222222222
+"audit_cluster_05","field_id",3,"https://openalex.org/fields/13",1,9,0.111111111111111
+"audit_cluster_06","publisher",1,"Springer - Biomed Central (BMC)",3,9,0.333333333333333
+"audit_cluster_06","publisher",2,"Impact Journals",2,9,0.222222222222222
+"audit_cluster_06","publisher",3,"Ivyspring International Publisher",1,9,0.111111111111111
+"audit_cluster_06","journal",1,"Journal of Experimental & Clinical Cancer Research: (CR)",2,9,0.222222222222222
+"audit_cluster_06","journal",2,"Oncotarget",2,9,0.222222222222222
+"audit_cluster_06","journal",3,"Artificial Cells, Nanomedicine, and Biotechnology",1,9,0.111111111111111
+"audit_cluster_06","field_id",1,"https://openalex.org/fields/13",6,9,0.666666666666667
+"audit_cluster_06","field_id",2,"https://openalex.org/fields/27",3,9,0.333333333333333
+"audit_cluster_07","publisher",1,"Royal Society of Chemistry (RSC)",10,15,0.666666666666667
+"audit_cluster_07","publisher",2,"American Chemical Society (ACS)",3,15,0.2
+"audit_cluster_07","publisher",3,"Elsevier",1,15,0.0666666666666667
+"audit_cluster_07","journal",1,"RSC Advances",4,15,0.266666666666667
+"audit_cluster_07","journal",2,"ACS Applied Materials & Interfaces",3,15,0.2
+"audit_cluster_07","journal",3,"Chemical Communications",3,15,0.2
+"audit_cluster_07","field_id",1,"https://openalex.org/fields/25",10,15,0.666666666666667
+"audit_cluster_07","field_id",2,"https://openalex.org/fields/16",2,15,0.133333333333333
+"audit_cluster_07","field_id",3,"https://openalex.org/fields/22",2,15,0.133333333333333
+"audit_cluster_08","publisher",1,"Wiley",3,5,0.6
+"audit_cluster_08","publisher",2,"American Association for Cancer Research",1,5,0.2
+"audit_cluster_08","publisher",3,"PLoS",1,5,0.2
+"audit_cluster_08","journal",1,"Cancer",1,5,0.2
+"audit_cluster_08","journal",2,"International Journal of Cancer",1,5,0.2
+"audit_cluster_08","journal",3,"Journal of Cellular Physiology",1,5,0.2
+"audit_cluster_08","field_id",1,"https://openalex.org/fields/27",3,5,0.6
+"audit_cluster_08","field_id",2,"https://openalex.org/fields/13",2,5,0.4
+"audit_cluster_09","publisher",1,"Elsevier",7,7,1
+"audit_cluster_09","journal",1,"Fuel",3,7,0.428571428571429
+"audit_cluster_09","journal",2,"Construction and Building Materials",2,7,0.285714285714286
+"audit_cluster_09","journal",3,"Engineering Analysis with Boundary Elements",1,7,0.142857142857143
+"audit_cluster_09","field_id",1,"https://openalex.org/fields/22",4,7,0.571428571428571
+"audit_cluster_09","field_id",2,"https://openalex.org/fields/21",2,7,0.285714285714286
+"audit_cluster_09","field_id",3,"https://openalex.org/fields/15",1,7,0.142857142857143
+"audit_cluster_10","publisher",1,"Elsevier",6,11,0.545454545454545
+"audit_cluster_10","publisher",2,"American Society for Biochemistry and Molecular Biology (ASBMB)",5,11,0.454545454545455
+"audit_cluster_10","journal",1,"The Journal of Biological Chemistry",11,11,1
+"audit_cluster_10","field_id",1,"https://openalex.org/fields/13",6,11,0.545454545454545
+"audit_cluster_10","field_id",2,"https://openalex.org/fields/27",4,11,0.363636363636364
+"audit_cluster_10","field_id",3,"https://openalex.org/fields/24",1,11,0.0909090909090909
+"audit_cluster_11","publisher",1,"Elsevier",10,10,1
+"audit_cluster_11","journal",1,"Bioresource Technology",10,10,1
+"audit_cluster_11","field_id",1,"https://openalex.org/fields/11",8,10,0.8
+"audit_cluster_11","field_id",2,"https://openalex.org/fields/22",2,10,0.2
+"audit_cluster_12","publisher",1,"Elsevier - Cell Press",2,8,0.25
+"audit_cluster_12","publisher",2,"Springer - Biomed Central (BMC)",2,8,0.25
+"audit_cluster_12","publisher",3,"Frontiers",1,8,0.125
+"audit_cluster_12","journal",1,"Molecular Therapy",2,8,0.25
+"audit_cluster_12","journal",2,"BMC Complementary Medicine and Therapies",1,8,0.125
+"audit_cluster_12","journal",3,"Frontiers in Molecular Neuroscience",1,8,0.125
+"audit_cluster_12","field_id",1,"https://openalex.org/fields/13",6,8,0.75
+"audit_cluster_12","field_id",2,"https://openalex.org/fields/27",1,8,0.125
+"audit_cluster_12","field_id",3,"https://openalex.org/fields/28",1,8,0.125
+"audit_cluster_13","publisher",1,"Spandidos",5,7,0.714285714285714
+"audit_cluster_13","publisher",2,"IOS Press (bought by Sage November 2023)",1,7,0.142857142857143
+"audit_cluster_13","publisher",3,"Wiley",1,7,0.142857142857143
+"audit_cluster_13","journal",1,"Oncology Reports",4,7,0.571428571428571
+"audit_cluster_13","journal",2,"International Journal of Oncology",1,7,0.142857142857143
+"audit_cluster_13","journal",3,"Journal of Cellular Biochemistry",1,7,0.142857142857143
+"audit_cluster_13","field_id",1,"https://openalex.org/fields/13",7,7,1
+"audit_cluster_14","publisher",1,"Springer",2,6,0.333333333333333
+"audit_cluster_14","publisher",2,"Springer - Nature Publishing Group",2,6,0.333333333333333
+"audit_cluster_14","publisher",3,"Elsevier",1,6,0.166666666666667
+"audit_cluster_14","journal",1,"Acta Pharmacologica Sinica",2,6,0.333333333333333
+"audit_cluster_14","journal",2,"Cancer Science",1,6,0.166666666666667
+"audit_cluster_14","journal",3,"Cell Biochemistry and Biophysics",1,6,0.166666666666667
+"audit_cluster_14","field_id",1,"https://openalex.org/fields/27",4,6,0.666666666666667
+"audit_cluster_14","field_id",2,"https://openalex.org/fields/13",2,6,0.333333333333333
+"audit_cluster_15","publisher",1,"Elsevier",17,33,0.515151515151515
+"audit_cluster_15","publisher",2,"PLoS",4,33,0.121212121212121
+"audit_cluster_15","publisher",3,"Springer",4,33,0.121212121212121
+"audit_cluster_15","journal",1,"Journal of Molecular Liquids",15,33,0.454545454545455
+"audit_cluster_15","journal",2,"PLoS One",4,33,0.121212121212121
+"audit_cluster_15","journal",3,"Applied Nanoscience",2,33,0.0606060606060606
+"audit_cluster_15","field_id",1,"https://openalex.org/fields/15",11,33,0.333333333333333
+"audit_cluster_15","field_id",2,"https://openalex.org/fields/22",7,33,0.212121212121212
+"audit_cluster_15","field_id",3,"https://openalex.org/fields/13",3,33,0.0909090909090909
+"audit_cluster_16","publisher",1,"Cellular Physiol Biochem Press",2,10,0.2
+"audit_cluster_16","publisher",2,"Spandidos",2,10,0.2
+"audit_cluster_16","publisher",3,"Springer - Biomed Central (BMC)",2,10,0.2
+"audit_cluster_16","journal",1,"Cellular Physiology and Biochemistry",2,10,0.2
+"audit_cluster_16","journal",2,"Cancer Cell International",1,10,0.1
+"audit_cluster_16","journal",3,"Cell Cycle",1,10,0.1
+"audit_cluster_16","field_id",1,"https://openalex.org/fields/13",6,10,0.6
+"audit_cluster_16","field_id",2,"https://openalex.org/fields/27",3,10,0.3
+"audit_cluster_16","field_id",3,"https://openalex.org/fields/16",1,10,0.1
+"audit_cluster_17","publisher",1,"IOS Press (bought by Sage November 2023)",37,58,0.637931034482759
+"audit_cluster_17","publisher",2,"Royal Society of Chemistry (RSC)",14,58,0.241379310344828
+"audit_cluster_17","publisher",3,"Elsevier",6,58,0.103448275862069
+"audit_cluster_17","journal",1,"Journal of Intelligent & Fuzzy Systems",37,58,0.637931034482759
+"audit_cluster_17","journal",2,"Geochimica et Cosmochimica Acta",5,58,0.0862068965517241
+"audit_cluster_17","journal",3,"RSC Advances",4,58,0.0689655172413793
+"audit_cluster_17","field_id",1,"https://openalex.org/fields/18",37,58,0.637931034482759
+"audit_cluster_17","field_id",2,"https://openalex.org/fields/16",11,58,0.189655172413793
+"audit_cluster_17","field_id",3,"https://openalex.org/fields/23",8,58,0.137931034482759
+"audit_cluster_18","publisher",1,"Elsevier",7,8,0.875
+"audit_cluster_18","publisher",2,"Springer",1,8,0.125
+"audit_cluster_18","journal",1,"Fish & Shellfish Immunology",3,8,0.375
+"audit_cluster_18","journal",2,"Bioprocess and Biosystems Engineering",1,8,0.125
+"audit_cluster_18","journal",3,"Bioresource Technology",1,8,0.125
+"audit_cluster_18","field_id",1,"https://openalex.org/fields/23",4,8,0.5
+"audit_cluster_18","field_id",2,"https://openalex.org/fields/24",3,8,0.375
+"audit_cluster_18","field_id",3,"https://openalex.org/fields/11",1,8,0.125
+"audit_cluster_19","publisher",1,"Spandidos",5,5,1
+"audit_cluster_19","journal",1,"Molecular Medicine Reports",3,5,0.6
+"audit_cluster_19","journal",2,"Experimental and Therapeutic Medicine",1,5,0.2
+"audit_cluster_19","journal",3,"Oncology Letters",1,5,0.2
+"audit_cluster_19","field_id",1,"https://openalex.org/fields/13",5,5,1
+"audit_cluster_20","publisher",1,"PLoS",2,7,0.285714285714286
+"audit_cluster_20","publisher",2,"Springer - Nature Publishing Group",2,7,0.285714285714286
+"audit_cluster_20","publisher",3,"American Society for Biochemistry and Molecular Biology (ASBMB)",1,7,0.142857142857143
+"audit_cluster_20","journal",1,"Cell Death & Disease",2,7,0.285714285714286
+"audit_cluster_20","journal",2,"PLoS One",2,7,0.285714285714286
+"audit_cluster_20","journal",3,"Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease",1,7,0.142857142857143
+"audit_cluster_20","field_id",1,"https://openalex.org/fields/13",5,7,0.714285714285714
+"audit_cluster_20","field_id",2,"https://openalex.org/fields/27",2,7,0.285714285714286
+"audit_cluster_21","publisher",1,"PLoS",3,5,0.6
+"audit_cluster_21","publisher",2,"Frontiers",2,5,0.4
+"audit_cluster_21","journal",1,"PLoS One",3,5,0.6
+"audit_cluster_21","journal",2,"Frontiers in Plant Science",2,5,0.4
+"audit_cluster_21","field_id",1,"https://openalex.org/fields/11",2,5,0.4
+"audit_cluster_21","field_id",2,"https://openalex.org/fields/27",2,5,0.4
+"audit_cluster_21","field_id",3,"https://openalex.org/fields/23",1,5,0.2
+"audit_cluster_22","publisher",1,"Elsevier",5,11,0.454545454545455
+"audit_cluster_22","publisher",2,"Wiley",3,11,0.272727272727273
+"audit_cluster_22","publisher",3,"Mary Ann Liebert",1,11,0.0909090909090909
+"audit_cluster_22","journal",1,"Journal of Chemical Technology and Biotechnology",3,11,0.272727272727273
+"audit_cluster_22","journal",2,"Advanced Powder Technology",1,11,0.0909090909090909
+"audit_cluster_22","journal",3,"Applied Surface Science",1,11,0.0909090909090909
+"audit_cluster_22","field_id",1,"https://openalex.org/fields/21",10,11,0.909090909090909
+"audit_cluster_22","field_id",2,"https://openalex.org/fields/31",1,11,0.0909090909090909
+"audit_cluster_23","publisher",1,"Springer",7,7,1
+"audit_cluster_23","journal",1,"Multimedia Tools and Applications",7,7,1
+"audit_cluster_23","field_id",1,"https://openalex.org/fields/17",7,7,1
+"audit_cluster_24","publisher",1,"Elsevier",11,15,0.733333333333333
+"audit_cluster_24","publisher",2,"Cambridge University Press",2,15,0.133333333333333
+"audit_cluster_24","publisher",3,"Springer",1,15,0.0666666666666667
+"audit_cluster_24","journal",1,"Journal of Alloys and Compounds",3,15,0.2
+"audit_cluster_24","journal",2,"Journal of Materials Research",2,15,0.133333333333333
+"audit_cluster_24","journal",3,"Journal of the Mechanical Behavior of Biomedical Materials",2,15,0.133333333333333
+"audit_cluster_24","field_id",1,"https://openalex.org/fields/25",13,15,0.866666666666667
+"audit_cluster_24","field_id",2,"https://openalex.org/fields/22",2,15,0.133333333333333
+"audit_cluster_25","publisher",1,"Elsevier",13,14,0.928571428571429
+"audit_cluster_25","publisher",2,"Springer",1,14,0.0714285714285714
+"audit_cluster_25","journal",1,"Journal of Energy Storage",5,14,0.357142857142857
+"audit_cluster_25","journal",2,"Applied Surface Science",3,14,0.214285714285714
+"audit_cluster_25","journal",3,"International Journal of Hydrogen Energy",3,14,0.214285714285714
+"audit_cluster_25","field_id",1,"https://openalex.org/fields/22",8,14,0.571428571428571
+"audit_cluster_25","field_id",2,"https://openalex.org/fields/21",4,14,0.285714285714286
+"audit_cluster_25","field_id",3,"https://openalex.org/fields/25",2,14,0.142857142857143

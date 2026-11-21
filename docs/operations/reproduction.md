@@ -151,6 +151,15 @@ powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
 
 该入口执行作者去重叠、主机构、固定 985/211、前五批次剔除和团队规模分层模型。
 
+网络原因族比较与审计簇画像：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_network_conditioned_profiles.R -IncludeOutputs
+```
+
+该入口复用 1,000 次网络零模型，生成原因族标准化超额和 25 个审计簇画像。
+
 ## 数据冻结
 
 - 原始 CSV 只读。

@@ -28,7 +28,9 @@
 | 作者重叠、主机构与批次稳健性 | [论文层模型稳健性](analysis/paper-model-robustness.md) |
 | 网络与重复合作基线 | [作者网络基线](analysis/network-baseline.md) |
 | 重复合作是否超过团队构成基线 | [网络零模型](analysis/network-null.md) |
+| 原因族网络超额是否可比 | [网络原因族条件比较](analysis/network-conditioned.md) |
 | 固定待核查审计簇 | [25 个审计簇](analysis/audit-clusters.md) |
+| 审计簇的出版、地理与原因族画像 | [25 个待核查审计簇画像](analysis/audit-cluster-profiles.md) |
 | 2023 峰值怎样构成 | [2023 本地事件拆解](analysis/event-2023-local.md) |
 | 2023 期刊年度分母与相对量级 | [Crossref 分母](analysis/event-2023-crossref.md) |
 | 项目跑到哪里了 | [当前进度](progress/current-status.md) |
