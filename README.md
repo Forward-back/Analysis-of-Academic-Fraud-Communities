@@ -63,9 +63,10 @@
 | 原因映射未登记标签 | 0 |
 | OpenAlex 单一精确 DOI 匹配 | 26,497 / 26,526（99.89%） |
 | OpenAlex 确认中国大陆 | 24,978 / 26,497（94.27%） |
-| 论文全部作者有机构 ID | 21,842 / 24,978（87.45%） |
-| 论文全部作者有机构 ID 和作者 ID | 14,827 / 24,978（59.36%） |
-| 资助机构记录覆盖 | 32.4% |
+| 最终大陆主分析论文 | 24,974 |
+| 论文全部作者有机构 ID | 21,842 / 24,974（87.45%） |
+| 论文全部作者有机构 ID 和作者 ID | 14,827 / 24,974（59.37%） |
+| 资助审计合并来源覆盖 | 163 / 250（65.2%） |
 
 这些数字是当前数据的审计结果，不是最终研究结论。详细口径见 [数据质量审计](docs/data/quality-audit.md)。
 
@@ -140,7 +141,6 @@ $env:OPENALEX_API_KEY = "..."
 - [数据来源与口径](docs/data/sources.md)
 - [分析计划](docs/methods/analysis-plan.md)
 - [当前进度](docs/progress/current-status.md)
-- [里程碑](docs/progress/milestones.md)
 - [复现说明](docs/operations/reproduction.md)
 - [关键决策](docs/decisions/README.md)
 - [仓库文件与制品契约](docs/decisions/0002-repository-file-contract.md)

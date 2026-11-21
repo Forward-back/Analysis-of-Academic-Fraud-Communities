@@ -2,8 +2,6 @@
 
 本目录记录项目怎样推进、复现和验收。
 
-- [30 天路线图](roadmap.md)
-- [后续挖掘与分析 To Do](analysis-todo.md)
 - [后续挖掘与分析优先级](analysis-priority.md)
 - [复现说明](reproduction.md)
 - [质量门槛](quality-gates.md)

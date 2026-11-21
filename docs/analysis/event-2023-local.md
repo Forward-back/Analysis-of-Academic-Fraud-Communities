@@ -1,6 +1,6 @@
 # 2023 本地事件拆解
 
-> 状态：本地构成、Crossref 分母和外部治理证据完成
+> 状态：P3 本地构成、Crossref 分母和外部治理证据完成
 > 样本：OpenAlex 确认大陆且通过标题链接审计的 2023 撤稿论文
 
 ## 样本规模
@@ -43,12 +43,35 @@
 
 原因族多标签，比例不能相加。
 
-## Crossref 分母
+## Crossref 期刊年度分母
+
+### 口径
+
+2023 撤稿论文先按原论文发表年份分层，再匹配同一期刊、同一原论文年份的 Crossref
+年度发表量。不得用 2023 撤稿论文数直接除以 2023 发表量。
+
+Crossref `total-results` 表示 Crossref 中该 ISSN 在指定发表日期区间内的记录数，
+不保证等同于完整论文数或出版社会计口径。
+
+### 覆盖
 
 前 20 高频期刊的 2018–2025 年度记录量已补齐，20 个 ISSN、160 个期刊年度请求
 全部成功。2021 和 2022 原论文队列分别覆盖 1,575 和 5,555 篇事件论文。
 
-原论文年份匹配分母见 [2023 期刊年度分母](event-2023-crossref.md)。
+- 2023 撤稿年份相关前 20 期刊：20。
+- 有 ISSN：20。
+- 年度请求与成功返回：`160/160`。
+- 2023 撤稿论文覆盖：`7,397/7,397`。
+
+BioMed Research International 使用较新的 ISSN `2314-6133`，避免旧 ISSN 的
+2023 Crossref 计数为零。SAGE 期刊通过期刊名别名映射到 `0020-7209`。
+
+### 原论文年份队列
+
+- 2021：事件论文 1,575；Crossref 分母 15,459；每千篇约 101.88。
+- 2022：事件论文 5,555；Crossref 分母 25,790；每千篇约 215.39。
+
+这些比率只描述撤稿论文数相对 Crossref 记录量的比例，不等同于学术不端发生率。
 
 ## 输出
 
@@ -60,9 +83,12 @@
 - `data/outputs/audits/tables/event_2023_reason_family.csv`
 - `data/outputs/audits/tables/event_2023_same_day_batches.csv`
 - `data/outputs/audits/tables/event_2023_journal_annual_denominators.csv`
+- `data/outputs/audits/tables/event_2023_journal_identifiers.csv`
+- `data/outputs/audits/tables/event_2023_crossref_coverage.csv`
 - `data/outputs/audits/tables/event_2023_journal_original_year_rates.csv`
 
 ## 解释边界
 
-本地构成和原论文年份分母支持“出版社集中治理与批量撤稿”的事件解释。外部治理资料
-已补入 [2023 外部治理证据](event-2023-external.md)。仍不能据此计算不端发生率或作因果解释。
+本地构成和原论文年份分母支持“出版社集中治理与批量撤稿”的事件解释。Crossref
+记录量包含的记录类型和发表时间口径须在报告方法中说明。外部治理资料已补入
+[2023 外部治理证据](event-2023-external.md)。仍不能据此计算不端发生率或作因果解释。

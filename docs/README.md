@@ -20,6 +20,7 @@
 | 网络和社群方法 | [网络方法](methods/network-methods.md) |
 | 2023 峰值如何拆解 | [2023 事件方法](methods/event-2023-method.md) |
 | 资助专项如何做 | [资助审计方法](methods/funding-audit-method.md) |
+| 图怎样画、颜色和导出怎样控制 | [可视化规范](methods/visualization-standards.md) |
 | 当前有哪些数据发现 | [基线 EDA](analysis/baseline-eda.md) |
 | 匹配是否平衡、对照缺什么 | [匹配平衡与对照机构缺口](analysis/matching-balance.md) |
 | 后续模型使用哪些样本 | [分析样本冻结与选择审计](analysis/analysis-samples.md) |
@@ -29,16 +30,13 @@
 | 网络与重复合作基线 | [作者网络基线](analysis/network-baseline.md) |
 | 重复合作是否超过团队构成基线 | [网络零模型](analysis/network-null.md) |
 | 原因族网络超额是否可比 | [网络原因族条件比较](analysis/network-conditioned.md) |
-| 固定待核查审计簇 | [25 个审计簇](analysis/audit-clusters.md) |
-| 审计簇的出版、地理与原因族画像 | [25 个待核查审计簇画像](analysis/audit-cluster-profiles.md) |
+| 固定待核查审计簇及画像 | [25 个审计簇](analysis/audit-clusters.md) |
 | 2023 峰值怎样构成 | [2023 本地事件拆解](analysis/event-2023-local.md) |
-| 2023 期刊年度分母与相对量级 | [Crossref 分母](analysis/event-2023-crossref.md) |
 | 2023 出版社治理与外部事件证据 | [2023 外部治理证据](analysis/event-2023-external.md) |
 | 审计簇资助覆盖与项目复用 | [资助可追溯性审计](analysis/funding-audit.md) |
 | 项目跑到哪里了 | [当前进度](progress/current-status.md) |
 | 后续挖掘和分析按什么顺序做 | [后续挖掘与分析优先级](operations/analysis-priority.md) |
 | 已经遇到哪些惊奇发现和边界 | [探索发现与边界日志](progress/exploration-findings.md) |
-| 每个里程碑何时完成 | [里程碑](progress/milestones.md) |
 | 如何复现 | [复现说明](operations/reproduction.md) |
 | 报告、Shiny 和汇报包含什么 | [交付规格](specs/README.md) |
 | 文件、制品和发布边界 | [仓库契约](decisions/0002-repository-file-contract.md) |
@@ -53,7 +51,7 @@
 - `analysis/` 记录已经得到或尚待得到的发现。
 - `operations/` 记录计划、复现、风险和 AI 使用。
 - `specs/` 约定报告、应用和汇报应满足的结构。
-- `progress/` 记录里程碑、当前状态和日期日志。
+- `progress/` 记录当前状态、日期日志和探索边界。
 - `decisions/` 保存不易回退的设计选择。
 - `archive/legacy/` 保存已被替代的原始文档。
 
@@ -62,6 +60,8 @@
 文档中的状态统一使用：
 
 - `已冻结`：后续分析必须遵守。
+- `已完成`：有冻结输出，可被报告或应用引用。
 - `进行中`：正在实现，允许小范围调整。
 - `计划`：尚未执行，不能写成已完成结果。
-- `已废弃`：只在归档中保留。
+- `阻塞`：需要外部条件或明确决策。
+- `已废弃`：只在 `archive/legacy/` 保留，不作为当前输入。

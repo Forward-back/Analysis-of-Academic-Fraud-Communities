@@ -73,15 +73,32 @@ test_that("required repository contract files exist", {
     "scripts/run_crossref_denominators.ps1",
     "scripts/run_event_2023.R",
     "docs/data/quality-audit.md",
-    "docs/operations/analysis-todo.md",
+    "docs/operations/analysis-priority.md",
     "docs/analysis/network-null.md",
     "docs/analysis/audit-clusters.md",
-    "docs/analysis/event-2023-crossref.md",
+    "docs/analysis/event-2023-local.md",
+    "docs/analysis/funding-audit.md",
+    "docs/methods/visualization-standards.md",
+    "docs/methods/palette-review.md",
     "docs/decisions/0010-audit-cluster-selection.md",
     "docs/progress/current-status.md"
   )
 
   expect_true(all(file.exists(file.path(project_root, required))))
+})
+
+test_that("superseded documentation remains removed", {
+  project_root <- project_root_for_contract()
+  removed <- c(
+    "docs/analysis/audit-cluster-profiles.md",
+    "docs/analysis/event-2023-crossref.md",
+    "docs/analysis/robustness.md",
+    "docs/operations/analysis-todo.md",
+    "docs/operations/roadmap.md",
+    "docs/progress/milestones.md"
+  )
+
+  expect_false(any(file.exists(file.path(project_root, removed))))
 })
 
 test_that("reason registry v2 is complete and internally consistent", {
