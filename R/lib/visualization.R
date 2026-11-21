@@ -1,5 +1,6 @@
 visualization_config <- yaml::read_yaml("config/visualization.yml")
 audit_palettes <- visualization_config$palettes
+audit_auxiliary_palettes <- visualization_config$auxiliary_palettes
 
 audit_font_family <- function() {
   if (!requireNamespace("systemfonts", quietly = TRUE)) {

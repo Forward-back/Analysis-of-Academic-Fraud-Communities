@@ -10,8 +10,9 @@ suppressPackageStartupMessages({
   library(scales)
 })
 
-review_palettes <- visualization_config$review_palettes
-review_labels <- visualization_config$labels$palette_review
+review_config <- yaml::read_yaml("config/visualization-review.yml")
+review_palettes <- review_config$review_palettes
+review_labels <- review_config$labels$palette_review
 group_labels <- unlist(
   visualization_config$labels$groups,
   use.names = TRUE

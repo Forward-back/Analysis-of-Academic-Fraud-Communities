@@ -10,6 +10,14 @@ read_visualization_config <- function(project_root) {
   ))
 }
 
+read_visualization_review_config <- function(project_root) {
+  yaml::read_yaml(file.path(
+    project_root,
+    "config",
+    "visualization-review.yml"
+  ))
+}
+
 test_that("project palettes preserve approved bright Morandi values", {
   config <- read_visualization_config(project_root_for_visualization())
 
@@ -43,8 +51,21 @@ test_that("project palettes preserve approved bright Morandi values", {
   )
 })
 
-test_that("review palettes preserve the proposed color values", {
+test_that("canonical visualization config keeps a short palette set", {
   config <- read_visualization_config(project_root_for_visualization())
+
+  expect_setequal(names(config$palettes), c("B", "C"))
+  expect_setequal(
+    names(config$auxiliary_palettes),
+    c("viridis", "rdbu_r", "okabe_ito")
+  )
+  expect_null(config$review_palettes)
+})
+
+test_that("review palettes preserve the proposed color values", {
+  config <- read_visualization_review_config(
+    project_root_for_visualization()
+  )
 
   expect_equal(
     unlist(config$review_palettes$tableau10),
