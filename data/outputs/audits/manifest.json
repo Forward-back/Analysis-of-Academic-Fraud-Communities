@@ -493,6 +493,30 @@
       "sha256": "9d8a40a2e621b530981b8a27abd8c5688d421b5a6007906dd7310b4ad2e8cd57"
     },
     {
+      "path": "data/outputs/audits/tables/p1b_binary_effects.csv",
+      "sha256": "cc61da647ee80dac5e05ad878ae15f6bd6af49e2fe867d3a31a8c9051f733423"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1b_binary_model_fit.csv",
+      "sha256": "2d62034b1ba39f367c3c5c25c6bf8472983a3f16187c84077b7d99435818b4c8"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1b_continuous_effects.csv",
+      "sha256": "e144899f3189fa74c20771a07aaace23cb64b60bb160c3afd12ea2f37c882f83"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1b_continuous_model_fit.csv",
+      "sha256": "bf1510313c2cadfa9954e25435b67661cc189251395e1744e2a8749006b87f93"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1b_hypothesis_evidence.csv",
+      "sha256": "e4e42f142a796ebe690afc32a40ac01528ba53ab8ac9f94bf9b78f00933763e6"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1b_model_specifications.csv",
+      "sha256": "c87da5681ce47ff818152a22d5fe854e882ea543e7b3d64462f0423a65a70208"
+    },
+    {
       "path": "data/outputs/audits/tables/repeat_component_profiles.csv",
       "sha256": "f5915000a3ae1d7cf1ee6bd598bb0424edd04fb3d520f725af51693277aa271a"
     }

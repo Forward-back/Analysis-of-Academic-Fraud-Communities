@@ -1,0 +1,6 @@
+"hypothesis","status","evidence"
+"H1","not_supported_in_current_sample","Adjusted cross-tier ORs: publication process 0.664; image integrity 0.756; plagiarism/authorship 0.692. All are below 1, opposite to H1."
+"H2","partial_support","Image integrity adjusted ORs: positive distance 0.818, domestic cross-province 0.695, international 1.303. Local structure is lower and cross-province is lower, but international cooperation is higher."
+"H3","pending_network_conditional_models","Requires conditional family-specific repeat-collaboration comparisons."
+"H4","pending_2023_external_evidence","Requires the external publisher and journal governance evidence table."
+"H5","pending_funding_audit","Requires frozen audit-cluster funding coverage."

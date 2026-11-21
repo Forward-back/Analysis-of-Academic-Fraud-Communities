@@ -132,6 +132,16 @@ powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
 
 该入口构建案例与对照论文面板，并输出团队规模、机构层级、合作地理和匹配层构成。
 
+论文层调整模型：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_paper_models.R -IncludeOutputs
+```
+
+该入口执行主混合 logistic、条件 logistic、正距离量级、聚类稳健负二项和
+剔除 2023 敏感性模型。
+
 ## 数据冻结
 
 - 原始 CSV 只读。

@@ -1,0 +1,5 @@
+"model_type","purpose","formula"
+"primary_mixed","Primary random-intercept logistic model with full covariate adjustment.","outcome ~ is_retraction + team_size_bin + publication_year_c + publication_year_c2 + match_layer + field_group + openalex_type + publisher_group + (1 | match_group)"
+"matched_conditional","Matched-set conditional logistic robustness using team size and match layer.","outcome ~ is_retraction + team_size_bin + strata(match_group)"
+"positive_distance_lmer","Within matched sets with a positive-distance case and control.","log_distance ~ is_retraction + team_size_bin + publication_year_c + publication_year_c2 + match_layer + field_group + openalex_type + publisher_group + (1 | match_group)"
+"cluster_robust_negative_binomial","Negative-binomial team-size model with match-group clustered standard errors.","team_size ~ is_retraction + publication_year_c + publication_year_c2 + match_layer + field_group + openalex_type + publisher_group"
