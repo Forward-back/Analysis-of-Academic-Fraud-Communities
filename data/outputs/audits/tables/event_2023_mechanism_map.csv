@@ -1,0 +1,8 @@
+"mechanism_category","supporting_claim_ids","supports","does_not_support"
+"peer_review_manipulation","C10","Publisher identified compromised peer review in special issues.","Does not identify authors or estimate misconduct prevalence."
+"paper_mill_special_issue_infiltration","C02;C04;C08","Publisher described large-scale paper-mill infiltration of special issues.","Does not imply all special-issue papers were manipulated."
+"journal_closure","C01;C02","Four heavily compromised journals were closed in May 2023.","Does not prove that closure caused later notification batches."
+"index_curation","C03;C05","External index and publisher sources document journal-quality actions.","Does not estimate China-specific incidence."
+"publisher_financial_and_portfolio_response","C06;C07;C11","Wiley reported financial impact, brand integration and tightened processes.","Does not convert revenue loss into a risk score."
+"large_scale_retraction_reporting","C04;C09;C13","Publisher and independent sources report thousands of retractions.","Does not replace DOI-level local counts."
+"global_event_context","C12","2023 was a global retraction-record year.","Does not identify China-specific cause or rate."

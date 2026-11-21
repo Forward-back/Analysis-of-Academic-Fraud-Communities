@@ -1,0 +1,35 @@
+{
+  "contract_version": "1.0",
+  "artifact": "event-2023-external-evidence",
+  "accessed_on": "2026-11-21",
+  "files": [
+    {
+      "path": "data/reference/event_2023_external_sources.csv",
+      "sha256": "45cfbf4a899bc3bfd509b7f4ad81ea626cdd769a0ef5d6141e28c26950b65368"
+    },
+    {
+      "path": "data/reference/event_2023_external_claims.csv",
+      "sha256": "742f8488f9a2e16e42b0542280ed84020672267ed62dd9453af13180a4953ced"
+    },
+    {
+      "path": "data/outputs/audits/tables/event_2023_external_evidence.csv",
+      "sha256": "a56ab6bcc137cee9005903549f5272d0c3da37476f887f8387c930bd7431b937"
+    },
+    {
+      "path": "data/outputs/audits/tables/event_2023_external_timeline.csv",
+      "sha256": "0fc99c5761b1bb461c663f99884d895e5e2f2acdbc8e9be05fcc44759e08a8a8"
+    },
+    {
+      "path": "data/outputs/audits/tables/event_2023_mechanism_map.csv",
+      "sha256": "47fb5c87e2cbf6bfc948a01eb482fc632c2443a5aeda98395d7375ab7e2f6e5d"
+    },
+    {
+      "path": "data/outputs/audits/tables/event_2023_counterfactual_boundaries.csv",
+      "sha256": "4764b9f434dee553c40d70b0c84a956857d4429a0d3bac72702e01d6e92282e9"
+    },
+    {
+      "path": "data/outputs/audits/tables/event_2023_hypothesis_evidence.csv",
+      "sha256": "ccc69f704cec45dcb50d84dbf9078722f628bfeb79beb97fed00679db68cb032"
+    }
+  ]
+}

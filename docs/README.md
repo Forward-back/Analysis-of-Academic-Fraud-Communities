@@ -33,6 +33,7 @@
 | 审计簇的出版、地理与原因族画像 | [25 个待核查审计簇画像](analysis/audit-cluster-profiles.md) |
 | 2023 峰值怎样构成 | [2023 本地事件拆解](analysis/event-2023-local.md) |
 | 2023 期刊年度分母与相对量级 | [Crossref 分母](analysis/event-2023-crossref.md) |
+| 2023 出版社治理与外部事件证据 | [2023 外部治理证据](analysis/event-2023-external.md) |
 | 项目跑到哪里了 | [当前进度](progress/current-status.md) |
 | 后续挖掘和分析按什么顺序做 | [后续挖掘与分析优先级](operations/analysis-priority.md) |
 | 已经遇到哪些惊奇发现和边界 | [探索发现与边界日志](progress/exploration-findings.md) |

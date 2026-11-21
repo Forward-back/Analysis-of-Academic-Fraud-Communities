@@ -41,8 +41,32 @@
       "sha256": "19583dbc7b1f0f70c1b454d21957832b5d69c43c029a41369e00a8c320672ff7"
     },
     {
+      "path": "data/outputs/audits/tables/event_2023_counterfactual_boundaries.csv",
+      "sha256": "4764b9f434dee553c40d70b0c84a956857d4429a0d3bac72702e01d6e92282e9"
+    },
+    {
       "path": "data/outputs/audits/tables/event_2023_crossref_coverage.csv",
       "sha256": "052ee9bde10cea25a3e12825c1918a27447d15bb6776a03f3344e601b6360fc1"
+    },
+    {
+      "path": "data/outputs/audits/tables/event_2023_external_claim_quality.csv",
+      "sha256": "9c704c0c81ed5a09e4b41f10a1a79a5fdcf8e07649bc9a9648154c6936526636"
+    },
+    {
+      "path": "data/outputs/audits/tables/event_2023_external_evidence.csv",
+      "sha256": "a56ab6bcc137cee9005903549f5272d0c3da37476f887f8387c930bd7431b937"
+    },
+    {
+      "path": "data/outputs/audits/tables/event_2023_external_timeline.csv",
+      "sha256": "0fc99c5761b1bb461c663f99884d895e5e2f2acdbc8e9be05fcc44759e08a8a8"
+    },
+    {
+      "path": "data/outputs/audits/tables/event_2023_external_validation.csv",
+      "sha256": "a388ff62eb314671d4349f5e6202c6d827d8ef0a2716bb9ebe73105c82feb229"
+    },
+    {
+      "path": "data/outputs/audits/tables/event_2023_hypothesis_evidence.csv",
+      "sha256": "ccc69f704cec45dcb50d84dbf9078722f628bfeb79beb97fed00679db68cb032"
     },
     {
       "path": "data/outputs/audits/tables/event_2023_journal_annual_denominators.csv",
@@ -59,6 +83,10 @@
     {
       "path": "data/outputs/audits/tables/event_2023_journal_top.csv",
       "sha256": "8a0d793f2995ae951a0b88d6d8092ce93a848316782d2bc1cd18339685b4aedf"
+    },
+    {
+      "path": "data/outputs/audits/tables/event_2023_mechanism_map.csv",
+      "sha256": "47fb5c87e2cbf6bfc948a01eb482fc632c2443a5aeda98395d7375ab7e2f6e5d"
     },
     {
       "path": "data/outputs/audits/tables/event_2023_monthly.csv",

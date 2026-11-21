@@ -160,6 +160,15 @@ powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
 
 该入口复用 1,000 次网络零模型，生成原因族标准化超额和 25 个审计簇画像。
 
+2023 外部治理证据：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_event_2023_external_evidence.R -IncludeOutputs
+```
+
+该入口验证来源和声明登记，生成外部时间线、机制映射、反事实边界和快照 manifest。
+
 ## 数据冻结
 
 - 原始 CSV 只读。

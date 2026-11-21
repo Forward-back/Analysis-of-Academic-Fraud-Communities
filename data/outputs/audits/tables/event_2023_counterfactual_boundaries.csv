@@ -1,0 +1,7 @@
+"boundary_id","boundary","statement"
+"B01","No national incidence estimate","The 2023 peak is a retraction-notice and publisher-cleanup event, not a population incidence estimate."
+"B02","No China-specific causal attribution","External sources describe a global publisher problem; they do not measure China's misconduct rate."
+"B03","No causal effect of journal closure on batch timing","Temporal ordering alone cannot identify whether closures changed later notification counts."
+"B04","No direct count reconciliation across sources","The 8,036 local Hindawi main-analysis count, 8,000+ external count and 10,028 event sample use different scopes."
+"B05","Notification date is not problem date","The original paper year and retraction notification year must be reported separately."
+"B06","Publisher concentration is not responsibility","Hindawi concentration identifies governance exposure, not author or institution responsibility."
