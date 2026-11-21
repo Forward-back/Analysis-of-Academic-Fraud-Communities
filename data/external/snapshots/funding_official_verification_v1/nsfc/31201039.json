@@ -1,0 +1,61 @@
+{
+    "contract_version":  "1.0",
+    "artifact":  "nsfc-completion-project-record-v1",
+    "award_number":  "31201039",
+    "access_date":  "2026-11-21",
+    "fetched_at":  "2026-11-21T18:23:34+08:00",
+    "http_status":  200,
+    "official_api":  "https://kd.nsfc.cn/api/baseQuery/completionQueryResultsData",
+    "official_query_page":  "https://kd.nsfc.cn/finalProjectInit?advanced=true",
+    "request_payload":  {
+                            "complete":  true,
+                            "fuzzyKeyword":  "",
+                            "isFuzzySearch":  false,
+                            "conclusionYear":  "",
+                            "dependUnit":  "",
+                            "keywords":  "",
+                            "pageNum":  0,
+                            "pageSize":  10,
+                            "projectType":  "",
+                            "projectTypeName":  "",
+                            "code":  "",
+                            "ratifyNo":  "31201039",
+                            "ratifyYear":  "",
+                            "order":  "enddate",
+                            "ordering":  "desc",
+                            "codeScreening":  "",
+                            "dependUnitScreening":  "",
+                            "keywordsScreening":  "",
+                            "projectTypeNameScreening":  ""
+                        },
+    "response":  {
+                     "code":  200,
+                     "message":  "Success",
+                     "data":  {
+                                  "resultsData":  [
+                                                      [
+                                                          "ce9d1a65a7e985c3a46d71ff05127365",
+                                                          "紫薯花青素调控内皮细胞老化的分子机制研究",
+                                                          "31201039",
+                                                          "青年科学基金项目（C类）",
+                                                          "江苏师范大学",
+                                                          "孙春辉",
+                                                          "23.0",
+                                                          "2012",
+                                                          "血管内皮细胞;小窝蛋白-1;老化;膜整联蛋白β4;紫薯花青素",
+                                                          "true",
+                                                          "1;2;0;0;0",
+                                                          "ccfaeeee0da880fb5d0edf2eabea4501",
+                                                          "5765c82cad160042be0f181b40992034",
+                                                          "true",
+                                                          "C0705",
+                                                          "2015",
+                                                          "",
+                                                          "",
+                                                          ""
+                                                      ]
+                                                  ],
+                                  "itotalRecords":  1
+                              }
+                 }
+}

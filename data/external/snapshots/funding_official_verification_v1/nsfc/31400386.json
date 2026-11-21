@@ -1,0 +1,61 @@
+{
+    "contract_version":  "1.0",
+    "artifact":  "nsfc-completion-project-record-v1",
+    "award_number":  "31400386",
+    "access_date":  "2026-11-21",
+    "fetched_at":  "2026-11-21T18:23:35+08:00",
+    "http_status":  200,
+    "official_api":  "https://kd.nsfc.cn/api/baseQuery/completionQueryResultsData",
+    "official_query_page":  "https://kd.nsfc.cn/finalProjectInit?advanced=true",
+    "request_payload":  {
+                            "complete":  true,
+                            "fuzzyKeyword":  "",
+                            "isFuzzySearch":  false,
+                            "conclusionYear":  "",
+                            "dependUnit":  "",
+                            "keywords":  "",
+                            "pageNum":  0,
+                            "pageSize":  10,
+                            "projectType":  "",
+                            "projectTypeName":  "",
+                            "code":  "",
+                            "ratifyNo":  "31400386",
+                            "ratifyYear":  "",
+                            "order":  "enddate",
+                            "ordering":  "desc",
+                            "codeScreening":  "",
+                            "dependUnitScreening":  "",
+                            "keywordsScreening":  "",
+                            "projectTypeNameScreening":  ""
+                        },
+    "response":  {
+                     "code":  200,
+                     "message":  "Success",
+                     "data":  {
+                                  "resultsData":  [
+                                                      [
+                                                          "f7e799dc57d85680b910d3af41068e00",
+                                                          "我国东北森林典型树种氮吸收偏好及其对氮沉降的响应",
+                                                          "31400386",
+                                                          "青年科学基金项目（C类）",
+                                                          "中国科学院沈阳应用生态研究所",
+                                                          "朱飞飞",
+                                                          "23.0",
+                                                          "2014",
+                                                          "氮沉降;碳吸存;氮吸收偏好;种间竞争;我国东北森林",
+                                                          "true",
+                                                          "0;0;0;0;0",
+                                                          "c516495143941a9d093a6196640f5d3f",
+                                                          "0b05d8e8194ce329f19dfefe6f00536f",
+                                                          "true",
+                                                          "C0306",
+                                                          "2017",
+                                                          "",
+                                                          "",
+                                                          ""
+                                                      ]
+                                                  ],
+                                  "itotalRecords":  1
+                              }
+                 }
+}

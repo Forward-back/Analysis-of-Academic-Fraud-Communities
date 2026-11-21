@@ -1,0 +1,76 @@
+{
+  "contract_version": "1.0",
+  "artifact": "funding-official-project-verification-v1",
+  "frozen_on": "2026-11-21",
+  "verification_summary": "data/outputs/audits/tables/funding_official_project_verification.csv",
+  "files": [
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/30950031.json",
+      "sha256": "1c72e92f85f44b8399fe6fe5088fad4413c7a3d697280fdbbb3cbfb8ff9f9bed"
+    },
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/31201039.json",
+      "sha256": "88eaafd38638c0321eb2c1b302bbf57a13a6c1b60af2cc88f86b573cfe729925"
+    },
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/31400386.json",
+      "sha256": "272f715aa97f1af5b9bf0a56f887bb628fd31871f7d9d18883d38b47905b6789"
+    },
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/31470550.json",
+      "sha256": "1e9aa9fe4c6f325443311694f72df0637dac78651a8c9952389f34387437deb6"
+    },
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/31700432.json",
+      "sha256": "03a7f365659d51acdf44bca442f56fb4c3d023cd785dde3689f9bb6475811595"
+    },
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/31750110469.json",
+      "sha256": "5f5cd931e1bd5e4c00c2b6155f6df0472e8791a025ba798636b1dc4b0b32fb48"
+    },
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/41625002.json",
+      "sha256": "ccba5813da8dcf7fcaf83fda1dab1090f525e18e1fe07529b00f6f607492ad34"
+    },
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/50571048.json",
+      "sha256": "b59ad55bbd0eac8041f11129db2eae30473b45699b98d48c57e2b990b9cc7158"
+    },
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/51778114.json",
+      "sha256": "b18df404f509fb0d8686bd85190d3dfbcd18b0f9c66324a7966e3bef111bbbfa"
+    },
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/81171012.json",
+      "sha256": "b3df193f759ff6dda73599ccf00b76762d716a253d060888e751cd1c4530601f"
+    },
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/81271225.json",
+      "sha256": "6277286cb91eac03d6d0c7fac16f70cb0fe0cde71deb5ecea36379a400186d29"
+    },
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/81400902.json",
+      "sha256": "830f6e0406a368b312b7d2ac1aa97f8bb32e0da9b4ab01616533b2b53da0aa76"
+    },
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/81500493.json",
+      "sha256": "dcd4e6fb6acfe91121f49e0e0751d0655c4f9ad07468d02c309fceb3f364b4cc"
+    },
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/81571055.json",
+      "sha256": "c419016bde2d5477987ade10dd673b67a0cb612ac5d5671a76f116523d7de885"
+    },
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/81572847.json",
+      "sha256": "77a1c986f782f3d109a38764c5c822cdb3d37826d4f07e6dcb6cf8293e87c6e2"
+    },
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/81660686.json",
+      "sha256": "744380da807538c93820c1e9cab5275ffb81f96d6d9e09c3ae7743192e1060fa"
+    },
+    {
+      "path": "data/external/snapshots/funding_official_verification_v1/nsfc/81660693.json",
+      "sha256": "b658c273ca703bcdfadd9feb2ddd63c8681651a0d806350f45b6319f20a1791f"
+    }
+  ]
+}

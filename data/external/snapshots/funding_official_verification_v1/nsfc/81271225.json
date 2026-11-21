@@ -1,0 +1,61 @@
+{
+    "contract_version":  "1.0",
+    "artifact":  "nsfc-completion-project-record-v1",
+    "award_number":  "81271225",
+    "access_date":  "2026-11-21",
+    "fetched_at":  "2026-11-21T18:22:59+08:00",
+    "http_status":  200,
+    "official_api":  "https://kd.nsfc.cn/api/baseQuery/completionQueryResultsData",
+    "official_query_page":  "https://kd.nsfc.cn/finalProjectInit?advanced=true",
+    "request_payload":  {
+                            "complete":  true,
+                            "fuzzyKeyword":  "",
+                            "isFuzzySearch":  false,
+                            "conclusionYear":  "",
+                            "dependUnit":  "",
+                            "keywords":  "",
+                            "pageNum":  0,
+                            "pageSize":  10,
+                            "projectType":  "",
+                            "projectTypeName":  "",
+                            "code":  "",
+                            "ratifyNo":  "81271225",
+                            "ratifyYear":  "",
+                            "order":  "enddate",
+                            "ordering":  "desc",
+                            "codeScreening":  "",
+                            "dependUnitScreening":  "",
+                            "keywordsScreening":  "",
+                            "projectTypeNameScreening":  ""
+                        },
+    "response":  {
+                     "code":  200,
+                     "message":  "Success",
+                     "data":  {
+                                  "resultsData":  [
+                                                      [
+                                                          "0f326eb3d62c2cda675c433671426a7c",
+                                                          "毛蕊异黄酮改善高胆固醇饲喂致小鼠神经记忆损伤的机制",
+                                                          "81271225",
+                                                          "面上项目",
+                                                          "江苏师范大学",
+                                                          "陆军",
+                                                          "70.0",
+                                                          "2012",
+                                                          "线粒体增殖通路;胰岛素信号通路;高胆固醇;过氧化物酶体增殖物受体γ共激活因子1α;毛蕊异黄酮",
+                                                          "true",
+                                                          "10;0;0;0;0",
+                                                          "ccfaeeee0da880fb5d0edf2eabea4501",
+                                                          "fc49d185bda6bb0cd4a0d73e841f1e93",
+                                                          "true",
+                                                          "H0902",
+                                                          "2016",
+                                                          "",
+                                                          "",
+                                                          ""
+                                                      ]
+                                                  ],
+                                  "itotalRecords":  1
+                              }
+                 }
+}

@@ -1,0 +1,16 @@
+{
+  "contract_version": "1.0",
+  "artifact": "funding-source-symmetric-comparison-v1",
+  "frozen_on": "2026-11-21",
+  "groups": {
+    "selected_cluster_sample": 250,
+    "matched_controls": 494,
+    "unselected_candidate_clusters": 87
+  },
+  "files": [
+    {
+      "path": "data/outputs/audits/tables/funding_source_symmetric_comparison_works.csv",
+      "sha256": "f9b445b75288484d9da168c7fad0fb1a697677dd4adeb4bba0345bd22490ac87"
+    }
+  ]
+}

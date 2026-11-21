@@ -1,0 +1,61 @@
+{
+    "contract_version":  "1.0",
+    "artifact":  "nsfc-completion-project-record-v1",
+    "award_number":  "51778114",
+    "access_date":  "2026-11-21",
+    "fetched_at":  "2026-11-21T18:23:36+08:00",
+    "http_status":  200,
+    "official_api":  "https://kd.nsfc.cn/api/baseQuery/completionQueryResultsData",
+    "official_query_page":  "https://kd.nsfc.cn/finalProjectInit?advanced=true",
+    "request_payload":  {
+                            "complete":  true,
+                            "fuzzyKeyword":  "",
+                            "isFuzzySearch":  false,
+                            "conclusionYear":  "",
+                            "dependUnit":  "",
+                            "keywords":  "",
+                            "pageNum":  0,
+                            "pageSize":  10,
+                            "projectType":  "",
+                            "projectTypeName":  "",
+                            "code":  "",
+                            "ratifyNo":  "51778114",
+                            "ratifyYear":  "",
+                            "order":  "enddate",
+                            "ordering":  "desc",
+                            "codeScreening":  "",
+                            "dependUnitScreening":  "",
+                            "keywordsScreening":  "",
+                            "projectTypeNameScreening":  ""
+                        },
+    "response":  {
+                     "code":  200,
+                     "message":  "Success",
+                     "data":  {
+                                  "resultsData":  [
+                                                      [
+                                                          "576092d2720d676143c5df90cf09ca9c",
+                                                          "基于Hopf分叉理论和ASMs模型的多级环流MBR处理β-内酰胺类抗生素及中间体废水的多重稳态性调控机制研究",
+                                                          "51778114",
+                                                          "面上项目",
+                                                          "大连民族大学",
+                                                          "陈兆波",
+                                                          "62.0",
+                                                          "2017",
+                                                          "多级环流MBR;多重稳态性调控机制;活性污泥数学模型（ASMs）;Hopf分叉理论;β-内酰胺类抗生素及中间体废水",
+                                                          "true",
+                                                          "21;0;0;1;5",
+                                                          "75dcba3977bf4b4fd5300b205590a4b6",
+                                                          "7a7923ec52dec5745775d0b8d9e1ab46",
+                                                          "true",
+                                                          "E1002",
+                                                          "2021",
+                                                          "",
+                                                          "",
+                                                          ""
+                                                      ]
+                                                  ],
+                                  "itotalRecords":  1
+                              }
+                 }
+}

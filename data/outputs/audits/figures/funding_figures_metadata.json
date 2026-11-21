@@ -1,0 +1,96 @@
+{
+  "contract_version": "1.0",
+  "generated_on": "2026-11-21",
+  "figures": [
+    {
+      "figure_id": "p4_funding_coverage_source_symmetric",
+      "palette": "B",
+      "question": "同源资助覆盖：审计样本与非撤稿基线",
+      "denominator": "审计簇样本 250；匹配对照 494；未入选候选论文 87。",
+      "source_tables": "data/outputs/audits/tables/funding_source_symmetric_group_coverage.csv",
+      "missing_rule": "没有资助记录按无记录处理，不推定为无资助。",
+      "script": "R/16f_funding_visualizations.R",
+      "table_fallback": "data/outputs/audits/tables/p4_funding_coverage_source_symmetric_data.csv",
+      "data_sha256": "abc86f53e518b9f8d8c9a813d2ba755c51087f1c54fb13e6ce53ac6afc94f5ba",
+      "alt_text": "按审计组和来源展示同源资助覆盖率，并用 95% 区间标出合并来源覆盖。",
+      "outputs": {
+        "svg": {
+          "path": "data/outputs/audits/figures/p4_funding_coverage_source_symmetric.svg",
+          "sha256": "12858388576627841aa36217b31b7a33c8e8a6406cebaa26b19471893a30d19a"
+        },
+        "pdf": {
+          "path": "data/outputs/audits/figures/p4_funding_coverage_source_symmetric.pdf",
+          "sha256": "6e1967930c684c8d1824dac0a9f5c840f1a467991a0018e06a95ee04e6b59476"
+        },
+        "desktop_png": {
+          "path": "data/outputs/audits/figures/p4_funding_coverage_source_symmetric_desktop.png",
+          "sha256": "8b2cc2a46c8a04fc5942e8c085397de5c7be31e50dbf233787ce4bb1d807101e"
+        },
+        "mobile_png": {
+          "path": "data/outputs/audits/figures/p4_funding_coverage_source_symmetric_mobile.png",
+          "sha256": "a3d61c8494461b25c55989603f64121dfab3968e6fd8359c8cbc441398162062"
+        }
+      }
+    },
+    {
+      "figure_id": "p4_funding_source_agreement",
+      "palette": "B",
+      "question": "OpenAlex 与 Crossref 资助记录一致性",
+      "denominator": "审计簇样本 250；匹配对照 494；未入选候选论文 87。",
+      "source_tables": "data/outputs/audits/tables/funding_source_symmetric_agreement.csv",
+      "missing_rule": "两来源均无记录按无记录处理，不推定为无资助。",
+      "script": "R/16f_funding_visualizations.R",
+      "table_fallback": "data/outputs/audits/tables/p4_funding_source_agreement_data.csv",
+      "data_sha256": "ffc1a030c461a10f9e435401a850c75c9946d9a239012910842976cc8e5320e4",
+      "alt_text": "按审计组展示两来源均有、仅 OpenAlex、仅 Crossref 和两来源均无记录的论文比例。",
+      "outputs": {
+        "svg": {
+          "path": "data/outputs/audits/figures/p4_funding_source_agreement.svg",
+          "sha256": "5bfdb985f00cf81471d7fa15aa25c7ed70649034ceed714f4c76ae08597c467e"
+        },
+        "pdf": {
+          "path": "data/outputs/audits/figures/p4_funding_source_agreement.pdf",
+          "sha256": "39befe4f90a4974262d39c3c4fad05499da27888c64182ceb785699f28e343e5"
+        },
+        "desktop_png": {
+          "path": "data/outputs/audits/figures/p4_funding_source_agreement_desktop.png",
+          "sha256": "b2c4437a75c7e1115a3897917b90000488c9911883accea02b9812d6c2579f04"
+        },
+        "mobile_png": {
+          "path": "data/outputs/audits/figures/p4_funding_source_agreement_mobile.png",
+          "sha256": "14bbf645c3842478834d16f7403cc90984ad75f08cd45fa7c560647b3d8eefca"
+        }
+      }
+    },
+    {
+      "figure_id": "p4_funding_official_verification_status",
+      "palette": "C",
+      "question": "前 25 个复用项目编号的官方核验状态",
+      "denominator": "冻结的 25 个高频复用项目编号。",
+      "source_tables": "data/outputs/audits/tables/funding_official_project_verification.csv",
+      "missing_rule": "查无记录不等于项目不存在。",
+      "script": "R/16f_funding_visualizations.R",
+      "table_fallback": "data/outputs/audits/tables/p4_funding_official_verification_status_data.csv",
+      "data_sha256": "4dcd93f2385ec4b95647825714d7918e1f79b9a877511fc42819a0c2fa65097d",
+      "alt_text": "条形图展示 25 个项目编号中官方结题记录已核验、NSFC 未返回和其他官方页面未找到的数量。",
+      "outputs": {
+        "svg": {
+          "path": "data/outputs/audits/figures/p4_funding_official_verification_status.svg",
+          "sha256": "330a554bb829beb93a4f8d68db76bd638489ff08bea98ddaad41dc719a50ddc9"
+        },
+        "pdf": {
+          "path": "data/outputs/audits/figures/p4_funding_official_verification_status.pdf",
+          "sha256": "8ef17dbe57f79b45019547f66f42b8dd9705f6804929f0ea2611bcd81c82c4c5"
+        },
+        "desktop_png": {
+          "path": "data/outputs/audits/figures/p4_funding_official_verification_status_desktop.png",
+          "sha256": "19f08ea268a77daba9aec4848a0e43846deaa437d2e9a5c09304c14d684bc770"
+        },
+        "mobile_png": {
+          "path": "data/outputs/audits/figures/p4_funding_official_verification_status_mobile.png",
+          "sha256": "0403b6b83d0d531873e97ff13df195041a350101b8a4eaf928ed12671c85633a"
+        }
+      }
+    }
+  ]
+}

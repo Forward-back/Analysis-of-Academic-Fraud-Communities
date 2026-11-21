@@ -1,0 +1,61 @@
+{
+    "contract_version":  "1.0",
+    "artifact":  "nsfc-completion-project-record-v1",
+    "award_number":  "50571048",
+    "access_date":  "2026-11-21",
+    "fetched_at":  "2026-11-21T18:22:27+08:00",
+    "http_status":  200,
+    "official_api":  "https://kd.nsfc.cn/api/baseQuery/completionQueryResultsData",
+    "official_query_page":  "https://kd.nsfc.cn/finalProjectInit?advanced=true",
+    "request_payload":  {
+                            "complete":  true,
+                            "fuzzyKeyword":  "",
+                            "isFuzzySearch":  false,
+                            "conclusionYear":  "",
+                            "dependUnit":  "",
+                            "keywords":  "",
+                            "pageNum":  0,
+                            "pageSize":  10,
+                            "projectType":  "",
+                            "projectTypeName":  "",
+                            "code":  "",
+                            "ratifyNo":  "50571048",
+                            "ratifyYear":  "",
+                            "order":  "enddate",
+                            "ordering":  "desc",
+                            "codeScreening":  "",
+                            "dependUnitScreening":  "",
+                            "keywordsScreening":  "",
+                            "projectTypeNameScreening":  ""
+                        },
+    "response":  {
+                     "code":  200,
+                     "message":  "Success",
+                     "data":  {
+                                  "resultsData":  [
+                                                      [
+                                                          "5f972ed927fb9604b3359b8ef050516b",
+                                                          "变形镁合金电致塑性的应用基础研究",
+                                                          "50571048",
+                                                          "面上项目",
+                                                          "清华大学",
+                                                          "唐国翌",
+                                                          "25.0",
+                                                          "2005",
+                                                          "变形镁合金;电致塑性",
+                                                          "true",
+                                                          "9;2;1;0;0",
+                                                          "fcf4747fa4a8efd5c467557259d26984",
+                                                          "582209aa9aa9e229553ef750756193d3",
+                                                          "true",
+                                                          "E0104",
+                                                          "2008",
+                                                          "",
+                                                          "",
+                                                          ""
+                                                      ]
+                                                  ],
+                                  "itotalRecords":  1
+                              }
+                 }
+}

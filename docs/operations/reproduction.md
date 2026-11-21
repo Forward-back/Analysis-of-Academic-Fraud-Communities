@@ -186,6 +186,22 @@ powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
   -CacheSubpaths "crossref/funding-audit-v1"
 ```
 
+P4B 同源对照、官方项目核验和最终资助图：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/fetch_nsfc_project_records.ps1
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript R/16d_source_symmetric_funding_comparison.R -IncludeOutputs `
+  -CacheSubpaths "crossref/funding-audit-v1"
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript R/16e_funding_official_project_verification.R -IncludeOutputs
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript R/16f_funding_visualizations.R -IncludeOutputs
+```
+
+`fetch_nsfc_project_records.ps1` 默认复用已保存官方响应；只有 `-Refresh` 才重新查询。
+官方结题库查询失败会重试并保留失败边界，不把临时失败记为查无项目。
+
 ## 数据冻结
 
 - 原始 CSV 只读。

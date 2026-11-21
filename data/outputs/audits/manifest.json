@@ -5,6 +5,58 @@
   "source_path_type": "project-relative",
   "files": [
     {
+      "path": "data/outputs/audits/figures/funding_figures_metadata.json",
+      "sha256": "fb7381c43b2db6387ec4dc067ba99489c870b94ac4a84303532a32dd6214fd38"
+    },
+    {
+      "path": "data/outputs/audits/figures/p4_funding_coverage_source_symmetric.pdf",
+      "sha256": "6e1967930c684c8d1824dac0a9f5c840f1a467991a0018e06a95ee04e6b59476"
+    },
+    {
+      "path": "data/outputs/audits/figures/p4_funding_coverage_source_symmetric.svg",
+      "sha256": "12858388576627841aa36217b31b7a33c8e8a6406cebaa26b19471893a30d19a"
+    },
+    {
+      "path": "data/outputs/audits/figures/p4_funding_coverage_source_symmetric_desktop.png",
+      "sha256": "8b2cc2a46c8a04fc5942e8c085397de5c7be31e50dbf233787ce4bb1d807101e"
+    },
+    {
+      "path": "data/outputs/audits/figures/p4_funding_coverage_source_symmetric_mobile.png",
+      "sha256": "a3d61c8494461b25c55989603f64121dfab3968e6fd8359c8cbc441398162062"
+    },
+    {
+      "path": "data/outputs/audits/figures/p4_funding_official_verification_status.pdf",
+      "sha256": "8ef17dbe57f79b45019547f66f42b8dd9705f6804929f0ea2611bcd81c82c4c5"
+    },
+    {
+      "path": "data/outputs/audits/figures/p4_funding_official_verification_status.svg",
+      "sha256": "330a554bb829beb93a4f8d68db76bd638489ff08bea98ddaad41dc719a50ddc9"
+    },
+    {
+      "path": "data/outputs/audits/figures/p4_funding_official_verification_status_desktop.png",
+      "sha256": "19f08ea268a77daba9aec4848a0e43846deaa437d2e9a5c09304c14d684bc770"
+    },
+    {
+      "path": "data/outputs/audits/figures/p4_funding_official_verification_status_mobile.png",
+      "sha256": "0403b6b83d0d531873e97ff13df195041a350101b8a4eaf928ed12671c85633a"
+    },
+    {
+      "path": "data/outputs/audits/figures/p4_funding_source_agreement.pdf",
+      "sha256": "39befe4f90a4974262d39c3c4fad05499da27888c64182ceb785699f28e343e5"
+    },
+    {
+      "path": "data/outputs/audits/figures/p4_funding_source_agreement.svg",
+      "sha256": "5bfdb985f00cf81471d7fa15aa25c7ed70649034ceed714f4c76ae08597c467e"
+    },
+    {
+      "path": "data/outputs/audits/figures/p4_funding_source_agreement_desktop.png",
+      "sha256": "b2c4437a75c7e1115a3897917b90000488c9911883accea02b9812d6c2579f04"
+    },
+    {
+      "path": "data/outputs/audits/figures/p4_funding_source_agreement_mobile.png",
+      "sha256": "14bbf645c3842478834d16f7403cc90984ad75f08cd45fa7c560647b3d8eefca"
+    },
+    {
       "path": "data/outputs/audits/figures/palette_review_metadata.json",
       "sha256": "68365f3936daa22e2057d3ff9d1c0afe9b48ef28a5cf1056909dd123a35be915"
     },
@@ -357,6 +409,10 @@
       "sha256": "c39a451c520279113a4b356e292fcb0a02bcc2d880a5432c2a01f444cb25206c"
     },
     {
+      "path": "data/outputs/audits/tables/funding_award_doi_reuse_verified.csv",
+      "sha256": "3f0c176b7c419a0201245fd200b07ec60ab6f5cd7d66eca71a850f20f5832481"
+    },
+    {
       "path": "data/outputs/audits/tables/funding_combined_paper_metadata.csv",
       "sha256": "beb5daf081fe234f08732b005e040a95b77f53289eb856854a42a0fecd8727de"
     },
@@ -405,12 +461,68 @@
       "sha256": "296f886b2c9dccff5e6c98ea83efaec8823dbc3be419f77d6f4bbfa2c86c93bf"
     },
     {
+      "path": "data/outputs/audits/tables/funding_h5_final_evidence.csv",
+      "sha256": "6e8ab028b2238e34e8d8033ed6b28e7b06200e9d0c064013ea3bb5b9a8d156c1"
+    },
+    {
       "path": "data/outputs/audits/tables/funding_hypothesis_evidence.csv",
       "sha256": "c82740fb83ff82a5a1e6a66564d935fd48a87bc7e5551ac285bf15c485b589cc"
     },
     {
+      "path": "data/outputs/audits/tables/funding_nsfc_verification_raw.csv",
+      "sha256": "0ef94fa36f40d8f7f89f779a6472e00d32a177c2b564238b34abc1edda4bf305"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_official_project_verification.csv",
+      "sha256": "29622b900ff45d9aa18f7ded847af1d13d8e65c0af2b51e906660cd73be13fe4"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_project_paper_evidence.csv",
+      "sha256": "59ed590e1856b9cfc7dbbf6042ac65cedbd6330506d5a97ef52cdab35b53cb3f"
+    },
+    {
       "path": "data/outputs/audits/tables/funding_project_verification_queue.csv",
       "sha256": "d36aa42c007f20731e825c4c322d92a55d7c4d9fee709e5c597be8e0fce1c470"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_source_symmetric_agreement.csv",
+      "sha256": "5203269eebed5e7a22b32952de9f1881b7dbbc55887f72f6c92dde0a2e4739a9"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_source_symmetric_cluster_coverage.csv",
+      "sha256": "739781d73cb6fb5a5bd08d00d01a6ffa252b8ecdd3f97bb39a2fae4bec21dcd3"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_source_symmetric_comparison_works.csv",
+      "sha256": "f9b445b75288484d9da168c7fad0fb1a697677dd4adeb4bba0345bd22490ac87"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_source_symmetric_contrasts.csv",
+      "sha256": "3ff276dc5eda7a020622212c9d68593fa5312741dfe27c6d62ad4ed7e90182a4"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_source_symmetric_crossref_awards.csv",
+      "sha256": "c472a4c19718f52d62cbaa7370d8365e01ca1cae46b9a0abc4c70af47d3ac1ee"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_source_symmetric_crossref_funders.csv",
+      "sha256": "eb7b646339a050c9f40fcc0d1a0ef41cbb59d4966517215c026245e1cc814962"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_source_symmetric_group_coverage.csv",
+      "sha256": "d728c9b138dbb779425d673ed5525883622d4c9afa3553d6367494c1fc4da73b"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_source_symmetric_paper_metadata.csv",
+      "sha256": "8458fc30ee49221e787f2565b0ea39bc1ba94d2132411b0798af8f093dc3004b"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_source_symmetric_request_audit.csv",
+      "sha256": "e31ed741a528348d40d15bd48ce7034d5bc414b17838106e11cbf8c1a52c00fe"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_source_symmetric_request_summary.csv",
+      "sha256": "759c345f5a86c4de8bac19c72264e578badc1991e6514016d923fc74b77e53b8"
     },
     {
       "path": "data/outputs/audits/tables/leiden_community_profiles.csv",
@@ -915,6 +1027,18 @@
     {
       "path": "data/outputs/audits/tables/p2_network_family_standardized_excess.csv",
       "sha256": "2525d9228fda8fc6ef03607ff3a5622060163721e5c1b4b2f3754a663161bd48"
+    },
+    {
+      "path": "data/outputs/audits/tables/p4_funding_coverage_source_symmetric_data.csv",
+      "sha256": "abc86f53e518b9f8d8c9a813d2ba755c51087f1c54fb13e6ce53ac6afc94f5ba"
+    },
+    {
+      "path": "data/outputs/audits/tables/p4_funding_official_verification_status_data.csv",
+      "sha256": "4dcd93f2385ec4b95647825714d7918e1f79b9a877511fc42819a0c2fa65097d"
+    },
+    {
+      "path": "data/outputs/audits/tables/p4_funding_source_agreement_data.csv",
+      "sha256": "ffc1a030c461a10f9e435401a850c75c9946d9a239012910842976cc8e5320e4"
     },
     {
       "path": "data/outputs/audits/tables/palette_review_color_metrics.csv",

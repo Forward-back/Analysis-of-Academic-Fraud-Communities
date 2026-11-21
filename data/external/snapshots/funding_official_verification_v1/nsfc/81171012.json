@@ -1,0 +1,61 @@
+{
+    "contract_version":  "1.0",
+    "artifact":  "nsfc-completion-project-record-v1",
+    "award_number":  "81171012",
+    "access_date":  "2026-11-21",
+    "fetched_at":  "2026-11-21T18:23:01+08:00",
+    "http_status":  200,
+    "official_api":  "https://kd.nsfc.cn/api/baseQuery/completionQueryResultsData",
+    "official_query_page":  "https://kd.nsfc.cn/finalProjectInit?advanced=true",
+    "request_payload":  {
+                            "complete":  true,
+                            "fuzzyKeyword":  "",
+                            "isFuzzySearch":  false,
+                            "conclusionYear":  "",
+                            "dependUnit":  "",
+                            "keywords":  "",
+                            "pageNum":  0,
+                            "pageSize":  10,
+                            "projectType":  "",
+                            "projectTypeName":  "",
+                            "code":  "",
+                            "ratifyNo":  "81171012",
+                            "ratifyYear":  "",
+                            "order":  "enddate",
+                            "ordering":  "desc",
+                            "codeScreening":  "",
+                            "dependUnitScreening":  "",
+                            "keywordsScreening":  "",
+                            "projectTypeNameScreening":  ""
+                        },
+    "response":  {
+                     "code":  200,
+                     "message":  "Success",
+                     "data":  {
+                                  "resultsData":  [
+                                                      [
+                                                          "5cd0852d45d90579bed3a0bde01a8609",
+                                                          "内质网应激介导的代谢综合症致脑损伤的分子机制及花青素干预的研究",
+                                                          "81171012",
+                                                          "面上项目",
+                                                          "江苏师范大学",
+                                                          "郑元林",
+                                                          "60.0",
+                                                          "2011",
+                                                          "内质网应激;花青素;胰岛素信号和炎症;脑损伤;学习记忆相关蛋白",
+                                                          "true",
+                                                          "13;0;0;0;0",
+                                                          "ccfaeeee0da880fb5d0edf2eabea4501",
+                                                          "f4c57266bd57c68c29e91afa73ecc7b9",
+                                                          "true",
+                                                          "H0902",
+                                                          "2015",
+                                                          "",
+                                                          "",
+                                                          ""
+                                                      ]
+                                                  ],
+                                  "itotalRecords":  1
+                              }
+                 }
+}

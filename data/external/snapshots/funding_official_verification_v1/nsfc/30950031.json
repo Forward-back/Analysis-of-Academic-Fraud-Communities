@@ -1,0 +1,61 @@
+{
+    "contract_version":  "1.0",
+    "artifact":  "nsfc-completion-project-record-v1",
+    "award_number":  "30950031",
+    "access_date":  "2026-11-21",
+    "fetched_at":  "2026-11-21T18:23:02+08:00",
+    "http_status":  200,
+    "official_api":  "https://kd.nsfc.cn/api/baseQuery/completionQueryResultsData",
+    "official_query_page":  "https://kd.nsfc.cn/finalProjectInit?advanced=true",
+    "request_payload":  {
+                            "complete":  true,
+                            "fuzzyKeyword":  "",
+                            "isFuzzySearch":  false,
+                            "conclusionYear":  "",
+                            "dependUnit":  "",
+                            "keywords":  "",
+                            "pageNum":  0,
+                            "pageSize":  10,
+                            "projectType":  "",
+                            "projectTypeName":  "",
+                            "code":  "",
+                            "ratifyNo":  "30950031",
+                            "ratifyYear":  "",
+                            "order":  "enddate",
+                            "ordering":  "desc",
+                            "codeScreening":  "",
+                            "dependUnitScreening":  "",
+                            "keywordsScreening":  "",
+                            "projectTypeNameScreening":  ""
+                        },
+    "response":  {
+                     "code":  200,
+                     "message":  "Success",
+                     "data":  {
+                                  "resultsData":  [
+                                                      [
+                                                          "95b9011871856f448601459b9a0ce0c8",
+                                                          "甘薯花青素对衰老脑组织炎症损伤干预的分子机制研究",
+                                                          "30950031",
+                                                          "专项基金项目",
+                                                          "江苏师范大学",
+                                                          "郑元林",
+                                                          "10.0",
+                                                          "2009",
+                                                          "炎性因子;炎症反应信号转导通路;炎症损伤;甘薯花青素;衰老",
+                                                          "true",
+                                                          "0;0;0;0;0",
+                                                          "ccfaeeee0da880fb5d0edf2eabea4501",
+                                                          "f4c57266bd57c68c29e91afa73ecc7b9",
+                                                          "true",
+                                                          "H3212",
+                                                          "2010",
+                                                          "",
+                                                          "",
+                                                          ""
+                                                      ]
+                                                  ],
+                                  "itotalRecords":  1
+                              }
+                 }
+}

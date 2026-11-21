@@ -1,0 +1,61 @@
+{
+    "contract_version":  "1.0",
+    "artifact":  "nsfc-completion-project-record-v1",
+    "award_number":  "81500493",
+    "access_date":  "2026-11-21",
+    "fetched_at":  "2026-11-21T18:23:37+08:00",
+    "http_status":  200,
+    "official_api":  "https://kd.nsfc.cn/api/baseQuery/completionQueryResultsData",
+    "official_query_page":  "https://kd.nsfc.cn/finalProjectInit?advanced=true",
+    "request_payload":  {
+                            "complete":  true,
+                            "fuzzyKeyword":  "",
+                            "isFuzzySearch":  false,
+                            "conclusionYear":  "",
+                            "dependUnit":  "",
+                            "keywords":  "",
+                            "pageNum":  0,
+                            "pageSize":  10,
+                            "projectType":  "",
+                            "projectTypeName":  "",
+                            "code":  "",
+                            "ratifyNo":  "81500493",
+                            "ratifyYear":  "",
+                            "order":  "enddate",
+                            "ordering":  "desc",
+                            "codeScreening":  "",
+                            "dependUnitScreening":  "",
+                            "keywordsScreening":  "",
+                            "projectTypeNameScreening":  ""
+                        },
+    "response":  {
+                     "code":  200,
+                     "message":  "Success",
+                     "data":  {
+                                  "resultsData":  [
+                                                      [
+                                                          "d9f4de2f66b7caad6bed41a207066356",
+                                                          "GJ的Ca2+传递引起钙稳态失衡诱导内质网应激在肝移植术后急性肾损伤中的作用研究",
+                                                          "81500493",
+                                                          "青年科学基金项目（C类）",
+                                                          "中山大学",
+                                                          "王艳玲",
+                                                          "18.0",
+                                                          "2015",
+                                                          "缝隙连接;钙稳态失衡;肝移植;内质网应激;急性肾损伤",
+                                                          "true",
+                                                          "4;0;0;0;0",
+                                                          "06acb30b94fd3d74ebd0479038891e4d",
+                                                          "1db5b6225944b9006a45b81e4f8e7b25",
+                                                          "true",
+                                                          "H0314",
+                                                          "2018",
+                                                          "",
+                                                          "",
+                                                          ""
+                                                      ]
+                                                  ],
+                                  "itotalRecords":  1
+                              }
+                 }
+}

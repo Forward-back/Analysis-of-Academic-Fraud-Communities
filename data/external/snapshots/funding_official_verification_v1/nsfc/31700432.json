@@ -1,0 +1,61 @@
+{
+    "contract_version":  "1.0",
+    "artifact":  "nsfc-completion-project-record-v1",
+    "award_number":  "31700432",
+    "access_date":  "2026-11-21",
+    "fetched_at":  "2026-11-21T18:23:34+08:00",
+    "http_status":  200,
+    "official_api":  "https://kd.nsfc.cn/api/baseQuery/completionQueryResultsData",
+    "official_query_page":  "https://kd.nsfc.cn/finalProjectInit?advanced=true",
+    "request_payload":  {
+                            "complete":  true,
+                            "fuzzyKeyword":  "",
+                            "isFuzzySearch":  false,
+                            "conclusionYear":  "",
+                            "dependUnit":  "",
+                            "keywords":  "",
+                            "pageNum":  0,
+                            "pageSize":  10,
+                            "projectType":  "",
+                            "projectTypeName":  "",
+                            "code":  "",
+                            "ratifyNo":  "31700432",
+                            "ratifyYear":  "",
+                            "order":  "enddate",
+                            "ordering":  "desc",
+                            "codeScreening":  "",
+                            "dependUnitScreening":  "",
+                            "keywordsScreening":  "",
+                            "projectTypeNameScreening":  ""
+                        },
+    "response":  {
+                     "code":  200,
+                     "message":  "Success",
+                     "data":  {
+                                  "resultsData":  [
+                                                      [
+                                                          "24774edae38bd58762b0b37fd9dba2a6",
+                                                          "基于生态因子调控废水处理中光合细菌能量与聚-β-羟丁酸（PHB）合成途径促进胞内PHB累积的研究",
+                                                          "31700432",
+                                                          "青年科学基金项目（C类）",
+                                                          "大连民族大学",
+                                                          "吴盼",
+                                                          "21.0",
+                                                          "2017",
+                                                          "污水处理;光合细菌;聚-β-羟丁酸;微生物净化;生态因子",
+                                                          "true",
+                                                          "3;0;0;0;0",
+                                                          "75dcba3977bf4b4fd5300b205590a4b6",
+                                                          "f0ce9a34cd6733c2d58024d3f74ad3fb",
+                                                          "true",
+                                                          "C0303",
+                                                          "2020",
+                                                          "",
+                                                          "",
+                                                          ""
+                                                      ]
+                                                  ],
+                                  "itotalRecords":  1
+                              }
+                 }
+}

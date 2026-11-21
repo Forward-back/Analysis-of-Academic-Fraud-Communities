@@ -1,0 +1,33 @@
+supporting_text_template: "批准号：%s；项目名称：%s；项目类别：%s；项目负责人：%s；资助经费：%s（万元）；批准年度：%s；结题年度：%s；依托单位：%s"
+nsfc_organization: "国家自然科学基金委员会"
+amount_unit: "万元"
+nsfc_not_found_note: "未在国家自然科学基金公开结题项目库中找到该批准号的单项记录；这不表示项目不存在。"
+external_not_found_note: "未在可公开检索的官方项目页面中找到该编号的单项记录；论文中的资助声明不能替代官方项目记录。"
+project_period_note: "公开结题查询结果提供批准年度和结题年度，未提供可核验的月级起止日期。"
+
+external_authorities:
+  SGLH20121008144756946:
+    organization: "深圳市科技创新局"
+    official_url: "https://stic.sz.gov.cn/"
+  "2015A030313098":
+    organization: "广东省科学技术厅"
+    official_url: "https://gdstc.gd.gov.cn/"
+  "2018M641797":
+    organization: "中国博士后科学基金会"
+    official_url: "https://www.chinapostdoctor.org.cn/"
+  "0113-20000101":
+    organization: "大连民族大学"
+    official_url: "https://www.dlnu.edu.cn/"
+  "13KJA180001":
+    organization: "江苏省教育厅"
+    official_url: "https://jyt.jiangsu.gov.cn/"
+  "2015ZX07202-012":
+    organization: "中华人民共和国科学技术部"
+    official_url: "https://www.most.gov.cn/"
+  "2016RAXXJ103":
+    organization: "哈尔滨市人民政府"
+    official_url: "https://www.harbin.gov.cn/"
+  "2018HLJ6578":
+    organization: "黑龙江省科学技术厅"
+    official_url: "https://kjt.hlj.gov.cn/"
+

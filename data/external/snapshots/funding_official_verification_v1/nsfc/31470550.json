@@ -1,0 +1,61 @@
+{
+    "contract_version":  "1.0",
+    "artifact":  "nsfc-completion-project-record-v1",
+    "award_number":  "31470550",
+    "access_date":  "2026-11-21",
+    "fetched_at":  "2026-11-21T18:23:36+08:00",
+    "http_status":  200,
+    "official_api":  "https://kd.nsfc.cn/api/baseQuery/completionQueryResultsData",
+    "official_query_page":  "https://kd.nsfc.cn/finalProjectInit?advanced=true",
+    "request_payload":  {
+                            "complete":  true,
+                            "fuzzyKeyword":  "",
+                            "isFuzzySearch":  false,
+                            "conclusionYear":  "",
+                            "dependUnit":  "",
+                            "keywords":  "",
+                            "pageNum":  0,
+                            "pageSize":  10,
+                            "projectType":  "",
+                            "projectTypeName":  "",
+                            "code":  "",
+                            "ratifyNo":  "31470550",
+                            "ratifyYear":  "",
+                            "order":  "enddate",
+                            "ordering":  "desc",
+                            "codeScreening":  "",
+                            "dependUnitScreening":  "",
+                            "keywordsScreening":  "",
+                            "projectTypeNameScreening":  ""
+                        },
+    "response":  {
+                     "code":  200,
+                     "message":  "Success",
+                     "data":  {
+                                  "resultsData":  [
+                                                      [
+                                                          "38acc8bb8386da07aa8fc6b3e2d89378",
+                                                          "邻苯二甲酸二丁酯（DBP）胁迫的黄瓜生态毒理学响应及表达差异蛋白质组学研究",
+                                                          "31470550",
+                                                          "面上项目",
+                                                          "东北农业大学",
+                                                          "张颖",
+                                                          "86.0",
+                                                          "2014",
+                                                          "蛋白质组学;DBP;生态毒理学;黄瓜;克隆",
+                                                          "true",
+                                                          "6;0;0;0;0",
+                                                          "fcd09ea3768af4c9a4f338f5e3510621",
+                                                          "3e8b6c0be7aea98c895cd433c57c8e99",
+                                                          "true",
+                                                          "C0310",
+                                                          "2018",
+                                                          "",
+                                                          "",
+                                                          ""
+                                                      ]
+                                                  ],
+                                  "itotalRecords":  1
+                              }
+                 }
+}
