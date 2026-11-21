@@ -25,6 +25,7 @@
 | 后续模型使用哪些样本 | [分析样本冻结与选择审计](analysis/analysis-samples.md) |
 | 各原因族的层级、地理和团队规模概览 | [论文层原因族描述](analysis/paper-descriptives.md) |
 | 原因族调整模型与假设判断 | [论文层调整模型](analysis/paper-models.md) |
+| 作者重叠、主机构与批次稳健性 | [论文层模型稳健性](analysis/paper-model-robustness.md) |
 | 网络与重复合作基线 | [作者网络基线](analysis/network-baseline.md) |
 | 重复合作是否超过团队构成基线 | [网络零模型](analysis/network-null.md) |
 | 固定待核查审计簇 | [25 个审计簇](analysis/audit-clusters.md) |

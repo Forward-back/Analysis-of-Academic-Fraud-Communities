@@ -1,0 +1,7 @@
+"model_type","analysis_set","analysis_family","outcome","status","rows","cases","controls","match_groups","converged","singular","random_effect_sd","dispersion","aic","bic","warnings"
+"primary_mixed","fixed_985_211_tier","family_publication_process","legacy_985_211_cross_tier","ok",21823,7287,14536,7287,TRUE,FALSE,0.172048086596508,,21239.9578604171,21687.4381657719,""
+"matched_conditional","fixed_985_211_tier","family_publication_process","legacy_985_211_cross_tier","ok",21823,7287,14536,7287,TRUE,,,,7170.67004597206,7216.38495676214,""
+"primary_mixed","fixed_985_211_tier","family_image_integrity","legacy_985_211_cross_tier","ok",5415,1805,3610,1805,TRUE,FALSE,0.175116467455268,,7079.07305668749,7395.72560834037,""
+"matched_conditional","fixed_985_211_tier","family_image_integrity","legacy_985_211_cross_tier","ok",5415,1805,3610,1805,TRUE,,,,2667.88704340498,2707.74779302339,""
+"primary_mixed","fixed_985_211_tier","family_plagiarism_authorship","legacy_985_211_cross_tier","ok",4805,1605,3200,1605,TRUE,FALSE,0.0521545659280988,,5998.5779929308,6380.74531989366,""
+"matched_conditional","fixed_985_211_tier","family_plagiarism_authorship","legacy_985_211_cross_tier","ok",4805,1605,3200,1605,TRUE,,,,2245.11638482154,2283.26694181019,""

@@ -142,6 +142,15 @@ powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
 该入口执行主混合 logistic、条件 logistic、正距离量级、聚类稳健负二项和
 剔除 2023 敏感性模型。
 
+论文层稳健性：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_paper_model_robustness.R -IncludeOutputs
+```
+
+该入口执行作者去重叠、主机构、固定 985/211、前五批次剔除和团队规模分层模型。
+
 ## 数据冻结
 
 - 原始 CSV 只读。

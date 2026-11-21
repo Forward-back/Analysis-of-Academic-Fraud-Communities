@@ -517,6 +517,38 @@
       "sha256": "c87da5681ce47ff818152a22d5fe854e882ea543e7b3d64462f0423a65a70208"
     },
     {
+      "path": "data/outputs/audits/tables/p1c_fixed_tier_effects.csv",
+      "sha256": "9cd61380aa9d669abf7cf44679ccbd72ad9c5904183a2fda560a4da3a718f6f7"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1c_fixed_tier_model_fit.csv",
+      "sha256": "8a472544fcd158e4f70626dd29034e07321bb915c1969e136b4b531db6472441"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1c_robustness_flow.csv",
+      "sha256": "8a475324a2cfe0006c7b96894296a479e2577e34a88dc4401f246f6c8b9a9505"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1c_sensitivity_effects.csv",
+      "sha256": "a1c266f681319295986957a2375b545b953949ed92a7e7d8afc47b725f8bb3de"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1c_sensitivity_model_fit.csv",
+      "sha256": "2db3052b4d1f07a8a1eae6cb65830d0b1c8800abc1e51dd42c263c80a2619da1"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1c_team_size_strata_effects.csv",
+      "sha256": "cc3ef0a0f8543d73cb903f4b3bf4d7d08e64ed5168fb5127bc8b45e4cc7d7015"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1c_team_size_strata_model_fit.csv",
+      "sha256": "95c5d556880d34c78062a767ff29697c53d46cbd4062a9081dad2167295566d4"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1c_top5_batches.csv",
+      "sha256": "d6dbb1a472f7f8e9aab477f56272e2d962e11ba1e8735a15f08bf203c7b39b37"
+    },
+    {
       "path": "data/outputs/audits/tables/repeat_component_profiles.csv",
       "sha256": "f5915000a3ae1d7cf1ee6bd598bb0424edd04fb3d520f725af51693277aa271a"
     }
