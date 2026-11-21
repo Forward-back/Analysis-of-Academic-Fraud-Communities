@@ -123,6 +123,15 @@ powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
 该入口生成逐论文冻结标记、样本登记表、对照机构字段缺口分解和网络纳入排除比较。
 详细口径见 [分析样本冻结与选择审计](../analysis/analysis-samples.md)。
 
+论文层原因族描述：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_paper_descriptives.R -IncludeOutputs
+```
+
+该入口构建案例与对照论文面板，并输出团队规模、机构层级、合作地理和匹配层构成。
+
 ## 数据冻结
 
 - 原始 CSV 只读。

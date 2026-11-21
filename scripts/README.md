@@ -14,6 +14,7 @@
 | `run_integration_tests.ps1` | Windows 集成测试入口，使用 ASCII 暂存目录 |
 | `run_match_balance_audit.R` | 对照缺口、匹配平衡和团队规模审计 |
 | `run_analysis_sample_freeze.R` | 冻结论文、机构和网络分析样本并审计选择差异 |
+| `run_paper_descriptives.R` | 构建论文层案例对照面板与原因族结构描述 |
 | `run_network_baseline.R` | 作者网络与重复合作基线 |
 | `run_network_null_model.R` | 团队构成置换零模型 |
 | `run_leiden_communities.R` | Leiden 多分辨率与稳定性敏感性 |

@@ -6,6 +6,7 @@
 - [机构与对照映射审计](institution-mapping-audit.md)
 - [匹配平衡与对照机构缺口](matching-balance.md)
 - [分析样本冻结与选择审计](analysis-samples.md)
+- [论文层原因族描述](paper-descriptives.md)
 - [作者网络基线](network-baseline.md)
 - [网络团队构成零模型](network-null.md)
 - [固定 25 个待核查审计簇](audit-clusters.md)

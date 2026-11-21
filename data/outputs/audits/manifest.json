@@ -469,6 +469,30 @@
       "sha256": "2f28c6c1b1b205fae15b1f33cd28c9a72fac1e3158aa17fe2eab0a85af8af320"
     },
     {
+      "path": "data/outputs/audits/tables/p1a_analysis_panel_flow.csv",
+      "sha256": "f49311c30f39b37caaa22936db7a7e757396d414910a21732c3fe6d39d98086e"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1a_family_sample_selection.csv",
+      "sha256": "b85fb30b33ad5d1a9acd221095910a5c3e624b64432ad90a93139635c28309a3"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1a_family_structural_comparison.csv",
+      "sha256": "6893ac0df1d6e9021f648c621a5b9a62245b98033ce427dccaf77f4fef98b626"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1a_geo_level_composition.csv",
+      "sha256": "0abeaff97eeea215443515d37d8e8f49d6c46ed121fb189876717a4133392830"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1a_match_layer_composition.csv",
+      "sha256": "e3c8124f8ca7f03b94fd3da205e6a6b4a85d12a593a2730cdc3979f70b7f5ed5"
+    },
+    {
+      "path": "data/outputs/audits/tables/p1a_team_size_composition.csv",
+      "sha256": "9d8a40a2e621b530981b8a27abd8c5688d421b5a6007906dd7310b4ad2e8cd57"
+    },
+    {
       "path": "data/outputs/audits/tables/repeat_component_profiles.csv",
       "sha256": "f5915000a3ae1d7cf1ee6bd598bb0424edd04fb3d520f725af51693277aa271a"
     }

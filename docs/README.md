@@ -23,6 +23,7 @@
 | 当前有哪些数据发现 | [基线 EDA](analysis/baseline-eda.md) |
 | 匹配是否平衡、对照缺什么 | [匹配平衡与对照机构缺口](analysis/matching-balance.md) |
 | 后续模型使用哪些样本 | [分析样本冻结与选择审计](analysis/analysis-samples.md) |
+| 各原因族的层级、地理和团队规模概览 | [论文层原因族描述](analysis/paper-descriptives.md) |
 | 网络与重复合作基线 | [作者网络基线](analysis/network-baseline.md) |
 | 重复合作是否超过团队构成基线 | [网络零模型](analysis/network-null.md) |
 | 固定待核查审计簇 | [25 个审计簇](analysis/audit-clusters.md) |
