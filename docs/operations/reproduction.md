@@ -111,6 +111,18 @@ powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
 `run_control_pool_fetch.ps1` 的请求同时设置 `sample` 和 `per_page`；
 只设置 `sample` 会被 OpenAlex 按默认 25 条截断。
 
+## 分析样本冻结
+
+对照匹配和匹配平衡审计完成后执行：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_analysis_sample_freeze.R -IncludeOutputs
+```
+
+该入口生成逐论文冻结标记、样本登记表、对照机构字段缺口分解和网络纳入排除比较。
+详细口径见 [分析样本冻结与选择审计](../analysis/analysis-samples.md)。
+
 ## 数据冻结
 
 - 原始 CSV 只读。

@@ -1,0 +1,210 @@
+"publisher","cases","network_cases","excluded_cases","network_coverage","included_mean_team_size","excluded_mean_team_size","team_size_smd"
+"Hindawi",9299,6213,3086,0.668136358748253,2.79687751488814,4.66947504860661,-0.815142101372305
+"Elsevier",2202,1243,959,0.564486830154405,4.27916331456154,5.62043795620438,-0.389599817253206
+"Springer",1805,1093,712,0.605540166204986,3.24794144556267,4.9002808988764,-0.59172646315189
+"Wiley",1564,729,835,0.466112531969309,4.99725651577503,6.43473053892216,-0.485017666591625
+"IOS Press (bought by Sage November 2023)",1090,703,387,0.644954128440367,2.91322901849218,3.62790697674419,-0.390931317339369
+"Springer - Nature Publishing Group",1089,693,396,0.636363636363636,3.87012987012987,6.06313131313131,-0.553770613338756
+"Spandidos",847,382,465,0.451003541912633,5.19895287958115,5.98709677419355,-0.355963357818369
+"SAGE Publications",580,354,226,0.610344827586207,3.32485875706215,4.71238938053097,-0.62361709083577
+"PLoS",569,300,269,0.527240773286467,5.75333333333333,7.97769516728625,-0.602314571276487
+"Taylor and Francis",535,259,276,0.48411214953271,4.12741312741313,5.50724637681159,-0.536776495610694
+"IOP Publishing",534,388,146,0.726591760299625,1.46907216494845,2.56164383561644,-0.61667556016324
+"Frontiers",447,212,235,0.47427293064877,5.39150943396226,7.0468085106383,-0.559281493921983
+"Taylor and Francis - Dove Press",441,199,242,0.45124716553288,5.23618090452261,6.14876033057851,-0.391781867833484
+"IEEE: Institute of Electrical and Electronics Engineers",409,221,188,0.540342298288509,3.25339366515837,3.81914893617021,-0.364769130411487
+"Springer - Biomed Central (BMC)",377,181,196,0.480106100795756,6.69060773480663,8.14285714285714,-0.42703761714456
+"Elsevier - Cell Press",342,178,164,0.52046783625731,5.60674157303371,7.08536585365854,-0.391771979752726
+"Association for Computing Machinery (ACM)",339,254,85,0.749262536873156,1.7007874015748,2.32941176470588,-0.491008019064426
+"Royal Society of Chemistry (RSC)",236,128,108,0.542372881355932,5.1796875,6.2037037037037,-0.432264769924523
+"Verduci Editore",228,0,228,0,,5,
+"Portland Press",200,91,109,0.455,5.56043956043956,5.90825688073395,-0.131065157406876
+"MDPI",135,86,49,0.637037037037037,5.15116279069767,6.36734693877551,-0.509723401688472
+"Impact Journals",133,55,78,0.413533834586466,6.87272727272727,8.08974358974359,-0.352268827080401
+"Cellular Physiol Biochem Press",115,51,64,0.443478260869565,6.41176470588235,6.953125,-0.207730238659552
+"American Chemical Society (ACS)",96,61,35,0.635416666666667,5.16393442622951,6.74285714285714,-0.64378557597814
+"Bentham Open",89,54,35,0.606741573033708,2.44444444444444,3.11428571428571,-0.393316024833473
+"Oxford University Press",76,54,22,0.710526315789474,5.35185185185185,6.72727272727273,-0.405645874656787
+"Mary Ann Liebert",67,32,35,0.477611940298507,5.625,6.51428571428571,-0.387992918588233
+"International Scientific Information, Inc",65,34,31,0.523076923076923,5.11764705882353,4.96774193548387,0.074033694147124
+"BioMed Central (BMC)",63,33,30,0.523809523809524,5.48484848484848,6.8,-0.438428062648358
+"Trans Tech Publications Ltd",55,45,10,0.818181818181818,1.55555555555556,2.1,-0.583468661796663
+"Wolters Kluwer - Lippincott Williams & Wilkins",52,19,33,0.365384615384615,5.84210526315789,7.12121212121212,-0.534550774515427
+"Karger",40,17,23,0.425,5.70588235294118,6.73913043478261,-0.419612121287455
+"Wolters Kluwer",40,16,24,0.4,5.9375,6.45833333333333,-0.238196991995993
+"International Union of Crystallography",37,22,15,0.594594594594595,3.63636363636364,3.46666666666667,0.16638079368286
+"World Scientific Publishing Company",37,27,10,0.72972972972973,2.7037037037037,4.3,-0.777398221466683
+"AME Publishing Company",36,14,22,0.388888888888889,4.71428571428571,6.95454545454545,-0.768120688204481
+"De Gruyter",26,16,10,0.615384615384615,4,5,-0.560968194005074
+"Serbian Genetic Society (Dru<U+0161>tvo geneti<U+010D>ara Srbije)",26,13,13,0.5,2.92307692307692,4.23076923076923,-1.02281662391352
+"American Society for Biochemistry and Molecular Biology (ASBMB)",25,13,12,0.52,6.76923076923077,7.5,-0.406929633559299
+"Cognizant Communication Corporation",23,12,11,0.521739130434783,4.5,4.27272727272727,0.147262788708612
+"AIP Publishing",22,18,4,0.818181818181818,4,7.25,-1.07937232068015
+"FUNPEC-RP",19,5,14,0.263157894736842,4.6,5.71428571428571,-0.475536999258215
+"Associa<U+00E7><U+00E3>o Brasileira de Divulga<U+00E7><U+00E3>o Científica (ABDC)",18,11,7,0.611111111111111,3.90909090909091,4.42857142857143,-0.407935376732797
+"Ivyspring International Publisher",18,11,7,0.611111111111111,8.72727272727273,6.28571428571429,0.606707355127517
+"American Association for Cancer Research",17,10,7,0.588235294117647,7,10.4285714285714,-1.4726112787315
+"EDP Sciences",17,12,5,0.705882352941177,2.75,4,-0.761688109642856
+"Nature Publishing Group",17,6,11,0.352941176470588,9,10.1818181818182,-0.223815480469523
+"SPIE",16,11,5,0.6875,2.27272727272727,2.2,0.113707048722992
+"Royal Society Publishing",15,9,6,0.6,5,8.16666666666667,-1.5039630187956
+"American Society for Microbiology",13,5,8,0.384615384615385,7.4,9.125,-0.459883219089258
+"Canadian Science Publishing",13,6,7,0.461538461538462,3.5,5.57142857142857,-1.14151998006605
+"International Association of Online Engineering",12,9,3,0.75,3.88888888888889,3.66666666666667,0.287554061875836
+"Tech Science Press",12,2,10,0.166666666666667,7,5.3,0.584817778730714
+"Cambridge University Press",11,8,3,0.727272727272727,3.5,8,-1.48245553680529
+"Modestum",11,6,5,0.545454545454545,1.66666666666667,2.8,-0.691863388423008
+"Optica (formerly Optical Society of America -OSA-)",11,8,3,0.727272727272727,2.625,6.33333333333333,-1.35922563822167
+"Scientific.net",11,4,7,0.363636363636364,4.25,3.42857142857143,0.39761692991217
+"Inderscience Publishers",10,9,1,0.9,2.77777777777778,4,
+"Wolters Kluwer - Medknow",10,2,8,0.2,8.5,6.25,0.587989546945414
+"American Heart Association",9,6,3,0.666666666666667,7.66666666666667,20.6666666666667,-1.12093959525399
+"American Physiological Society",9,6,3,0.666666666666667,6.33333333333333,7.33333333333333,-0.261711961295107
+"American Society of Civil Engineers",9,8,1,0.888888888888889,3,3,
+"AOSIS Publishing",9,8,1,0.888888888888889,1.625,1,
+"Future Medicine - Future Science Group",8,4,4,0.5,6.5,9,-1.03509833901353
+"Cureus (Part of Springer Nature as of December 2022)",7,3,4,0.428571428571429,9,13.5,-0.948683298050514
+"Emerald",7,6,1,0.857142857142857,4,7,
+"AIMS Press",6,6,0,1,1.66666666666667,,
+"American Society of Plant Biologists",6,4,2,0.666666666666667,6.5,6.5,0
+"Cold Spring Harbor Laboratory Press",6,1,5,0.166666666666667,12,13.2,
+"Pharmacotherapy Group",6,2,4,0.333333333333333,4,5,-0.433012701892219
+"American Physical Society",5,3,2,0.6,3.66666666666667,5,-0.466569474815843
+"American Society for Clinical Investigation",5,2,3,0.4,22.5,19,0.541676262773896
+"Asian Pacific Organization for Cancer Prevention",5,1,4,0.2,1,5.75,
+"BMJ Publishing",5,2,3,0.4,3.5,9,-1.17932378832157
+"ESG",5,5,0,1,3.8,,
+"IMR Press",5,1,4,0.2,1,2.75,
+"Sciendo Publishing",5,1,4,0.2,5,3,
+"Termedia Publishing",5,2,3,0.4,3.5,3,0.577350269189626
+"The Institute of Electronics, Information and Communication Engineers",5,4,1,0.8,4.25,3,
+"American Association for the Advancement of Science (AAAS)",4,2,2,0.5,9.5,14,-0.692307692307692
+"American Association of Immunologists",4,1,3,0.25,11,13,
+"Association for the Advancement of Artificial Intelligence",4,3,1,0.75,4.33333333333333,6,
+"Baishideng Publishing Group",4,2,2,0.5,8.5,5.5,4.24264068711928
+"BioScientifica",4,1,3,0.25,5,6,
+"IJO Press: Press of International Journal of Ophthalmology",4,2,2,0.5,2.5,5,-1
+"International Heart Journal Association",4,2,2,0.5,3.5,4.5,-0.632455532033676
+"Lippincott Williams and Wilkins",4,1,3,0.25,8,6.66666666666667,
+"Scientific Research Publishing (SCIRP)",4,4,0,1,3.25,,
+"Serbian Biological Society",4,2,2,0.5,4.5,5,-0.242535625036333
+"American Scientific Publishers",3,3,0,1,4,,
+"Electrochemical Society",3,1,2,0.333333333333333,5,5,
+"eLife Sciences Publications",3,1,2,0.333333333333333,8,16,
+"PeerJ",3,3,0,1,6,,
+"Research Square",3,3,0,1,5.66666666666667,,
+"Society for Neuroscience",3,1,2,0.333333333333333,6,9,
+"Society of Exploration Geophysicists",3,3,0,1,2.66666666666667,,
+"The Company of Biologists",3,2,1,0.666666666666667,6.5,4,
+"The Iron and Steel Institute of Japan",3,2,1,0.666666666666667,2,5,
+"American Diabetes Association",2,1,1,0.5,5,19,
+"American Institute of Aeronautics and Astronautics",2,2,0,1,3.5,,
+"American Institute of Physics (AIP Publishing)",2,1,1,0.5,2,5,
+"American Society for Cell Biology",2,0,2,0,,8,
+"American Thoracic Society",2,2,0,1,4,,
+"Asian Society of Gynecologic Oncology",2,2,0,1,5,,
+"ASPET: American Society for Pharmacology and Experimental Therapeutics",2,1,1,0.5,7,10,
+"Association of Basic Medical Sciences of FBIH",2,2,0,1,3,,
+"British Institute of Radiology",2,1,1,0.5,6,3,
+"Chinese Academy of Sciences",2,1,1,0.5,4,13,
+"Chinese Medical Association",2,1,1,0.5,11,12,
+"Dovepress",2,1,1,0.5,6,4,
+"IFAC (International Federation of Automatic Control)",2,2,0,1,4,,
+"Institute of Materials, Minerals and Mining",2,0,2,0,,2,
+"IOS Publishing (Institute of Science Publishing)",2,1,1,0.5,5,11,
+"Japan Oil Chemists' Society",2,1,1,0.5,4,3,
+"Japan Society for Analytical Chemistry",2,1,1,0.5,1,5,
+"Japanese Society of Veterinary Science",2,0,2,0,,9.5,
+"Korean Cancer Association",2,0,2,0,,12.5,
+"Korean Society for Molecular and Cellular Biology",2,1,1,0.5,4,9,
+"Microbiology Society",2,1,1,0.5,8,7,
+"National Academy of Sciences (NAS)",2,1,1,0.5,22,2,
+"Pharmaceutical Society of Japan",2,1,1,0.5,10,10,
+"springer",2,0,2,0,,10,
+"The Japan Institute of Metals and Materials",2,2,0,1,4,,
+"The Japanese Society of Toxicology",2,2,0,1,3,,
+"Tohoku University Medical Press",2,1,1,0.5,5,4,
+"AEPress",1,0,1,0,,6,
+"American Academy of Neurology",1,0,1,0,,6,
+"American Institute of Chemical Engineers",1,1,0,1,3,,
+"American Medical Association",1,0,1,0,,12,
+"American Society for Clinical Pharmacology and Therapeutics",1,0,1,0,,12,
+"American Society for Horticultural Science",1,0,1,0,,6,
+"American Society of Hematology",1,0,1,0,,15,
+"APS: American Physiological Society",1,1,0,1,6,,
+"Aristotle University of Thessaloniki",1,0,1,0,,2,
+"Asia Pacific Association of Allergy, Asthma and Clinical Immunology",1,0,1,0,,9,
+"Asian Economic and Social Society (AESS)",1,0,1,0,,4,
+"Asian Journal of Economics, Business and Accounting",1,0,1,0,,5,
+"Association for Scientific Computing Electrical and Engineering (ASCEE)",1,1,0,1,1,,
+"AVES Yayincilik Ltd",1,0,1,0,,13,
+"Birkh<U+00E4>user",1,1,0,1,2,,
+"Centre of Sociological Research",1,1,0,1,1,,
+"Chengdu Shi : Hua xi yi ke da xue Fu shu di 1 yi yuan",1,1,0,1,6,,
+"Chinese Academy of Medical Sciences",1,0,1,0,,10,
+"Chinese Center for Disease Control and Prevention",1,0,1,0,,9,
+"Chinese Chemical Society Publishing",1,0,1,0,,6,
+"Clinical Laboratory Publications GmbH",1,0,1,0,,11,
+"Cogent OA",1,0,1,0,,7,
+"Commonwealth Scientific and Industrial Research Organisation (CSIRO)",1,1,0,1,6,,
+"Cornell University",1,0,1,0,,10,
+"e-Century Publishing Corporation",1,0,1,0,,7,
+"Edizioni Minerva Medica",1,1,0,1,5,,
+"EHP Publishing (NIEHS)",1,1,0,1,4,,
+"Elmer Press",1,1,0,1,8,,
+"Faculty of Sciences and Mathematics, University of Nis",1,1,0,1,2,,
+"Galenos Publishing",1,0,1,0,,13,
+"Genetics Society of America",1,1,0,1,8,,
+"Growing Science Publishing Company",1,0,1,0,,6,
+"Guoji Shudian",1,1,0,1,3,,
+"IAES Indonesian Section",1,1,0,1,3,,
+"Ingenta",1,1,0,1,2,,
+"Institute of Physics (IOP)",1,0,1,0,,5,
+"International Institute for the Science of Sintering, Beograd",1,0,1,0,,4,
+"International Research and Cooperation Association for Bio & Socio-Sciences Advancement (IRCA-BSSA)",1,1,0,1,5,,
+"International Scientific Literature, Inc",1,0,1,0,,3,
+"International Scientific Publications",1,0,1,0,,6,
+"Japan Atherosclerosis Society",1,0,1,0,,20,
+"Japan Society of Histochemistry and Cytochemistry",1,1,0,1,5,,
+"JoVE",1,0,1,0,,3,
+"Kassel University Press",1,1,0,1,2,,
+"Kaunas University of Technology",1,0,1,0,,4,
+"Ke xue chu ban she",1,0,1,0,,8,
+"Korean Association of Internal Medicine",1,1,0,1,5,,
+"Korean Association of Medical Journal Editors",1,1,0,1,2,,
+"Korean Breast Cancer Society",1,1,0,1,5,,
+"Korean Physiological Society",1,0,1,0,,3,
+"Korean Society for Biochemistry and Molecular Biology",1,0,1,0,,7,
+"Korean Society of Otorhinolaryngology - Head and Neck Surgery",1,1,0,1,7,,
+"Medip Academy",1,1,0,1,4,,
+"MedSci Publications Group",1,0,1,0,,7,
+"Multidisciplinary Digital Publishing Institute (MDPI)",1,0,1,0,,4,
+"National Research Council of Canada (NRC)",1,1,0,1,6,,
+"Neurological Society of India",1,0,1,0,,6,
+"Open Journal Systems",1,0,1,0,,5,
+"PAGEPress",1,1,0,1,5,,
+"Pioneer Scientific Publisher",1,1,0,1,3,,
+"Polskie Towarzystwo Farmaceutyczne [Polish Pharmaceutical Society]",1,0,1,0,,8,
+"Professional Medical Publications",1,0,1,0,,3,
+"Scientific Journal Publishers Ltd",1,0,1,0,,3,
+"Sichuan da xue xue bao (yi xue ban) bian ji bu",1,0,1,0,,9,
+"Singapore Medical Association",1,0,1,0,,4,
+"Sociedade Brasileira de Genética",1,1,0,1,6,,
+"South Carolina Entomological Society",1,0,1,0,,5,
+"Spanish Society of Pediatric Allergy and Clinical Immunology (SEICAP)",1,0,1,0,,14,
+"The Ecological Society of Japan",1,1,0,1,4,,
+"The Institution of Engineering and Technology",1,1,0,1,3,,
+"The International Institute of Anticancer Research",1,1,0,1,13,,
+"The Japanese Society of Internal Medicine",1,0,1,0,,4,
+"Thieme",1,0,1,0,,5,
+"Turkish Neurosurgical Society",1,1,0,1,4,,
+"Universal Wiser",1,1,0,1,2,,
+"University of Sao Paulo",1,0,1,0,,4,
+"VGTU Press",1,1,0,1,2,,
+"Vinca Institute of Nuclear Sciences",1,1,0,1,3,,
+"West China Medical Publishers",1,1,0,1,4,,
+"Whioce Publishing Pte. Ltd",1,0,1,0,,7,
+"Yonsei University College of Medicine",1,1,0,1,7,,
+"Zhong Nan Da Xue Xue Bao Yi Xue Ban",1,1,0,1,6,,
+"Zhongguo Fei Ai Za Zhi Bian Ji Wei Yuan Hui",1,0,1,0,,3,
+"Zhonghua Yi Xue Hui",1,0,1,0,,9,

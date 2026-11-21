@@ -1,0 +1,9 @@
+"sample_name","definition","cases"
+"descriptive_full","All OpenAlex-confirmed mainland retraction cases.",24974
+"control_eligible","Cases with a defined year-topic-publisher matching stratum.",24660
+"without_match_stratum","Cases without a usable matching stratum.",314
+"matched_any_control","Cases linked to one or two final non-retraction controls.",22198
+"matched_institution_compare","Matched cases with complete case institutions and complete metadata for every linked control.",12373
+"team_size_compare","Matched cases with a case and control team size.",22198
+"network_complete","Cases with complete author IDs and institution data in the network subset.",14827
+"network_excluded","Mainland retraction cases outside the network-complete subset.",10147

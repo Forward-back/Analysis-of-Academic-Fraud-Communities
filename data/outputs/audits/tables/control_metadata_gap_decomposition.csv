@@ -1,0 +1,12 @@
+"metric","value"
+"final_control_works",44287
+"control_works_complete",34945
+"control_works_author_institution_only",4658
+"control_works_enriched_metadata_only",4077
+"control_works_author_institution_and_enriched_metadata",607
+"control_works_any_gap",9342
+"matched_cases_any_gap",8149
+"matched_cases_complete",14049
+"matched_cases_author_institution_only",3882
+"matched_cases_enriched_metadata_only",3326
+"matched_cases_author_institution_and_enriched_metadata",941

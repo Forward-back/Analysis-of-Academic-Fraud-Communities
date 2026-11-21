@@ -1,9 +1,17 @@
 {
   "contract_version": "1.0",
   "artifact": "audits",
-  "generated_at": "2026-11-19",
+  "generated_at": "2026-11-21",
   "source_path_type": "project-relative",
   "files": [
+    {
+      "path": "data/outputs/audits/tables/analysis_case_audit.csv",
+      "sha256": "86244c062fc776d64103630e3175a688ce3132d35ff7bc16ccbaab79a4998cfb"
+    },
+    {
+      "path": "data/outputs/audits/tables/analysis_sample_registry.csv",
+      "sha256": "6613ccf7a54439dee4fef84ecb85b7ce8a4c1df7331cd9fd3431e0eaadbb9662"
+    },
     {
       "path": "data/outputs/audits/tables/audit_cluster_candidates.csv",
       "sha256": "b28e5753f92034970b3d64bb07d6078f6c080a536c3ffbe1f41caa2962cd8c83"
@@ -23,6 +31,14 @@
     {
       "path": "data/outputs/audits/tables/control_institution_gap_summary.csv",
       "sha256": "e90f13bb6149f22f7901a62bff6ae0556681ec3de53313591751c25d78318f61"
+    },
+    {
+      "path": "data/outputs/audits/tables/control_metadata_gap_decomposition.csv",
+      "sha256": "39e3e84125b8a35f9aa4e58477a605c79adfaef402c2e0d256f62fb598e65186"
+    },
+    {
+      "path": "data/outputs/audits/tables/control_metadata_selection_by_group.csv",
+      "sha256": "19583dbc7b1f0f70c1b454d21957832b5d69c43c029a41369e00a8c320672ff7"
     },
     {
       "path": "data/outputs/audits/tables/event_2023_crossref_coverage.csv",
@@ -101,6 +117,14 @@
       "sha256": "8a5ca70a1a29e6d185ff6a6ac1479acc7ffade4eca29da0b1d18aa7fc7267ffd"
     },
     {
+      "path": "data/outputs/audits/tables/match_selection_by_family.csv",
+      "sha256": "972e17bc03901d5db4c03f815a061a2c31468f33260f7e95406fe9d199adf684"
+    },
+    {
+      "path": "data/outputs/audits/tables/match_selection_by_group.csv",
+      "sha256": "b5e96bded14a680ad914641de84fabd64522170a894cf58cf1034126d44f47eb"
+    },
+    {
       "path": "data/outputs/audits/tables/match_selection_by_match_count.csv",
       "sha256": "920e84d40229cf046ee6de3b6efeae9b4d116e0e56426f3b93d9bb96d25d3ab0"
     },
@@ -139,6 +163,26 @@
     {
       "path": "data/outputs/audits/tables/network_repeat_year_crossing.csv",
       "sha256": "e0cdd6410acafec514042e18dbd1ca0ccd08917d4e9da482f3935d4b4e8f10b5"
+    },
+    {
+      "path": "data/outputs/audits/tables/network_selection_by_family.csv",
+      "sha256": "ae30d04e3e7a1ccfc4f6c43afa8666cfb6882ff1ce385e1e691eb872bea03b12"
+    },
+    {
+      "path": "data/outputs/audits/tables/network_selection_by_group.csv",
+      "sha256": "197a65d0e2eeeb3de6c59d3823803365ea22b2629b8fcae02cd2bc30d818df90"
+    },
+    {
+      "path": "data/outputs/audits/tables/network_selection_by_publisher.csv",
+      "sha256": "125a4d3220ee4c911165a46f22fa83c4b2ca72b9cdec74f27909cc9dfe2c22c9"
+    },
+    {
+      "path": "data/outputs/audits/tables/network_selection_by_year.csv",
+      "sha256": "0fd92f76a0d1e4b0300b916c769d2c2030e3daa1cd7e559fce04005153e69b37"
+    },
+    {
+      "path": "data/outputs/audits/tables/network_selection_metrics.csv",
+      "sha256": "058192ad2f7ddf19f5d3f6904da51ac3242fa727c606f76ff376449b46ecdb6f"
     },
     {
       "path": "data/outputs/audits/tables/openalex_control_pressure_test_25.json",
