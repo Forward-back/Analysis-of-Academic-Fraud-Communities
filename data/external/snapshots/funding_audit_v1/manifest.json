@@ -1,0 +1,21 @@
+{
+  "contract_version": "1.0",
+  "artifact": "funding-audit-sample-v1",
+  "frozen_on": "2026-11-21",
+  "random_seed": 20261117,
+  "maximum_papers_per_cluster": 20,
+  "files": [
+    {
+      "path": "data/outputs/audits/tables/funding_audit_sample.csv",
+      "sha256": "aac116089b9f7815358bc137cf59b9c86e0c142564d4bb372a6d3e4052fa9f22"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_audit_sample_summary.csv",
+      "sha256": "c39a451c520279113a4b356e292fcb0a02bcc2d880a5432c2a01f444cb25206c"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_audit_sample_strata.csv",
+      "sha256": "62e8708ac685c75bd72d0fe622761e2fdba534083e1c44f5b4a37472a54ebf2d"
+    }
+  ]
+}

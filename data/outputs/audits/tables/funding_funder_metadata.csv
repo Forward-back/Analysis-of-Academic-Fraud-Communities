@@ -1,0 +1,103 @@
+"funder_id","funder_name","country_code","homepage_url","crossref_funder_id","funder_doi","works_count","awards_count"
+"https://openalex.org/F4320321001","National Natural Science Foundation of China","CN","https://www.nsfc.gov.cn","501100001809","https://doi.org/10.13039/501100001809",4724548,1166823
+"https://openalex.org/F4320332161","National Institutes of Health","US","http://www.nih.gov","100000002","https://doi.org/10.13039/100000002",2001633,445988
+"https://openalex.org/F4320306076","National Science Foundation","US","https://www.nsf.gov","100000001","https://doi.org/10.13039/100000001",1922540,692794
+"https://openalex.org/F4320335777","National Key Research and Development Program of China","CN",,"501100012166","https://doi.org/10.13039/501100012166",773821,137557
+"https://openalex.org/F4320337351","National Cancer Institute","US","http://www.cancer.gov","100000054","https://doi.org/10.13039/100000054",754564,109563
+"https://openalex.org/F4320321543","China Postdoctoral Science Foundation","CN","http://res.chinapostdoctor.org.cn/BshWeb/index.shtml","501100002858","https://doi.org/10.13039/501100002858",274989,111253
+"https://openalex.org/F4320322725","China Scholarship Council","CN","https://www.csc.edu.cn","501100004543","https://doi.org/10.13039/501100004543",186543,38940
+"https://openalex.org/F4320321540","Ministry of Science and Technology of the People's Republic of China","CN","http://www.most.gov.cn/eng","501100002855","https://doi.org/10.13039/501100002855",135767,34296
+"https://openalex.org/F4320321605","Government of Jiangsu Province","CN","http://www.jiangsu.gov.cn/JSGOVEN08","501100002949","https://doi.org/10.13039/501100002949",111588,5622
+"https://openalex.org/F4320321921","Natural Science Foundation of Guangdong Province","CN",,"501100003453","https://doi.org/10.13039/501100003453",98406,37358
+"https://openalex.org/F4320327518","Priority Academic Program Development of Jiangsu Higher Education Institutions","CN",,"501100012246","https://doi.org/10.13039/501100012246",60974,4662
+"https://openalex.org/F4320321145","King Saud University","SA","https://ksu.edu.sa","501100002383","https://doi.org/10.13039/501100002383",59504,6474
+"https://openalex.org/F4320334924","Program for New Century Excellent Talents in University","CN","http://www.moe.gov.cn","501100004602","https://doi.org/10.13039/501100004602",38007,5119
+"https://openalex.org/F4320323085","Natural Science Foundation of Heilongjiang Province","CN",,"501100005046","https://doi.org/10.13039/501100005046",32165,12251
+"https://openalex.org/F4320337368","Division of Graduate Education","US","http://www.nsf.gov/div/index.jsp?div=DGE","100000082","https://doi.org/10.13039/100000082",30119,1644
+"https://openalex.org/F4320322768","Natural Science Foundation of Guangxi Province","CN",,"501100004607","https://doi.org/10.13039/501100004607",28730,10477
+"https://openalex.org/F4320323086","Natural Science Foundation of Liaoning Province","CN",,"501100005047","https://doi.org/10.13039/501100005047",27210,10214
+"https://openalex.org/F4320327557","National Office for Philosophy and Social Sciences","CN","http://www.nopss.gov.cn","501100012325","https://doi.org/10.13039/501100012325",26314,6016
+"https://openalex.org/F4320336125","National Science Fund for Distinguished Young Scholars","CN",,"501100014219","https://doi.org/10.13039/501100014219",22546,3176
+"https://openalex.org/F4320326178","Heilongjiang Provincial Postdoctoral Science Foundation","CN",,"501100010009","https://doi.org/10.13039/501100010009",4275,2251
+"https://openalex.org/F4320322736","Ministry of Agriculture of the People's Republic of China","CN","http://english.agri.gov.cn","501100004573","https://doi.org/10.13039/501100004573",4050,1140
+"https://openalex.org/F4320336313","Shengjing Hospital","CN","http://www.sj-hospital.org","501100015226","https://doi.org/10.13039/501100015226",2354,153
+"https://openalex.org/F4320326183","Doctoral Start-up Foundation of Liaoning Province","CN",,"501100010018","https://doi.org/10.13039/501100010018",1542,795
+"https://openalex.org/F4320322298","Jiangsu Normal University","CN","http://www.xznu.edu.cn","501100004030","https://doi.org/10.13039/501100004030",1377,356
+"https://openalex.org/F4320324532","Dalian Nationalities University","CN","https://www.dlnu.edu.cn","501100007549","https://doi.org/10.13039/501100007549",153,30
+"https://openalex.org/F4320321133","Chinese Academy of Sciences","CN","http://english.cas.cn","501100002367","https://doi.org/10.13039/501100002367",232990,27277
+"https://openalex.org/F4320306078","U.S. Department of Defense","US","https://www.defense.gov","100000005","https://doi.org/10.13039/100000005",119426,122472
+"https://openalex.org/F4320321885","Science and Technology Commission of Shanghai Municipality","CN","http://stcsm.sh.gov.cn","501100003399","https://doi.org/10.13039/501100003399",80888,20091
+"https://openalex.org/F4320308269","Alexander von Humboldt-Stiftung","DE","https://www.humboldt-foundation.de","100005156","https://doi.org/10.13039/100005156",77379,30421
+"https://openalex.org/F4320321878","Natural Science Foundation of Fujian Province","CN",,"501100003392","https://doi.org/10.13039/501100003392",49835,22638
+"https://openalex.org/F4320335869","National Social Science Fund of China","CN",,"501100012456","https://doi.org/10.13039/501100012456",45308,13707
+"https://openalex.org/F4320315254","Innovative Research Group Project of the National Natural Science Foundation of China","CN",,"100014718","https://doi.org/10.13039/100014718",23151,11331
+"https://openalex.org/F4320310693","Deutsches Krebsforschungszentrum","DE","http://www.dkfz.de/en/index.html","100008658","https://doi.org/10.13039/100008658",12110,332
+"https://openalex.org/F4320320881","Universit<U+00E4>t Heidelberg","DE","https://www.uni-heidelberg.de","501100001661","https://doi.org/10.13039/501100001661",10398,100
+"https://openalex.org/F4320311778","China Association for Science and Technology","CN","http://www.cast.org.cn","100010097","https://doi.org/10.13039/100010097",8388,1252
+"https://openalex.org/F4320321148","Cairo University","EG","http://cu.edu.eg/Home","501100002386","https://doi.org/10.13039/501100002386",8227,49
+"https://openalex.org/F33954902","Deanship of Scientific Research, King Khalid University","SA",,"501100023674","https://doi.org/10.13039/501100023674",8022,2992
+"https://openalex.org/F4320334953","China National Funds for Distinguished Young Scientists","CN","http://www.yic.cas.cn","501100005153","https://doi.org/10.13039/501100005153",6650,2429
+"https://openalex.org/F4320312270","Harbin Medical University","CN","https://www.hrbmu.edu.cn","100010722","https://doi.org/10.13039/100010722",5099,812
+"https://openalex.org/F4320311429","Guangzhou Medical University","CN","http://www.gzhmc.edu.cn/gyEnglish/index.html","100009659","https://doi.org/10.13039/100009659",4309,761
+"https://openalex.org/F4320326704","Shanghai University of Traditional Chinese Medicine","CN","http://www.shutcm.edu.cn","501100010876","https://doi.org/10.13039/501100010876",2902,760
+"https://openalex.org/F4320321393","Hunan Normal University","CN","https://www.hunnu.edu.cn","501100002664","https://doi.org/10.13039/501100002664",1832,296
+"https://openalex.org/F4320324679","Shenyang Science and Technology Bureau","CN","http://www.syskjj.gov.cn","501100007765","https://doi.org/10.13039/501100007765",1817,698
+"https://openalex.org/F4320311226","University of Tabuk","SA","https://www.ut.edu.sa","100009391","https://doi.org/10.13039/100009391",1815,363
+"https://openalex.org/F4320329658","Government College University, Lahore","PK","http://www.gcu.edu.pk","501100017152","https://doi.org/10.13039/501100017152",1642,43
+"https://openalex.org/F4320321530","Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences","CN","http://english.sibs.cas.cn","501100002843","https://doi.org/10.13039/501100002843",1084,87
+"https://openalex.org/F4320317526","Henan University of Chinese Medicine","CN","http://www.hactcm.edu.cn","100017634","https://doi.org/10.13039/100017634",660,169
+"https://openalex.org/F4320326917","State Key Laboratory of Oncology in South China","CN",,"501100011276","https://doi.org/10.13039/501100011276",343,25
+"https://openalex.org/F4320315049","Harbin Medical University Cancer Hospital","CN","http://www.hrbmutumour.cn","100014418","https://doi.org/10.13039/100014418",327,207
+"https://openalex.org/F4320335930","Scientific Startup Foundation for Doctors of Northwest A and F University","CN",,"501100012597","https://doi.org/10.13039/501100012597",211,132
+"https://openalex.org/F4320324174","Natural Science Foundation of Shandong Province","CN",,"501100007129","https://doi.org/10.13039/501100007129",146257,46382
+"https://openalex.org/F4320324099","Russian Science Foundation","RU","http://rscf.ru/en","501100006769","https://doi.org/10.13039/501100006769",139455,27700
+"https://openalex.org/F4320322769","Natural Science Foundation of Jiangsu Province","CN","https://www.nsfc.gov.cn","501100004608","https://doi.org/10.13039/501100004608",137200,34881
+"https://openalex.org/F4320322511","Narodowe Centrum Nauki","PL","https://www.ncn.gov.pl","501100004281","https://doi.org/10.13039/501100004281",89254,60363
+"https://openalex.org/F4320322843","Natural Science Foundation of<U+00A0>Hunan Province","CN",,"501100004735","https://doi.org/10.13039/501100004735",59112,29002
+"https://openalex.org/F4320322665","Natural Science Foundation of Jiangxi Province","CN",,"501100004479","https://doi.org/10.13039/501100004479",31218,12558
+"https://openalex.org/F4320322392","Tsinghua University","CN","https://www.tsinghua.edu.cn","501100004147","https://doi.org/10.13039/501100004147",30903,2049
+"https://openalex.org/F4320322174","People's Government of Jilin Province","CN","http://english.gov.cn","501100003807","https://doi.org/10.13039/501100003807",28560,1476
+"https://openalex.org/F4320322035","Rural Development Administration","KR","http://www.rda.go.kr/foreign/eng","501100003627","https://doi.org/10.13039/501100003627",28224,6825
+"https://openalex.org/F4320322320","King Abdullah University of Science and Technology","SA","https://www.kaust.edu.sa","501100004052","https://doi.org/10.13039/501100004052",21194,2307
+"https://openalex.org/F4320324433","King Khalid University","SA","http://www.kku.edu.sa","501100007446","https://doi.org/10.13039/501100007446",20272,4636
+"https://openalex.org/F4320322799","Higher Education Commission, Pakistan","PK","http://www.hec.gov.pk","501100004681","https://doi.org/10.13039/501100004681",20241,8057
+"https://openalex.org/F4320322484","Princess Nourah Bint Abdulrahman University","SA","http://www.pnu.edu.sa/en","501100004242","https://doi.org/10.13039/501100004242",18645,2533
+"https://openalex.org/F4320322322","King Abdulaziz University","SA","http://www.kau.edu.sa/home_english.aspx","501100004054","https://doi.org/10.13039/501100004054",17349,4455
+"https://openalex.org/F4320324560","Department of Education of Liaoning Province","CN","https://jyt.ln.gov.cn","501100007620","https://doi.org/10.13039/501100007620",12450,4945
+"https://openalex.org/F4320322766","Zhengzhou University","CN","https://www.zzu.edu.cn","501100004605","https://doi.org/10.13039/501100004605",9038,1093
+"https://openalex.org/F4320322272","Guizhou Science and Technology Department","CN","http://kjt.gzst.gov.cn/index.aspx?time=5E753E71929B529A7E540A0CEBCA7BB0","501100004001","https://doi.org/10.13039/501100004001",8436,5185
+"https://openalex.org/F4320323021","Nankai University","CN","https://nankai.edu.cn","501100004945","https://doi.org/10.13039/501100004945",7545,799
+"https://openalex.org/F4320322191","Hunan University","CN","https://www.hnu.edu.cn","501100003824","https://doi.org/10.13039/501100003824",6070,474
+"https://openalex.org/F4320322804","Deanship of Scientific Research, King Faisal University","SA","http://www.kfu.edu.sa/sites/Home","501100004686","https://doi.org/10.13039/501100004686",5386,2173
+"https://openalex.org/F4320322292","Jinan University","CN","https://english.jnu.edu.cn","501100004024","https://doi.org/10.13039/501100004024",5239,583
+"https://openalex.org/F4320324047","Umm Al-Qura University","SA","https://uqu.edu.sa/english","501100006701","https://doi.org/10.13039/501100006701",4366,1164
+"https://openalex.org/F4320322216","Inner Mongolia University","CN","https://www.imu.edu.cn","501100003850","https://doi.org/10.13039/501100003850",3132,581
+"https://openalex.org/F4320324283","Shanghai Municipal Health Bureau","CN","http://www.wsjsw.gov.cn/wsj","501100007279","https://doi.org/10.13039/501100007279",2172,762
+"https://openalex.org/F4320323284","Xi'an University of Architecture and Technology","CN","https://www.xauat.edu.cn","501100005392","https://doi.org/10.13039/501100005392",1296,273
+"https://openalex.org/F4320335787","Fundamental Research Funds for the Central Universities","CN",,"501100012226","https://doi.org/10.13039/501100012226",477273,135574
+"https://openalex.org/F4320334897","Natural Science Foundation of Anhui Province","CN",,"501100003995","https://doi.org/10.13039/501100003995",39405,12359
+"https://openalex.org/F4320324852","Nanjing University","CN","http://www.nju.edu.cn/english","501100008048","https://doi.org/10.13039/501100008048",23780,1252
+"https://openalex.org/F4320325599","University of Science and Technology of China","CN","https://ustc.edu.cn","501100009076","https://doi.org/10.13039/501100009076",15499,1084
+"https://openalex.org/F4320335726","Deanship of Scientific Research, King Saud University","SA",,"501100011665","https://doi.org/10.13039/501100011665",13997,2449
+"https://openalex.org/F4320333688","National Outstanding Youth Science Fund Project of National Natural Science Foundation of China","CN",,"100014717","https://doi.org/10.13039/100014717",11996,8613
+"https://openalex.org/F4320335581","Young Scientists Fund","CN",,"501100010909","https://doi.org/10.13039/501100010909",11475,4043
+"https://openalex.org/F4320326270","Education Department of Jilin Province","CN","http://www.jledu.gov.cn/jyt/english","501100010211","https://doi.org/10.13039/501100010211",9894,3820
+"https://openalex.org/F4320335440","Natural Science Research of Jiangsu Higher Education Institutions of China","CN",,"501100010023","https://doi.org/10.13039/501100010023",9795,5067
+"https://openalex.org/F4320332697","University of Illinois at Chicago","US","https://www.uic.edu","100008522","https://doi.org/10.13039/100008522",7186,261
+"https://openalex.org/F4320335406","University Natural Science Research Project of Anhui Province","CN",,"501100009558","https://doi.org/10.13039/501100009558",5111,3098
+"https://openalex.org/F4320326964","Qingdao University","CN","https://www.qdu.edu.cn","501100011324","https://doi.org/10.13039/501100011324",4661,435
+"https://openalex.org/F4320335682","Major Science and Technology Program for Water Pollution Control and Treatment","CN",,"501100011395","https://doi.org/10.13039/501100011395",4313,1092
+"https://openalex.org/F4320335000","Changjiang Scholar Program of Chinese Ministry of Education","CN","http://www.moe.gov.cn","501100005240","https://doi.org/10.13039/501100005240",3221,551
+"https://openalex.org/F4320335843","Beijing Science and Technology Planning Project","CN",,"501100012401","https://doi.org/10.13039/501100012401",2620,1175
+"https://openalex.org/F4320327725","National Synchrotron Radiation Laboratory","CN","http://www.nsrl.ustc.edu.cn","501100012668","https://doi.org/10.13039/501100012668",2278,104
+"https://openalex.org/F4320327519","Jiangxi University of Traditional Chinese Medicine","CN","http://www.jxutcm.edu.cn","501100012249","https://doi.org/10.13039/501100012249",1460,349
+"https://openalex.org/F4320326838","State Key Laboratory of Pollution Control and Resource Reuse","CN","https://envirolab.tongji.edu.cn","501100011150","https://doi.org/10.13039/501100011150",1250,321
+"https://openalex.org/F4320325744","Inner Mongolia University of Technology","CN","https://www.imut.edu.cn","501100009408","https://doi.org/10.13039/501100009408",1075,328
+"https://openalex.org/F4320328550","National Institute of Animal Science","KR","http://www.nias.go.kr/english/indexList.do","501100014579","https://doi.org/10.13039/501100014579",872,97
+"https://openalex.org/F4320335497","Health and Family Planning Commission of Hunan Province","CN","http://wjw.hunan.gov.cn","501100010451","https://doi.org/10.13039/501100010451",865,441
+"https://openalex.org/F4320326278","Philosophy and Social Science Foundation of Hunan Province","CN",,"501100010224","https://doi.org/10.13039/501100010224",857,612
+"https://openalex.org/F4320329108","Guizhou Science and Technology Corporation Platform Talents Fund","CN",,"501100015714","https://doi.org/10.13039/501100015714",106,63
+"https://openalex.org/F4320328850","Key Laboratory of Tumor Molecular Diagnosis and Individualized Medicine of Zhejiang Province","CN",,"501100015257","https://doi.org/10.13039/501100015257",17,2
+"https://openalex.org/F4320338464","Natural Science Foundation of Zhejiang Province","CN","https://www.nsfc.gov.cn","501100004731","https://doi.org/10.13039/501100004731",112000,34210
+"https://openalex.org/F4320336035","Shanxi Provincial Key Research and Development Project","CN",,"501100013317","https://doi.org/10.13039/501100013317",8060,3835
+"https://openalex.org/F4320337220","Deanship of Scientific Research, Princess Nourah Bint Abdulrahman University","SA",,"501100022230","https://doi.org/10.13039/501100022230",2911,687

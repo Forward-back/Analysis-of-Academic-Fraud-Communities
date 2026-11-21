@@ -1,0 +1,252 @@
+"audit_cluster_id","paper_key","doi_canonical","funders_present","awards_present","any_funding_metadata","crossref_http_status","crossref_json_valid","crossref_funders_present","crossref_awards_present","crossref_funder_count","crossref_award_count","crossref_funder_names","crossref_funder_dois","combined_funders_present","combined_awards_present","combined_any_funding"
+"audit_cluster_01","paper_001264","10.1002/jcb.26344",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,3,6,"Jiangsu Normal University;National Natural Science Foundation of China;Natural Science Foundation of Jiangsu Province","10.13039/501100001809;10.13039/501100004030;10.13039/501100004608",TRUE,TRUE,TRUE
+"audit_cluster_01","paper_001299","10.1002/jcb.26568",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,6,"Jiangsu Normal University;National Natural Science Foundation of China","10.13039/501100001809;10.13039/501100004030",TRUE,TRUE,TRUE
+"audit_cluster_01","paper_001326","10.1002/jcb.26769",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,7,"Jiangsu Normal University;National Natural Science Foundation of China","10.13039/501100001809;10.13039/501100004030",TRUE,TRUE,TRUE
+"audit_cluster_01","paper_001497","10.1002/jcp.26297",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,5,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_01","paper_001530","10.1002/jcp.27093",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,6,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_01","paper_008476","10.1016/j.biopha.2017.08.125",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,5,7,"Government of Jiangsu Province;Jiangsu Normal University;National Natural Science Foundation of China;Natural Science Research of Jiangsu Higher Education Institutions of China;Priority Academic Program Development of Jiangsu Higher Education Institutions","10.13039/501100001809;10.13039/501100002949;10.13039/501100004030;10.13039/501100010023;10.13039/501100012246",TRUE,TRUE,TRUE
+"audit_cluster_01","paper_011883","10.1016/j.lfs.2017.09.022",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,6,7,"Jiangsu College and University;Jiangsu Higher Education Institutions;Jiangsu Normal University;Jiangsu Province;National Natural Science Foundation of China;Natural Science Foundation","10.13039/501100001809;10.13039/501100002949;10.13039/501100004030",TRUE,TRUE,TRUE
+"audit_cluster_01","paper_012961","10.1016/j.omtn.2019.02.022",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_01","paper_016038","10.1042/bsr20170713",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_01","paper_016042","10.1042/bsr20170803",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_01","paper_022782","10.1111/cpr.12462",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,6,7,"2013 “Qinglan Project” of the Young and Middle-aged Academic Leader of Jiangsu College and University;Cultivate National Science Fund for Distinguished Young Scholars of Jiangsu Normal University;Government of Jiangsu Province;Major Fundamental Research Program of the Natural Science Foundation of the Jiangsu Higher Education Institutions of China;National Natural Science Foundation of China;Priority Academic Program Development of Jiangsu Higher Education Institutions (PAPD)","10.13039/501100001809;10.13039/501100002949",TRUE,TRUE,TRUE
+"audit_cluster_01","paper_023438","10.1111/jcmm.13597",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,3,7,"Government of Jiangsu Province;Jiangsu Normal University;National Natural Science Foundation of China","10.13039/501100001809;10.13039/501100002949;10.13039/501100004030",TRUE,TRUE,TRUE
+"audit_cluster_01","paper_023443","10.1111/jcmm.13760",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,6,"Government of Jiangsu Province;National Natural Science Foundation of China","10.13039/501100001809;10.13039/501100002949",TRUE,TRUE,TRUE
+"audit_cluster_01","paper_024713","10.1152/ajpcell.00090.2018",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_01","paper_036814","10.1159/000489365",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_01","paper_038574","10.1186/s10020-018-0020-y",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_01","paper_039030","10.1186/s13046-019-1239-3",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_01","paper_041867","10.18632/oncotarget.21167",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_01","paper_042006","10.21037/jtd.2017.12.104",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_01","paper_043843","10.3233/cbm-170809",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_02","paper_008522","10.1016/j.biopha.2018.06.071",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,3,3,"CAMS Innovation Fund for Medical Science;National Natural Science Foundation of China;Research Funds for the Innovation Team of IRM-CAMS","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_02","paper_009725","10.1016/j.envint.2017.12.026",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,5,6,"CAMS Innovation Fund for Medical Science;Fundamental Research Funds for CAMS & PUMC;National Natural Science Foundation of China;PUMC Youth Fund and the Fundamental Research Funds for the Central Universities;Research Funds for the Innovation Team of IRM-CAMS","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_02","paper_014749","10.1038/cddis.2017.126",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_02","paper_014966","10.1038/s41388-018-0440-8",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_02","paper_036833","10.1159/000491730",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_02","paper_047568","10.3892/or.2013.2853",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_03","paper_038686","10.1186/s12885-019-5419-5",TRUE,FALSE,TRUE,200,TRUE,TRUE,TRUE,2,3,"The National Natural Science Fund;the Provincial Training Program of Innovation and Entrepreneurship for Undergraduates.","",TRUE,TRUE,TRUE
+"audit_cluster_03","paper_038760","10.1186/s12906-016-1341-4",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,3,"the Project of Hunan Provincal Natural Science Foundation;the Project of NSFC","",TRUE,TRUE,TRUE
+"audit_cluster_03","paper_039017","10.1186/s13046-018-1010-1",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,5,5,"Guangdong Province Department of Science and Technology;Guangzhou Science and Information Bureau Item;National Natural Science Foundation of China;The High-Level Academic Talent Training Program of Guangzhou Medical University;the scientific research project for Medical College of Bureau of Education of Guangzhou City","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_03","paper_039031","10.1186/s13046-019-1244-6",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,1,"University Natural Science Research Project of Anhui Province","10.13039/501100009558",TRUE,TRUE,TRUE
+"audit_cluster_03","paper_042147","10.2147/cmar.s222708",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_03","paper_042169","10.2147/cmar.s245283",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_03","paper_045563","10.33594/000000084",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_03","paper_045627","10.3389/fchem.2021.710250",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_03","paper_047531","10.3892/ol.2020.11802",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_03","paper_049116","10.7150/jca.30143",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_04","paper_038342","10.1186/1471-2091-13-25",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_04","paper_038373","10.1186/1471-2407-14-243",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_04","paper_039013","10.1186/s13046-018-0956-3",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,5,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_04","paper_046438","10.3390/ijms151120054",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_04","paper_049120","10.7150/thno.28228",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_05","paper_000836","10.1002/cbf.3564",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,3,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_05","paper_001390","10.1002/jcb.27904",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,4,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_05","paper_008563","10.1016/j.biopha.2019.108705",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,3,"National Natural Science Foundation of China;Natural Science Foundation of Guangxi Province","10.13039/501100001809;10.13039/501100004607",TRUE,TRUE,TRUE
+"audit_cluster_05","paper_008578","10.1016/j.biopha.2019.109435",TRUE,TRUE,TRUE,200,TRUE,TRUE,FALSE,1,0,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_05","paper_009972","10.1016/j.fitote.2014.03.020",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,4,"National Natural Science Foundation of China;Natural Science Foundation of Guangxi Province","10.13039/501100001809;10.13039/501100004607",TRUE,TRUE,TRUE
+"audit_cluster_05","paper_011061","10.1016/j.intimp.2019.105759",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,4,"National Natural Science Foundation of China;Natural Science Foundation of Guangxi Province","10.13039/501100001809;10.13039/501100004607",TRUE,TRUE,TRUE
+"audit_cluster_05","paper_013787","10.1016/j.toxlet.2013.03.001",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_05","paper_039545","10.1248/bpb.b13-00634",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_05","paper_046936","10.3892/etm.2018.6542",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_06","paper_000527","10.1002/2211-5463.12139",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,3,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_06","paper_019282","10.1080/21691401.2019.1670190",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,1,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_06","paper_038677","10.1186/s12885-016-2154-z",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,2,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_06","paper_039003","10.1186/s13046-018-0717-3",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,3,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_06","paper_039027","10.1186/s13046-019-1188-x",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,2,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_06","paper_040088","10.1371/journal.pone.0068574",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_06","paper_041910","10.18632/oncotarget.8129",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_06","paper_041917","10.18632/oncotarget.9377",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_06","paper_049105","10.7150/ijbs.33658",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_07","paper_013736","10.1016/j.talanta.2017.08.043",TRUE,FALSE,TRUE,200,TRUE,TRUE,TRUE,2,3,"Natural Science Foundation of Shandong, China;Source Innovation Plan Application Basic Research Project of Qingdao","",TRUE,TRUE,TRUE
+"audit_cluster_07","paper_014521","10.1021/am4034153",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_07","paper_014522","10.1021/am404534v",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_07","paper_014524","10.1021/am5015088",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_07","paper_015581","10.1039/c3an01089a",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_07","paper_015582","10.1039/c3an01397a",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_07","paper_015588","10.1039/c3cc47981a",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_07","paper_015598","10.1039/c3ra43919d",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_07","paper_015606","10.1039/c4cc06181k",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_07","paper_015608","10.1039/c4cc09280e",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_07","paper_015616","10.1039/c4nr00282b",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_07","paper_015620","10.1039/c4ra03034f",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_07","paper_015666","10.1039/c5ra11545k",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_07","paper_015675","10.1039/c5ra25870g",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_07","paper_041975","10.20964/2016.12.31",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_08","paper_000904","10.1002/cncr.21904",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,3,2,"National Cancer Institute;National Institutes of Health;University of Texas M. D. Anderson Cancer Center","10.13039/100000002;10.13039/100000054",TRUE,TRUE,TRUE
+"audit_cluster_08","paper_001141","10.1002/ijc.22077",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,3,2,"Department of Defense;National Cancer Institute, NIH;Puschelberg Foundation","10.13039/100000005;10.13039/100000054",TRUE,TRUE,TRUE
+"audit_cluster_08","paper_001491","10.1002/jcp.24162",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_08","paper_036656","10.1158/1535-7163.mct-05-0299",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_08","paper_039890","10.1371/journal.pone.0020537",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_09","paper_009355","10.1016/j.conbuildmat.2022.130003",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,1,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_09","paper_009356","10.1016/j.conbuildmat.2023.130397",TRUE,FALSE,TRUE,200,TRUE,TRUE,FALSE,1,0,"King Saud University","10.13039/501100002383",TRUE,FALSE,TRUE
+"audit_cluster_09","paper_009694","10.1016/j.enganabound.2022.09.023",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_09","paper_009873","10.1016/j.est.2022.104906",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,1,"Deanship of Scientific Research, King Faisal University","10.13039/501100004686",TRUE,TRUE,TRUE
+"audit_cluster_09","paper_010029","10.1016/j.fuel.2022.125827",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_09","paper_010030","10.1016/j.fuel.2022.126494",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_09","paper_010035","10.1016/j.fuel.2022.127126",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,3,"Guizhou Science and Technology Department;National Natural Science Foundation of China","10.13039/501100001809;10.13039/501100004001",TRUE,TRUE,TRUE
+"audit_cluster_10","paper_017673","10.1074/jbc.m109.002105",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_10","paper_017796","10.1074/jbc.m113.525014",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_10","paper_017883","10.1074/jbc.m312895200",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_10","paper_017893","10.1074/jbc.m405147200",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_10","paper_017898","10.1074/jbc.m408708200",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_10","paper_017912","10.1074/jbc.m502190200",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_10","paper_017935","10.1074/jbc.m609494200",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_10","paper_017963","10.1074/jbc.m800436200",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_10","paper_017964","10.1074/jbc.m801571200",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_10","paper_017973","10.1074/jbc.m805483200",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_10","paper_017976","10.1074/jbc.m807191200",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_11","paper_008648","10.1016/j.biortech.2017.12.040",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,2,"National Key Research and Development Program of China;National Natural Science Foundation of China","10.13039/501100001809;10.13039/501100012166",TRUE,TRUE,TRUE
+"audit_cluster_11","paper_008670","10.1016/j.biortech.2019.121880",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,4,2,"China and the Introduction of Talent Research Start-up Fund;College of Natural Resources and Environment;National Natural Science Foundation of China;Northwest A&F University","10.13039/501100001809;10.13039/501100012597",TRUE,TRUE,TRUE
+"audit_cluster_11","paper_008671","10.1016/j.biortech.2019.121905",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,3,2,"National Natural Science Foundation of China;Northwest A&F University;The Introduction of Talent Research Start-up fund","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_11","paper_008675","10.1016/j.biortech.2019.122555",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,5,5,"Guizhou Science and Technology Corporation Platform Talents Fund;International Young Scientists from National Natural Science Foundation of China;Northwest A&F University;The Introduction of Talent Research Start-up Fund;The Mobility for Regional Excellence-2020","10.13039/501100001809;10.13039/501100012597",TRUE,TRUE,TRUE
+"audit_cluster_11","paper_008682","10.1016/j.biortech.2020.124281",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_11","paper_008685","10.1016/j.biortech.2021.126485",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,1,"National Institute of Animal Science;Rural Development Administration","10.13039/501100003627;10.13039/501100014579",TRUE,TRUE,TRUE
+"audit_cluster_11","paper_008691","10.1016/j.biortech.2022.127565",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_11","paper_008698","10.1016/j.biortech.2023.129325",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,1,"National Natural Science Foundation of China;Shanxi Provincial Key Research and Development Project","10.13039/501100001809;10.13039/501100013317",TRUE,TRUE,TRUE
+"audit_cluster_11","paper_008699","10.1016/j.biortech.2023.129555",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_11","paper_008700","10.1016/j.biortech.2023.129559",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_12","paper_005984","10.1007/s12035-014-8904-5",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_12","paper_014809","10.1038/mt.2016.103",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,3,6,"National Natural Science Foundation of China;Shengjing Hospital;Shenyang Municipal Bureau of Science and Technology","10.13039/501100001809;10.13039/501100007765;10.13039/501100015226",TRUE,TRUE,TRUE
+"audit_cluster_12","paper_014811","10.1038/mt.2016.71",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,3,7,"Beijing Science and Technology Planning Project;National Natural Science Foundation of China;Shenyang Science and Technology Bureau","10.13039/501100001809;10.13039/501100007765;10.13039/501100012401",TRUE,TRUE,TRUE
+"audit_cluster_12","paper_038397","10.1186/1472-6882-13-187",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_12","paper_038867","10.1186/s12943-017-0677-9",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,4,4,"Liaoning Science and Technology Plan Project;National Natural Science Foundation of China;outstanding scientific fund of Shengjing hospital;Shenyang Science and Technology Plan Projects","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_12","paper_039975","10.1371/journal.pone.0046010",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_12","paper_045916","10.3389/fnmol.2017.00437",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_12","paper_047566","10.3892/or.2013.2780",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_13","paper_001237","10.1002/jcb.25808",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_13","paper_007422","10.1007/s13277-015-3749-8",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_13","paper_047101","10.3892/ijo.2014.2577",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_13","paper_047592","10.3892/or.2015.4030",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_13","paper_047642","10.3892/or.2017.5423",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_13","paper_047674","10.3892/or.2017.6018",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_13","paper_047709","10.3892/or.2018.6774",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_14","paper_005928","10.1007/s12013-014-0270-4",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_14","paper_009615","10.1016/j.ejphar.2015.07.008",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,1,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_14","paper_013122","10.1016/j.pharep.2018.04.006",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,3,"Clinical medicine +x, Medical College, Qingdao University;National Natural Science Foundation","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_14","paper_014724","10.1038/aps.2015.115",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_14","paper_014727","10.1038/aps.2017.154",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_14","paper_022726","10.1111/cas.13575",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,2,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_15","paper_004927","10.1007/s11033-022-07955-4",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_15","paper_005543","10.1007/s11356-021-12937-3",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_15","paper_007250","10.1007/s13204-021-02167-x",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_15","paper_009869","10.1016/j.est.2022.104794",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_15","paper_012677","10.1016/j.molliq.2020.112937",TRUE,FALSE,TRUE,200,TRUE,TRUE,FALSE,1,0,"National Social Science Fund of China","10.13039/501100012456",TRUE,FALSE,TRUE
+"audit_cluster_15","paper_012682","10.1016/j.molliq.2020.113235",TRUE,FALSE,TRUE,200,TRUE,TRUE,FALSE,1,0,"National Office for Philosophy and Social Sciences","10.13039/501100012325",TRUE,FALSE,TRUE
+"audit_cluster_15","paper_012690","10.1016/j.molliq.2021.115615",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_15","paper_012694","10.1016/j.molliq.2021.116924",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_15","paper_012696","10.1016/j.molliq.2021.117286",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,3,1,"Deanship of Scientific Research, King Khalid University;King Abdulaziz University;King Saud University Deanship of Scientific Research","10.13039/501100004054;10.13039/501100011665;10.13039/501100023674",TRUE,TRUE,TRUE
+"audit_cluster_15","paper_012703","10.1016/j.molliq.2021.118267",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,1,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_15","paper_012704","10.1016/j.molliq.2021.118400",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,2,"Fujian Provincial Natural Science Foundation;Narodowe Centrum Nauki","10.13039/501100003392;10.13039/501100004281",TRUE,TRUE,TRUE
+"audit_cluster_15","paper_015285","10.1038/s41598-022-11642-6",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_15","paper_015314","10.1038/s41598-023-29485-0",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_15","paper_026407","10.1155/2021/5545802",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,3,"National Natural Science Foundation of China;Natural Science Foundation of Jiangxi Province","10.13039/501100001809;10.13039/501100004479",TRUE,TRUE,TRUE
+"audit_cluster_15","paper_026900","10.1155/2021/6669718",FALSE,FALSE,FALSE,200,TRUE,TRUE,TRUE,1,1,"Philosophy & Social Science Fund of Tianjin City, China","",TRUE,TRUE,TRUE
+"audit_cluster_15","paper_037682","10.1177/0954406220987265",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_15","paper_037721","10.1177/09544089221082489",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_15","paper_040794","10.1371/journal.pone.0272521",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,1,"Philosophy and Social Science Foundation of Hunan Province","10.13039/501100010224",TRUE,TRUE,TRUE
+"audit_cluster_15","paper_046189","10.3389/fpsyt.2022.990678",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_15","paper_046366","10.3390/cryst12091308",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,1,"Umm Al-Qura University","10.13039/501100006701",TRUE,TRUE,TRUE
+"audit_cluster_16","paper_004286","10.1007/s10620-012-2108-5",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_16","paper_013963","10.1016/j.yexcr.2017.09.037",TRUE,FALSE,TRUE,200,TRUE,TRUE,TRUE,1,1,"Education Agency of Henan","",TRUE,TRUE,TRUE
+"audit_cluster_16","paper_018948","10.1080/15384101.2021.1924958",FALSE,FALSE,FALSE,200,TRUE,TRUE,FALSE,1,0,"funding","",TRUE,FALSE,TRUE
+"audit_cluster_16","paper_036741","10.1159/000430321",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_16","paper_036767","10.1159/000477121",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_16","paper_038469","10.1186/1746-1596-8-179",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_16","paper_038810","10.1186/s12935-016-0362-x",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,1,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_16","paper_038858","10.1186/s12943-015-0315-3",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_16","paper_047152","10.3892/mmr.2013.1280",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_16","paper_047644","10.3892/or.2017.5505",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_17","paper_000726","10.1002/asia.201500242",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_17","paper_008886","10.1016/j.cej.2015.11.066",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_17","paper_010062","10.1016/j.gca.2011.08.024",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,3,3,"Ministry of Science and Technology;National Natural Science Foundation of China;State Key Laboratory of Pollution Control and Resource Reuse","10.13039/501100001809;10.13039/501100003711;10.13039/501100011150",TRUE,TRUE,TRUE
+"audit_cluster_17","paper_015566","10.1039/c2dt31510f",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_17","paper_015577","10.1039/c2ra22495j",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_17","paper_015681","10.1039/c5ta09132b",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,1,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_17","paper_015768","10.1039/c8en01313f",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,4,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_17","paper_043888","10.3233/ifs-130934",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_17","paper_043889","10.3233/ifs-130975",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_17","paper_043890","10.3233/ifs-130977",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_17","paper_043948","10.3233/jifs-16715",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_17","paper_044145","10.3233/jifs-18266",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_17","paper_044240","10.3233/jifs-191688",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_17","paper_044275","10.3233/jifs-202922",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_17","paper_044278","10.3233/jifs-210267",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_17","paper_044304","10.3233/jifs-211359",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_17","paper_044419","10.3233/jifs-212954",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_17","paper_044540","10.3233/jifs-220502",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_17","paper_044764","10.3233/jifs-224206",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_17","paper_044809","10.3233/jifs-230105",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_18","paper_002868","10.1007/s00449-019-02137-2",FALSE,FALSE,FALSE,200,TRUE,TRUE,TRUE,1,1,"National Natural Science Foundation Young of China","",TRUE,TRUE,TRUE
+"audit_cluster_18","paper_008673","10.1016/j.biortech.2019.122073",TRUE,TRUE,TRUE,200,TRUE,TRUE,FALSE,1,0,"Dalian Nationalities University","10.13039/501100007549",TRUE,TRUE,TRUE
+"audit_cluster_18","paper_009009","10.1016/j.chemosphere.2019.05.237",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,6,"National Natural Science Foundation of China;Natural Science Foundation of Guangdong Province","10.13039/501100001809;10.13039/501100003453",TRUE,TRUE,TRUE
+"audit_cluster_18","paper_009437","10.1016/j.dci.2019.103517",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,9,11,"Application Technology Research and Development Projects of Harbin;Central University;Dalian Nationalities University;MOA Modern Agricultural Talents Support Project;National Natural Science Foundation of China;National Natural Science Foundation Young of China;National Nature Science Fund for Distinguished Young Scholars of China;Natural Science Foundation of Guangdong Province;Post-doctoral Science Foundation Project of China and Heilongjiang Province","10.13039/501100001809;10.13039/501100003453;10.13039/501100004573;10.13039/501100007549;10.13039/501100010009",TRUE,TRUE,TRUE
+"audit_cluster_18","paper_010010","10.1016/j.fsi.2019.08.015",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,9,11,"Application Technology Research and Development Projects of Harbin;Central University;Dalian Nationalities University;MOA;National Natural Science Foundation of China;National Natural Science Foundation Young of China;National Nature Science Fund for Distinguished Young Scholars of China;Natural Science Foundation of Guangdong Province;Post-doctoral Science Foundation Project of China and Heilongjiang Province","10.13039/100014717;10.13039/501100001809;10.13039/501100003453;10.13039/501100007549;10.13039/501100010009",TRUE,TRUE,TRUE
+"audit_cluster_18","paper_010011","10.1016/j.fsi.2019.08.028",TRUE,FALSE,TRUE,200,TRUE,TRUE,FALSE,1,0,"Dalian Nationalities University","10.13039/501100007549",TRUE,FALSE,TRUE
+"audit_cluster_18","paper_010012","10.1016/j.fsi.2019.09.001",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,6,12,"China National Funds for Distinguished Young Scientists;Dalian Nationalities University;National Natural Science Foundation of China;Natural Science Foundation of Guangdong Province;Natural Science Foundation of Heilongjiang Province;Natural Science Foundation of Liaoning Province","10.13039/501100001809;10.13039/501100003453;10.13039/501100005046;10.13039/501100005047;10.13039/501100005153;10.13039/501100007549",TRUE,TRUE,TRUE
+"audit_cluster_18","paper_011474","10.1016/j.jenvman.2019.03.027",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,7,11,"Application Technology Research and Development Projects of Harbin;MOA Modern Agricultural Talents;National Natural Science Foundation of China;National Nature Science Fund for Distinguished Young Scholars of China;Natural Science Foundation Guidance Project Liaoning Province;Natural Science Foundation of Guangdong Province;Post-doctoral Science Foundation Project of China and Heilongjiang Province","10.13039/501100001809;10.13039/501100003453;10.13039/501100004573;10.13039/501100005046;10.13039/501100005047;10.13039/501100005153",TRUE,TRUE,TRUE
+"audit_cluster_19","paper_046894","10.3892/etm.2017.4538",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_19","paper_047262","10.3892/mmr.2017.7345",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_19","paper_047343","10.3892/mmr.2019.10424",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_19","paper_047356","10.3892/mmr.2019.9857",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_19","paper_047455","10.3892/ol.2017.7201",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_20","paper_008325","10.1016/j.bbadis.2014.06.014",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_20","paper_014750","10.1038/cddis.2017.223",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_20","paper_015016","10.1038/s41419-018-0706-7",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,1,"National Natural
+Science Foundation of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_20","paper_017982","10.1074/mcp.m113.034025",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_20","paper_040076","10.1371/journal.pone.0065218",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_20","paper_040151","10.1371/journal.pone.0085113",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_20","paper_041813","10.18632/oncotarget.11284",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_21","paper_040616","10.1371/journal.pone.0254678",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_21","paper_040695","10.1371/journal.pone.0262140",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_21","paper_040725","10.1371/journal.pone.0263901",TRUE,TRUE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,TRUE,TRUE
+"audit_cluster_21","paper_046097","10.3389/fpls.2022.1017282",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,1,"Higher Education Commision, Pakistan","10.13039/501100010221",TRUE,TRUE,TRUE
+"audit_cluster_21","paper_046101","10.3389/fpls.2022.973782",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_22","paper_001627","10.1002/jctb.5871",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,1,"Ministry of Science and Technology of the People's Republic of China","10.13039/501100002855",TRUE,TRUE,TRUE
+"audit_cluster_22","paper_001628","10.1002/jctb.6048",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_22","paper_001629","10.1002/jctb.6082",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,1,1,"Major Science and Technology Program for Water Pollution Control and Treatment","10.13039/501100011395",TRUE,TRUE,TRUE
+"audit_cluster_22","paper_005520","10.1007/s11356-019-05873-w",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,2,"Ministry of Science and Technology of the People's Republic of China;National Natural Science Foundation of China","10.13039/501100001809;10.13039/501100002855",TRUE,TRUE,TRUE
+"audit_cluster_22","paper_008173","10.1016/j.apsusc.2018.10.146",FALSE,FALSE,FALSE,200,TRUE,TRUE,TRUE,1,1,"Water Pollution Control and Management","",TRUE,TRUE,TRUE
+"audit_cluster_22","paper_008192","10.1016/j.apt.2018.10.014",FALSE,FALSE,FALSE,200,TRUE,TRUE,TRUE,1,1,"Major Scientific and Technological Projects of National Water Pollution Control and Treatment","",TRUE,TRUE,TRUE
+"audit_cluster_22","paper_011189","10.1016/j.jallcom.2020.157728",TRUE,FALSE,TRUE,200,TRUE,TRUE,FALSE,5,0,"China Association for Science and Technology;China Scholarship Council;Doctoral Start-up Foundation of Liaoning Province;National Natural Science Foundation of China;Natural Science Foundation of Liaoning Province","10.13039/100010097;10.13039/501100001809;10.13039/501100004543;10.13039/501100005047;10.13039/501100010018",TRUE,FALSE,TRUE
+"audit_cluster_22","paper_013558","10.1016/j.scitotenv.2020.142960",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,3,3,"China Scholarship Council;Doctoral Start-up Foundation of Liaoning Province;National Natural Science Foundation of China","10.13039/501100001809;10.13039/501100004543;10.13039/501100010018",TRUE,TRUE,TRUE
+"audit_cluster_22","paper_013916","10.1016/j.watres.2006.04.009",TRUE,FALSE,TRUE,200,TRUE,TRUE,FALSE,1,0,"National Natural Science Foundation of China","10.13039/501100001809",TRUE,FALSE,TRUE
+"audit_cluster_22","paper_015902","10.1039/d0cy01478h",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,2,"China Association for Science and Technology;Department of Education of Liaoning Province","10.13039/100010097;10.13039/501100007620",TRUE,TRUE,TRUE
+"audit_cluster_22","paper_020786","10.1089/ees.2019.0202",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_23","paper_004976","10.1007/s11042-017-5536-6",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_23","paper_004977","10.1007/s11042-017-5555-3",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_23","paper_004978","10.1007/s11042-017-5557-1",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_23","paper_004979","10.1007/s11042-017-5558-0",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_23","paper_004980","10.1007/s11042-017-5597-6",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_23","paper_004981","10.1007/s11042-017-5598-5",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_23","paper_004983","10.1007/s11042-017-5604-y",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_24","paper_000580","10.1002/adem.201400273",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_24","paper_004584","10.1007/s10856-014-5371-5",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_24","paper_011176","10.1016/j.jallcom.2014.02.055",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_24","paper_011177","10.1016/j.jallcom.2014.07.143",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,2,"National Natural Science Foundation of China;Shenzhen science and technology research funding Project of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_24","paper_011178","10.1016/j.jallcom.2014.09.192",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,2,"National Natural Science Foundation of China;Shenzhen Science and Technology","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_24","paper_011595","10.1016/j.jmatprotec.2015.02.035",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,2,"National Natural Science Foundation of China;Shenzhen Science and Technology research funding project of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_24","paper_011599","10.1016/j.jmbbm.2014.08.022",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,2,"National Natural Science Foundation of China;Shenzhen science and technology research funding project of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_24","paper_011600","10.1016/j.jmbbm.2014.11.009",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,2,"National Natural Science Foundation of China;Shenzhen science and technology research funding project of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_24","paper_012018","10.1016/j.matchar.2014.10.026",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,2,"National Natural Science Foundation of China;Shenzhen science and technology research funding project of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_24","paper_012788","10.1016/j.msea.2014.11.003",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,2,"National Natural Science Foundation of China;Shenzhen Science and Technology","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_24","paper_012800","10.1016/j.msec.2015.01.081",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,2,"National Natural Science Foundation of China;Shenzhen Science and Technology Research Funding Project of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_24","paper_013707","10.1016/j.surfcoat.2014.08.052",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,2,"National Natural Science Foundation of China;Shenzhen Science and Technology Research Funding Project of China","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_24","paper_013708","10.1016/j.surfcoat.2014.11.028",TRUE,TRUE,TRUE,200,TRUE,TRUE,TRUE,2,2,"National Natural Science Foundation of China;Shenzhen Science and Technology Research","10.13039/501100001809",TRUE,TRUE,TRUE
+"audit_cluster_24","paper_041430","10.1557/jmr.2014.171",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_24","paper_041431","10.1557/jmr.2014.367",TRUE,FALSE,TRUE,200,TRUE,FALSE,FALSE,0,0,"","",TRUE,FALSE,TRUE
+"audit_cluster_25","paper_004168","10.1007/s10586-017-1331-4",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_25","paper_008150","10.1016/j.applthermaleng.2019.113825",TRUE,FALSE,TRUE,200,TRUE,TRUE,FALSE,1,0,"National Office for Philosophy and Social Sciences","10.13039/501100012325",TRUE,FALSE,TRUE
+"audit_cluster_25","paper_008178","10.1016/j.apsusc.2019.144399",FALSE,FALSE,FALSE,200,TRUE,TRUE,TRUE,2,2,"Shaanxi Key Research and development Plan;Shaanxi Natural Science Basic Research Project","10.13039/100006190",TRUE,TRUE,TRUE
+"audit_cluster_25","paper_008182","10.1016/j.apsusc.2020.145758",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_25","paper_008184","10.1016/j.apsusc.2020.146179",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_25","paper_009851","10.1016/j.est.2019.101054",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_25","paper_009852","10.1016/j.est.2019.101183",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_25","paper_009859","10.1016/j.est.2022.103973",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_25","paper_009865","10.1016/j.est.2022.104586",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_25","paper_009879","10.1016/j.est.2022.105762",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_25","paper_010896","10.1016/j.ijhydene.2019.09.222",FALSE,FALSE,FALSE,200,TRUE,TRUE,TRUE,1,1,"Beijing Key Laboratory of Demand Side Multi-Energy Carriers Optimization and Interaction Technique","",TRUE,TRUE,TRUE
+"audit_cluster_25","paper_010898","10.1016/j.ijhydene.2020.03.090",TRUE,FALSE,TRUE,200,TRUE,TRUE,TRUE,3,2,"Shaanxi Innovation Capability Support Plan;Shaanxi Natural Science Basic Research Project;Xi'an Technological University","10.13039/501100005392",TRUE,TRUE,TRUE
+"audit_cluster_25","paper_010899","10.1016/j.ijhydene.2020.05.098",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE
+"audit_cluster_25","paper_013618","10.1016/j.scs.2020.102532",FALSE,FALSE,FALSE,200,TRUE,FALSE,FALSE,0,0,"","",FALSE,FALSE,FALSE

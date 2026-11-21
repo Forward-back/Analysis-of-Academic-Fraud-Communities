@@ -113,6 +113,106 @@
       "sha256": "fa7e8bb57486d5c362ba254636b8c6043006df28cedaed0fcf4e142459db8671"
     },
     {
+      "path": "data/outputs/audits/tables/funding_audit_award_papers.csv",
+      "sha256": "7aca91cbb78ba183174424f3be4fbb052473437d0b43945d6f486cef6fc5c894"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_audit_award_reuse.csv",
+      "sha256": "4b0a8f92c557353a8107209103b21b758ccc5dbcdf79d66d2267da2b805d1fe8"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_audit_cluster_coverage.csv",
+      "sha256": "b1526bafcae80c47e2741ed9ca91f60d0cacddc4411cba699e6b00e06674dac1"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_audit_combined_decision.csv",
+      "sha256": "125911f8575992a571165ad5b7562ea3a9fb814cfc8a7653ce5fc05584b27c6a"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_audit_decision.csv",
+      "sha256": "72f7842532566c10bc5d9d7890c58374721d6b54bcf289bf8950e16ff0869d5e"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_audit_funder_papers.csv",
+      "sha256": "b59778fcbbe368db2440f7bf4da67ef3fb0699ffae48b7baf5ed0dc405284c75"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_audit_funder_reuse.csv",
+      "sha256": "5177cc166537ae66ddf2bef5f6939e39efe62933026fd181b7783d5fabc3d428"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_audit_group_coverage.csv",
+      "sha256": "9e668efb13aebf1163a861f0d0893a69679dd66d9caa56f68e8baa269fe56f9e"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_audit_sample.csv",
+      "sha256": "aac116089b9f7815358bc137cf59b9c86e0c142564d4bb372a6d3e4052fa9f22"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_audit_sample_strata.csv",
+      "sha256": "62e8708ac685c75bd72d0fe622761e2fdba534083e1c44f5b4a37472a54ebf2d"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_audit_sample_summary.csv",
+      "sha256": "c39a451c520279113a4b356e292fcb0a02bcc2d880a5432c2a01f444cb25206c"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_combined_paper_metadata.csv",
+      "sha256": "beb5daf081fe234f08732b005e040a95b77f53289eb856854a42a0fecd8727de"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_crossref_award_papers.csv",
+      "sha256": "d88eef749a8ec583907de72ac36f625abd09ff2cf4ebc57c3a5584e2260609a3"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_crossref_award_reuse.csv",
+      "sha256": "d9136249439093520945c3305566045d7d0b34c6f839efc44536ec54b6516a69"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_crossref_funder_papers.csv",
+      "sha256": "20ee417bcc8373782517c51a9595ea1262dc72a38d4a1bfc8504f5b441869fc3"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_crossref_funder_reuse.csv",
+      "sha256": "7f852944a7728558bfbbed328b3d890d4654e790a2e3d97ccab39c957edcda80"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_crossref_paper_metadata.csv",
+      "sha256": "96a77290e9323ad657c531c7e140ec18b4316f479da44b626ff1dc20b94d33e9"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_crossref_request_audit.csv",
+      "sha256": "26012dc84755cdb1f27574657f9598d9858180913f1f5b7e02f20fc17033f22d"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_crossref_summary.csv",
+      "sha256": "bf838e204a1665e7b412e9cac672b76f4867ea4616c3fe5bff64f611447b85c1"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_funder_metadata.csv",
+      "sha256": "e7b00dee459534bcd520f97d9b34382009463a9cfdfe0c8b501f3c66bc09084b"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_funder_metadata_summary.csv",
+      "sha256": "fce568cebdfd4194851b6f6f55e04c149ec83df2a80a6afde23e19e54e760d3f"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_funder_request_audit.csv",
+      "sha256": "096603797f5e8931cdf4617e337757667dda904d8e24bc0bcdfa0baf0107bb5a"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_funder_reuse_named.csv",
+      "sha256": "296f886b2c9dccff5e6c98ea83efaec8823dbc3be419f77d6f4bbfa2c86c93bf"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_hypothesis_evidence.csv",
+      "sha256": "c82740fb83ff82a5a1e6a66564d935fd48a87bc7e5551ac285bf15c485b589cc"
+    },
+    {
+      "path": "data/outputs/audits/tables/funding_project_verification_queue.csv",
+      "sha256": "d36aa42c007f20731e825c4c322d92a55d7c4d9fee709e5c597be8e0fce1c470"
+    },
+    {
       "path": "data/outputs/audits/tables/leiden_community_profiles.csv",
       "sha256": "a0089f9f7135b6fec3d907c61976e94570a8b3821279a578ab72e4f90b0fbab2"
     },
@@ -474,7 +574,7 @@
     },
     {
       "path": "data/outputs/audits/tables/p1_selected_control_parse_audit.csv",
-      "sha256": "bc99465440657fe8d940426377383dc179604ab5e47c6a6eed75f65dd3c4a44a"
+      "sha256": "59930750945006ee37c48cf46c3029d9915184339cc3e7b46b772934e3f4189c"
     },
     {
       "path": "data/outputs/audits/tables/p1_tier_list_count_audit.csv",

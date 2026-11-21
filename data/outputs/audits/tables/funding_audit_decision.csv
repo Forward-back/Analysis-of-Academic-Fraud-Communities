@@ -1,0 +1,2 @@
+"decision_date","sampled_papers","cluster_paper_assignments","overlapped_paper_assignments","funder_coverage","award_coverage","any_funding_coverage","quality_gate","openalex_status","crossref_supplement","final_disposition","amount_audit"
+"2026-11-21",250,250,0,0.624,0.484,0.624,0.5,"meets_quality_gate","pending","eligible_for_main_analysis_after_crossref_verification","not_started"

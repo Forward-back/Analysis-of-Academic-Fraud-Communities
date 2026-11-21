@@ -1,0 +1,146 @@
+"audit_cluster_id","funding_stratum","stratum_size","stratum_sample_n","sample_papers","funded_papers","award_papers"
+"audit_cluster_01","2021|American Physiological Society",1,1,1,1,1
+"audit_cluster_01","2021|Cellular Physiol Biochem Press",2,1,1,1,1
+"audit_cluster_01","2021|Portland Press",1,1,1,1,1
+"audit_cluster_01","2021|Wiley",9,6,6,6,6
+"audit_cluster_01","2022|AME Publishing Company",1,1,1,0,0
+"audit_cluster_01","2022|Elsevier",3,1,1,1,1
+"audit_cluster_01","2022|Elsevier - Cell Press",1,1,1,0,0
+"audit_cluster_01","2022|Impact Journals",1,1,1,1,1
+"audit_cluster_01","2022|IOS Press (bought by Sage November 2023)",1,1,1,0,0
+"audit_cluster_01","2022|Portland Press",1,1,1,0,0
+"audit_cluster_01","2022|Springer - Biomed Central (BMC)",1,1,1,1,1
+"audit_cluster_01","2022|Wiley",2,1,1,1,1
+"audit_cluster_01","2023|Elsevier",1,1,1,1,1
+"audit_cluster_01","2023|Springer - Biomed Central (BMC)",1,1,1,1,1
+"audit_cluster_01","2023|Wiley",1,1,1,1,1
+"audit_cluster_02","2018|Elsevier",1,1,1,1,1
+"audit_cluster_02","2024|Cellular Physiol Biochem Press",1,1,1,1,0
+"audit_cluster_02","2024|Elsevier",1,1,1,1,1
+"audit_cluster_02","2024|Springer - Nature Publishing Group",1,1,1,1,1
+"audit_cluster_02","2025|Spandidos",1,1,1,0,0
+"audit_cluster_02","2025|Springer - Nature Publishing Group",1,1,1,1,1
+"audit_cluster_03","2022|Cellular Physiol Biochem Press",1,1,1,1,1
+"audit_cluster_03","2022|Ivyspring International Publisher",1,1,1,1,1
+"audit_cluster_03","2022|Springer - Biomed Central (BMC)",2,2,2,2,2
+"audit_cluster_03","2022|Taylor and Francis - Dove Press",1,1,1,1,1
+"audit_cluster_03","2023|Springer - Biomed Central (BMC)",2,2,2,2,1
+"audit_cluster_03","2023|Taylor and Francis - Dove Press",1,1,1,0,0
+"audit_cluster_03","2025|Frontiers",1,1,1,1,1
+"audit_cluster_03","2025|Spandidos",1,1,1,0,0
+"audit_cluster_04","2020|MDPI",1,1,1,1,1
+"audit_cluster_04","2021|Ivyspring International Publisher",1,1,1,1,0
+"audit_cluster_04","2021|Springer - Biomed Central (BMC)",1,1,1,1,1
+"audit_cluster_04","2022|Springer - Biomed Central (BMC)",2,2,2,2,2
+"audit_cluster_05","2021|Elsevier",1,1,1,0,0
+"audit_cluster_05","2021|Wiley",2,2,2,2,2
+"audit_cluster_05","2023|Pharmaceutical Society of Japan",1,1,1,1,1
+"audit_cluster_05","2023|Spandidos",1,1,1,1,1
+"audit_cluster_05","2024|Elsevier",3,3,3,3,3
+"audit_cluster_05","2025|Elsevier",1,1,1,1,1
+"audit_cluster_06","2020|PLoS",1,1,1,1,1
+"audit_cluster_06","2022|Ivyspring International Publisher",1,1,1,1,1
+"audit_cluster_06","2022|Springer - Biomed Central (BMC)",2,2,2,2,2
+"audit_cluster_06","2022|Taylor and Francis",1,1,1,1,1
+"audit_cluster_06","2022|Wiley",1,1,1,1,1
+"audit_cluster_06","2023|Springer - Biomed Central (BMC)",1,1,1,1,1
+"audit_cluster_06","2025|Impact Journals",2,2,2,0,0
+"audit_cluster_07","2015|Royal Society of Chemistry (RSC)",1,1,1,0,0
+"audit_cluster_07","2016|ESG",1,1,1,0,0
+"audit_cluster_07","2019|Elsevier",1,1,1,1,0
+"audit_cluster_07","2020|Royal Society of Chemistry (RSC)",9,9,9,3,0
+"audit_cluster_07","2021|American Chemical Society (ACS)",3,3,3,0,0
+"audit_cluster_08","2016|Wiley",3,3,3,3,3
+"audit_cluster_08","2018|American Association for Cancer Research",1,1,1,1,1
+"audit_cluster_08","2018|PLoS",1,1,1,1,1
+"audit_cluster_09","2023|Elsevier",1,1,1,1,1
+"audit_cluster_09","2024|Elsevier",2,2,2,0,0
+"audit_cluster_09","2025|Elsevier",4,4,4,3,2
+"audit_cluster_10","2015|American Society for Biochemistry and Molecular Biology (ASBMB)",1,1,1,1,1
+"audit_cluster_10","2020|American Society for Biochemistry and Molecular Biology (ASBMB)",2,2,2,0,0
+"audit_cluster_10","2021|American Society for Biochemistry and Molecular Biology (ASBMB)",2,2,2,1,0
+"audit_cluster_10","2021|Elsevier",6,6,6,2,1
+"audit_cluster_11","2024|Elsevier",9,9,9,6,6
+"audit_cluster_11","2025|Elsevier",1,1,1,0,0
+"audit_cluster_12","2015|Springer",1,1,1,0,0
+"audit_cluster_12","2022|Elsevier - Cell Press",2,2,2,2,2
+"audit_cluster_12","2022|Springer - Biomed Central (BMC)",1,1,1,1,1
+"audit_cluster_12","2023|Frontiers",1,1,1,1,1
+"audit_cluster_12","2024|PLoS",1,1,1,1,1
+"audit_cluster_12","2025|Spandidos",1,1,1,1,1
+"audit_cluster_12","2025|Springer - Biomed Central (BMC)",1,1,1,1,0
+"audit_cluster_13","2021|IOS Press (bought by Sage November 2023)",1,1,1,0,0
+"audit_cluster_13","2021|Spandidos",3,3,3,0,0
+"audit_cluster_13","2021|Wiley",1,1,1,0,0
+"audit_cluster_13","2022|Spandidos",2,2,2,1,0
+"audit_cluster_14","2020|Springer",1,1,1,1,1
+"audit_cluster_14","2020|Wiley",1,1,1,1,1
+"audit_cluster_14","2021|Elsevier",1,1,1,1,1
+"audit_cluster_14","2021|Springer - Nature Publishing Group",1,1,1,1,1
+"audit_cluster_14","2022|Springer",1,1,1,1,0
+"audit_cluster_14","2025|Springer - Nature Publishing Group",1,1,1,1,1
+"audit_cluster_15","2021|Elsevier",2,1,1,0,0
+"audit_cluster_15","2022|Hindawi",1,1,1,0,0
+"audit_cluster_15","2022|SAGE Publications",1,1,1,0,0
+"audit_cluster_15","2022|Springer",2,1,1,0,0
+"audit_cluster_15","2023|Frontiers",1,1,1,1,0
+"audit_cluster_15","2023|Hindawi",1,1,1,1,1
+"audit_cluster_15","2023|SAGE Publications",1,1,1,0,0
+"audit_cluster_15","2023|Springer",1,1,1,0,0
+"audit_cluster_15","2023|Springer - Nature Publishing Group",1,1,1,1,1
+"audit_cluster_15","2024|Elsevier",1,1,1,0,0
+"audit_cluster_15","2024|Springer",1,1,1,0,0
+"audit_cluster_15","2024|Springer - Nature Publishing Group",1,1,1,1,1
+"audit_cluster_15","2025|Elsevier",14,6,6,5,3
+"audit_cluster_15","2025|MDPI",1,1,1,1,1
+"audit_cluster_15","2025|PLoS",4,1,1,1,1
+"audit_cluster_16","2017|BioMed Central (BMC)",1,1,1,0,0
+"audit_cluster_16","2018|Elsevier",1,1,1,1,0
+"audit_cluster_16","2018|Spandidos",1,1,1,0,0
+"audit_cluster_16","2019|Springer",1,1,1,1,0
+"audit_cluster_16","2019|Springer - Biomed Central (BMC)",2,2,2,2,1
+"audit_cluster_16","2022|Spandidos",1,1,1,0,0
+"audit_cluster_16","2022|Taylor and Francis",1,1,1,0,0
+"audit_cluster_16","2023|Cellular Physiol Biochem Press",2,2,2,1,1
+"audit_cluster_17","2019|IOS Press (bought by Sage November 2023)",4,1,1,0,0
+"audit_cluster_17","2020|Elsevier",3,1,1,0,0
+"audit_cluster_17","2020|Royal Society of Chemistry (RSC)",7,2,2,2,1
+"audit_cluster_17","2021|Elsevier",3,1,1,1,1
+"audit_cluster_17","2021|Royal Society of Chemistry (RSC)",3,1,1,1,0
+"audit_cluster_17","2022|Royal Society of Chemistry (RSC)",4,1,1,1,1
+"audit_cluster_17","2024|IOS Press (bought by Sage November 2023)",1,1,1,0,0
+"audit_cluster_17","2025|IOS Press (bought by Sage November 2023)",32,11,11,4,1
+"audit_cluster_17","2025|Wiley",1,1,1,0,0
+"audit_cluster_18","2020|Elsevier",4,4,4,4,3
+"audit_cluster_18","2021|Elsevier",3,3,3,3,3
+"audit_cluster_18","2021|Springer",1,1,1,0,0
+"audit_cluster_19","2022|Spandidos",4,4,4,4,4
+"audit_cluster_19","2024|Spandidos",1,1,1,1,1
+"audit_cluster_20","2014|Elsevier",1,1,1,1,1
+"audit_cluster_20","2019|American Society for Biochemistry and Molecular Biology (ASBMB)",1,1,1,0,0
+"audit_cluster_20","2019|PLoS",2,2,2,2,2
+"audit_cluster_20","2020|Springer - Nature Publishing Group",2,2,2,2,2
+"audit_cluster_20","2025|Impact Journals",1,1,1,1,1
+"audit_cluster_21","2022|PLoS",2,2,2,2,0
+"audit_cluster_21","2024|Frontiers",2,2,2,2,1
+"audit_cluster_21","2025|PLoS",1,1,1,1,1
+"audit_cluster_22","2021|Elsevier",2,2,2,2,1
+"audit_cluster_22","2021|Mary Ann Liebert",1,1,1,0,0
+"audit_cluster_22","2021|Royal Society of Chemistry (RSC)",1,1,1,1,1
+"audit_cluster_22","2021|Wiley",3,3,3,2,2
+"audit_cluster_22","2022|Elsevier",3,3,3,1,0
+"audit_cluster_22","2022|Springer",1,1,1,1,1
+"audit_cluster_23","2018|Springer",3,3,3,0,0
+"audit_cluster_23","2019|Springer",4,4,4,0,0
+"audit_cluster_24","2016|Elsevier",1,1,1,1,1
+"audit_cluster_24","2016|Springer",1,1,1,1,0
+"audit_cluster_24","2017|Cambridge University Press",1,1,1,1,0
+"audit_cluster_24","2017|Elsevier",5,5,5,5,5
+"audit_cluster_24","2017|Wiley",1,1,1,0,0
+"audit_cluster_24","2018|Cambridge University Press",1,1,1,0,0
+"audit_cluster_24","2018|Elsevier",4,4,4,4,3
+"audit_cluster_24","2019|Elsevier",1,1,1,1,1
+"audit_cluster_25","2020|Elsevier",4,4,4,0,0
+"audit_cluster_25","2022|Springer",1,1,1,0,0
+"audit_cluster_25","2023|Elsevier",6,6,6,1,0
+"audit_cluster_25","2024|Elsevier",3,3,3,1,0

@@ -4,6 +4,7 @@ param(
   [switch]$KeepStage,
   [switch]$IncludeOutputs,
   [switch]$IncludeCache,
+  [string[]]$CacheSubpaths = @(),
   [string[]]$RScriptArguments = @()
 )
 
@@ -49,6 +50,18 @@ if ($IncludeCache) {
     $cacheDestination = Join-Path $stageRoot "data\cache"
     New-Item -ItemType Directory -Path $cacheDestination -Force | Out-Null
     Copy-Item -Path (Join-Path $cacheSource "*") -Destination $cacheDestination -Recurse -Force
+  }
+}
+
+if (-not $IncludeCache) {
+  foreach ($relative in $CacheSubpaths) {
+    $source = Join-Path $projectRoot (Join-Path "data\cache" $relative)
+    if (-not (Test-Path -LiteralPath $source)) {
+      continue
+    }
+    $destination = Join-Path $stageRoot (Join-Path "data\cache" $relative)
+    New-Item -ItemType Directory -Path $destination -Force | Out-Null
+    Copy-Item -Path (Join-Path $source "*") -Destination $destination -Recurse -Force
   }
 }
 

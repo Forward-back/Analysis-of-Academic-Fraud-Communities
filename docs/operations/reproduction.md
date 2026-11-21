@@ -169,6 +169,23 @@ powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
 
 该入口验证来源和声明登记，生成外部时间线、机制映射、反事实边界和快照 manifest。
 
+资助审计样本与 OpenAlex 覆盖：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_funding_sample_coverage.R -IncludeOutputs
+```
+
+OpenAlex 资助机构名称与 Crossref 补充：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_fetch_openalex_funders.R -IncludeOutputs
+powershell -ExecutionPolicy Bypass -File scripts/run_in_ascii_stage.ps1 `
+  -RScript scripts/run_crossref_funding_supplement.R -IncludeOutputs `
+  -CacheSubpaths "crossref/funding-audit-v1"
+```
+
 ## 数据冻结
 
 - 原始 CSV 只读。

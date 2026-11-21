@@ -1,0 +1,8 @@
+"metric","value"
+"requested_dois",250
+"http_200",250
+"http_404",0
+"network_or_json_failures",0
+"papers_with_crossref_funders",95
+"papers_with_crossref_awards",85
+"combined_any_funding_coverage",0.652

@@ -26,6 +26,9 @@
 | `run_crossref_denominators.R` | 2023 高频期刊 Crossref 年度分母 |
 | `run_event_2023.R` | 2023 本地事件构成拆解 |
 | `run_event_2023_external_evidence.R` | 外部治理来源、声明、时间线和反事实边界 |
+| `run_funding_sample_coverage.R` | 资助样本冻结、OpenAlex 覆盖和项目复用 |
+| `run_fetch_openalex_funders.R` | OpenAlex 资助机构名称解析 |
+| `run_crossref_funding_supplement.R` | Crossref 资助与项目编号补充 |
 | `audit_reason_mapping.R` | 只读检查 112 标签覆盖、领域重叠和分析族计数 |
 | `build_deliverables.R` | 从冻结输出构建应用数据和报告图 |
 | `build_deliverables.ps1` | Windows PowerShell 交付物构建入口 |

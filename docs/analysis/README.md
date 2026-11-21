@@ -17,6 +17,7 @@
 - [2023 本地事件拆解](event-2023-local.md)
 - [2023 期刊年度分母](event-2023-crossref.md)
 - [2023 外部治理证据](event-2023-external.md)
+- [资助可追溯性审计](funding-audit.md)
 - [主分析发现](main-findings.md)
 - [稳健性计划](robustness.md)
 - [限制](limitations.md)

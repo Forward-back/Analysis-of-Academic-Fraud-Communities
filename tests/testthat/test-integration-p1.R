@@ -125,15 +125,15 @@ test_that("P1 selected control works are complete and non-retracted", {
 
   expect_equal(
     unname(parse_values[["requested_control_works"]]),
-    44288L
+    44287L
   )
   expect_equal(
     unname(parse_values[["parsed_control_works"]]),
-    44288L
+    44287L
   )
   expect_equal(unname(parse_values[["retracted_flagged"]]), 0L)
   expect_equal(unname(parse_values[["missing_case_key"]]), 0L)
-  expect_equal(unname(parse_values[["confirmed_mainland"]]), 44288L)
+  expect_equal(unname(parse_values[["confirmed_mainland"]]), 44287L)
 })
 
 test_that("P1 matching balance and institution metadata gaps are frozen", {

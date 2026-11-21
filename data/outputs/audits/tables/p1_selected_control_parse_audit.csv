@@ -1,10 +1,10 @@
 "metric","value"
-"requested_control_works",44288
-"parsed_control_works",44288
-"parsed_authorships",241432
+"requested_control_works",44287
+"parsed_control_works",44287
+"parsed_authorships",241420
 "retracted_flagged",0
 "missing_case_key",0
-"confirmed_mainland",44288
-"all_authors_have_institution",39023
-"all_authors_have_id",29593
-"all_authors_have_country",39023
+"confirmed_mainland",44287
+"all_authors_have_institution",39022
+"all_authors_have_id",29592
+"all_authors_have_country",39022

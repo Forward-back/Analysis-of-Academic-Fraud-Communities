@@ -42,6 +42,13 @@ for (file_index in seq_along(response_files)) {
   for (work_index in seq_along(works)) {
     work <- works[[work_index]]
     work_id <- if (is.null(work$id)) NA_character_ else work$id
+    if (
+      is.na(work_id) ||
+        !exists(work_id, envir = link_lookup, inherits = FALSE)
+    ) {
+      message("Skipping non-selected OpenAlex work returned by cached batch: ", work_id)
+      next
+    }
     authorships <- work$authorships
     if (is.null(authorships)) authorships <- list()
 
@@ -84,6 +91,18 @@ for (file_index in seq_along(response_files)) {
       use.names = FALSE
     ))
     country_codes <- unique(unlist(country_lists, use.names = FALSE))
+    funder_rows <- work$funders
+    funder_ids <- if (is.null(funder_rows)) {
+      character()
+    } else {
+      unique(unlist(lapply(funder_rows, function(funder) funder$id)))
+    }
+    award_rows <- work$awards
+    award_ids <- if (is.null(award_rows)) {
+      character()
+    } else {
+      unique(unlist(lapply(award_rows, function(award) award$id)))
+    }
     source <- work$primary_location$source
     topic <- work$primary_topic
     work_rows[[length(work_rows) + 1L]] <- data.frame(
@@ -116,6 +135,8 @@ for (file_index in seq_along(response_files)) {
       all_authors_have_country = length(authorships) > 0L &&
         all(lengths(country_lists) > 0L),
       confirmed_mainland = "CN" %in% country_codes,
+      funders_present = length(funder_ids) > 0L,
+      awards_present = length(award_ids) > 0L,
       source_id = if (is.null(source$id)) NA_character_ else source$id,
       source_name = if (is.null(source$display_name)) {
         NA_character_
@@ -154,6 +175,8 @@ for (file_index in seq_along(response_files)) {
       },
       institution_ids = I(list(institution_ids)),
       country_codes = I(list(country_codes)),
+      funder_ids = I(list(funder_ids)),
+      award_ids = I(list(award_ids)),
       stringsAsFactors = FALSE
     )
 

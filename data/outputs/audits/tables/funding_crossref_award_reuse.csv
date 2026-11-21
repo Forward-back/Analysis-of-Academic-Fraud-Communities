@@ -1,0 +1,142 @@
+"award_number","papers","clusters","funder_names","cluster_ids","reused_across_papers","reused_across_clusters"
+"50571048",10,1,"National Natural Science Foundation of China","audit_cluster_24",TRUE,FALSE
+"81271225",10,1,"National Natural Science Foundation of China","audit_cluster_01",TRUE,FALSE
+"81400902",10,1,"National Natural Science Foundation of China","audit_cluster_01",TRUE,FALSE
+"81571055",10,1,"National Natural Science Foundation of China","audit_cluster_01",TRUE,FALSE
+"81171012",9,1,"National Natural Science Foundation of China","audit_cluster_01",TRUE,FALSE
+"SGLH20121008144756946",9,1,"Shenzhen Science and Technology;Shenzhen Science and Technology Research;Shenzhen science and technology research funding project of China;Shenzhen science and technology research funding Project of China;Shenzhen Science and Technology research funding project of China;Shenzhen Science and Technology Research Funding Project of China","audit_cluster_24",TRUE,FALSE
+"30950031",8,1,"National Natural Science Foundation of China","audit_cluster_01",TRUE,FALSE
+"31201039",8,1,"National Natural Science Foundation of China","audit_cluster_01",TRUE,FALSE
+"31700432",6,1,"National Natural Science Foundation of China;National Natural Science Foundation Young of China","audit_cluster_18",TRUE,FALSE
+"2015A030313098",5,1,"Natural Science Foundation of Guangdong Province","audit_cluster_18",TRUE,FALSE
+"31400386",5,1,"National Natural Science Foundation of China","audit_cluster_18",TRUE,FALSE
+"31470550",5,1,"National Natural Science Foundation of China","audit_cluster_18",TRUE,FALSE
+"51778114",5,1,"National Natural Science Foundation of China","audit_cluster_18",TRUE,FALSE
+"81500493",5,1,"National Natural Science Foundation of China","audit_cluster_18",TRUE,FALSE
+"2018M641797",4,1,"Natural Science Foundation of Heilongjiang Province;Post-doctoral Science Foundation Project of China and Heilongjiang Province","audit_cluster_18",TRUE,FALSE
+"31750110469",4,1,"International Young Scientists from National Natural Science Foundation of China;National Natural Science Foundation of China","audit_cluster_11",TRUE,FALSE
+"41625002",4,1,"China National Funds for Distinguished Young Scientists;National Nature Science Fund for Distinguished Young Scholars of China","audit_cluster_18",TRUE,FALSE
+"81572847",4,1,"National Natural Science Foundation of China","audit_cluster_06",TRUE,FALSE
+"0113-20000101",3,1,"Dalian Nationalities University","audit_cluster_18",TRUE,FALSE
+"13KJA180001",3,1,"Major Fundamental Research Program of the Natural Science Foundation of the Jiangsu Higher Education Institutions of China;Natural Science Foundation of Jiangsu Province;Natural Science Research of Jiangsu Higher Education Institutions of China","audit_cluster_01",TRUE,FALSE
+"2015ZX07202-012",3,1,"Major Scientific and Technological Projects of National Water Pollution Control and Treatment;Ministry of Science and Technology of the People's Republic of China;Water Pollution Control and Management","audit_cluster_22",TRUE,FALSE
+"2016RAXXJ103",3,1,"Application Technology Research and Development Projects of Harbin","audit_cluster_18",TRUE,FALSE
+"2018HLJ6578",3,1,"Natural Science Foundation of Heilongjiang Province;Post-doctoral Science Foundation Project of China and Heilongjiang Province","audit_cluster_18",TRUE,FALSE
+"81660686",3,1,"National Natural Science Foundation of China","audit_cluster_05",TRUE,FALSE
+"81660693",3,1,"National Natural Science Foundation of China","audit_cluster_05",TRUE,FALSE
+"Z101021904",3,1,"China and the Introduction of Talent Research Start-up Fund;The Introduction of Talent Research Start-up fund;The Introduction of Talent Research Start-up Fund","audit_cluster_11",TRUE,FALSE
+"1650",2,1,"Research Funds for the Innovation Team of IRM-CAMS","audit_cluster_02",TRUE,FALSE
+"201304",2,1,"outstanding scientific fund of Shengjing hospital;Shengjing Hospital","audit_cluster_12",TRUE,FALSE
+"2015225007",2,1,"Beijing Science and Technology Planning Project;Liaoning Science and Technology Plan Project","audit_cluster_12",TRUE,FALSE
+"2015ZX07202‐012",2,1,"Major Science and Technology Program for Water Pollution Control and Treatment;Ministry of Science and Technology of the People's Republic of China","audit_cluster_22",TRUE,FALSE
+"2017-I2M-1-016",2,1,"CAMS Innovation Fund for Medical Science","audit_cluster_02",TRUE,FALSE
+"31670859",2,1,"National Natural Science Foundation of China","audit_cluster_02",TRUE,FALSE
+"81172375",2,1,"The National Natural Science Fund;the Project of NSFC","audit_cluster_03",TRUE,FALSE
+"81272564",2,1,"National Natural Science Foundation of China","audit_cluster_12",TRUE,FALSE
+"81272645",2,1,"National Natural Science Foundation of China","audit_cluster_06",TRUE,FALSE
+"81372484",2,1,"National Natural Science Foundation of China","audit_cluster_12",TRUE,FALSE
+"81402039",2,1,"National Natural Science Foundation of China","audit_cluster_06",TRUE,FALSE
+"81570531",2,1,"National Natural Science Foundation of China","audit_cluster_01",TRUE,FALSE
+"81573010",2,1,"National Natural Science Foundation of China","audit_cluster_12",TRUE,FALSE
+"81672731",2,1,"National Natural Science Foundation of China","audit_cluster_01",TRUE,FALSE
+"81873087",2,1,"National Natural Science Foundation of China","audit_cluster_05",TRUE,FALSE
+"F15-199-1-30",2,1,"Shenyang Municipal Bureau of Science and Technology;Shenyang Science and Technology Bureau","audit_cluster_12",TRUE,FALSE
+"S2019-JC-YB-2897",2,1,"Shaanxi Natural Science Basic Research Project","audit_cluster_25",TRUE,FALSE
+"TJYY19-012",2,1,"Philosophy & Social Science Fund of Tianjin City, China;Philosophy and Social Science Foundation of Hunan Province","audit_cluster_15",TRUE,FALSE
+"[2017]5733-001",1,1,"Guizhou Science and Technology Corporation Platform Talents Fund","audit_cluster_11",FALSE,FALSE
+"[2019]1299",1,1,"Guizhou Science and Technology Department","audit_cluster_09",FALSE,FALSE
+"[2022]549",1,1,"Guizhou Science and Technology Department","audit_cluster_09",FALSE,FALSE
+"10023201601602",1,1,"PUMC Youth Fund and the Fundamental Research Funds for the Central Universities","audit_cluster_02",FALSE,FALSE
+"13A310671",1,1,"Education Agency of Henan","audit_cluster_16",FALSE,FALSE
+"17-1-1-72-jch",1,1,"Source Innovation Plan Application Basic Research Project of Qingdao","audit_cluster_07",FALSE,FALSE
+"1P20-CA010193-01",1,1,"University of Texas M. D. Anderson Cancer Center","audit_cluster_08",FALSE,FALSE
+"20-3653/NRPU/R&amp;D/HEC/14/437",1,1,"Higher Education Commision, Pakistan","audit_cluster_21",FALSE,FALSE
+"2013GXNSFAA019146",1,1,"Natural Science Foundation of Guangxi Province","audit_cluster_05",FALSE,FALSE
+"2013GXNSFAA019150",1,1,"Natural Science Foundation of Guangxi Province","audit_cluster_05",FALSE,FALSE
+"2015JJ2099",1,1,"the Project of Hunan Provincal Natural Science Foundation","audit_cluster_03",FALSE,FALSE
+"201610542037",1,1,"the Provincial Training Program of Innovation and Entrepreneurship for Undergraduates.","audit_cluster_03",FALSE,FALSE
+"2016A030313403",1,1,"National Natural Science Foundation of China;Natural Science Foundation of Jiangxi Province","audit_cluster_15",FALSE,FALSE
+"2016GXNSFDA380025",1,1,"Natural Science Foundation of Guangxi Province","audit_cluster_05",FALSE,FALSE
+"2016YFD0800606",1,1,"National Key Research and Development Program of China","audit_cluster_11",FALSE,FALSE
+"2016ZX310198",1,1,"Fundamental Research Funds for CAMS & PUMC","audit_cluster_02",FALSE,FALSE
+"20170540204",1,1,"Natural Science Foundation Guidance Project Liaoning Province","audit_cluster_18",FALSE,FALSE
+"2017GXNSFBA198177",1,1,"Natural Science Foundation of Guangxi Province","audit_cluster_05",FALSE,FALSE
+"2017M38",1,1,"Clinical medicine +x, Medical College, Qingdao University","audit_cluster_14",FALSE,FALSE
+"2018CASTQNJL50",1,1,"China Association for Science and Technology","audit_cluster_22",FALSE,FALSE
+"2018TD-036",1,1,"Shaanxi Innovation Capability Support Plan","audit_cluster_25",FALSE,FALSE
+"2018ZDXM-GY-077",1,1,"Shaanxi Key Research and development Plan","audit_cluster_25",FALSE,FALSE
+"2019-BS-110",1,1,"Doctoral Start-up Foundation of Liaoning Province","audit_cluster_22",FALSE,FALSE
+"2019-ZD-0172",1,1,"Natural Science Foundation of Liaoning Province","audit_cluster_18",FALSE,FALSE
+"201906800002",1,1,"China Scholarship Council","audit_cluster_22",FALSE,FALSE
+"2020/37/K/ST8/02748",1,1,"Narodowe Centrum Nauki","audit_cluster_15",FALSE,FALSE
+"2021 J02050",1,1,"Fujian Provincial Natural Science Foundation","audit_cluster_15",FALSE,FALSE
+"2021NY-190",1,1,"Shanxi Provincial Key Research and Development Project","audit_cluster_11",FALSE,FALSE
+"20907055",1,1,"National Natural Science Foundation of China","audit_cluster_17",FALSE,FALSE
+"20971126",1,1,"National Natural Science Foundation of China","audit_cluster_17",FALSE,FALSE
+"21077107",1,1,"National Natural Science Foundation of China","audit_cluster_17",FALSE,FALSE
+"21577032",1,1,"National Natural Science Foundation of China","audit_cluster_17",FALSE,FALSE
+"21577032, 21225730, 91326202, 21207135, 41273134",1,1,"National Natural Science Foundation of China","audit_cluster_17",FALSE,FALSE
+"21607156",1,1,"National Natural Science Foundation of China","audit_cluster_17",FALSE,FALSE
+"21777039",1,1,"National Natural Science Foundation of China","audit_cluster_17",FALSE,FALSE
+"21822602",1,1,"National Natural Science Foundation of China","audit_cluster_17",FALSE,FALSE
+"22UQU4340474DSR09",1,1,"Umm Al-Qura University","audit_cluster_15",FALSE,FALSE
+"31400311",1,1,"the Project of NSFC","audit_cluster_03",FALSE,FALSE
+"3150913",1,1,"The National Natural Science Fund","audit_cluster_03",FALSE,FALSE
+"31570154",1,1,"National Natural Science Foundation of China","audit_cluster_22",FALSE,FALSE
+"31901255",1,1,"National Natural Science Foundation of China","audit_cluster_09",FALSE,FALSE
+"3332016100",1,1,"PUMC Youth Fund and the Fundamental Research Funds for the Central Universities","audit_cluster_02",FALSE,FALSE
+"41977205",1,1,"National Natural Science Foundation of China","audit_cluster_22",FALSE,FALSE
+"51201901347",1,1,"Beijing Key Laboratory of Demand Side Multi-Energy Carriers Optimization and Interaction Technique","audit_cluster_25",FALSE,FALSE
+"5R01CA0803695",1,1,"National Cancer Institute, NIH","audit_cluster_08",FALSE,FALSE
+"5R01CA101870-02",1,1,"National Institutes of Health","audit_cluster_08",FALSE,FALSE
+"61862051",1,1,"National Natural Science Foundation of China","audit_cluster_09",FALSE,FALSE
+"71971091",1,1,"National Natural Science Foundation of China;Natural Science Foundation of Jiangxi Province","audit_cluster_15",FALSE,FALSE
+"81071718",1,1,"National Natural Science Foundation of China","audit_cluster_04",FALSE,FALSE
+"811710",1,1,"National Natural Science Foundation of China","audit_cluster_01",FALSE,FALSE
+"81172197",1,1,"National Natural Science Foundation of China","audit_cluster_12",FALSE,FALSE
+"81260505",1,1,"National Natural Science Foundation of China","audit_cluster_05",FALSE,FALSE
+"81260674",1,1,"National Natural Science Foundation of China","audit_cluster_05",FALSE,FALSE
+"8127-4126",1,1,"National Natural Science Foundation","audit_cluster_14",FALSE,FALSE
+"8127‐4126",1,1,"National Natural Science Foundation of China","audit_cluster_14",FALSE,FALSE
+"81301894, 81302249",1,1,"National Natural Science Foundation of China","audit_cluster_03",FALSE,FALSE
+"81372282",1,1,"National Natural Science Foundation of China","audit_cluster_04",FALSE,FALSE
+"81402265",1,1,"National Natural Science Foundation of China","audit_cluster_04",FALSE,FALSE
+"81402368",1,1,"National Natural Science Foundation of China","audit_cluster_04",FALSE,FALSE
+"81460205",1,1,"National Natural Science Foundation of China","audit_cluster_05",FALSE,FALSE
+"81472014",1,1,"National Natural
+Science Foundation of China","audit_cluster_20",FALSE,FALSE
+"81473384",1,1,"National Natural Science Foundation of China","audit_cluster_14",FALSE,FALSE
+"81473431",1,1,"National Natural Science Foundation of China","audit_cluster_05",FALSE,FALSE
+"81502092",1,1,"National Natural Science Foundation of China","audit_cluster_06",FALSE,FALSE
+"81502346",1,1,"National Natural Science Foundation of China","audit_cluster_04",FALSE,FALSE
+"81572847]",1,1,"National Natural Science Foundation of China","audit_cluster_06",FALSE,FALSE
+"8160-3337",1,1,"National Natural Science Foundation","audit_cluster_14",FALSE,FALSE
+"8160‐3337",1,1,"National Natural Science Foundation of China","audit_cluster_14",FALSE,FALSE
+"81660706",1,1,"National Natural Science Foundation of China","audit_cluster_05",FALSE,FALSE
+"81672511, 81372484 and 81573010",1,1,"National Natural Science Foundation of China","audit_cluster_12",FALSE,FALSE
+"81760665",1,1,"National Natural Science Foundation of China","audit_cluster_05",FALSE,FALSE
+"81773123",1,1,"National Natural Science Foundation of China","audit_cluster_06",FALSE,FALSE
+"91746103",1,1,"National Natural Science Foundation of China;Natural Science Foundation of Jiangxi Province","audit_cluster_15",FALSE,FALSE
+"B185004083",1,1,"The High-Level Academic Talent Training Program of Guangzhou Medical University","audit_cluster_03",FALSE,FALSE
+"CK-1130-002",1,1,"Guizhou Science and Technology Corporation Platform Talents Fund","audit_cluster_11",FALSE,FALSE
+"F15- 199-1-57",1,1,"Shenyang Science and Technology Bureau","audit_cluster_12",FALSE,FALSE
+"F15-199-1-30 and F15-199-1-57",1,1,"Shenyang Science and Technology Plan Projects","audit_cluster_12",FALSE,FALSE
+"F15-199-1-57",1,1,"Shenyang Municipal Bureau of Science and Technology","audit_cluster_12",FALSE,FALSE
+"FP-145-42",1,1,"King Saud University Deanship of Scientific Research","audit_cluster_15",FALSE,FALSE
+"KYCX17_1625",1,1,"Jiangsu Province","audit_cluster_01",FALSE,FALSE
+"LBH-Z18025",1,1,"Post-doctoral Science Foundation Project of China and Heilongjiang Province","audit_cluster_18",FALSE,FALSE
+"LT2018018",1,1,"Department of Education of Liaoning Province","audit_cluster_22",FALSE,FALSE
+"No. 30760248, No. 31271344 and No. 81172375",1,1,"University Natural Science Research Project of Anhui Province","audit_cluster_03",FALSE,FALSE
+"No. 81272188",1,1,"National Natural Science Foundation of China","audit_cluster_16",FALSE,FALSE
+"No.1201410508",1,1,"the scientific research project for Medical College of Bureau of Education of Guangzhou City","audit_cluster_03",FALSE,FALSE
+"No.201300000151",1,1,"Guangzhou Science and Information Bureau Item","audit_cluster_03",FALSE,FALSE
+"No.2014A020211028, 2014A020212609, 2012B031800271",1,1,"Guangdong Province Department of Science and Technology","audit_cluster_03",FALSE,FALSE
+"PC020782",1,1,"Department of Defense","audit_cluster_08",FALSE,FALSE
+"PJ01339401",1,1,"Rural Development Administration","audit_cluster_11",FALSE,FALSE
+"RGP.2/193/43",1,1,"Deanship of Scientific Research, King Faisal University","audit_cluster_09",FALSE,FALSE
+"RUN 2017-00771",1,1,"The Mobility for Regional Excellence-2020","audit_cluster_11",FALSE,FALSE
+"SGLH2012100814475694",1,1,"Shenzhen science and technology research funding project of China","audit_cluster_24",FALSE,FALSE
+"SPR2018001",1,1,"Natural Science Foundation of Heilongjiang Province","audit_cluster_18",FALSE,FALSE
+"U1804188",1,1,"National Natural Science Foundation of China","audit_cluster_15",FALSE,FALSE
+"ZR2014BQ001",1,1,"Natural Science Foundation of Shandong, China","audit_cluster_07",FALSE,FALSE
+"ZR2016BB37",1,1,"Natural Science Foundation of Shandong, China","audit_cluster_07",FALSE,FALSE
