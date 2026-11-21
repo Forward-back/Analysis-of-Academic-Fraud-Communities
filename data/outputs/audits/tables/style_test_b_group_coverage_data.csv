@@ -1,0 +1,4 @@
+"analysis_group","group_label","papers","any_funding_papers","any_funding_coverage","coverage_ci_low","coverage_ci_high"
+"selected_cluster_sample","审计簇样本",250,156,0.624,0.562506723027558,0.681740218697572
+"matched_controls","匹配非撤稿对照",494,331,0.67004048582996,0.627404407057038,0.710052421865898
+"unselected_candidate_clusters","未入选候选簇",88,28,0.318181818181818,0.230225824029327,0.421347654757907

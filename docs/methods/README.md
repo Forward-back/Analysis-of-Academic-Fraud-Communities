@@ -7,5 +7,7 @@
 - [网络与社群](network-methods.md)
 - [2023 事件专项](event-2023-method.md)
 - [资助审计](funding-audit-method.md)
+- [学术审计图可视化规范](visualization-standards.md)
+- [建议配色审查](palette-review.md)
 
 方法变更需要说明对研究问题、样本量和解释边界的影响，并记录到进度日志。

@@ -1,0 +1,68 @@
+{
+  "contract_version": "1.0",
+  "generated_on": "2026-11-21",
+  "figures": [
+    {
+      "figure_id": "style_test_b_group_coverage",
+      "palette": "B",
+      "question": "三个资助审计比较组的 OpenAlex 资助元数据覆盖是否不同？",
+      "denominator": "审计簇样本 250；匹配对照 494；未入选候选簇 88。",
+      "source_tables": "data/outputs/audits/tables/funding_audit_group_coverage.csv",
+      "missing_rule": "没有资助记录按无记录处理，不推定为无资助。",
+      "script": "R/17a_visualization_style_tests.R",
+      "access_date": "2026-11-21",
+      "alt_text": "点图显示审计簇样本、匹配对照和未入选候选簇的 OpenAlex 资助元数据覆盖率及 Wilson 95% 区间。",
+      "table_fallback": "data/outputs/audits/tables/style_test_b_group_coverage_data.csv",
+      "data_sha256": "af67e0e60ae34e9a1699d6c24079ba5c2ef19921ea522086d20be8a39f3436e5",
+      "outputs": {
+        "svg": {
+          "path": "data/outputs/audits/figures/style_test_b_group_coverage.svg",
+          "sha256": "ecacd1542d421fb97b5377983fd12c8c817cd2f1b07c6a0032f8798173fde488"
+        },
+        "pdf": {
+          "path": "data/outputs/audits/figures/style_test_b_group_coverage.pdf",
+          "sha256": "a95354cbcae20c4e45d45abb5ee6fed8d478fe8723d8df3b526d50634955ae0b"
+        },
+        "desktop_png": {
+          "path": "data/outputs/audits/figures/style_test_b_group_coverage_desktop.png",
+          "sha256": "269e771555aae3036061f3f40da7970d5d7895c3f5b02db9d2a115e2d2874aaa"
+        },
+        "mobile_png": {
+          "path": "data/outputs/audits/figures/style_test_b_group_coverage_mobile.png",
+          "sha256": "60728d0ff22f7dd7274e4da7e828b95bf6368ad20b442c75684fe0bd02acd05e"
+        }
+      }
+    },
+    {
+      "figure_id": "style_test_c_event_monthly",
+      "palette": "C",
+      "question": "2023 年中国大陆候选撤稿论文如何在月份和批量事件上分布？",
+      "denominator": "2023 年中国大陆候选撤稿论文 10,028 篇。",
+      "source_tables": ["data/outputs/audits/tables/event_2023_monthly.csv", "data/outputs/audits/tables/event_2023_same_day_batches.csv"],
+      "missing_rule": "冻结月度表包含 2023 年全部 12 个月。",
+      "script": "R/17a_visualization_style_tests.R",
+      "access_date": "2026-11-21",
+      "alt_text": "折线图显示 2023 年 12 个月的撤稿论文数，6 月后明显上升，12 月达到最高值。",
+      "table_fallback": "data/outputs/audits/tables/style_test_c_event_monthly_data.csv",
+      "data_sha256": "65ee0364f3cd451e9ba47d54c7fe8c73ec655e25e3aa14eb0b18a1fa046500be",
+      "outputs": {
+        "svg": {
+          "path": "data/outputs/audits/figures/style_test_c_event_monthly.svg",
+          "sha256": "25f3dccf68065751684f0cb47ae7d16ced65cda4b9c272ead530ab52df59cb71"
+        },
+        "pdf": {
+          "path": "data/outputs/audits/figures/style_test_c_event_monthly.pdf",
+          "sha256": "4d509a31c51e89e4b6c702764047cc858571ca14f63a0bed79b7cf1aa2c6aea3"
+        },
+        "desktop_png": {
+          "path": "data/outputs/audits/figures/style_test_c_event_monthly_desktop.png",
+          "sha256": "93b517f89682f44776bc36237a53cc8bf6c9bb838664d6510da270da7ed65f51"
+        },
+        "mobile_png": {
+          "path": "data/outputs/audits/figures/style_test_c_event_monthly_mobile.png",
+          "sha256": "99a5a1d94c13e42d2c03b3d2a724ecf5d082ae2458d43dadee71a6d4915d00e0"
+        }
+      }
+    }
+  ]
+}

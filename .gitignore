@@ -38,6 +38,7 @@ app/data/*
 reports/assets/figures/manifest.json
 *.html
 *.pdf
+!data/outputs/**/figures/*.pdf
 !reports/**/*.pdf
 
 # R and editor state

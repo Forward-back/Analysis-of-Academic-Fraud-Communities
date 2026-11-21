@@ -1,0 +1,296 @@
+{
+  "contract_version": "1.0",
+  "generated_on": "2026-11-21",
+  "figures": [
+    {
+      "figure_id": "review_01_tableau10_group_coverage",
+      "palette": "Tableau 10",
+      "scenario": "categorical_group_comparison",
+      "source_tables": ["data/outputs/audits/tables/funding_audit_group_coverage.csv", "data/outputs/audits/tables/funding_audit_cluster_coverage.csv", "data/outputs/audits/tables/funding_crossref_paper_metadata.csv", "data/outputs/audits/tables/event_2023_monthly.csv", "data/outputs/audits/tables/event_2023_same_day_batches.csv", "data/outputs/audits/tables/p2_audit_cluster_profiles.csv", "data/outputs/audits/tables/p2_audit_cluster_family_counts.csv"],
+      "script": "R/17b_palette_review_tests.R",
+      "access_date": "2026-11-21",
+      "alt_text": "三组资助覆盖率的 Tableau 10 横向条形图测试。",
+      "table_fallback": "data/outputs/audits/tables/review_01_tableau10_group_coverage_data.csv",
+      "data_sha256": "1ebd8041bbdd3f11c395478f0ad1791aee19bc925dc33c63a6fc60cb02202428",
+      "outputs": {
+        "svg": {
+          "path": "data/outputs/audits/figures/review_01_tableau10_group_coverage.svg",
+          "sha256": "2c6a0af8b0822375481711524830f39789feca31fe6d2058cdffaa8c77adf586"
+        },
+        "pdf": {
+          "path": "data/outputs/audits/figures/review_01_tableau10_group_coverage.pdf",
+          "sha256": "6b51e076c0c04d31d8e4bf5c519c111c112a06e2aa2618ac226c0beecf294806"
+        },
+        "desktop_png": {
+          "path": "data/outputs/audits/figures/review_01_tableau10_group_coverage_desktop.png",
+          "sha256": "8de0ea9a9f43359fc9a912d3b41c30a1b5a3bdb749a0121e5cb4baf280b8298c"
+        },
+        "mobile_png": {
+          "path": "data/outputs/audits/figures/review_01_tableau10_group_coverage_mobile.png",
+          "sha256": "df0b013455a3d134e73d1bfbc9f459bab3f8dc4b541377bede13e9af37c53374"
+        }
+      }
+    },
+    {
+      "figure_id": "review_02_viridis_funding_heatmap",
+      "palette": "Viridis",
+      "scenario": "continuous_heatmap",
+      "source_tables": ["data/outputs/audits/tables/funding_audit_group_coverage.csv", "data/outputs/audits/tables/funding_audit_cluster_coverage.csv", "data/outputs/audits/tables/funding_crossref_paper_metadata.csv", "data/outputs/audits/tables/event_2023_monthly.csv", "data/outputs/audits/tables/event_2023_same_day_batches.csv", "data/outputs/audits/tables/p2_audit_cluster_profiles.csv", "data/outputs/audits/tables/p2_audit_cluster_family_counts.csv"],
+      "script": "R/17b_palette_review_tests.R",
+      "access_date": "2026-11-21",
+      "alt_text": "25 个审计簇的三项资助覆盖率 Viridis 热图测试。",
+      "table_fallback": "data/outputs/audits/tables/review_02_viridis_funding_heatmap_data.csv",
+      "data_sha256": "5c8894471dbc979f114c30ce2a2562d5d9a23555ef94708dead1c29c4fab62d4",
+      "outputs": {
+        "svg": {
+          "path": "data/outputs/audits/figures/review_02_viridis_funding_heatmap.svg",
+          "sha256": "3a0d66ef022c67f7d30dd197d00a47b4df2817a74355ee473c58f6f315bd1028"
+        },
+        "pdf": {
+          "path": "data/outputs/audits/figures/review_02_viridis_funding_heatmap.pdf",
+          "sha256": "b62558b47311afb0ac420db19164cebf5a42719adb6426d54ba49890c4c4f761"
+        },
+        "desktop_png": {
+          "path": "data/outputs/audits/figures/review_02_viridis_funding_heatmap_desktop.png",
+          "sha256": "a35748b8d76dcc4467c18f991edd28cb0a3f5ba87ae85234817902b84311e3ad"
+        },
+        "mobile_png": {
+          "path": "data/outputs/audits/figures/review_02_viridis_funding_heatmap_mobile.png",
+          "sha256": "d969bf1ba8d8ec6a6c8f56897c06a7182ff18fb9ccb69bfd368cb58db6314694"
+        }
+      }
+    },
+    {
+      "figure_id": "review_03_rdbu_source_difference",
+      "palette": "RdBu_r",
+      "scenario": "signed_difference_heatmap",
+      "source_tables": ["data/outputs/audits/tables/funding_audit_group_coverage.csv", "data/outputs/audits/tables/funding_audit_cluster_coverage.csv", "data/outputs/audits/tables/funding_crossref_paper_metadata.csv", "data/outputs/audits/tables/event_2023_monthly.csv", "data/outputs/audits/tables/event_2023_same_day_batches.csv", "data/outputs/audits/tables/p2_audit_cluster_profiles.csv", "data/outputs/audits/tables/p2_audit_cluster_family_counts.csv"],
+      "script": "R/17b_palette_review_tests.R",
+      "access_date": "2026-11-21",
+      "alt_text": "Crossref 与 OpenAlex 资助覆盖率之差的双向热图测试。",
+      "table_fallback": "data/outputs/audits/tables/review_03_rdbu_source_difference_data.csv",
+      "data_sha256": "3c9611fc80584953c71d0c0aff7595617789d7091eb5347bc6cf8565acc42676",
+      "outputs": {
+        "svg": {
+          "path": "data/outputs/audits/figures/review_03_rdbu_source_difference.svg",
+          "sha256": "e59ce809b140f6efdf1648134beec4391acf9b0f528195d48554056231b4cb8c"
+        },
+        "pdf": {
+          "path": "data/outputs/audits/figures/review_03_rdbu_source_difference.pdf",
+          "sha256": "eb7eb4c69714255dfa9a0644ba1e22d7df64e529d4eb70c3d9af1fcf93baa526"
+        },
+        "desktop_png": {
+          "path": "data/outputs/audits/figures/review_03_rdbu_source_difference_desktop.png",
+          "sha256": "944b4d004bc96c59f62549a22684c665f37aa8bad9813e89c57fc48269591673"
+        },
+        "mobile_png": {
+          "path": "data/outputs/audits/figures/review_03_rdbu_source_difference_mobile.png",
+          "sha256": "3aa1f792e40e773fbde21a087116b0fa5345040fa23d9926ffb90eb8620e5c9f"
+        }
+      }
+    },
+    {
+      "figure_id": "review_04_bloomberg_monthly_index",
+      "palette": "Bloomberg",
+      "scenario": "time_series_multi_line",
+      "source_tables": ["data/outputs/audits/tables/funding_audit_group_coverage.csv", "data/outputs/audits/tables/funding_audit_cluster_coverage.csv", "data/outputs/audits/tables/funding_crossref_paper_metadata.csv", "data/outputs/audits/tables/event_2023_monthly.csv", "data/outputs/audits/tables/event_2023_same_day_batches.csv", "data/outputs/audits/tables/p2_audit_cluster_profiles.csv", "data/outputs/audits/tables/p2_audit_cluster_family_counts.csv"],
+      "script": "R/17b_palette_review_tests.R",
+      "access_date": "2026-11-21",
+      "alt_text": "2023 年月度论文、出版社和期刊结构指数的多线测试。",
+      "table_fallback": "data/outputs/audits/tables/review_04_bloomberg_monthly_index_data.csv",
+      "data_sha256": "754f014ba4149ad1c8939697177a6cab0eb680590fa328bd6937d5d4becc49cd",
+      "outputs": {
+        "svg": {
+          "path": "data/outputs/audits/figures/review_04_bloomberg_monthly_index.svg",
+          "sha256": "097ed7183d9e131a1c0a747ce6501f09f84f220358fe6be75261106e652d6736"
+        },
+        "pdf": {
+          "path": "data/outputs/audits/figures/review_04_bloomberg_monthly_index.pdf",
+          "sha256": "f108e94f35b29ce81f2a2684df620ab6c6ad78d3e4e4ad6f3bd88b8753e913c3"
+        },
+        "desktop_png": {
+          "path": "data/outputs/audits/figures/review_04_bloomberg_monthly_index_desktop.png",
+          "sha256": "5bf8c0d30d652dc208e1fe896fed791255efe88666f839efb540ce8f81d49129"
+        },
+        "mobile_png": {
+          "path": "data/outputs/audits/figures/review_04_bloomberg_monthly_index_mobile.png",
+          "sha256": "30bdc082b9ce0f8e750f938297ae7551003bafdba8403797158bb338872a0c6d"
+        }
+      }
+    },
+    {
+      "figure_id": "review_05_signed_pair_source_difference",
+      "palette": "Signed blue-coral pair",
+      "scenario": "signed_values",
+      "source_tables": ["data/outputs/audits/tables/funding_audit_group_coverage.csv", "data/outputs/audits/tables/funding_audit_cluster_coverage.csv", "data/outputs/audits/tables/funding_crossref_paper_metadata.csv", "data/outputs/audits/tables/event_2023_monthly.csv", "data/outputs/audits/tables/event_2023_same_day_batches.csv", "data/outputs/audits/tables/p2_audit_cluster_profiles.csv", "data/outputs/audits/tables/p2_audit_cluster_family_counts.csv"],
+      "script": "R/17b_palette_review_tests.R",
+      "access_date": "2026-11-21",
+      "alt_text": "Crossref 与 OpenAlex 任一资助覆盖率之差的正负双向条形图测试。",
+      "table_fallback": "data/outputs/audits/tables/review_05_signed_pair_source_difference_data.csv",
+      "data_sha256": "64c363771f5dafd2d717c361e2fdc73c88013ef08c40d3b6a66bc89dc804ed45",
+      "outputs": {
+        "svg": {
+          "path": "data/outputs/audits/figures/review_05_signed_pair_source_difference.svg",
+          "sha256": "b1240e1cdc0b84896c715a93462ac57ae1fc83ba0b1a9413c39e562d2c0347b2"
+        },
+        "pdf": {
+          "path": "data/outputs/audits/figures/review_05_signed_pair_source_difference.pdf",
+          "sha256": "327944abad42e6771f9b0967fdddf5f4f6eb5bfd2b6e46251d093911bfb35767"
+        },
+        "desktop_png": {
+          "path": "data/outputs/audits/figures/review_05_signed_pair_source_difference_desktop.png",
+          "sha256": "13eb614dbe65b6e604b64a2ce4ab56f3bd2756a92f93f45170619a37fe85d5df"
+        },
+        "mobile_png": {
+          "path": "data/outputs/audits/figures/review_05_signed_pair_source_difference_mobile.png",
+          "sha256": "4780676084ce5f71c02d8e89e13c9accd735b9979255314c6938a947d415adfa"
+        }
+      }
+    },
+    {
+      "figure_id": "review_06_tab10_soft_cluster_scatter",
+      "palette": "Tab10 soft",
+      "scenario": "categorical_scatter",
+      "source_tables": ["data/outputs/audits/tables/funding_audit_group_coverage.csv", "data/outputs/audits/tables/funding_audit_cluster_coverage.csv", "data/outputs/audits/tables/funding_crossref_paper_metadata.csv", "data/outputs/audits/tables/event_2023_monthly.csv", "data/outputs/audits/tables/event_2023_same_day_batches.csv", "data/outputs/audits/tables/p2_audit_cluster_profiles.csv", "data/outputs/audits/tables/p2_audit_cluster_family_counts.csv"],
+      "script": "R/17b_palette_review_tests.R",
+      "access_date": "2026-11-21",
+      "alt_text": "25 个审计簇按主导原因族着色的 Tab10 柔和版散点测试。",
+      "table_fallback": "data/outputs/audits/tables/review_06_tab10_soft_cluster_scatter_data.csv",
+      "data_sha256": "6592876b46ea6caf017dc051cd6c9d2be10043c7bbbf52b19d7f38594c1ec245",
+      "outputs": {
+        "svg": {
+          "path": "data/outputs/audits/figures/review_06_tab10_soft_cluster_scatter.svg",
+          "sha256": "b13925ca6ac2f2e50cdbc026e9686d2bfaef196bb65f39cbc490af562ad42a85"
+        },
+        "pdf": {
+          "path": "data/outputs/audits/figures/review_06_tab10_soft_cluster_scatter.pdf",
+          "sha256": "be335a6ffeabdbfa4575cbecd1bbcc4366423dc13b314f74acc2cbe0c612fb00"
+        },
+        "desktop_png": {
+          "path": "data/outputs/audits/figures/review_06_tab10_soft_cluster_scatter_desktop.png",
+          "sha256": "1240c78258ef216add3b6797279c4de995ce8f1415dd9cce5f13324b28c6d73f"
+        },
+        "mobile_png": {
+          "path": "data/outputs/audits/figures/review_06_tab10_soft_cluster_scatter_mobile.png",
+          "sha256": "34b67030e2d85c42315cad44275e75494264c4b1bece678956d5e4e1709381b0"
+        }
+      }
+    },
+    {
+      "figure_id": "review_07_gray_accent_batches",
+      "palette": "Gray + single accent",
+      "scenario": "emphasis",
+      "source_tables": ["data/outputs/audits/tables/funding_audit_group_coverage.csv", "data/outputs/audits/tables/funding_audit_cluster_coverage.csv", "data/outputs/audits/tables/funding_crossref_paper_metadata.csv", "data/outputs/audits/tables/event_2023_monthly.csv", "data/outputs/audits/tables/event_2023_same_day_batches.csv", "data/outputs/audits/tables/p2_audit_cluster_profiles.csv", "data/outputs/audits/tables/p2_audit_cluster_family_counts.csv"],
+      "script": "R/17b_palette_review_tests.R",
+      "access_date": "2026-11-21",
+      "alt_text": "2023 年前十个同日撤稿批次中仅最大批次使用强调色的条形图测试。",
+      "table_fallback": "data/outputs/audits/tables/review_07_gray_accent_batches_data.csv",
+      "data_sha256": "bc10fc6fa1a4dd9dcc7a21cb30c0f56c5b302e8f57d4abd723a31dafffe78ca8",
+      "outputs": {
+        "svg": {
+          "path": "data/outputs/audits/figures/review_07_gray_accent_batches.svg",
+          "sha256": "77232858a25c8053893aea3b519dc2d903008eee10a80e5dffd975df2d29747c"
+        },
+        "pdf": {
+          "path": "data/outputs/audits/figures/review_07_gray_accent_batches.pdf",
+          "sha256": "0d800a25eb7d368add25715493347c8c324fd4e6a5828940c7cc444621778d06"
+        },
+        "desktop_png": {
+          "path": "data/outputs/audits/figures/review_07_gray_accent_batches_desktop.png",
+          "sha256": "6ba1c52bcee654a591f79d3667c869dae9f9269f3c6d28b65b109c726a64bb95"
+        },
+        "mobile_png": {
+          "path": "data/outputs/audits/figures/review_07_gray_accent_batches_mobile.png",
+          "sha256": "bc110010f7bb020c90bc9dde893205ea417380d1b75adeeb9cd982f89e50e285"
+        }
+      }
+    },
+    {
+      "figure_id": "review_08_morandi_group_coverage",
+      "palette": "Morandi low saturation",
+      "scenario": "low_saturation_categorical",
+      "source_tables": ["data/outputs/audits/tables/funding_audit_group_coverage.csv", "data/outputs/audits/tables/funding_audit_cluster_coverage.csv", "data/outputs/audits/tables/funding_crossref_paper_metadata.csv", "data/outputs/audits/tables/event_2023_monthly.csv", "data/outputs/audits/tables/event_2023_same_day_batches.csv", "data/outputs/audits/tables/p2_audit_cluster_profiles.csv", "data/outputs/audits/tables/p2_audit_cluster_family_counts.csv"],
+      "script": "R/17b_palette_review_tests.R",
+      "access_date": "2026-11-21",
+      "alt_text": "三组资助覆盖率的 Morandi 低饱和条形图测试。",
+      "table_fallback": "data/outputs/audits/tables/review_08_morandi_group_coverage_data.csv",
+      "data_sha256": "1ebd8041bbdd3f11c395478f0ad1791aee19bc925dc33c63a6fc60cb02202428",
+      "outputs": {
+        "svg": {
+          "path": "data/outputs/audits/figures/review_08_morandi_group_coverage.svg",
+          "sha256": "d91baf62583c2bbb1a607d5d49e081d513eeb237c80294eb0440b78dca64f9a2"
+        },
+        "pdf": {
+          "path": "data/outputs/audits/figures/review_08_morandi_group_coverage.pdf",
+          "sha256": "7d8dc1ea107760eb2ef8c527b15d1d85ef6eeaf4d8c08addcfd7eaf7afeb35d1"
+        },
+        "desktop_png": {
+          "path": "data/outputs/audits/figures/review_08_morandi_group_coverage_desktop.png",
+          "sha256": "46f379b02238c16615117c17899bb57c6cfe7e9e1ee5476b036667fd1dde7921"
+        },
+        "mobile_png": {
+          "path": "data/outputs/audits/figures/review_08_morandi_group_coverage_mobile.png",
+          "sha256": "dfd0fc02eb34c522fd0d894eb7bc340b3aca8e29cb47d3e62920162c11a1b56f"
+        }
+      }
+    },
+    {
+      "figure_id": "review_09_okabe_ito_group_coverage",
+      "palette": "Okabe-Ito",
+      "scenario": "colorblind_safe_categorical",
+      "source_tables": ["data/outputs/audits/tables/funding_audit_group_coverage.csv", "data/outputs/audits/tables/funding_audit_cluster_coverage.csv", "data/outputs/audits/tables/funding_crossref_paper_metadata.csv", "data/outputs/audits/tables/event_2023_monthly.csv", "data/outputs/audits/tables/event_2023_same_day_batches.csv", "data/outputs/audits/tables/p2_audit_cluster_profiles.csv", "data/outputs/audits/tables/p2_audit_cluster_family_counts.csv"],
+      "script": "R/17b_palette_review_tests.R",
+      "access_date": "2026-11-21",
+      "alt_text": "三组资助覆盖率的 Okabe-Ito 色盲安全条形图测试。",
+      "table_fallback": "data/outputs/audits/tables/review_09_okabe_ito_group_coverage_data.csv",
+      "data_sha256": "0bda3907f48376a07057af21e103a01032217a8a5ffae01d625ab3bc1a5b3f18",
+      "outputs": {
+        "svg": {
+          "path": "data/outputs/audits/figures/review_09_okabe_ito_group_coverage.svg",
+          "sha256": "c6918a59bcfa289d78f185a755bf3fc2f6d40350ff464fbdd82b8ed0ec14e29f"
+        },
+        "pdf": {
+          "path": "data/outputs/audits/figures/review_09_okabe_ito_group_coverage.pdf",
+          "sha256": "bd48ee148911d2f56048fc9325901bd6a17a79a07759e702d345762b5428c5f3"
+        },
+        "desktop_png": {
+          "path": "data/outputs/audits/figures/review_09_okabe_ito_group_coverage_desktop.png",
+          "sha256": "7e753d1c68ce0c77c7f2eeb3c3a73ca1b7ec22108db7cb1a92ac4c1de7fcdc6c"
+        },
+        "mobile_png": {
+          "path": "data/outputs/audits/figures/review_09_okabe_ito_group_coverage_mobile.png",
+          "sha256": "3174cdcaa5e53aac5ffb1aa315b934c4e9f8048e675c68d05c6ffb95af59a9d8"
+        }
+      }
+    },
+    {
+      "figure_id": "review_00_palette_swatches",
+      "palette": "all reviewed palettes",
+      "scenario": "palette_swatches",
+      "source_tables": ["data/outputs/audits/tables/funding_audit_group_coverage.csv", "data/outputs/audits/tables/funding_audit_cluster_coverage.csv", "data/outputs/audits/tables/funding_crossref_paper_metadata.csv", "data/outputs/audits/tables/event_2023_monthly.csv", "data/outputs/audits/tables/event_2023_same_day_batches.csv", "data/outputs/audits/tables/p2_audit_cluster_profiles.csv", "data/outputs/audits/tables/p2_audit_cluster_family_counts.csv"],
+      "script": "R/17b_palette_review_tests.R",
+      "access_date": "2026-11-21",
+      "alt_text": "九套建议配色的完整色值总览。",
+      "table_fallback": "data/outputs/audits/tables/review_00_palette_swatches_data.csv",
+      "data_sha256": "2f8aeec186aea140364716e52a3b225fd60dc8fe36c07929b7da62d82288a061",
+      "outputs": {
+        "svg": {
+          "path": "data/outputs/audits/figures/review_00_palette_swatches.svg",
+          "sha256": "12637bd2909228597d006e78b67a4a63e5a476f9c3caf2866867bbbe0b35b9b2"
+        },
+        "pdf": {
+          "path": "data/outputs/audits/figures/review_00_palette_swatches.pdf",
+          "sha256": "b4550c219ad135e7d6752b1a0636e06966e31eb3b7174fc56154b3d429910ab0"
+        },
+        "desktop_png": {
+          "path": "data/outputs/audits/figures/review_00_palette_swatches_desktop.png",
+          "sha256": "d5bff53f1941e2b8a9969fd577050d127d09ae75248ae5a0bc7fcce599eaf4af"
+        },
+        "mobile_png": {
+          "path": "data/outputs/audits/figures/review_00_palette_swatches_mobile.png",
+          "sha256": "edd1934fae242cd087eec69c29e24e18490b32f77d6d32b12de52fac36506ab3"
+        }
+      }
+    }
+  ]
+}
